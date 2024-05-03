@@ -1,0 +1,7 @@
+English word,Arabic word,Arabic replacement,Exclude regex,Note
+course,مساق,دورة,,
+courses,مساقات,دورات,,
+course,المساق,الدورة,,
+courses,المساقات,الدورات,,
+course,للمساق,للدورة,,
+courses,للمساقات,للدورات,,
