@@ -6,13 +6,17 @@ This scripts reads a root directory and presumes the following structure:
  - translations-upstream/  # The main unmodified translations structure similar to the `openedx/openedx-translations:translations` directory.
  - translation-overrides/  # The same structure of the above files, but it contains only overridden files.
 """
-
+import subprocess
 import sys
 from pathlib import Path
 import csv
 import polib
 import re
 from dataclasses import dataclass
+
+
+class ValidationError(RuntimeError):
+    pass
 
 
 @dataclass
@@ -25,13 +29,30 @@ class Reword:
     arabic_replacement: str
     note: str
 
-    def is_match(self, entry: polib.POEntry):
-        return contains_words(entry.msgid, self.english_word)
+    def is_english_loose_match(self, entry: polib.POEntry) -> bool:
+        """
+        Case-insensitive check for a word without checking for word boundary.
+        """
+        return self.english_word.lower() in entry.msgid.lower()
 
-    def replace_words(self, s):
+    def replace_words(self, s) -> str:
+        """
+        Strictly replace words without crossing word boundaries.
+        """
         return replace_words(s, self.arabic_word, self.arabic_replacement)
 
-    def reword_entry(self, entry: polib.POEntry):
+    def is_arabic_strict_match(self, entry: polib.POEntry) -> bool:
+        """
+        Strictly match against self.arabic_word without crossing word boundaries.
+        """
+        has_match = contains_word(entry.msgstr, self.arabic_word)
+
+        for index in sorted(entry.msgstr_plural.keys()):
+            has_match = has_match or contains_word(entry.msgstr_plural[index], self.arabic_word)
+
+        return has_match
+
+    def reword_entry(self, entry: polib.POEntry) -> polib.POEntry:
         entry.msgstr = self.replace_words(entry.msgstr)
 
         for index in sorted(entry.msgstr_plural.keys()):
@@ -40,7 +61,7 @@ class Reword:
         return entry
 
 
-def replace_words(s, word, replacement):
+def replace_words(s, word, replacement) -> str:
     return re.sub(
         pattern=rf'\b{word}\b',
         repl=replacement,
@@ -49,12 +70,13 @@ def replace_words(s, word, replacement):
     )
 
 
-def contains_words(s, word):
+def contains_word(s, word):
     return re.search(pattern=rf'\b{word}\b', string=s, flags=re.IGNORECASE)
 
 
 def mk_parents(path: Path):
     path.parent.mkdir(parents=True, exist_ok=True)
+
 
 def get_translation_relative_paths(root_dir: Path):
     return [
@@ -71,8 +93,8 @@ def get_reword_list(reword_csv_file: Path):
         ]
 
 
-def create_overrides_po_file(source: Path, dest: Path, reword_list: list):
-    source_po = polib.pofile(source)
+def create_overrides_po_file(source: Path, dest: Path, reword_list: list[Reword]):
+    source_po = polib.pofile(str(source))
     dest_po = polib.POFile()
     dest_po.metadata = source_po.metadata
 
@@ -80,14 +102,44 @@ def create_overrides_po_file(source: Path, dest: Path, reword_list: list):
         has_reword = False
 
         for reword in reword_list:
-            if reword.is_match(entry):
+            if reword.is_english_loose_match(entry):
                 has_reword = True
                 entry = reword.reword_entry(entry)
 
         if has_reword:
             dest_po.append(entry)
 
-    dest_po.save(dest)
+    dest_po.save(str(dest))
+
+
+def verify_course_translation(path: Path):
+    """
+    Special check: Ensure the file don't contain the unneeded word `course`.
+    """
+    unneeded_course_word = 'مساق'
+    with open(path) as f:
+        if unneeded_course_word in f.read():
+            subprocess.call(['grep', '--before=4', '--after=2', unneeded_course_word, path])
+            raise ValidationError(
+                f'Error: The "{path}" file has an unneeded translation for the '
+                f'word "course" as "{unneeded_course_word}".'
+            )
+
+
+def verify_all_translations(path: Path, reword_list: list[Reword]):
+    """
+    Ensure the file don't contain the unneeded words.
+    """
+    po_file = polib.pofile(str(path))
+
+    for entry in po_file.translated_entries():
+        for reword in reword_list:
+            if reword.is_arabic_strict_match(entry):
+                raise ValidationError(
+                    f'Error: The "{path}" file has the following reword entries unprocessed: "{reword.arabic_word}". \n'
+                    f'       msgid: "{entry.msgid}". \n'
+                    f'       msgstr: "{entry.msgstr}". \n'
+                )
 
 
 def main(repo_root, *_argv):
@@ -110,6 +162,9 @@ def main(repo_root, *_argv):
             dest=dest,
             reword_list=reword_list,
         )
+
+        verify_course_translation(path=dest)
+        verify_all_translations(path=dest, reword_list=reword_list)
 
 
 if __name__ == '__main__':
