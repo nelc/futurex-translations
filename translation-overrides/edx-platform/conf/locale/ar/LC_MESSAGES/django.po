@@ -675,6 +675,15 @@ msgstr ""
 "Review link: {review_url}"
 
 #: lms/djangoapps/instructor/views/api.py
+#, python-brace-format
+msgid ""
+"The {report_type} report is being created. To view the status of the report,"
+" see Pending Tasks below."
+msgstr ""
+"يرجى إنتظار عملية إنشاء التقرير {report_type}. لعرض حالة التقرير، انظر "
+"المهام المعلقة أدناه."
+
+#: lms/djangoapps/instructor/views/api.py
 msgid "CourseID"
 msgstr "الرقم التعريفي للمقرر"
 
@@ -735,6 +744,16 @@ msgstr "معلومات المقرر "
 #: lms/djangoapps/instructor/views/tools.py
 msgid "Could not find student enrollment in the course."
 msgstr "تعذر العثور على تسجيل الطالب في المقرر."
+
+#: lms/djangoapps/instructor_task/api_helper.py
+#, python-brace-format
+msgid ""
+"The {report_type} report is being created. To view the status of the report,"
+" see Pending Tasks below. You will be able to download the report when it is"
+" complete."
+msgstr ""
+"يتم إنشاء التقرير {report_type}. لعرض حالة التقرير، انظر المهام المعلقة "
+"أدناه. ستتمكن من تنزيل التقرير عند اكتماله."
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "Course Chrome"
