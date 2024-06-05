@@ -9,7 +9,7 @@
 
 .PHONY: replace
 replace: .venv
-	rm -rf translation-overrides
+	rm -rf translation-overrides translations
 	. .venv/bin/activate && python scripts/reword_translations.py .
 
 
