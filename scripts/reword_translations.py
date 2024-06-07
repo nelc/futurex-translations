@@ -93,10 +93,17 @@ def get_reword_list(reword_csv_file: Path):
         ]
 
 
-def create_overrides_po_file(source: Path, dest: Path, reword_list: list[Reword]):
+def create_overrides_po_file(
+    source: Path,
+    overrides_dest: Path,
+    combined_dest: Path,
+    reword_list: list[Reword],
+):
     source_po = polib.pofile(str(source))
-    dest_po = polib.POFile()
-    dest_po.metadata = source_po.metadata
+    overrides_dest_po = polib.POFile()
+    overrides_dest_po.metadata = source_po.metadata
+    combined_dest_po = polib.POFile()
+    combined_dest_po.metadata = source_po.metadata
 
     for entry in source_po.translated_entries():
         has_reword = False
@@ -106,10 +113,12 @@ def create_overrides_po_file(source: Path, dest: Path, reword_list: list[Reword]
                 has_reword = True
                 entry = reword.reword_entry(entry)
 
+        combined_dest_po.append(entry)
         if has_reword:
-            dest_po.append(entry)
+            overrides_dest_po.append(entry)
 
-    dest_po.save(str(dest))
+    overrides_dest_po.save(str(overrides_dest))
+    combined_dest_po.save(str(combined_dest))
 
 
 def verify_course_translation(path: Path):
@@ -150,21 +159,25 @@ def main(repo_root, *_argv):
 
     upstream_translations_dir = repo_root / 'translations-upstream'
     translation_overrides_dir = repo_root / 'translation-overrides'
+    updated_translations_dir = repo_root / 'translations'
 
     translation_paths = get_translation_relative_paths(upstream_translations_dir)
 
     for translation_path in translation_paths:
-        dest = translation_overrides_dir / translation_path
-        mk_parents(dest)
+        overrides_dest = translation_overrides_dir / translation_path
+        mk_parents(overrides_dest)
+        combined_dest = updated_translations_dir / translation_path
+        mk_parents(combined_dest)
 
         create_overrides_po_file(
             source=upstream_translations_dir / translation_path,
-            dest=dest,
+            overrides_dest=overrides_dest,
+            combined_dest=combined_dest,
             reword_list=reword_list,
         )
 
-        verify_course_translation(path=dest)
-        verify_all_translations(path=dest, reword_list=reword_list)
+        verify_course_translation(path=overrides_dest)
+        verify_all_translations(path=overrides_dest, reword_list=reword_list)
 
 
 if __name__ == '__main__':
