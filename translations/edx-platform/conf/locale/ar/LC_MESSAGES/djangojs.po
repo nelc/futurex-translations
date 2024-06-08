@@ -2291,7 +2291,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Error: You cannot remove yourself from the Instructor group!"
-msgstr "خطأ: لا يمكنك حذف نفسك من مجموعة أستاذ المساق!"
+msgstr "خطأ: لا يمكنك حذف نفسك من مجموعة أستاذ المقرر!"
 
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Errors"
@@ -2393,12 +2393,12 @@ msgid ""
 "allowed to enroll once they register:"
 msgstr ""
 "جرى بنجاح مراسلة المستخدمين التالين عبر البريد الإلكتروني حول معلومات "
-"التسجيل، وسيُسمح لهم بالالتحاق بالمساق حالما يسجّلون أنفسهم: "
+"التسجيل، وسيُسمح لهم بالالتحاق بالمقرر حالما يسجّلون أنفسهم: "
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "These users will be allowed to enroll once they register:"
-msgstr "سيُسمح للمستخدمين التالين بالالتحاق بالمساق حالما يسجّلون أنفسهم: "
+msgstr "سيُسمح للمستخدمين التالين بالالتحاق بالمقرر حالما يسجّلون أنفسهم: "
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js
@@ -2407,12 +2407,12 @@ msgid ""
 "enrolled once they register:"
 msgstr ""
 "جرى بنجاح مراسلة المستخدمين التالين عبر البريد الإلكتروني حول معلومات "
-"التسجيل، وسيجري إلحاقهم بالمساق حالما يسجّلون أنفسهم: "
+"التسجيل، وسيجري إلحاقهم بالمقرر حالما يسجّلون أنفسهم: "
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "These users will be enrolled once they register:"
-msgstr "سيجري إلحاق المستخدمين التالين بالمساق حالما يسجّلون أنفسهم: "
+msgstr "سيجري إلحاق المستخدمين التالين بالمقرر حالما يسجّلون أنفسهم: "
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js
@@ -5706,7 +5706,7 @@ msgstr "هل أنت متأكّد من رغبتك في حذف {email} من فري
 #: cms/static/js/factories/manage_users_lib.js
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Staff"
-msgstr "طاقم المساق"
+msgstr "طاقم المقرر"
 
 #: cms/static/js/factories/manage_users.js
 #: cms/static/js/factories/manage_users_lib.js
@@ -5874,7 +5874,7 @@ msgstr "يجب أن يأتي تاريخ بدء المقرر بعد تاريخ ا
 #: cms/static/js/models/settings/course_details.js
 msgid "The enrollment start date cannot be after the enrollment end date."
 msgstr ""
-"لا يمكن لتاريخ بدء التسجيل في المساق أن يأتي بعد تاريخ انتهاء التسجيل فيه. "
+"لا يمكن لتاريخ بدء التسجيل في المقرر أن يأتي بعد تاريخ انتهاء التسجيل فيه. "
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The enrollment end date cannot be after the course end date."
@@ -7721,7 +7721,7 @@ msgstr "أترك الفريق"
 #: lms/static/js/fixtures/donation.underscore
 #: lms/templates/dashboard/donation.underscore
 msgid "Donate"
-msgstr "تبرَّع"
+msgstr "المركز"
 
 #: lms/templates/api_admin/catalog-error.underscore
 msgid ""
@@ -9455,7 +9455,7 @@ msgid ""
 "values are 0-100"
 msgstr ""
 "حدد قسماً فرعياً أساسياً وأدخل النسبة المئوية الأدنى للعلامة والحد الأدنى "
-"لنسبة الإنجاز من المساق لتحديد الوصول إلى هذا القسم الفرعي، القيم المسموح "
+"لنسبة الإنجاز من المقرر لتحديد الوصول إلى هذا القسم الفرعي، القيم المسموح "
 "بها هي 0-100"
 
 #: cms/templates/js/access-editor.underscore
@@ -9889,7 +9889,7 @@ msgstr "متطلّب أساسي: %(prereq_display_name)s"
 
 #: cms/templates/js/course-outline.underscore
 msgid "Contains staff only content"
-msgstr "تحوي محتوىً خاص بطاقم المساق فقط."
+msgstr "تحوي محتوىً خاص بطاقم المقرر فقط."
 
 #: cms/templates/js/course-outline.underscore
 msgid "Unpublished changes to live content"
@@ -10136,7 +10136,7 @@ msgstr ""
 
 #: cms/templates/js/course_grade_policy.underscore
 msgid "Number of Droppable"
-msgstr "عدد المساقات التي يمكن الانسحاب منها"
+msgstr "عدد المقررات التي يمكن الانسحاب منها"
 
 #: cms/templates/js/course_grade_policy.underscore
 msgid ""
@@ -10501,7 +10501,7 @@ msgstr "مسودّة (لم تُنشَر قطّ) "
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Visible to Staff Only"
-msgstr "مرئيّة لطاقم المساق فقط"
+msgstr "مرئيّة لطاقم المقرر فقط"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Published and Live"
@@ -10554,7 +10554,7 @@ msgstr "سيصبح مرئيّ من: "
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Staff Only"
-msgstr "طاقم المساق فقط"
+msgstr "طاقم المقرر فقط"
 
 #: cms/templates/js/publish-xblock.underscore
 #, python-format
@@ -10775,7 +10775,7 @@ msgstr "أنواع الاختبار"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Timed"
-msgstr "مؤقّت"
+msgstr "موقوت"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
@@ -10784,7 +10784,7 @@ msgid ""
 "allow additional time for individual learners through the Instructor "
 "Dashboard."
 msgstr ""
-"استخدم امتحانًا مؤقّتًا للحدّ من الوقت الذي يمكن للمتعلّمين قضاؤه في حل "
+"استخدم امتحانًا موقوتًا للحدّ من الوقت الذي يمكن للمتعلّمين قضاؤه في حل "
 "مسائل هذا القسم الفرعي. يجب أن يقدّم المتعلّمون الإجابات قبل انتهاء الوقت "
 "المحدّد. كما ويمكنك السماح لأحد المتعلّمين بوقت إضافي باستخدام لوحة معلومات "
 "الأستاذ."

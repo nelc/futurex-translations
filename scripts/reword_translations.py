@@ -105,11 +105,19 @@ def create_overrides_po_file(
     combined_dest_po = polib.POFile()
     combined_dest_po.metadata = source_po.metadata
 
+    print(f'## Rewording: {source}  ##')
+
     for entry in source_po.translated_entries():
         has_reword = False
 
         for reword in reword_list:
-            if reword.is_english_loose_match(entry):
+            if reword.is_arabic_strict_match(entry):
+                if not reword.is_english_loose_match(entry):
+                    print(
+                        f'    NOTICE: Could not find English word "{reword.english_word}" in "{entry.msgid}" despite '
+                        f'having "{reword.arabic_word}" in translation.'
+                    )
+
                 has_reword = True
                 entry = reword.reword_entry(entry)
 
@@ -177,7 +185,10 @@ def main(repo_root, *_argv):
         )
 
         verify_course_translation(path=overrides_dest)
+        verify_course_translation(path=combined_dest)
         verify_all_translations(path=overrides_dest, reword_list=reword_list)
+
+    print('Finished rewording successfully')
 
 
 if __name__ == '__main__':

@@ -31,10 +31,6 @@ msgid "Not specific to a course"
 msgstr "غير مخصص لمقرر معين"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "Course Content"
-msgstr "محتوى المقرر"
-
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Course Discussion Forum"
 msgstr "منتدى مناقشة المقرر"
 
@@ -94,49 +90,12 @@ msgid ""
 "exception list"
 msgstr "الطالب غير مسجل في المقرر ولم تتم إضافته إلى لائحة الاستثناءات"
 
-#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
-msgid ""
-" learners have an active certificate invalidation in this course and have "
-"not been added to the exception list"
-msgstr ""
-"الطلّاب لديهم إبطال شهادة نشطة في هذه الدورة التدريبية ولم تتم إضافتهم إلى "
-"قائمة الاستثناءات"
-
-#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
-msgid ""
-" learner has an active certificate invalidation in this course and has not "
-"been added to the exception list"
-msgstr ""
-"الطالب لدبه شهادة نشطة في هذه الدورة التدريبية ولم تتم إضافته إلى قائمة "
-"الاستثناءات"
-
 #: lms/static/js/dashboard/legacy.js
 msgid ""
 "Are you sure you want to unenroll from the purchased course {courseName} "
 "({courseNumber})?"
 msgstr ""
 "هل أنت متأكّد من رغبتك في إلغاء تسجيلك في المقرر الذي انضممت إليه  "
-"{courseName} ({courseNumber})؟"
-
-#: lms/static/js/dashboard/legacy.js
-msgid "Are you sure you want to unenroll from {courseName} ({courseNumber})?"
-msgstr ""
-"هل أنت متأكّد من رغبتك في إلغاء تسجيلك في {courseName} ({courseNumber})؟"
-
-#: lms/static/js/dashboard/legacy.js
-msgid ""
-"Are you sure you want to unenroll from the verified {certNameLong}  track of"
-" {courseName}  ({courseNumber})?"
-msgstr ""
-"هل أنت متأكّد من رغبتك بإلغاء تسجيلك من المسار الموثق {certNameLong} ل "
-"{courseName} ({courseNumber})؟"
-
-#: lms/static/js/dashboard/legacy.js
-msgid ""
-"Are you sure you want to unenroll from the verified {certNameLong} track of "
-"{courseName} ({courseNumber})?"
-msgstr ""
-"هل أنت متأكّد من رغبتك بإلغاء تسجيلك من المسار الموثق {certNameLong} ل "
 "{courseName} ({courseNumber})؟"
 
 #: lms/static/js/dashboard/legacy.js
@@ -208,6 +167,38 @@ msgstr "هل تريد البدء بإعداد الشهادات لجميع الط
 msgid "Start regenerating certificates for students in this course?"
 msgstr "هل تودّ معاودة البدء بإعداد الشهادات لطلّاب هذا المقرر؟"
 
+#: lms/static/js/instructor_dashboard/membership.js
+msgid "Error: You cannot remove yourself from the Instructor group!"
+msgstr "خطأ: لا يمكنك حذف نفسك من مجموعة أستاذ المقرر!"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js
+msgid ""
+"Successfully sent enrollment emails to the following users. They will be "
+"allowed to enroll once they register:"
+msgstr ""
+"جرى بنجاح مراسلة المستخدمين التالين عبر البريد الإلكتروني حول معلومات "
+"التسجيل، وسيُسمح لهم بالالتحاق بالمقرر حالما يسجّلون أنفسهم: "
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js
+msgid "These users will be allowed to enroll once they register:"
+msgstr "سيُسمح للمستخدمين التالين بالالتحاق بالمقرر حالما يسجّلون أنفسهم: "
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js
+msgid ""
+"Successfully sent enrollment emails to the following users. They will be "
+"enrolled once they register:"
+msgstr ""
+"جرى بنجاح مراسلة المستخدمين التالين عبر البريد الإلكتروني حول معلومات "
+"التسجيل، وسيجري إلحاقهم بالمقرر حالما يسجّلون أنفسهم: "
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js
+msgid "These users will be enrolled once they register:"
+msgstr "سيجري إلحاق المستخدمين التالين بالمقرر حالما يسجّلون أنفسهم: "
+
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js
 msgid ""
@@ -229,23 +220,6 @@ msgstr ""
 "لم يكن هؤلاء المستخدمون منتسبين إلى المقرر وبالتالي تعذّر إلغاء تسجيلهم:"
 
 #: lms/static/js/instructor_dashboard/send_email.js
-msgid "Everyone who has staff privileges in this course"
-msgstr "كل فرد لديه مزايا الموظفين في هذه الدورة التدريبية"
-
-#: lms/static/js/instructor_dashboard/send_email.js
-msgid "All learners who are enrolled in this course"
-msgstr "كل المتعلمين المنضمين إلى هذه الدورة التدريبية ."
-
-#: lms/static/js/instructor_dashboard/send_email.js
-msgid ""
-"Your email message was successfully queued for sending. In courses with a "
-"large number of learners, email messages to learners might take up to an "
-"hour to be sent."
-msgstr ""
-"تم جدولة إرسال رسالتك بنجاح. قد يستغرق إرسال الرسالة لجميع متعلمي الدورة "
-"التدريبية ساعة كاملة، ويعتمد ذلك على عدد المتعلمين في الدورة التدريبية."
-
-#: lms/static/js/instructor_dashboard/send_email.js
 msgid "There is no email history for this course."
 msgstr "لا يوجد سجلّ لرسائل البريد الإلكتروني الخاصة بهذا المقرر."
 
@@ -261,21 +235,9 @@ msgstr ""
 "نأسف لحدوث خطأ أثناء محاولة الحصول على سجل محتوى رسائل البريد الإلكتروني "
 "لهذا المقرر."
 
-#: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx
-msgid ""
-"To access the courses available to you through {enterpriseName}, visit the "
-"{enterpriseName} dashboard."
-msgstr ""
-"للوصول إلى الدورات التدريبية المتاحة لك من خلال {enterpriseName} ، قم بزيارة"
-" لوحة معلومات {enterpriseName}."
-
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js
 msgid "You must select a session to access the course."
 msgstr "يجب عليك تحديد جلسة للوصول إلى المقرر."
-
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js
-msgid "Any course progress or grades from your current session will be lost."
-msgstr "سوف تفقد أي تقدم أو علامات محتسبة من هذه الجلسة."
 
 #: lms/static/js/learner_dashboard/views/entitlement_unenrollment_view.js
 msgid ""
@@ -284,23 +246,6 @@ msgid ""
 msgstr ""
 "هل أنت متأكد من رغبتك في إلغاء التسجيل من المقرر {courseName} "
 "({courseNumber})؟ سوف يتم إعادة المبلغ المدفوع."
-
-#: lms/static/js/student_account/components/StudentAccountDeletion.jsx
-msgid ""
-"Once your account is deleted, you cannot use it to take courses on the "
-"{platformName} app, {siteName}, or any other site hosted by {platformName}."
-msgstr ""
-"عند حذف حسابك لن تتمكن من استخدامه لأخذ دورات على تطبيق {platformName} أو "
-"{siteName} أو أي موقع آخر يستضيفه {platformName}."
-
-#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
-msgid ""
-"If you proceed, you will be unable to use this account to take courses on "
-"the {platformName} app, {siteName}, or any other site hosted by "
-"{platformName}."
-msgstr ""
-"عند المتابعة لن تتمكن من استخدام هذا الحساب لأخذ دورات على تطبيق "
-"{platformName} أو {siteName} أو أي موقع آخر يستضيفه {platformName}."
 
 #: lms/static/js/student_account/views/FinishAuthView.js
 msgid "Enrolling you in the selected course"
@@ -318,16 +263,6 @@ msgstr "جاري تحميل مقرراتك"
 msgid ""
 "You receive messages from {platform_name} and course teams at this address."
 msgstr "تتلقى رسائل من {platform_name} وفرق المقررات على هذا العنوان."
-
-#: lms/static/js/student_account/views/account_settings_factory.js
-msgid ""
-"Select the time zone for displaying course dates. If you do not specify a "
-"time zone, course dates, including assignment deadlines, will be displayed "
-"in your browser's local time zone."
-msgstr ""
-"حدد المنطقة الزمنية لعرض مواعيد الدورة. إذا لم تقم بتحديد منطقة زمنية، سيتم "
-"عرض مواعيد الدورة، بما في ذلك مواعيد تقديم الواجبات، وفقاً لمنطقة التوقيت "
-"المحلي في المتصفح."
 
 #: lms/static/lms/js/preview/preview_factory.js
 msgid "Course is not yet visible to students."
@@ -367,6 +302,12 @@ msgid ""
 "“{container}”?"
 msgstr "هل أنت متأكّد من رغبتك في حذف {email} من فريق المقرر لـ \"{container}\"؟"
 
+#: cms/static/js/factories/manage_users.js
+#: cms/static/js/factories/manage_users_lib.js
+#: common/static/common/templates/discussion/templates.underscore
+msgid "Staff"
+msgstr "طاقم المقرر"
+
 #: cms/static/js/features/import/factories/import.js
 msgid "There was an error while importing the new course to our database."
 msgstr "نأسف لحدوث خطأ أثناء استيراد المقرر الجديد إلى قاعدة بياناتنا."
@@ -386,6 +327,11 @@ msgstr "يجب أن يأتي تاريخ انتهاء المقرر بعد تار�
 #: cms/static/js/models/settings/course_details.js
 msgid "The course start date must be later than the enrollment start date."
 msgstr "يجب أن يأتي تاريخ بدء المقرر بعد تاريخ التسجيل فيه."
+
+#: cms/static/js/models/settings/course_details.js
+msgid "The enrollment start date cannot be after the enrollment end date."
+msgstr ""
+"لا يمكن لتاريخ بدء التسجيل في المقرر أن يأتي بعد تاريخ انتهاء التسجيل فيه. "
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The enrollment end date cannot be after the course end date."
@@ -427,14 +373,6 @@ msgstr "فهرس المقرر"
 msgid "There were errors reindexing course."
 msgstr "نأسف لحدوث أخطاء في إعادة فهرسة محتويات المقرر."
 
-#: cms/static/js/views/previous_video_upload.js
-msgid ""
-"Removing a video from this list does not affect course content. Any content "
-"that uses a previously uploaded video ID continues to display in the course."
-msgstr ""
-"لا يؤثر حذف فيديو من هذه القائمة على محتوى المقرر. ويستمر عرض أي محتوى "
-"يستخدم معرف فيديو محملًا سابقًا في هذا المقرر."
-
 #: cms/static/js/views/settings/main.js
 msgid "Course Credit Requirements"
 msgstr "متطلّبات مواد المقرر"
@@ -459,11 +397,6 @@ msgstr ""
 "لا يمكن التراجع لاحقًا عن عملية حذف الكتاب> وحالما تحذفه، سيجري أيضًا حذف "
 "أيٍّ من مراجعه الواردة في صفحاتك لمنهاج المقرر. "
 
-#: common/static/common/templates/discussion/templates.underscore
-#, python-format
-msgid "Related to: %(courseware_title_linked)s"
-msgstr "متعلِّقٌ بِـ: %(courseware_title_linked)s"
-
 #: lms/djangoapps/support/static/support/templates/certificates.underscore
 msgid "course id"
 msgstr "رقم تعريف المقرر "
@@ -484,9 +417,10 @@ msgstr "تاريخ ابتداء المقرر"
 msgid "Course End"
 msgstr "تاريخ انتهاء المقرر"
 
-#: lms/templates/api_admin/catalog-results.underscore
-msgid "This catalog's courses:"
-msgstr "الدورات التدريبية الخاصة بهذا الكتالوج:"
+#: lms/static/js/fixtures/donation.underscore
+#: lms/templates/dashboard/donation.underscore
+msgid "Donate"
+msgstr "المركز"
 
 #: lms/templates/financial-assistance/financial_assessment_submitted.underscore
 msgid ""
@@ -495,10 +429,6 @@ msgid ""
 msgstr ""
 "نشكرك لتقديمك طلب دعم مالي للمقرر {course_name}! يمكنك أن تتوقع استلام الردّ"
 " خلال 2-4 أيام عمل."
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
-msgid "Only the parent course staff of a CCX can create content groups."
-msgstr "يمكن فقط لطاقم الدورة الأم لـ CCX إنشاء مجموعات المحتوى."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid ""
@@ -537,12 +467,6 @@ msgstr "للدخول إلى المقرر ، حدد جلسة."
 #: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "Session Selection Dropdown for {courseName}"
 msgstr "القائمة المنسدلة لاختيار الجلسة للمقرر {courseName}"
-
-#: lms/templates/learner_dashboard/explore_new_programs.underscore
-msgid ""
-"Browse recently launched courses and see what\\'s new in your favorite "
-"subjects"
-msgstr "تصفح الفصول حديثة الإنشاء وشاهد الجديد في مواضيعك المفضلة."
 
 #: lms/templates/learner_dashboard/program_card.underscore
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore
@@ -608,10 +532,6 @@ msgstr ""
 " "
 
 #: lms/templates/verify_student/intro_step.underscore
-msgid "Thanks for returning to verify your ID in: {courseName}"
-msgstr "شكراً لعودتك لتأكيد بطاقتك الشخصية في : {courseName}"
-
-#: lms/templates/verify_student/intro_step.underscore
 msgid ""
 "You need to activate your account before you can enroll in courses. Check "
 "your inbox for an activation email. After you complete activation you can "
@@ -620,15 +540,6 @@ msgstr ""
 "تحتاج إلى تفعيل حسابك قبل أن تتمكّن من التسجيل في المقررات. لذا يُرجى تفقّد "
 "صندوق بريدك الإلكتروني حيث ستردك رسالة تفعيل. وبعد أن تنتهي من التفعيل، "
 "يمكنك العودة وإعادة فتح هذه الصفحة. "
-
-#: lms/templates/verify_student/make_payment_step.underscore
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
-msgid "You are enrolling in: {courseName}"
-msgstr "أنت مسجل في : {courseName}"
-
-#: lms/templates/verify_student/make_payment_step.underscore
-msgid "You are upgrading your enrollment for: {courseName}"
-msgstr "أنت تطور اشتراكك في: {courseName}"
 
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
@@ -643,29 +554,6 @@ msgstr ""
 "إنّ جميع مقررات التعليم المهني تستلزم رسماً وتتطلّب الدفع لاستكمال عملية "
 "التسجيل."
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
-msgid "Upgrade to a Verified Certificate for {courseName}"
-msgstr "طور إلى شهادة من معتمدة إلى {courseName}"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
-msgid "Professional Certificate for {courseName}"
-msgstr "شهادة احترافية لـ {courseName}"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
-msgid "Verified Certificate for {courseName}"
-msgstr "شهادة معتمدة لـ {courseName}"
-
-#: lms/templates/verify_student/reverify_success_step.underscore
-msgid ""
-"We have received your information and are verifying your identity. You will "
-"see a message on your dashboard when the verification process is complete "
-"(usually within 5-7 days). In the meantime, you can still access all "
-"available course content."
-msgstr ""
-"لقد استلمنا معلوماتك ونتولّى حاليًا التحقّق من هويتك. ستصلك رسالة على لوحة "
-"معلوماتك عند اكتمال عملية التحقّق (عادةً خلال ٥-٧ أيام). ويمكنك في الوقت "
-"الراهن استخدام كافة محتويات الدورة المُتاحة."
-
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 msgid "You have not bookmarked any courseware pages yet"
 msgstr "لم تؤشّر بعد على أي صفحة من صفحات المقرر"
@@ -679,9 +567,15 @@ msgstr ""
 "إلى صفحات المقرر. للتأشير على صفحة ما،  انقر على \"التأشير على هذه الصفحة\" "
 "تحت عنوان الصفحة."
 
-#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore
-msgid "Find a course"
-msgstr "ابحث عن مادة"
+#: cms/templates/js/access-editor.underscore
+msgid ""
+"Select a prerequisite subsection and enter a minimum score percentage and "
+"minimum completion percentage to limit access to this subsection. Allowed "
+"values are 0-100"
+msgstr ""
+"حدد قسماً فرعياً أساسياً وأدخل النسبة المئوية الأدنى للعلامة والحد الأدنى "
+"لنسبة الإنجاز من المقرر لتحديد الوصول إلى هذا القسم الفرعي، القيم المسموح "
+"بها هي 0-100"
 
 #: cms/templates/js/asset-library.underscore
 msgid "List of uploaded files and assets in this course"
@@ -733,17 +627,13 @@ msgstr ""
 "بعد مرور تاريخ انتهاء المقرر/ات، لن يتمكن المتعلمين من الدخول إلى المحتوى "
 "الفرعي. ولكن سيبقى القسم الفرعي موجودًا عند احتساب الدرجة."
 
-#: cms/templates/js/content-visibility-editor.underscore
-msgid ""
-"Learners do not see the subsection in the course outline. The subsection is "
-"not included in grade calculations."
-msgstr ""
-"لا يرى المتعلمون القسم الفرعي في مخطط الدورة التدريبية. لم يتم تضمين القسم "
-"الفرعي في حسابات المستوى."
-
 #: cms/templates/js/course-highlights-enable.underscore
 msgid "Course Highlight Emails"
 msgstr "رسائل بريد تلميحات المقرر"
+
+#: cms/templates/js/course-outline.underscore
+msgid "Contains staff only content"
+msgstr "تحوي محتوىً خاص بطاقم المقرر فقط."
 
 #: cms/templates/js/course-outline.underscore
 msgid "Subsection is hidden after course end date"
@@ -772,6 +662,10 @@ msgid ""
 "assignment type."
 msgstr ""
 "عدد الأقسام الفرعية لهذا المقرر، التي تتضمن مسائل لمهمّة من هذا النوع."
+
+#: cms/templates/js/course_grade_policy.underscore
+msgid "Number of Droppable"
+msgstr "عدد المقررات التي يمكن الانسحاب منها"
 
 #: cms/templates/js/course_info_handouts.underscore
 msgid "Course Handouts"
@@ -803,6 +697,30 @@ msgstr ""
 "في {linkStart}مخطط المقرر{linkEnd} ، استخدم هذه المجموعة للتحكم في الوصول "
 "إلى عنصر."
 
+#: cms/templates/js/publish-xblock.underscore
+msgid "Visible to Staff Only"
+msgstr "مرئيّة لطاقم المقرر فقط"
+
+#: cms/templates/js/publish-xblock.underscore
+msgid "Staff Only"
+msgstr "طاقم المقرر فقط"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore
+msgid "Timed"
+msgstr "موقوت"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore
+msgid ""
+"Use a timed exam to limit the time learners can spend on problems in this "
+"subsection. Learners must submit answers before the time expires. You can "
+"allow additional time for individual learners through the Instructor "
+"Dashboard."
+msgstr ""
+"استخدم امتحانًا موقوتًا للحدّ من الوقت الذي يمكن للمتعلّمين قضاؤه في حل "
+"مسائل هذا القسم الفرعي. يجب أن يقدّم المتعلّمون الإجابات قبل انتهاء الوقت "
+"المحدّد. كما ويمكنك السماح لأحد المتعلّمين بوقت إضافي باستخدام لوحة معلومات "
+"الأستاذ."
+
 #: cms/templates/js/validation-error-modal.underscore
 msgid ""
 "Please check the following validation feedbacks and reflect them in your "
@@ -810,11 +728,3 @@ msgid ""
 msgstr ""
 "يُرجى الاطلاع على ملاحظات التحقّق التالية وإجراء ما يلزم من تعديلات على "
 "الإعدادات الخاصة بمقررك."
-
-#: cms/templates/js/maintenance/force-published-course-response.underscore
-msgid ""
-"You have done a dry run of force publishing the course. Nothing has changed."
-" Had you run it, the following course versions would have been change."
-msgstr ""
-"لقد قمت بإجراء تنفيذ لنشر الدورة التدريبية. فلم يتغير شيء، عند التشغيل، "
-"إصدارات الدورة التالية قد يتم تغييرها."
