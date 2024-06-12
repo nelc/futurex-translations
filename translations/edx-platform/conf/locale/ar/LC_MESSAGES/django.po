@@ -1735,7 +1735,7 @@ msgstr "الأدوات الخاصة بالوسائط المتعدّدة"
 
 #: lms/djangoapps/branding/api.py lms/templates/static_templates/donate.html
 msgid "Donate"
-msgstr "تبرَّع"
+msgstr "المركز"
 
 #: lms/djangoapps/branding/api.py lms/templates/footer.html
 #: lms/templates/static_templates/about.html
@@ -2073,7 +2073,7 @@ msgid ""
 "successfully completed, received a passing grade, and was awarded this "
 "{platform_name} {certificate_type} Certificate of Completion in "
 msgstr ""
-"قد نجح في إتمام المساق ونال درجة النجاح، ومُنِح بناءً على ذلك شهادة إتمام "
+"قد نجح في إتمام المقرر ونال درجة النجاح، ومُنِح بناءً على ذلك شهادة إتمام "
 "{certificate_type} من {platform_name}  في  "
 
 #. Translators: This text describes the purpose (and therefore, value) of a
@@ -2165,7 +2165,7 @@ msgstr "صدّق هذه الشهادة لنفسك"
 #, python-brace-format
 msgid "{platform_name} offers interactive online classes and MOOCs."
 msgstr ""
-"تُقدّم المنصّة {platform_name} صفوف ومساقات MOOC تفاعلية مُتاحة عبر "
+"تُقدّم المنصّة {platform_name} صفوف ومقررات MOOC تفاعلية مُتاحة عبر "
 "الإنترنت."
 
 #: lms/djangoapps/certificates/views/webview.py
@@ -2457,7 +2457,7 @@ msgstr "تقييم يجريه الزملاء"
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Staff Assessment"
-msgstr "تقييم طاقم المساق"
+msgstr "تقييم طاقم المقرر"
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Submission"
@@ -3997,7 +3997,7 @@ msgstr ""
 "بالأرقام التعريفية للمجموعات. ستُعتبر الكتلة مرئيّة للجميع في حال لم يتوفّر "
 "مفتاح لإعدادات مجموعة ما، أو كانت المجموعة الخاصّة بأرقام المجموعات "
 "فارغة.يُرجى أخذ العلم بوجوب تجاهل هذا الحقل في حال اقتصرت رؤية الكتلة على "
-"طاقم المساق. "
+"طاقم المقرر. "
 
 #: lms/djangoapps/lms_xblock/mixin.py xmodule/split_test_block.py
 msgid ""
@@ -4769,7 +4769,7 @@ msgstr "عرض المقرر"
 
 #: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
 msgid "Self-paced"
-msgstr "مساق دائم"
+msgstr "مقرر دائم"
 
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html
 msgid "ID Verification Approved"
@@ -6745,7 +6745,7 @@ msgid ""
 "This account has been temporarily locked due to excessive login failures. "
 "Try again later."
 msgstr ""
-"أُغلِقَ هذا الحساب مؤقّتًا نتيجة عدّة محاولات فاشلة لتسجيل الدخول. يُرجى "
+"أُغلِقَ هذا الحساب موقوتًا نتيجة عدّة محاولات فاشلة لتسجيل الدخول. يُرجى "
 "إعادة المحاولة لاحقًا."
 
 #: openedx/core/djangoapps/user_api/accounts/views.py
@@ -7977,7 +7977,7 @@ msgstr "قيم دخل عدديّة."
 
 #: xmodule/capa/responsetypes.py
 msgid "There was a problem with the staff answer to this problem."
-msgstr "حدثت مشكلة في إجابة طاقم المساق على هذه المسألة."
+msgstr "حدثت مشكلة في إجابة طاقم المقرر على هذه المسألة."
 
 #: xmodule/capa/responsetypes.py
 #, python-brace-format
@@ -8005,7 +8005,7 @@ msgstr "لا يجوز استخدام الأعداد المركّبة في مسا
 #: xmodule/capa/responsetypes.py
 msgid ""
 "There was a problem with the staff answer to this problem: complex boundary."
-msgstr "نعتذر لحدوث مشكلة في إجابة طاقم المساق عن هذه المسألة: حدود مركّبة."
+msgstr "نعتذر لحدوث مشكلة في إجابة طاقم المقرر عن هذه المسألة: حدود مركّبة."
 
 #. Translators: This is an error message for a math problem. If the instructor
 #. did not
@@ -8013,7 +8013,7 @@ msgstr "نعتذر لحدوث مشكلة في إجابة طاقم المساق �
 #: xmodule/capa/responsetypes.py
 msgid ""
 "There was a problem with the staff answer to this problem: empty boundary."
-msgstr "نعتذر لحدوث مشكلة في إجابة طاقم المساق عن هذه المسألة: حدود خالية."
+msgstr "نعتذر لحدوث مشكلة في إجابة طاقم المقرر عن هذه المسألة: حدود خالية."
 
 #. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: Separator used in NumericalResponse to display multiple
@@ -8159,7 +8159,7 @@ msgstr "لم تُقدَّم إجابة لأجل {input_type}"
 
 #: xmodule/capa/responsetypes.py
 msgid "The Staff answer could not be interpreted as a number."
-msgstr "تعذّر تفسير إجابة طاقم المساق كعدد."
+msgstr "تعذّر تفسير إجابة طاقم المقرر كعدد."
 
 #: xmodule/capa/responsetypes.py
 #, python-brace-format
@@ -9003,7 +9003,7 @@ msgstr ""
 
 #: xmodule/course_block.py
 msgid "Certificates Downloadable Before End"
-msgstr "الشهادات القابلة للتنزيل قبل انتهاء المساق"
+msgstr "الشهادات القابلة للتنزيل قبل انتهاء المقرر"
 
 #: xmodule/course_block.py
 msgid ""
@@ -9107,7 +9107,7 @@ msgstr ""
 #. configuration values
 #: xmodule/course_block.py
 msgid "Certificate Web/HTML View Overrides"
-msgstr "تجاوز مشاهدة صفحة الويب/html للمساق"
+msgstr "تجاوز مشاهدة صفحة الويب/html للمقرر"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
@@ -9761,7 +9761,7 @@ msgstr[5] "لكنّه لا يوجد سوى {actual} مسائل مطابِقة."
 
 #: xmodule/library_content_block.py
 msgid "Edit the library configuration."
-msgstr "تعديل إعدادات المساق"
+msgstr "تعديل إعدادات المقرر"
 
 #: xmodule/library_content_block.py
 msgid "Invalid Library"
@@ -11693,7 +11693,7 @@ msgstr "مثال:  username@domain.com "
 
 #: cms/templates/settings.html lms/templates/courseware/program_marketing.html
 msgid "Instructors"
-msgstr "أساتذة المساق"
+msgstr "أساتذة المقرر"
 
 #: cms/templates/settings.html lms/templates/courseware/course_about.html
 msgid "Requirements"
@@ -12319,7 +12319,7 @@ msgstr "مشاهدة هذا المقرر كـ:"
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 #: lms/templates/preview_menu.html
 msgid "Staff"
-msgstr "طاقم المساق"
+msgstr "طاقم المقرر"
 
 #: lms/templates/preview_menu.html
 msgid "Learner"
@@ -12563,7 +12563,7 @@ msgstr "المجموعات غير النشطة"
 
 #: lms/templates/staff_problem_info.html
 msgid "Staff Debug Info"
-msgstr "المعلومات حول تصحيح أخطاء طاقم المساق"
+msgstr "المعلومات حول تصحيح أخطاء طاقم المقرر"
 
 #: lms/templates/staff_problem_info.html
 msgid "Submission history"
@@ -12599,7 +12599,7 @@ msgstr "إضافة تعليق"
 
 #: lms/templates/staff_problem_info.html
 msgid "Staff Debug:"
-msgstr "تصحيح طاقم المساق:"
+msgstr "تصحيح طاقم المقرر:"
 
 #: lms/templates/staff_problem_info.html
 msgid "Score (for override only)"
@@ -15545,7 +15545,7 @@ msgstr ""
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid "Your redeem url is: [[Enter Redeem URL here from the attached CSV]]"
 msgstr ""
-"رابط الاسترداد الخاص بمساقك هو: [[أدخل رابط الاسترداد هنا من ملف CSV "
+"رابط الاسترداد الخاص بمقررك هو: [[أدخل رابط الاسترداد هنا من ملف CSV "
 "المرفَق]]"
 
 #: lms/templates/emails/business_order_confirmation_email.txt
@@ -15621,7 +15621,7 @@ msgstr "الأسئلة الشائعة حول التحقق من الهوية: {fa
 #: lms/templates/emails/photo_submission_confirmation.txt
 #: lms/templates/emails/reverification_processed.txt
 msgid "The {platform_name} team"
-msgstr "فريق المساق {platform_name}"
+msgstr "فريق المقرر {platform_name}"
 
 #: lms/templates/emails/order_confirmation_email.txt
 msgid ""
@@ -16687,7 +16687,7 @@ msgstr "تحميل ملف CSV"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Batch Beta Tester Addition"
-msgstr "إضافة مختبري النسخة التجريبية للمساق"
+msgstr "إضافة مختبري النسخة التجريبية للمقرر"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -16761,7 +16761,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Staff"
-msgstr "إضافة أعضاء إلى طاقم المساق"
+msgstr "إضافة أعضاء إلى طاقم المقرر"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Admin"
@@ -17540,7 +17540,7 @@ msgid ""
 "You will now be shown a series of instructor-scored essays, and will be "
 "asked to score them yourself."
 msgstr ""
-"سيتم إطلاعك الآن على سلسلة من المقالات التي تم تقييمها من قبل موجّه المساق، "
+"سيتم إطلاعك الآن على سلسلة من المقالات التي تم تقييمها من قبل موجّه المقرر، "
 "وسيطلب منك تقييمهم بنفسك. "
 
 #: lms/templates/peer_grading/peer_grading_problem.html
@@ -17548,7 +17548,7 @@ msgid ""
 "Once you can score the essays similarly to an instructor, you will be ready "
 "to grade your peers."
 msgstr ""
-"لدى تمكنك من تقييم المقالات بطريقة مشابهة لما يقوم به موجّه المساق، ستكون "
+"لدى تمكنك من تقييم المقالات بطريقة مشابهة لما يقوم به موجّه المقرر، ستكون "
 "جاهزاً عندها للقيام بالتقييم لزملائك. "
 
 #: lms/templates/peer_grading/peer_grading_problem.html
@@ -18457,7 +18457,7 @@ msgid ""
 "We've logged the error and our staff is currently working to resolve this "
 "error as soon as possible."
 msgstr ""
-"لقد سجّلنا الخطأ، يعمل طاقم المساق حاليّاً على إيجاد حلّ له في أقرب وقت "
+"لقد سجّلنا الخطأ، يعمل طاقم المقرر حاليّاً على إيجاد حلّ له في أقرب وقت "
 "ممكن."
 
 #: cms/templates/accessibility.html
@@ -19617,8 +19617,8 @@ msgid ""
 "Draft your outline and build content anywhere. Simple drag and drop tools "
 "let you reorganize quickly."
 msgstr ""
-"يمكنك صياغة المخطّط الكلّي لمساقك وبناء محتواه أينما كنت. فإنّ أدوات السحب "
-"والإسقاط البسيطة المتاحة تسمح لك بإعادة تنظيم المساق بسرعة. "
+"يمكنك صياغة المخطّط الكلّي لمقررك وبناء محتواه أينما كنت. فإنّ أدوات السحب "
+"والإسقاط البسيطة المتاحة تسمح لك بإعادة تنظيم المقرر بسرعة. "
 
 #: cms/templates/howitworks.html
 msgid "Go A Week Or A Semester At A Time"
@@ -19642,7 +19642,7 @@ msgid ""
 "learning. Insert videos, discussions, and a wide variety of exercises with "
 "just a few clicks."
 msgstr ""
-"يسمح لك استوديو {studio_name} بجمع محتويات مساقك بطريقة تعزّز دراستك، إذ "
+"يسمح لك استوديو {studio_name} بجمع محتويات مقررك بطريقة تعزّز دراستك، إذ "
 "يمكنك تضمين الفيديوهات، والنقاشات، ومجموعة كبيرة من مختلف التمارين بمجرّد "
 "القيام بنقرات قليلة. "
 
@@ -19842,7 +19842,7 @@ msgid ""
 msgstr ""
 "تمرّ عملية الاستيراد بخمس مراحل. وعليك أن تبقى في هذه الصفحة في أوّل "
 "مرحلتين. ثمّ يمكنك مغادرة هذه الصفحة بعد أن تُستكمل مرحلة التفريغ. ولكنّنا "
-"نوصيك بعدم إجراء تغييرات أساسية في مساقك قبل أن تُستكمل عملية الاستيراد."
+"نوصيك بعدم إجراء تغييرات أساسية في مقررك قبل أن تُستكمل عملية الاستيراد."
 
 #: cms/templates/import.html
 msgid ""
@@ -20347,7 +20347,7 @@ msgid ""
 "The library creator must give you access to the library. Contact the library"
 " creator or administrator for the library you are helping to author."
 msgstr ""
-"يجب أن يمنحك منشئ المساق صلاحية دخول المكتبة. لذا يُرجى التواصل معه أو مع "
+"يجب أن يمنحك منشئ المقرر صلاحية دخول المكتبة. لذا يُرجى التواصل معه أو مع "
 "مشرِف المكتبة التي تساعد على تأليفها. "
 
 #: cms/templates/index.html
@@ -20625,7 +20625,7 @@ msgstr "الأدوار التي تتيح الدخول إلى المكتبة "
 #: cms/templates/manage_users_lib.html
 msgid "There are three access roles for libraries: User, Staff, and Admin."
 msgstr ""
-"هناك ثلاثة أدوار تتيح الدخول إلى المكتبات: المستخدم وطاقم المساق والمشرِف."
+"هناك ثلاثة أدوار تتيح الدخول إلى المكتبات: المستخدم وطاقم المقرر والمشرِف."
 
 #: cms/templates/manage_users_lib.html
 msgid ""
@@ -20775,7 +20775,7 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Self-Paced"
-msgstr "مساق دائم"
+msgstr "مقرر دائم"
 
 #: cms/templates/settings.html
 msgid ""
@@ -21203,7 +21203,7 @@ msgstr "لا يمكنك اعتماد التغييرات حتى يتم تحديث
 
 #: cms/templates/settings_advanced.html
 msgid "Your policy changes have been saved."
-msgstr "حُفّظت التغييرات التي أدخلتها على سياسة مساقك."
+msgstr "حُفّظت التغييرات التي أدخلتها على سياسة مقررك."
 
 #: cms/templates/settings_advanced.html
 msgid "There was an error saving your information. Please see below."
@@ -21277,7 +21277,7 @@ msgstr "أضف درجة"
 
 #: cms/templates/settings_graders.html
 msgid "Credit Eligibility"
-msgstr "الأهلية للمساق"
+msgstr "الأهلية للمقرر"
 
 #: cms/templates/settings_graders.html
 msgid "Settings for course credit eligibility"
@@ -21285,7 +21285,7 @@ msgstr "إعدادات الأهلية لمواد المقرر"
 
 #: cms/templates/settings_graders.html
 msgid "Minimum Credit-Eligible Grade:"
-msgstr "الدرجة الدنيا للأهلية للمساق:"
+msgstr "الدرجة الدنيا للأهلية للمقرر:"
 
 #: cms/templates/settings_graders.html
 msgid "Must be greater than or equal to the course passing grade"
