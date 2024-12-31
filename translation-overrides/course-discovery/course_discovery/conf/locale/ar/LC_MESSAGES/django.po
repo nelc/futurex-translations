@@ -153,6 +153,10 @@ msgid ""
 "{course_keys}"
 msgstr "تعذر نشر نوع المقرر للمقررات التالية: {course_keys}"
 
+#: apps/course_metadata/management/commands/delete_person_dups.py:21
+msgid "Delete duplicate persons in course_metadata."
+msgstr "حذف الأشخاص المكررين في بيانات course_metadata"
+
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:23
 #, python-brace-format
 msgid "Publishing course run {key}"
@@ -287,6 +291,18 @@ msgstr ""
 #: apps/course_metadata/models.py:3195
 msgid "Allow courses in this program to be purchased in a single transaction"
 msgstr "السماح بشراء المقررات في هذا البرنامج بمعاملة واحدة"
+
+#: apps/course_metadata/models.py:3202
+msgid "Total number of learners who have enrolled in courses this program"
+msgstr "مجموع عدد المتعلمين الملتحقين بمقررات هذا البرنامج."
+
+#: apps/course_metadata/models.py:3207
+msgid ""
+"Total number of learners who have enrolled in courses in this program in the"
+" last 6 months"
+msgstr ""
+"مجموع عدد المتعلمين الملتحقين بمقررات هذا البرنامج خلال الأشهر الستة "
+"الماضية."
 
 #: apps/course_metadata/models.py:3888
 msgid "Number of courses for search card (e.g. \"11 Courses\""
