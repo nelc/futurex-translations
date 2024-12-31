@@ -1,24 +1,28 @@
 
 
-.PHONY: .venv
-
 RELEASE_BRANCH := "open-release/redwood.master"
 LANGUAGES := "ar,fr_CA"
 
-.venv:
+.PHONY: recreate_venv
+recreate_venv:
 	rm -rf .venv/
 	python3 -m venv .venv/
 	. .venv/bin/activate && pip install -r requirements.txt
+	cp requirements.txt .venv/requirements.txt
+
+.PHONY: venv
+venv:
+	cmp --silent requirements.txt .venv/requirements.txt || make recreate_venv
 
 
 .PHONY: replace
-replace: .venv
+replace: venv
 	rm -rf translation-overrides translations
 	. .venv/bin/activate && python scripts/reword_translations.py .
 
 
 .PHONY: pull
-pull: .venv
+pull: venv
 	rm -rf translations-upstream
 
 	. .venv/bin/activate && \
