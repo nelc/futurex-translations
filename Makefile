@@ -1,6 +1,10 @@
 
 
 .PHONY: .venv
+
+RELEASE_BRANCH := "open-release/redwood.master"
+LANGUAGES := "ar"
+
 .venv:
 	rm -rf .venv/
 	python3 -m venv .venv/
@@ -18,8 +22,8 @@ pull: .venv
 	rm -rf translations-upstream
 
 	. .venv/bin/activate && \
-		  atlas pull --repository=openedx/edx-platform --branch=open-release/palm.master --filter=ar \
-		  		     conf/locale:translations-upstream/edx-platform/conf/locale
+		  atlas pull --branch=$(RELEASE_BRANCH) --filter=$(LANGUAGES) \
+		  		     translations:translations-upstream
 
 
 .PHONY: pull_and_replace
