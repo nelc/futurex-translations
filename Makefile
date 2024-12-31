@@ -3,7 +3,7 @@
 .PHONY: .venv
 
 RELEASE_BRANCH := "open-release/redwood.master"
-LANGUAGES := "ar"
+LANGUAGES := "ar,fr_CA"
 
 .venv:
 	rm -rf .venv/
