@@ -1,6 +1,6 @@
 # FutureX Translations
 
-Custom translations for the FutureX Open edX Platform.
+Custom translations for the FutureX Open edX Platform. This is fork of the standard https://github.com/openedx/openedx-translations/ for FutureX LMS use.
 
 ## Edit the Reword List
 
@@ -13,7 +13,7 @@ Open `scripts/reword_list.csv` and edit the entries as provided by NELC:
 
 ## Refresh translations overrides
 
-To get a fresh copy of the translation files (currently Palm) and replace them please do the following:
+To get a fresh copy of the translation files (currently Redwood) and replace them please do the following:
 
 ```shell
 make pull_and_replace
@@ -25,3 +25,12 @@ make pull_and_replace
 - `translation-overrides`: The override-only files will be placed e.g. `translation-overrides/edx-platform/conf/locale`. The `translation-overrides`
 can be appended to `LOCALE_PATHS` similar to themes translations.
 - `translations`: This contains a combined version of both upstream with overridden entries replaced. This directory can be used directly via `atlas pull --repository=nelc/futurex-translations` during Docker builds in Redwood release and newer.
+
+
+## Using in Tutor
+As of Redwood, this repository is ready to be used in Tutor directly without additional plugins by setting the following configuration in Tutor:
+
+```yaml
+ATLAS_REPOSITORY: nelc/futurex-translations
+ATLAS_REVISION: open-release/redwood.master  # The branch changes based on the release name
+```
