@@ -1,0 +1,446 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-16 00:21+0000\n"
+"PO-Revision-Date: 2023-01-26 15:39+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024\n"
+"Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: apps/api/serializers.py:1112
+msgid "Course cannot be changed for an existing course run"
+msgstr "لا يمكن تغيير المقرر لمشغّل مقرر حالي"
+
+#: apps/api/utils.py:327
+#, python-brace-format
+msgid ""
+"An error occurred while setting the course run image for [{key}] in studio. "
+"All other fields were successfully saved in Studio."
+msgstr ""
+"حدث خطأ أثناء ضبط صورة تشغيل المقرر لـ [{key}] في الاستوديو. تم حفظ كافة "
+"الحقول الأخرى بنجاح في الاستوديو."
+
+#: apps/api/v1/views/course_runs.py:46
+msgid "Failed to set course run data: {}"
+msgstr "فشل ضبط بيانات تشغيل المقرر: {}"
+
+#: apps/api/v1/views/course_runs.py:352
+msgid "Course run is in review. Editing disabled."
+msgstr "مشغل المقرر تحت المراجعة، تم تعطيل خاصية التحرير."
+
+#: apps/api/v1/views/courses.py:225
+#, python-brace-format
+msgid ""
+"Course creation was unsuccessful. The course URL slug ‘[{url_slug}]’ is "
+"already in use. Please update this field and try again."
+msgstr ""
+"فشلت عملية إنشاء المقرر، ولكن مازال رابط المقرر قيد الاستخدام ‘[{url_slug}]’"
+" يرجى تحديث هذا الحقل وإعادة المحاولة مرة أخرى."
+
+#: apps/api/v1/views/courses.py:394
+#, python-brace-format
+msgid ""
+"Course edit was unsuccessful. The course URL slug ‘[{url_slug}]’ is already "
+"in use. Please update this field and try again."
+msgstr ""
+"فشلت عملية تحرير المقرر، وما زال العنوان المختصر ‘[{url_slug}]’ لرابط المقرر"
+" قيد الاستخدام، يرجى تحديث الحقل وإعادة المحاولة مرة أخرى."
+
+#: apps/catalogs/models.py:18
+msgid "Query to retrieve Course Run catalog contents"
+msgstr "استعلام لاستعادة محتويات دليل تشغيل المقرر"
+
+#: apps/catalogs/models.py:25
+msgid "Include archived courses"
+msgstr "تضمين المقررات المؤرشفة."
+
+#: apps/core/models.py:59
+msgid "Course Mode API URL"
+msgstr "رابط واجهة برمجة التطبيقات لوضع المقرر"
+
+#: apps/course_metadata/admin.py:726
+msgid "Edit course run exclusions"
+msgstr "تحرير تضمينات مشغل المقرر"
+
+#. Translators: Instructor-paced refers to course runs that operate on a
+#. schedule set by the instructor,
+#. similar to a normal university course.
+#: apps/course_metadata/choices.py:24
+msgid "Instructor-paced"
+msgstr "مقرر غير دائم"
+
+#. Translators: Self-paced refers to course runs that operate on the student's
+#. schedule.
+#: apps/course_metadata/choices.py:26
+msgid "Self-paced"
+msgstr "مقرر دائم"
+
+#: apps/course_metadata/data_loaders/course_type.py:27
+#, python-brace-format
+msgid ""
+"Existing course type {type} for {key} ({id}) doesn't match its own "
+"entitlements."
+msgstr "لا يتفق نوع المقرر الحالي {type}لـ {key} ({id}) مع امتيازاته"
+
+#: apps/course_metadata/data_loaders/course_type.py:61
+#, python-brace-format
+msgid ""
+"Existing run type {run_type} for {key} ({id}) doesn't match course type "
+"{type}.Skipping type."
+msgstr ""
+"نوع المشغل الحالي {run_type} لـ{key} ({id}) لا يتفق مع نوع المقرر  {type}. "
+"تخطي النوع."
+
+#: apps/course_metadata/data_loaders/course_type.py:91
+#, python-brace-format
+msgid "Course {key} ({id}) matched type {type}"
+msgstr "نوع المقرر المتوافق  {key} ({id}) {type}"
+
+#: apps/course_metadata/data_loaders/course_type.py:101
+#, python-brace-format
+msgid "Could not convert course {key} ({id}) to type {type}"
+msgstr "تعذّر تغيير نوع المقرر {key} ({id}) إلى {type}"
+
+#: apps/course_metadata/emails.py:36
+#, python-brace-format
+msgid ""
+"Not sending notification email for template {template} because no "
+"organization is defined for course {course}"
+msgstr ""
+"عدم إرسال بريد إلكتروني للتنبيه بالنموذج {template} بسبب عدم وجود مؤسسة "
+"محددة للمقرر {course}"
+
+#: apps/course_metadata/emails.py:211
+msgid "course team"
+msgstr "فريق المقرر"
+
+#: apps/course_metadata/management/commands/add_tag_to_courses.py:15
+msgid "Tag to add to courses"
+msgstr "ضع علامة لإضافتها إلى المقررات"
+
+#: apps/course_metadata/management/commands/add_tag_to_courses.py:16
+msgid "UUIDs of courses to tag"
+msgstr "UUIDs المقررات لوضع علامة"
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:22
+msgid "Course to backpopulate."
+msgstr "المقرر المطلوب إعادة تفحصه."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:71
+#, python-brace-format
+msgid "Supplied Course Run Type slug [{rt_slug}] does not exist."
+msgstr "علامة نوع تشغيل المقرر المدعمة [{rt_slug}] غير موجودة."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:78
+#, python-brace-format
+msgid "Supplied Course Type slug [{ct_slug}] does not exist."
+msgstr "علامة نوع تشغيل المقرر المدعمة [{ct_slug}] غير موجودة."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:89
+msgid "No courses found. Did you specify an argument?"
+msgstr "لم يتم العثور على المقرر. هل حدد وسيطة؟"
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:101
+#, python-brace-format
+msgid ""
+"Could not backpopulate a course type for the following courses: "
+"{course_keys}"
+msgstr "تعذر نشر نوع المقرر للمقررات التالية: {course_keys}"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:21
+msgid "Delete duplicate persons in course_metadata."
+msgstr "حذف الأشخاص المكررين في بيانات course_metadata"
+
+#: apps/course_metadata/management/commands/publish_live_course_runs.py:23
+#, python-brace-format
+msgid "Publishing course run {key}"
+msgstr "نشر عرض المقرر {key}"
+
+#: apps/course_metadata/management/commands/publish_live_course_runs.py:34
+msgid "One or more course runs failed to publish."
+msgstr "فشلت عملية نشر مشغّل أو أكثر من مشغلات المقرر "
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:22
+msgid "Remove all redirects to all courses"
+msgstr "إزالة عمليات إعادة التوجيه لجميع المقررات"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:60
+#, python-brace-format
+msgid "Path /course/{url_slug} not in use, nothing to delete"
+msgstr "المسار / المقرر/ {url_slug} غير مستخدم، لايوجد ما يجب حذفه"
+
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:42
+msgid "One or more courses failed to unpublish."
+msgstr "فشلت عملية إلغاء نشر مشغّل أو أكثر من مشغلات المقرر "
+
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:48
+#, python-brace-format
+msgid "Successfully unpublished runs in course {key}"
+msgstr "نجحت عملية إلغاء نشر المشغلات في مقرر {key}"
+
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:51
+#, python-brace-format
+msgid "Failed to unpublish runs in course {key}"
+msgstr "فشلت عملية إلغاء نشر المشغلات في مقرر {key}"
+
+#: apps/course_metadata/models.py:234
+msgid ""
+"Please do not use any spaces or special characters other than period, "
+"underscore or hyphen. This key will be used in the course's course key."
+msgstr ""
+"يرجى عدم استخدام أي مسافات أو أحرف الحلات الخاصة غير النقطة أو الشرطة "
+"السفلية أو الواصلة. سيتم استخدام هذا المفتاح في مفتاح المقرر."
+
+#: apps/course_metadata/models.py:274
+msgid "Automatically generate course run keys"
+msgstr "إنشاء مفاتيح تشغيل المقرر تلقائيًا"
+
+#: apps/course_metadata/models.py:276
+msgid ""
+"When this flag is enabled, the key of a new course run will be auto "
+"generated.  When this flag is disabled, the key can be manually set."
+msgstr ""
+"عند تمكين هذه العلامة، سيتم إنشاء مفتاح سلسلة مقرر جديدة تلقائيًا. عند تعطيل"
+" هذه العلامة، يمكن ضبط المفتاح يدويًا."
+
+#: apps/course_metadata/models.py:577
+msgid ""
+"Who gets paid for the course? Platform is the site owner, Organization is "
+"the school."
+msgstr ""
+"من يحصل على أجر مقابل المقرر؟ المنصة هي مالك الموقع، المؤسسة هي المدرسة"
+
+#: apps/course_metadata/models.py:674
+msgid "Sets the order for displaying Course Run Types."
+msgstr "لضبط ترتيب عرض أنواع تشغيل المقرر."
+
+#: apps/course_metadata/models.py:677
+msgid ""
+"Leave this blank to allow all orgs. Otherwise, specifies which orgs can see "
+"this course type in Publisher."
+msgstr ""
+"اترك هذا الحقل فارغاً للسماح لكل المؤسسات أو حدد أي نوع من المؤسسات يمكنها "
+"رؤية هذا النوع من المقرر في الناشر."
+
+#: apps/course_metadata/models.py:1314
+msgid ""
+"When making reruns for this course, they will use this key instead of the "
+"course key."
+msgstr ""
+"عند إعادة تشغيل هذا المقرر، سيستخدمون هذا المفتاح بدلاً من مفتاح المقرر."
+
+#: apps/course_metadata/models.py:1352
+msgid "Add the course image"
+msgstr "إضافة صورة المقرر"
+
+#: apps/course_metadata/models.py:1358
+msgid "Total number of learners who have enrolled in this course"
+msgstr "مجموع عدد المتعلمين الملتحقين بهذا المقرر."
+
+#: apps/course_metadata/models.py:1363
+msgid ""
+"Total number of learners who have enrolled in this course in the last 6 "
+"months"
+msgstr "مجموع عدد المتعلمين الملتحقين بهذا المقرر خلال الأشهر الستة الماضية."
+
+#: apps/course_metadata/models.py:2141
+msgid "Total number of learners who have enrolled in this course run"
+msgstr "مجموع عدد المتعلمين الملتحقين بمشغل المقرر هذا"
+
+#: apps/course_metadata/models.py:2145
+msgid ""
+"Total number of learners who have enrolled in this course run in the last 6 "
+"months"
+msgstr ""
+"مجموع عدد المتعلمين الملتحقين بمشغل المقرر هذا خلال الأشهر الستة الماضية."
+
+#: apps/course_metadata/models.py:2158
+msgid ""
+"Whether this run should be hidden from API responses.  Do not edit here - "
+"this value will be overwritten by the \"Course Visibility In Catalog\" field"
+" in Studio via Refresh Course Metadata."
+msgstr ""
+"ما إذا كان يجب إخفاء هذا التشغيل من استجابات واجهة برمجة التطبيقات. لا تقم "
+"بالتحرير هنا - ستتم الكتابة فوق هذه القيمة بواسطة حقل \"رؤية المقرر في "
+"الدليل\" في الاستوديو عبر تحديث بيانات تعريف المقرر."
+
+#: apps/course_metadata/models.py:2171
+msgid ""
+"'What You Will Learn' description for this particular course run. Leave this"
+" value blank to default to the parent course's Outcome attribute."
+msgstr ""
+"وصف \"ما الذي ستتعلمه\" لهذا المقرر المعين. اترك هذه القيمة فارغة كتعيين "
+"افتراضي للحصول على مرئيات الوالدين حول مخرجات المقرر. "
+
+#: apps/course_metadata/models.py:3179
+msgid ""
+"This field can be used by API clients to determine the order in which "
+"instructors will be displayed on program pages. Instructors in this list "
+"should appear before all others associated with this programs courses runs."
+msgstr ""
+"يمكن استخدام هذا الحقل بواسطة عملاء واجهة برمج التطبيقات لتحديد الترتيب الذي"
+" سيتم عرض المعلمين به على صفحات البرنامج. يجب أن يظهر المعلمون في هذه "
+"القائمة قبل تشغيل كافة المقررات الأخرى المرتبطة بهذه البرامج"
+
+#: apps/course_metadata/models.py:3195
+msgid "Allow courses in this program to be purchased in a single transaction"
+msgstr "السماح بشراء المقررات في هذا البرنامج بمعاملة واحدة"
+
+#: apps/course_metadata/models.py:3202
+msgid "Total number of learners who have enrolled in courses this program"
+msgstr "مجموع عدد المتعلمين الملتحقين بمقررات هذا البرنامج."
+
+#: apps/course_metadata/models.py:3207
+msgid ""
+"Total number of learners who have enrolled in courses in this program in the"
+" last 6 months"
+msgstr ""
+"مجموع عدد المتعلمين الملتحقين بمقررات هذا البرنامج خلال الأشهر الستة "
+"الماضية."
+
+#: apps/course_metadata/models.py:3888
+msgid "Number of courses for search card (e.g. \"11 Courses\""
+msgstr "عدد المقررات لبطاقة البحث (على سبيل المثال \"11 مقرر\""
+
+#: apps/course_metadata/models.py:4054
+msgid ""
+"A high-level overview of the degree's courseware. The \"brief\"\n"
+"            text is the first 750 characters of \"marketing_text\" and must be\n"
+"            valid HTML."
+msgstr ""
+"نظرة عامة متفحصة لمواد المقررات للدرجة. The \"موجزة\"\n"
+"النص هو أول 750 حرفًا من \"marketing_text\" ويجب أن يكون \n"
+"HTML صالح."
+
+#: apps/course_metadata/models.py:4062
+msgid "A high-level overview of the degree's courseware."
+msgstr "معاينة متفحصة لأدوات مقرر الدرجة."
+
+#: apps/course_metadata/models.py:4250
+#, python-brace-format
+msgid ""
+"Partner {partner_key} and course partner {course_partner_key} do not match "
+"when attempting to save url slug {url_slug}"
+msgstr ""
+"لا يتطابق الشريك {partner_key} وشريك المقرر {course_partner_key} عند محاولة "
+"حفظ عنوان رابط الشارة {url_slug}"
+
+#: apps/course_metadata/models.py:4270
+#, python-brace-format
+msgid ""
+"Partner {partner_key} and course partner {course_partner_key} do not match "
+"when attempting to save url redirect {url_path}"
+msgstr ""
+"لا يتطابق الشريك {partner_key} وشريك المقرر {course_partner_key} عند محاولة "
+"حفظ عنوان رابط إعادة التوجيه {url_path}"
+
+#: apps/course_metadata/models.py:4386 apps/course_metadata/models.py:4490
+msgid "Course UUIDs"
+msgstr "معرّف هوية المستخدم العالمي للمقرر"
+
+#: apps/course_metadata/models.py:4466
+msgid "Course Run IDs"
+msgstr "معرّفات مشغل المقرر"
+
+#: apps/course_metadata/models.py:4514
+msgid "Add redirects from all published course url slugs"
+msgstr ""
+"إضافة عمليات إعادة التوجيه من كافة شارات عناوين روابط المقررات المنشورة"
+
+#: apps/course_metadata/models.py:4515 apps/taxonomy_support/models.py:55
+msgid "Course uuids"
+msgstr "معرّف هوية المستخدم العالمي للمقرر"
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.html:14
+#, python-brace-format
+msgid ""
+"{org_name} has submitted {course_key} for review. "
+"{link_start}{course_page_url}{link_middle}View this course run in "
+"Publisher{link_end} to review the changes and mark it as reviewed."
+msgstr ""
+"قام {org_name} بتقديم {course_key} للمراجعة. "
+"{link_start}{course_page_url}{link_middle}عرض تشغيل هذا المقرر في صفحة "
+"{link_end} لمراجعة التغييرات ووضع علامة تمت المراجعة عليها."
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.html:20
+#, python-brace-format
+msgid ""
+"This is a good time to {link_start}{studio_url}{link_middle}review this "
+"course run in Studio{link_end}."
+msgstr ""
+"هذا وقت جيد لـ {link_start}{studio_url}{link_middle}مراجعة تشغيل هذا المقرر "
+"في Studio{link_end}."
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.html:27
+#, python-brace-format
+msgid ""
+"Visit the {link_start}{restricted_admin_url}{link_middle}restricted course "
+"admin page{link_end} to set embargo rules for this course, as needed."
+msgstr ""
+"قم بزيارة {link_start}{restricted_admin_url}{link_middle}صفحة مسؤول المقرر "
+"المقيدة{link_end} لتعيين قواعد الحظر لهذا المقرر حسب الحاجة."
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:19
+#, python-format
+msgid "Restricted Course admin: %(restricted_admin_url)s"
+msgstr "إدارة المقرر المقيدة: %(restricted_admin_url)s"
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.html:15
+#, python-brace-format
+msgid ""
+"{org_name} has submitted {course_name} for review. "
+"{link_start}{course_page_url}{link_middle}View this course run in "
+"Publisher{link_end} to determine OFAC status."
+msgstr ""
+"قام {org_name} بتقديم {course_name} للمراجعة. "
+"{link_start}{course_page_url}{link_middle}عرض تشغيل هذا المقرر في صفحة "
+"الناشر {link_end} لتحديد حالة OFAC."
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:11
+msgid "View this course run in Publisher above to determine OFAC status."
+msgstr ""
+"اعرض تشغيل هذا المقرر في صفحة الناشر أعلاه لتحديد حالة مكتب مراقبة الأصول "
+"الأجنبية OFAC."
+
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:22
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:12
+#, python-format
+msgid ""
+"The course run about page will be published on %(go_live_date)s, pending no "
+"further edits."
+msgstr ""
+"سيتم نشر صفحة تشغيل المقرر على%(go_live_date)s، بانتظار عدم إجراء أي تعديلات"
+" إضافية."
+
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:28
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:16
+msgid "The course run about page is now published."
+msgstr "يتم الآن نشر صفحة تشغيل المقرر."
+
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:6
+#, python-format
+msgid ""
+"The %(course_run_number)s course run of %(course_name)s has been reviewed "
+"and approved by %(platform_name)s."
+msgstr ""
+"تمت مراجعة واعتماد %(course_run_number)sمشغل مقرر لـ%(course_name)sمن قبل "
+"%(platform_name)s."
+
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:21
+#, python-format
+msgid "View the course run in Publisher: %(course_page_url)s"
+msgstr "عرض المقرر في صفحة الناشر: %(course_page_url)s"
+
+#: apps/course_metadata/utils.py:380
+msgid "Special characters not allowed in Course Number."
+msgstr "لا يسمح بحالة الأحرف الخاصة في رقم المقرر."
+
+#: apps/course_metadata/views.py:38
+msgid "Update excluded course runs"
+msgstr "تحديث المقررات المستبعدة"

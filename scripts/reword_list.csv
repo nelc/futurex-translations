@@ -20,6 +20,10 @@ course,ومساقات,ومقررات,
 course,مساقاتهم,مقرراتهم,
 course,مساقنا,مقررنا,
 course,مساقاتي,مقرراتي,
+course,والمساق,والمقرر
+course_metadata,تعريف_المساق,course_metadata,
+course,بمساقات,بمقررات
+course,مساقاتنا,مقرراتنا
 Timed,مؤقّت,موقوت,
 Donate,تبرَّع,المركز,We do not support donations so we repurpose this page
 report_type,يتم الآن إنشاء التقرير,يرجى إنتظار عملية إنشاء التقرير,Add a please wait note

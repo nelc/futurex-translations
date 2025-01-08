@@ -6,6 +6,9 @@ This scripts reads a root directory and presumes the following structure:
  - translations-upstream/  # The main unmodified translations structure similar to the `openedx/openedx-translations:translations` directory.
  - translation-overrides/  # The same structure of the above files, but it contains only overridden files.
 """
+
+from typing import List
+
 import subprocess
 import sys
 from pathlib import Path
@@ -97,7 +100,7 @@ def create_overrides_po_file(
     source: Path,
     overrides_dest: Path,
     combined_dest: Path,
-    reword_list: list[Reword],
+    reword_list: List[Reword],
 ):
     source_po = polib.pofile(str(source))
     overrides_dest_po = polib.POFile()
@@ -143,7 +146,7 @@ def verify_course_translation(path: Path):
             )
 
 
-def verify_all_translations(path: Path, reword_list: list[Reword]):
+def verify_all_translations(path: Path, reword_list: List[Reword]):
     """
     Ensure the file don't contain the unneeded words.
     """
