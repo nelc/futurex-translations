@@ -500,7 +500,7 @@ msgstr "فعّل الاحتساب المرن لمتوسط تقييمات الز�
 msgid ""
 "When enabled, learners who have received at least 30%% of the required \\"
 msgstr ""
-"عند تفعيل هذا الخيار، فإن المتعلمين الذين قد حصلوا على 30% على الأقل من "
+"عند تفعيل هذا الخيار، فإن المتعلمين الذين قد حصلوا على 30%% على الأقل من "
 "المطلوب \\"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:53
