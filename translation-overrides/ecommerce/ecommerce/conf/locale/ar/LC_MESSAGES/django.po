@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024\n"
+"Last-Translator: SeyedMahdi Saeid <saeid@edspirit.com>, 2024\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -347,17 +347,6 @@ msgid ""
 msgstr ""
 "وصلتك رسالة البريد الالكتروني هذه نتيجة شرائك مقعدًا في مقرر "
 "%(course_title)s الذي يقدّمه %(platform_name)s."
-
-#: templates/oscar/communication/emails/commtype_credit_receipt_body.html:60
-#, python-format
-msgid ""
-"\n"
-"                            Thank you for purchasing %(credit_hours)s credit hours from %(credit_provider)s for %(course_title)s. A charge will appear on your credit or debit card statement with a company name of \"%(platform_name)s\".\n"
-"                        "
-msgstr ""
-"\n"
-"                            نشكرك لشرائك الساعات المعتمدة لمقرر %(credit_hours)s الذي تقدمه %(credit_provider)s لمقرر %(course_title). ستظهر دفعة في كشف حساب بطاقتك البنكية لشركة باسم \"%(platform_name)s\".\n"
-"                        "
 
 #: templates/oscar/communication/emails/commtype_credit_receipt_body.html:67
 #: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:8
