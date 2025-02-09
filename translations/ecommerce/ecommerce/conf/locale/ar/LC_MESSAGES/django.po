@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024\n"
+"Last-Translator: SeyedMahdi Saeid <saeid@edspirit.com>, 2024\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -707,7 +707,7 @@ msgstr "عروض المؤسسات"
 #: templates/oscar/dashboard/offers/summary.html:30
 #: templates/oscar/dashboard/orders/order_detail.html:720
 msgid "Edit"
-msgstr "عدّلتعديل"
+msgstr "عدّل"
 
 #: enterprise/templates/enterprise/enterpriseoffer_form.html:36
 #: programs/templates/programs/programoffer_form.html:36
@@ -2949,7 +2949,7 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"                            نشكرك لشرائك الساعات المعتمدة لمقرر %(credit_hours)s الذي تقدمه %(credit_provider)s لمقرر %(course_title). ستظهر دفعة في كشف حساب بطاقتك البنكية لشركة باسم \"%(platform_name)s\".\n"
+"شكرًا لك على شراء ساعات ائتمان %(credit_hours)s من %(credit_provider)s مقابل %(course_title)s . ستظهر رسوم على كشف حساب بطاقة الائتمان أو الخصم الخاصة بك باسم الشركة &quot; %(platform_name)s &quot;.\n"
 "                        "
 
 #: templates/oscar/communication/emails/commtype_credit_receipt_body.html:67

@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-29 00:34+0000\n"
 "PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: Brian Smith, 2024\n"
-"Language-Team: Arabic (https://app.transifex.com/open-edx/teams/147691/ar/)\n"
+"Last-Translator: SeyedMahdi Saeid <saeid@edspirit.com>, 2025\n"
+"Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,23 +18,48 @@ msgstr ""
 msgid "Course team user does not exist"
 msgstr "مستخدم فريق المقرر غير موجود"
 
+#: cms/djangoapps/contentstore/admin.py:45
+#, python-brace-format
+msgid ""
+"Number of course outline regenerations successfully requested: {regenerates}"
+msgstr "عدد عمليات إعادة إنشاء خطط المقررات التي نجح طلبها: {regenerates}"
+
+#: cms/djangoapps/contentstore/admin.py:49
+msgid "Regenerate selected course outlines"
+msgstr "أعِد إنشاء خطط المقررات المنتقاة"
+
+#: cms/djangoapps/contentstore/admin.py:58
+msgid "Regenerate *all* course outlines"
+msgstr "أعِد إنشاء *كل* خطط المقررات"
+
 #: cms/djangoapps/contentstore/course_info_model.py:75
 #: cms/djangoapps/contentstore/course_info_model.py:161
 msgid "Invalid course update id."
-msgstr "الرمز التعريفي الخاص بتحديث المقرر غير صحيح."
+msgstr "معرّف تحديث المقرر غير صالح."
 
 #: cms/djangoapps/contentstore/course_info_model.py:128
 msgid "Course update not found."
-msgstr "تحديث المقرر غير موجود."
+msgstr "لم يُعثّر على تحديث المقرر."
 
 #: cms/djangoapps/contentstore/errors.py:6
 msgid "Aborting import because a course with this id: {} already exists."
-msgstr ""
-"يجري الغاء عملبة لاستيراد لان مقرر مع رقم التعريف هذا :{} موجود بالفغل"
+msgstr "يجري إلغاء الاستيراد لأن مقررًا بنفس المعرّف :{} موجود من قبل."
+
+#: cms/djangoapps/contentstore/errors.py:7
+msgid "Permission denied. You do not have write access to this course."
+msgstr "رُفِضَ الإذن. ليستلديك صلاحيات كتابة لهذا المقرر."
+
+#: cms/djangoapps/contentstore/errors.py:12
+msgid "Course olx validation failed. Please check your email."
+msgstr "فشل التحقق من صحة المقرر. تفقد بريدك الالكتروني من فضلك."
+
+#: cms/djangoapps/contentstore/errors.py:14
+msgid "Unknown error while importing course."
+msgstr "خطأ غير معروف أثناء استيراد المقرر."
 
 #: cms/djangoapps/contentstore/git_export_utils.py:46
 msgid "Unable to export course to xml."
-msgstr "تعذّر تصدير المقرر إلى ملف بصيغة xml."
+msgstr "تعذّر تصدير المقرر إلى ملف xml."
 
 #: cms/djangoapps/contentstore/git_export_utils.py:52
 msgid "Bad course location provided"
@@ -46,22 +71,35 @@ msgid ""
 ". Course directory must already be a git repository. Usage:  git_export <course_loc> <git_url>"
 msgstr ""
 "خذ المقرر المحدّد وحاول أن تصدّره إلى مستودع git\n"
-". يجب أن يكون دليل المقرر هو أصلًا مستودع git. الاستخدام: git_export <course_loc> <git_url>"
+". يجب أن يكون دليل المقرر مستودع git بالأصل. الاستخدام: git_export <course_loc> <git_url>"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:18
+msgid "True if it's possible to hide the tab for a course"
+msgstr "نعم إذا كان من الممكن إخفاء اللسان لمقرر ما"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:21
+msgid "True the tab is hidden for the course"
+msgstr "نعم أن اللسان مخفيّ عن المقرر"
+
+#: cms/djangoapps/contentstore/rest_api/v0/views/tabs.py:117
+msgid "Change the visibility of tabs in a course."
+msgstr "تغيير رؤية اللسان في المقرر."
 
 #: cms/djangoapps/contentstore/utils.py:1285
 msgid "Invalid prerequisite course key"
-msgstr "رقم المقرر الأساسي غير صالح"
+msgstr "مفتاح المتطلب المسبق للمقرر غير صالح"
 
 #: cms/djangoapps/contentstore/views/course.py:360
 msgid "Course has been successfully reindexed."
-msgstr "جرى إعادة فهرسة المقرر بنجاح."
+msgstr "تمّت إعادة فهرسة المقرر بنجاح."
 
 #: cms/djangoapps/contentstore/views/course.py:891
 msgid ""
 "Special characters not allowed in organization, course number, and course "
 "run."
 msgstr ""
-"لا يُسمح باستخدام الأحرف الخاصة ضمن اسم المنظمة و رقم المقرر و رقم تشغيله."
+"لا يُسمح باستخدام المحارِف الخاصة في اسم المنظمة و في رقم المقرر و رقم "
+"تشغيله."
 
 #: cms/djangoapps/contentstore/views/course.py:927
 msgid ""
@@ -69,7 +107,7 @@ msgid ""
 "number. Please change either organization or course number to be unique."
 msgstr ""
 "يوجد من قبل مقرر يحمل اسم المؤسّسة ورقم المقرر نفسهما. يُرجى تغيير إمّا "
-"المؤسّسة أو رقم المقرر ليكون فريدًا.  "
+"المؤسّسة أو رقم المقرر ليكون فريدًا."
 
 #: cms/djangoapps/contentstore/views/course.py:932
 #: cms/djangoapps/contentstore/views/course.py:935
@@ -88,41 +126,112 @@ msgstr ""
 "\n"
 "{err}"
 
+#: cms/djangoapps/contentstore/views/course.py:952
+msgid ""
+"User does not have the permission to create courses in this organization or "
+"course creation is disabled"
+msgstr ""
+"لا يمتلك المستخدم صلاحيات إنشاء مقررات في هذه المؤسسة أو تم تعطيل إنشاء "
+"المقررات"
+
 #: cms/djangoapps/contentstore/views/course.py:969
 msgid ""
 "You must link this course to an organization in order to continue. "
 "Organization you selected does not exist in the system, you will need to add"
 " it to the system"
 msgstr ""
-"يجب ربط هذا المقرر بمؤسّسة لتتمكّن من المتابعة. إن المؤسّسة التي اخترتها غير"
-" موجودة ضمن النظام وهو ما سيتطلّب منك إضافتها إلى النظام."
+"يجب أن تربط هذا المقرر بمؤسّسة لتتمكّن من الاستمرار. إن المؤسّسة التي "
+"اخترتها غير موجودة في النظام، لذا عليك إضافتها إلى النظام."
 
 #: cms/djangoapps/contentstore/views/entrance_exam.py:253
 msgid "Completed Course Entrance Exam"
-msgstr "استُكمِل امتحان دخول المقرر"
+msgstr "أتمّ امتحان القبول للمقرر"
 
 #: cms/djangoapps/contentstore/views/export_git.py:47
 msgid "Course successfully exported to git repository"
-msgstr "جرى بنجاح تصدير المقرر إلى مستودع git"
+msgstr "تم بنجاح تصدير المقرر إلى مستودع git"
+
+#: cms/djangoapps/contentstore/views/library.py:223
+msgid ""
+"User does not have the permission to create library in this organization or "
+"course creation is disabled"
+msgstr ""
+"لا يمتلك المستخدم صلاحيات إنشاء مكتبة في هذه المؤسسة أو تم تعطيل إنشاء "
+"المقررات"
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1022
 #, python-brace-format
 msgid ""
 "Students must score {score}{pct_sign} or higher to access course materials."
 msgstr ""
-"يجب أن يحصل الطلّاب على درجة {score}{pct_sign} أو ما فوق ليتمكّنوا من الوصول"
-" إلى مواد المقرر."
+"يجب أن يحصل الطلّاب على درجة {score}{pct_sign} أو أعلى ليتمكّنوا من الوصول "
+"إلى مواد المقرر."
 
 #: cms/djangoapps/course_creators/models.py:50
 msgid "Current course creator state"
-msgstr "الحالة الحالية لمُنشئ المقرر "
+msgstr "الحالة الحالية لمُنشئ المقرر"
 
 #: cms/djangoapps/course_creators/models.py:51
 msgid ""
 "Optional notes about this user (for example, why course creation access was "
 "denied)"
 msgstr ""
-"ملاحظات اختيارية حول هذا المستخدم (لماذا مثلًا رُفض طلب الدخول لإنشاء مقرر)"
+"ملاحظات اختيارية عن هذا المستخدم (مثلًا لماذا مُنِعَ من إنشاء المقررات)"
+
+#: cms/djangoapps/course_creators/models.py:54
+msgid "Organizations under which the user is allowed to create courses."
+msgstr "المنظمات التي يُسمح للمستخدم بإنشاء مقررات تحتها."
+
+#: cms/djangoapps/course_creators/models.py:57
+msgid "Grant the user the permission to create courses in ALL organizations"
+msgstr "امنح المستخدم الصلاحيات لإنشاء مقررات في المؤسسات كافّة"
+
+#: cms/djangoapps/coursegraph/admin.py:18
+msgid "Dump courses to CourseGraph (respect cache)"
+msgstr "ألقِ المقررات في CourseGraph (فضِّل الخبيئة)"
+
+#: cms/djangoapps/coursegraph/admin.py:43
+#: cms/djangoapps/coursegraph/admin.py:94
+msgid "Error enqueueing dumps for {} course(s): {}"
+msgstr "خطأ في قائمة انتظار استخراج المقررات كاملة لـ {} من المقررات: {}"
+
+#: cms/djangoapps/coursegraph/admin.py:53
+msgid "Enqueued dumps for {} course(s). Skipped {} unchanged course(s)."
+msgstr ""
+"خطأ في قائمة انتظار استخراج المقررات كاملة لـ {} من المقررات. تم تخطي "
+"المقررات التي لم تتغير وعددها {}."
+
+#: cms/djangoapps/coursegraph/admin.py:61
+msgid "Skipped all {} course(s), as they were unchanged."
+msgstr "تم تخطي المقرر/ات الـ{} كلها، وذلك لأنها لم تتغير."
+
+#: cms/djangoapps/coursegraph/admin.py:69
+msgid "Dump courses to CourseGraph (override cache)"
+msgstr "ألقِ المقررات في CourseGraph (استبدِل الخبيئة)"
+
+#: cms/djangoapps/coursegraph/admin.py:102
+msgid "Enqueued dumps for {} course(s)."
+msgstr "تمت إضافة {} من المقررات إلى قائمة انتظار الاستخراج الكامل للمقرر."
+
+#: cms/djangoapps/maintenance/views.py:56
+msgid "Please provide course id."
+msgstr "يرجى إدخال معرف المقرر."
+
+#: cms/djangoapps/maintenance/views.py:57
+msgid "Invalid course key."
+msgstr "مفتاح مقرر غير صالح"
+
+#: cms/djangoapps/maintenance/views.py:58
+msgid "No matching course found."
+msgstr "لم يُعثَر على مقرر يوافق الإدخال."
+
+#: cms/djangoapps/maintenance/views.py:199
+msgid "Force publishing course is not supported with old mongo courses."
+msgstr "نشر المقرر إجباريًّا غير مدعوم مع مقررات mongo القديمة."
+
+#: cms/djangoapps/maintenance/views.py:213
+msgid "Course is already in published state."
+msgstr "المقرر حالته منشور من قبل."
 
 #: common/djangoapps/course_modes/models.py:83
 msgid ""
@@ -140,9 +249,29 @@ msgid ""
 "ecommerce service.  Leave this blank if the course has not yet been migrated"
 " to the ecommerce service."
 msgstr ""
-"اختياري: هذه هي وحدة إدارة المخزون (SKU)الخاصّة بوضع خدمة التجارة "
-"الإلكترونية الخارجية هذا. يُرجى ترك هذا الحقل فارغًا إذا لم يكن المقرر قد  "
-"أُتيح كأحد مقررات خدمة التجارة الإلكترونية."
+"اختياري: هذه هي وحدة إدارة المخزون (SKU) الخاصّة بهذا الوضع في خدمة التجارة "
+"الإلكترونية الخارجية. اترك هذا الحقل فارغًا إذا لم يكن المقرر قد رُحِّل إلى "
+"خدمة التجارة الإلكترونية بعد."
+
+#: common/djangoapps/course_modes/models.py:133
+msgid ""
+"OPTIONAL: This is the Android SKU registered on play store for this mode of "
+"the course. Leave this blank if the course has not yet been migrated to the "
+"ecommerce service."
+msgstr ""
+"اختياري: هذه وحدة غداة المخزون SKU لـAndroid المسجلة في متجر play لهذا الوضع"
+" من المقرر. اترك هذا الحقل فارغًا إذا لم يتم ترحيل المقرر إلى خدمة التجارة "
+"الإلكترونية بعد."
+
+#: common/djangoapps/course_modes/models.py:145
+msgid ""
+"OPTIONAL: This is the iOS SKU registered on app store for this mode of the "
+"course.  Leave this blank if the course has not yet been migrated to the "
+"ecommerce service."
+msgstr ""
+"اختياري: هذه وحدة غداة المخزون SKU لـiOS المسجلة في متجر التطبيقات لهذا "
+"الوضع من المقرر. اترك هذا الحقل فارغًا إذا لم يتم ترحيل المقرر إلى خدمة "
+"التجارة الإلكترونية بعد."
 
 #: common/djangoapps/course_modes/models.py:258
 #, python-brace-format
@@ -150,18 +279,19 @@ msgid ""
 "The {course_mode} course mode has a minimum price of {min_price}. You must "
 "set a price greater than or equal to {min_price}."
 msgstr ""
-"الحد الأدنى لسعر وضع المقرر{course_mode} {min_price}. يجب عليك تحديد سعر "
-"أكبر من أو يساوي {min_price}."
+"الحد الأدنى لسعر وضع المقرر{course_mode} هو {min_price}. يجب عليك تحديد سعر "
+"أكبر من {min_price} أو مساويًا له."
 
 #: common/djangoapps/course_modes/models.py:983
 msgid ""
 "The time period before a course ends in which a course mode will expire"
-msgstr "الفترة الزمنية التي تسبق انتهاء المقرر والتي سينتهي بعدها وضع المقرر."
+msgstr ""
+"الفترة الزمنية التي تسبق انتهاء المقرر والتي سينتهي عندها هذا الوضع للمقرر."
 
 #: common/djangoapps/course_modes/views.py:205
 #, python-brace-format
 msgid "Congratulations!  You are now enrolled in {course_name}"
-msgstr "تهانينا! أنت الآن ملتحق في المقرر {course_name}"
+msgstr "تهانينا! أنت الآن مسجَّل في مقرر {course_name}"
 
 #: common/djangoapps/student/models/user.py:1328
 #, python-brace-format
@@ -187,37 +317,69 @@ msgstr "شهادة من {platform_name} للمقرر {course_name}"
 #: common/djangoapps/student/views/dashboard.py:755
 #, python-brace-format
 msgid "The course you are looking for does not start until {date}."
-msgstr "عذرًا، المقرر الذي تبحث عنه لن يبدأ حتى {date}. "
+msgstr "المقرر الذي تبحث عنه لن يبدأ حتى {date}."
 
 #: common/djangoapps/student/views/dashboard.py:759
 #, python-brace-format
 msgid "The course you are looking for is closed for enrollment as of {date}."
-msgstr "المقرر الذي تبحث عنه مغلق لالالتحاق اعتبارا من {date}"
+msgstr "المقرر الذي تبحث عنه اُغلِقَ تسجيله منذ {date}"
 
 #: common/djangoapps/student/views/management.py:343
 msgid "Course id not specified"
-msgstr "الرقم التعريفي المقرر غير محدَّد "
+msgstr "لم يُحدَّد معرّف المقرر"
 
 #: common/djangoapps/student/views/management.py:354
 msgid "Invalid course id"
-msgstr "رقم تعريف المقرر غير صحيح"
+msgstr "معرف المقرر غير صالح"
 
 #: common/djangoapps/student/views/management.py:369
 msgid "Course id is invalid"
-msgstr "رقم المقرر غير صحيح"
+msgstr "معرف المقرر غير صالح"
 
 #: common/djangoapps/student/views/management.py:426
 msgid "You are not enrolled in this course"
-msgstr "عذرًا، أنت غير مسجَّل في هذا المقرر "
+msgstr "أنت غير مسجَّل في هذا المقرر"
 
 #: common/djangoapps/student/views/management.py:430
 msgid "Your certificate prevents you from unenrolling from this course"
-msgstr "تمنعك شهادتك من إلغاء تسجيلك في هذا المقرر"
+msgstr "تمنعك شهادتك من الانسحاب من هذا المقرر"
+
+#: common/djangoapps/student/views/management.py:611
+#, python-brace-format
+msgid ""
+"{html_start}Success! You have {activated_or_confirmed} your "
+"{account_or_email}.{html_end}You will now receive email updates and alerts "
+"from us related to the courses you are enrolled in. Sign In to continue."
+msgstr ""
+"{html_start}تم الأمر بنجاح! لقد {activated_or_confirmed} "
+"{account_or_email}.{html_end} ستتلقى منا إشعارات وتنبيهات تتعلق بالمقررات "
+"التي سجلت بها. للاستمرار تفضل بالدخول."
 
 #: common/djangoapps/util/milestones_helpers.py:60
 #, python-brace-format
 msgid "Course {course_id} requires {prerequisite_course_id}"
-msgstr "يستوجب المقرر {course_id} المتطلّب {prerequisite_course_id}"
+msgstr "المقرر {course_id} يتطلب إنهاء {prerequisite_course_id} قبله"
+
+#: common/djangoapps/xblock_django/admin.py:27
+msgid ""
+"Only XBlocks listed in a course's Advanced Module List can be flagged as "
+"deprecated. Remember to update XBlockStudioConfiguration support state "
+"accordingly, as deprecated does not impact whether or not new XBlock "
+"instances can be created in Studio."
+msgstr ""
+"يمكن فقط تحديد XBlocks المدرجة في قائمة Advanced Module للمقرر على أنّها "
+"مُهملة. تذكر أن تُحدِّث حالة دعم XBlockStudioConfiguration وفقًا لذلك، لأن "
+"حالة \"مُهملة\" لا تؤثر على إمكانية إنشاء حالات XBlock جديدة في Studio من "
+"عدمها."
+
+#: common/djangoapps/xblock_django/admin.py:52
+msgid ""
+"Enabled XBlock/template combinations with full or provisional support can "
+"always be created in Studio. Unsupported XBlock/template combinations "
+"require course author opt-in."
+msgstr ""
+"يمكن دائمًا إنشاء تركيبات القالب/XBlock مُمَكَّنة ذات دعم كامل أو مؤقت في "
+"Studio. تتطلب تركيبات القالب/XBlock موافقة صريحة من مؤلف المقرر."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:27
 #, python-format
@@ -226,22 +388,80 @@ msgid ""
 "engaging, high-quality %(platform_name)s courses. Note that you will not be "
 "able to log back into your account until you have activated it."
 msgstr ""
-"أنت على وشك الانتهاء! استخدم الرابط أدناه لتنشيط حسابك للوصول إلى مقررات "
-"%(platform_name)s التعليمية عالية الجودة. الرجاء الملاحظة أن لا يمكن تسجيل "
-"الدخول مرة أخرى إلى حسابك حتى تقوم بتنشيطه."
+"أوشكت على الوصول! استخدم الرابط أدناه لتنشيط حسابك للوصول إلى مقررات تعليمية"
+" ممتعة عالية الجودة من %(platform_name)s. اعلَم أنك لن تتمكن من الدخول إلى "
+"حسابك إلى حين تفعيله."
+
+#: common/templates/student/edx_ace/accountactivation/email/body.txt:2
+#, python-format
+msgid ""
+"You’re almost there! Use the link below to activate your account to access "
+"engaging, high-quality %(platform_name)s courses. Note that you will not be "
+"able to log back into your account until you have activated it."
+msgstr ""
+"أوشكت على الوصول! استخدم الرابط أدناه لتنشيط حسابك للوصول إلى مقررات تعليمية"
+" ممتعة عالية الجودة من %(platform_name)s. اعلَم أنك لن تتمكن من الدخول إلى "
+"حسابك إلى حين تفعيله."
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:29
+#, python-format
+msgid ""
+"\n"
+"                    You are enrolled in %(course_name)s at %(platform_name)s. This course contains proctored exams.\n"
+"                "
+msgstr ""
+"\n"
+"                    أنت مسجل في %(course_name)s في %(platform_name)s. يحوي هذا المقرر امتحانات مُراقَبة.\n"
+"                "
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:38
+#, python-format
+msgid ""
+"\n"
+"                    Proctored exams are timed exams that you take while proctoring software monitors your computer's desktop, webcam video, and audio. Your course uses %(proctoring_provider)s software for proctoring.\n"
+"                "
+msgstr ""
+"\n"
+"                    الامتحانات التي يتم مراقبتها هي اختبارات محددة بوقت يتم إجراؤها أثناء قيام برنامج المراقبة بمراقبة سطح المكتب لجهاز الكمبيوتر الخاص بك وفيديو كاميرا الويب والصوت. يستخدم هذا المقرر برنامج%(proctoring_provider)s للمراقبة.\n"
+"                "
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:3
+#, python-format
+msgid ""
+"You are enrolled in %(course_name)s at %(platform_name)s. This course "
+"contains proctored exams."
+msgstr ""
+"أنت مسجل في %(course_name)s في %(platform_name)s. يحوي هذا المقرر امتحانات "
+"مراقبة."
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:5
+#, python-format
+msgid ""
+"Proctored exams are timed exams that you take while proctoring software "
+"monitors your computer's desktop, webcam video, and audio. Your course uses "
+"%(proctoring_provider)s software for proctoring."
+msgstr ""
+"الامتحانات المراقبة هي اختبارات محددة بوقت يتم إجراؤها أثناء قيام برنامج "
+"المراقبة بمراقبة سطح المكتب لجهاز الكمبيوتر الخاص بك وفيديو كاميرا الويب "
+"والصوت. يستخدم مقررك برنامج %(proctoring_provider)s للمراقبة."
 
 #: lms/djangoapps/badges/events/course_complete.py:43
 #, python-brace-format
 msgid ""
 "Completed the course \"{course_name}\" ({course_mode}, {start_date} - "
 "{end_date})"
-msgstr ""
-"استُكمِل المقرر \"{course_name}\" ({course_mode}, {start_date} - {end_date})"
+msgstr "أتممت المقرر \"{course_name}\" ({course_mode}, {start_date} - {end_date})"
 
 #: lms/djangoapps/badges/events/course_complete.py:50
 #, python-brace-format
 msgid "Completed the course \"{course_name}\" ({course_mode})"
-msgstr "لقد أتممت المقرر \"{course_name}\" ({course_mode})"
+msgstr "أتممت المقرر \"{course_name}\" ({course_mode})"
+
+#. Translators: This string is used across Open edX installations
+#. as a callback to edX. Please do not translate `edX.org`
+#: lms/djangoapps/branding/api.py:117
+msgid "Take free online courses at edX.org"
+msgstr "احصل على مقررات مجانية في edX.org"
 
 #: lms/djangoapps/branding/api.py:262 lms/djangoapps/branding/api.py:295
 #: lms/templates/static_templates/donate.html:5
@@ -302,6 +522,11 @@ msgstr "مفتاح المقرر {course_key} غير صالح"
 msgid "The course {course_key} does not exist"
 msgstr "المقرر {course_key} غير موجود"
 
+#: lms/djangoapps/certificates/views/support.py:197
+#, python-brace-format
+msgid "User {user_id} is not enrolled in the course {course_key}"
+msgstr "المستخدم {user_id} غير مسجل في المقرر {course_key}"
+
 #: lms/djangoapps/certificates/views/support.py:262
 #, python-brace-format
 msgid "User {username} is not enrolled in the course {course_key}"
@@ -318,6 +543,21 @@ msgstr ""
 "تُفيد شهادة {cert_type} معنى أنّ المتعلِّم قد وافق على الالتزام بميثاق الشرف"
 " المتعمَد لدى {platform_name} واستكمَل كافة المهام المطلوبة في هذا المقرر "
 "بموجب التعليمات."
+
+#. Translators:  This text describes the 'ID Verified' course certificate
+#. type, which is a higher level of
+#. verification offered by edX.  This type of verification is useful for
+#. professional education/certifications
+#: lms/djangoapps/certificates/views/webview.py:80
+#, python-brace-format
+msgid ""
+"A {cert_type} certificate signifies that a learner has agreed to abide by "
+"the honor code established by {platform_name} and has completed all of the "
+"required tasks for this course under its guidelines. "
+msgstr ""
+"تشير الشهادة ال{cert_type} إلى أن المتعلم قد وافق على الالتزام بقانون الشرف "
+"الذي حددته {platform_name} وأنه قد أكمل جميع المهام المطلوبة لهذا المقرر "
+"وفقًا لإرشاداته."
 
 #. Translators:  This text fragment appears after the student's name
 #. (displayed in a large font) on the certificate
@@ -395,6 +635,23 @@ msgstr ""
 "التوجه إلى صفحة الدفع الخاصة بالمقرر(ات) المستضافة من قبل خدمة التجارة "
 "الإلكترونية."
 
+#: lms/djangoapps/course_home_api/admin.py:21
+msgid ""
+"These define the context to disable the frontend-app-learning progress "
+"page.If no values are set, then the configuration applies globally. If a "
+"single value is set, then the configuration applies to all courses within "
+"that context. At most one value can be set at a time.<br>If multiple "
+"contexts apply to a course (for example, if configuration is specified for "
+"the course specifically, and for the org that the course is in, then the "
+"more specific context overrides the more general context."
+msgstr ""
+"هذه تحدد السياق لتعطيل صفحة التقدم في frontend-app-learning. إذا لم تُحدَّد "
+"أي قيم، فسيتم تطبيق الإعدادات على الكلّ. إذا تم تعيين قيمة واحدة، فسيتم "
+"تطبيق الإعدادات على جميع المقررات في هذا السياق. يمكن تعيين قيمة واحدة على "
+"الأكثر في كل مرة.<br> إذا تم تطبيق سياقات متعددة على مقرر ما (على سبيل "
+"المثال ، إذا تم تحديد إعداد لمقرر محدَّد، وآخَر للمؤسسة التي يوجد بها "
+"المقرر، فإن السياق الأكثر تخصيصًا يفوق السياق الأعمّ."
+
 #: lms/djangoapps/course_home_api/admin.py:33
 #: openedx/features/discounts/admin.py:34
 msgid ""
@@ -420,6 +677,11 @@ msgstr "تم ضبط هدف مقررك بنجاح"
 #: lms/djangoapps/course_home_api/outline/views.py:632
 msgid "Course goal updated successfully."
 msgstr "تم تحديث هدف المقرر بنجاح"
+
+#: lms/djangoapps/course_wiki/plugins/course_app.py:32
+msgid ""
+"Enable learners to access, and collaborate on course-related information."
+msgstr "مكِّن المتعلمين من الوصول والتعاون في المعلومات المتعلقة بالمقرر."
 
 #: lms/djangoapps/course_wiki/views.py:90
 msgid "Course page automatically created."
@@ -451,6 +713,10 @@ msgstr "عذرًا، لا تملك صلاحية دخول هذا المقرر م�
 msgid "You must be enrolled in the course"
 msgstr "يجب أن تكون ملتحقًا بالمقرر"
 
+#: lms/djangoapps/courseware/access_response.py:280
+msgid "You must give Data Sharing Consent for the course"
+msgstr "يجب أن تُقِرَّ بموافقتك على مشاركة البيانات للمقرر"
+
 #: lms/djangoapps/courseware/access_response.py:291
 msgid "You must be logged in to see this course"
 msgstr "يجب عليك تسجيل الدخول لمشاهدة هذا المقرر"
@@ -458,6 +724,30 @@ msgstr "يجب عليك تسجيل الدخول لمشاهدة هذا المقر
 #: lms/djangoapps/courseware/courses.py:739
 msgid "Staff Assessment"
 msgstr "تقييم طاقم المقرر"
+
+#: lms/djangoapps/courseware/date_summary.py:273
+msgid "Course starts"
+msgstr "يبدأ المقرر"
+
+#: lms/djangoapps/courseware/date_summary.py:281
+msgid "Course ends"
+msgstr "ينتهي المقرر"
+
+#: lms/djangoapps/courseware/date_summary.py:298
+msgid ""
+"After this date, the course will be archived, which means you can review the"
+" course content but can no longer participate in graded assignments or work "
+"towards earning a certificate."
+msgstr ""
+"بعد هذا التاريخ، ستتم أرشفة المقرر، مما يعني أنه يمكنك مراجعة محتوى المقرر، "
+"ولكن لن يكون بإمكانك المشاركة في الواجبات المُقيّمة أو العمل من أجل الحصول "
+"على شهادة."
+
+#: lms/djangoapps/courseware/date_summary.py:302
+msgid ""
+"After the course ends, the course content will be archived and no longer "
+"active."
+msgstr "بعد انتهاء المقرر، ستتم أرشفة محتوى المقرر ولن يبقى نشطًا."
 
 #: lms/djangoapps/courseware/date_summary.py:304
 msgid ""
@@ -506,6 +796,10 @@ msgstr ""
 #: lms/djangoapps/courseware/models.py:499
 msgid "Disable the dynamic upgrade deadline for this course run."
 msgstr "تعطيل الموعد النهائي للترقية الآلية لهذا المقرر."
+
+#: lms/djangoapps/courseware/models.py:565
+msgid "Percentage of courses allowed to use edx-financial-assistance"
+msgstr "النسبة المئوية للمقررات المسموح لها استخدام edx-Financial-Assistance"
 
 #: lms/djangoapps/courseware/plugins.py:28
 msgid "Keep learners engaged and on track throughout the course."
@@ -571,6 +865,15 @@ msgstr ""
 msgid "To see course content, {sign_in_link} or {register_link}."
 msgstr "للاطلاع على محتوى المقرر، {sign_in_link} أو {register_link}."
 
+#: lms/djangoapps/courseware/views/views.py:571
+#, python-brace-format
+msgid ""
+"You must be enrolled in the course to see course content. "
+"{enroll_link_start}Enroll now{enroll_link_end}."
+msgstr ""
+"يجب أن تكون مسجلا في المقرر لترى محتوى المقرر. {enroll_link_start} سجل الآن "
+"{enroll_link_end}."
+
 #: lms/djangoapps/courseware/views/views.py:584
 msgid "You must be enrolled in the course to see course content."
 msgstr "يجب أن تكون مسجلا في المقرر لمشاهدة المحتوى."
@@ -583,6 +886,24 @@ msgstr "المقرر غير صالح"
 msgid "Your certificate will be available when you pass the course."
 msgstr "ستصبح شهادتك متاحة بعد أن تنجح في المقرر."
 
+#: lms/djangoapps/courseware/views/views.py:1975
+msgid ""
+"We plan to use this information to evaluate your application for financial assistance and to further develop our financial assistance program. Please note that while \n"
+"assistance is available in most courses that offer verified certificates, a few courses and programs are not eligible. You must complete a separate application \n"
+"for each course you take. You may be approved for financial assistance five (5) times each year (based on 12-month period from you first approval). \n"
+"To apply for financial assistance: \n"
+"1. Enroll in the audit track for an eligible course that offers Verified Certificates \n"
+"2. Complete this  application \n"
+"3. Check your email, your application will be reviewed in 3-4 business days"
+msgstr ""
+"نحن نخطط لاستخدام هذه المعلومات لتقييم طلبك للحصول على المساعدة المالية ولمواصلة تطوير برنامج المساعدة المالية الخاص بنا. تُرجى ملاحظة أنه رغم\n"
+" توفر المساعدة في معظم المقررات التي تقدم شهادات موثقة، إلا أن بعض المقررات والبرامج غير مؤهلة. يجب عليك إرسال طلب منفصل\n"
+" لكل مقرر تأخذه. يُسمَح لك بالحصول على مساعدة مالية خمس (5) مرات كل عام (على أساس مدة 12 شهرًا من تاريخ موافقتك الأولى).\n"
+" لتقديم طلب المساعدة المالية:\n"
+" 1. سجل كمستمع في مقرر يتيح الحصول على شهادة موثقة\n"
+" 2. أتمّ هذا الطلب\n"
+" 3. تحقق من بريدك الإلكتروني، إذ ستتم مراجعة طلبك خلال 3-4 أيام عمل"
+
 #: lms/djangoapps/courseware/views/views.py:2168
 msgid ""
 "Select the course for which you want to earn a verified certificate. If the "
@@ -592,11 +913,25 @@ msgstr ""
 "اختر المقرر الذي ترغب بالحصول على شهادة موثّقة له. في حال لم يظهر المقرر ضمن"
 " القائمة، يُرجى التأكّد من أنك قد سجّلت في مسار مراقب لهذا المقرر."
 
+#: lms/djangoapps/courseware/views/views.py:2182
+msgid ""
+"Paying the verified certificate fee for the above course would cause me "
+"economic hardship"
+msgstr ""
+"أنّ دفع رسوم الشهادة الموثقة للمقررات المذكورة أعلاه قد يسبب لي صعوبات "
+"ماليّة"
+
+#: lms/djangoapps/courseware/views/views.py:2194
+msgid ""
+"I will work diligently to complete the course work and receive a certificate"
+msgstr "سأعمل بجد لإتمام المقرر والحصول على الشهادة"
+
 #: lms/djangoapps/edxnotes/plugins.py:58
 msgid ""
 "Allow learners to highlight passages and make notes right in the course."
 msgstr ""
-"مكِّن المتعلمين من التعليم على مقاطع و تدوين ملاحظات مباشرة في المقرر."
+"مكِّن المتعلمين من تحديد الفِقرات الهامّة و تدوين الملاحظات مباشرة في "
+"المقرر."
 
 #: lms/djangoapps/instructor/views/api.py:144
 #, python-brace-format
@@ -606,6 +941,60 @@ msgid ""
 msgstr ""
 "يرجى إنتظار عملية إنشاء التقرير {report_type}. لعرض حالة التقرير، انظر "
 "المهام المعلقة أدناه."
+
+#: lms/djangoapps/instructor/views/api.py:379
+#, python-brace-format
+msgid ""
+"Data in row #{row_num} must have between four and six columns: email, "
+"username, full name, country, cohort, and course mode. The last two columns "
+"are optional."
+msgstr ""
+"كان يجب أن تحتوي البيانات الموجودة في الصف #{row_num} على أربع إلى ست أعمدة:"
+" البريد الإلكتروني واسم المستخدم والاسم الكامل والبلد والسُعبة ووضع المقرر. "
+"العمودان الأخيران اختياريان."
+
+#: lms/djangoapps/instructor/views/api.py:413
+msgid ""
+"Course is not cohorted but cohort provided. Ignoring cohort assignment for "
+"all users."
+msgstr ""
+"المقرر غير مقسّم إلى شُعَب، لكن جرى اختيار شُعبة. سيتم تجاهل تحديد الشُعبة "
+"لجميع المستخدمين."
+
+#: lms/djangoapps/instructor/views/api.py:445
+#, python-brace-format
+msgid ""
+"Invalid course mode: {mode}. Falling back to the default mode, or keeping "
+"the current mode in case the user is already enrolled."
+msgstr ""
+"وضع المقرر غير صالح: {mode}. سيُعاد إلى الوضع الافتراضي، أو يُحتفَظ بالوضع "
+"الحالي في حال كان المستخدم مسجلاً بالفعل."
+
+#: lms/djangoapps/instructor/views/api.py:451
+#, python-brace-format
+msgid ""
+"Invalid course mode: {mode}.  Failling back to {default_mode}, or resetting "
+"to {default_mode} in case the user is already enrolled."
+msgstr ""
+"وضع المقرر غير صالح: {mode}. سيُعاد إلى {default_mode} ، أو إلى "
+"{default_mode} في حال كان المستخدم مسجلاً بالفعل."
+
+#: lms/djangoapps/instructor/views/api.py:1126
+msgid ""
+"A usage key location for a section or a problem. If the location is a block "
+"that contains other blocks, (such as the course, section, subsection, or "
+"unit blocks) then all blocks under that block will be included in the "
+"report."
+msgstr ""
+"موقع مفتاح استخدام لفصل أو مسألة. إذا كان الموقع كتلة تحوي كتلاً أخرى "
+"(ككُتلة مقرر أو قسم أو قسم فرعيّ أو وحدة)، فسيتم تضمين جميع الكتل الموجودة "
+"ضمن هذه الكتلة في التقرير."
+
+#: lms/djangoapps/instructor/views/api.py:1187
+#: lms/djangoapps/instructor/views/api.py:2243
+#: lms/djangoapps/instructor/views/api.py:2426
+msgid "The requesting user lacks access to the course."
+msgstr "المستخدم الذي أرسل الطلب ليس لديه وصول إلى المقرر"
 
 #: lms/djangoapps/instructor/views/api.py:1379
 msgid "CourseID"
@@ -635,6 +1024,25 @@ msgid ""
 msgstr ""
 "بدأت مهمّة إعداد الشهادات لجميع الطلّاب في هذا المقرر. يمكنك متابعة حالة "
 "مهمّة هذا الإعداد في قسم ’مهام الأستاذ القيد الانتظار‘."
+
+#: lms/djangoapps/instructor/views/api.py:3140
+#, python-brace-format
+msgid ""
+"Student {user} is not enrolled in this course. Please check your spelling "
+"and retry."
+msgstr ""
+"الطالب {user} غير مسجل في هذا المقرر. يرجى التحقق من طريقة كتابة الاسم "
+"وإعادة المحاولة."
+
+#: lms/djangoapps/instructor/views/api.py:3426
+#, python-brace-format
+msgid ""
+"The student {student} appears on the Certificate Exception list in course "
+"{course}. Please remove them from the Certificate Exception list before "
+"attempting to invalidate their certificate."
+msgstr ""
+"يظهر الطالب {student} في قائمة استثناءات الشهادة في مقرر {course}. تُرجى "
+"إزالته من قائمة استثناءات الشهادة قبل محاولة إبطال شهادته."
 
 #: lms/djangoapps/instructor/views/api.py:3562
 #, python-brace-format
@@ -736,6 +1144,15 @@ msgstr "المقرر الذي تنطبق عليه هذه المهلة النها
 #: lms/djangoapps/verify_student/views.py:786
 msgid "This course doesn't support paid certificates"
 msgstr "لا يدعم هذا المقرر الشهادات مدفوعة القيمة."
+
+#: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:9
+#, python-format
+msgid ""
+"To stop receiving email like this, update your course email settings here "
+"%(email_settings_url)s"
+msgstr ""
+"للتوقف عن تلقي رسائل بريد إلكتروني كهذه، حدِّث إعدادات البريد الإلكتروني "
+"للمقرر من هنا %(email_settings_url)s"
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:48
 msgid "You may access your course."
@@ -910,6 +1327,28 @@ msgstr ""
 "سيتم منح هذه الصلاحيات للبيانات من المقررات المرتبطة بمزودي المحتوى "
 "التاليين:"
 
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.html:11
+#: lms/templates/support/edx_ace/wholecoursereset/email/subject.txt:3
+#, python-format
+msgid "The course %(course_title)s has been reset !"
+msgstr "إُعيد إعداد المقرر %(course_title)s !"
+
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.html:21
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.txt:3
+#, python-format
+msgid ""
+"Your progress in course %(course_title)s has been reset on your behalf."
+msgstr "تمت إعادة ضبط تقدمك في المقرر %(course_title)s نيابة عنك."
+
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.html:25
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.txt:4
+msgid ""
+"You will be able to re-attempt this course and earn a verified certificate "
+"upon successful completion."
+msgstr ""
+"ستتمكن من إعادة هذا المقرر والحصول على شهادة مؤثقة عند إتمام هذا المقرر "
+"بنجاح."
+
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:97
 #: cms/templates/index.html:335 cms/templates/index.html:337
 #: lms/templates/courseware/courses.html:33
@@ -989,6 +1428,36 @@ msgstr ""
 "تشكيل القيم لهذا المقرر يجب تنسيق هذا كـ CourseKey (على سبيل المثال ، "
 "course-v1: //MITx+6.002x+2019_Q1)"
 
+#: openedx/core/djangoapps/content/learning_sequences/admin.py:31
+msgid "Courses with Errors"
+msgstr "المقررات التي فيها أخطاء"
+
+#: openedx/core/djangoapps/content/search/models.py:28
+msgid ""
+"Numeric ID for each Course / Library context. This ID will generally require"
+" fewer bits than the full LearningContextKey, allowing more courses and "
+"libraries to be represented in content search filters."
+msgstr ""
+"معرف رقمي لكل سياق مقرر / مكتبة. سيتطلب هذا المعرف عادة وحدات بت أقل من "
+"LearningContextKey الكامل، مما يسمح بتمثيل المزيد من المكتبات والمكتبات في "
+"مرشحات البحث في المحتوى."
+
+#: openedx/core/djangoapps/content_libraries/models.py:281
+msgid "course ID"
+msgstr "معرف المقرر"
+
+#: openedx/core/djangoapps/content_libraries/models.py:282
+msgid "ID of the imported course."
+msgstr "معرف المقرر الذي استورِد."
+
+#: openedx/core/djangoapps/course_live/models.py:19
+msgid "If disabled, the LTI in the associated course will be disabled."
+msgstr "إذا تم تعطيله ، فسيتم تعطيل LTI في المقرر ذي العلاقة."
+
+#: openedx/core/djangoapps/course_live/models.py:26
+msgid "The LTI configuration data for this course/provider."
+msgstr "بيانات إعداد LTI لهذا المقرر / مقدم الخدمة."
+
 #: openedx/core/djangoapps/credit/email_utils.py:91
 msgid "Course Credit Eligibility"
 msgstr "الأهلية لمواد المقرر الدراسيّة"
@@ -1023,6 +1492,37 @@ msgstr ""
 "نصّ غير مشفّر أو مكتوب بلغة html لعرض رسالة مخصَّصة كجزء من محتوى رسالة "
 "البريد الإلكتروني المرسَلة بخصوص إيصال دفعة الوحدة الدراسية والتي تُرسل "
 "\"بعد\" سداد القيمة لتلقّي اعتماد مادّة مقرر ذا وحدات دراسية معتمدة."
+
+#: openedx/core/djangoapps/discussions/models.py:126
+#, python-brace-format
+msgid ""
+"{provider} requires that LTI advanced sharing be enabled for your course, as"
+" this provider uses email address and username to personalize the "
+"experience. Please contact {support_contact} to enable this feature."
+msgstr ""
+"يتطلب {provider} تمكين مشاركة LTI المتقدمة لمقررك ، حيث يستخدم هذا المزود "
+"عنوان البريد الإلكتروني واسم المستخدم لتخصيص التجربة. يرجى الاتصال بـ "
+"{support_contact} لتمكين هذه الميزة."
+
+#: openedx/core/djangoapps/discussions/models.py:443
+msgid ""
+"If enabled, discussion topics will be created for each non-graded unit in "
+"the course. A UI for discussions will show up with each unit."
+msgstr ""
+"في حال تمكين هذا الخيار ، سيتم إنشاء مواضيع المناقشة لكل وحدة غير مقيّمة في "
+"المقرر. ستظهر واجهة للمناقشات مع كل وحدة."
+
+#: openedx/core/djangoapps/discussions/models.py:572
+msgid ""
+"Usage key for in-context discussion topic. Set to null for course-level "
+"topics."
+msgstr ""
+"مفتاح الاستخدام لموضوع المناقشة في السياق. قيمتها \"null\" للموضوعات على "
+"مستوى المقرر."
+
+#: openedx/core/djangoapps/discussions/models.py:596
+msgid "Whether this topic should be shown in-context in the course."
+msgstr "ما إذا كان يجب عرض هذا الموضوع في سياقه في المقرر."
 
 #: openedx/core/djangoapps/discussions/plugins.py:24
 msgid ""
@@ -1076,6 +1576,19 @@ msgstr "أدرج {country} على اللائحة البيضاء للمقرر {co
 #, python-brace-format
 msgid "Blacklist {country} for {course}"
 msgstr "أردج {country} على اللائحة السوداء للمقرر {course}"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:181
+#, python-brace-format
+msgid ""
+"<{p}>You have a new course update: "
+"<{strong}>{course_update_content}</{strong}></{p}>"
+msgstr ""
+"<{p}>لديك تحديث جديد للمقرر: "
+"<{strong}>{course_update_content}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:223
+msgid "Notifications for new announcements and updates from the course team."
+msgstr "إشعارات بالإعلانات والتحديثات الجديدة من فريق المقرر."
 
 #: openedx/core/djangoapps/schedules/admin.py:68
 msgid "Schedule start < course start"
@@ -1357,6 +1870,10 @@ msgstr ""
 "يُرجى إدخال ’true‘ أو ’false‘. تشير القيمة ’true‘ إلى تمكين الطلّاب من رؤية "
 "عنصر الآلة الحاسبة ضمن المقرر."
 
+#: xmodule/course_block.py:385
+msgid "Enter the name of the course as it should appear in the course list."
+msgstr "أدخل اسم المقرر كما يجب أن يظهر في قائمة المقررات."
+
 #: xmodule/course_block.py:387
 msgid "Course Display Name"
 msgstr "اسم العرض الخاص بالمقرر"
@@ -1403,6 +1920,14 @@ msgstr ""
 msgid "Course Is New"
 msgstr "المقرر جديد"
 
+#: xmodule/course_block.py:456
+msgid ""
+"Enter true or false. If true, the course appears in the list of new courses,"
+" and a New! badge temporarily appears next to the course image."
+msgstr ""
+"أدخل true أو false. إذا أدخلت true، فسيظهر المقرر في قائمة المقررات الجديدة "
+"و ستظهر شارة \"جديد!\" مؤقتًا بجوار صورة المقرر."
+
 #: xmodule/course_block.py:462
 msgid "Mobile Course Available"
 msgstr "المقرر مُتاح على الأجهزة المحمولة"
@@ -1414,6 +1939,14 @@ msgid ""
 msgstr ""
 "يُرجى إدخال ’true‘ أو ’false‘ .تسمح القيمة ’true‘ بإتاحة استعراض المقرر على "
 "الأجهزة المحمولة. "
+
+#: xmodule/course_block.py:470
+#, python-brace-format
+msgid ""
+"Enter the unique identifier for your course's video files provided by "
+"{platform_name}."
+msgstr ""
+"أدخل المعرف الفريد لملفات الفيديو للمقرر المقدمة من خلال {platform_name}."
 
 #: xmodule/course_block.py:475
 msgid "Course Not Graded"
@@ -1432,6 +1965,22 @@ msgstr ""
 "بالنسبة للكتب ذات صيغة HTML والتي تظهر بشكل علامات تبويب منفصلة في المقرر، "
 "يُرجى إدخال اسم علامة التبويب (يكون عادةً اسم الكتاب) بالإضافة إلى الروابط "
 "والعناوين الخاصة بكل فصل موجود بالكتاب."
+
+#. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
+#. course content. CCX Coach is
+#. a role created by a course Instructor to enable a person (the "Coach") to
+#. manage the custom course for
+#. his students.
+#: xmodule/course_block.py:515
+#, python-brace-format
+msgid ""
+"Allow course instructors to assign CCX Coach roles, and allow coaches to "
+"manage Custom Courses on {platform_name}. When false, Custom Courses cannot "
+"be created, but existing Custom Courses will be preserved."
+msgstr ""
+"اسمح لمعلمي الدورة بتعيين أدوار مدرب CCX ، والسماح للمدربين بإدارة المقررات "
+"المخصصة على {platform_name}. في حال تعطيل هذا الخيار، لن تتمكن من إنشاء "
+"مقررات مخصصة جديدة، ولكن ستبقى المقررات المخصصة الحالية موجودة."
 
 #: xmodule/course_block.py:540
 msgid ""
@@ -1468,6 +2017,14 @@ msgid ""
 msgstr ""
 "يُرجى إدخال ’true‘ أو ’false‘ .تسمح القيمة ’true‘ للطلّاب تنزيل الشهادات قبل"
 " انتهاء المقرر في حال استوفوا متطلّبات الشهادة."
+
+#: xmodule/course_block.py:585
+msgid ""
+"This field, together with certificate_available_date will determine when a "
+"user can see their certificate for the course"
+msgstr ""
+"سيحدد هذا الحقل مع حقل certificate_available_date متى يمكن للمستخدم رؤية "
+"شهادته للمقرر."
 
 #: xmodule/course_block.py:592
 msgid "Course About Page Image"
@@ -1584,6 +2141,14 @@ msgid ""
 msgstr ""
 "يُرجى إدخال العدد الأقصى للطلّاب الذين يمكنهم التسجيل في المقرر. يُرجى إدخال"
 " \"null\" للسماح لعدد غير محدّد من الطلّاب."
+
+#: xmodule/course_block.py:738
+msgid ""
+"Enter true or false. If true, students can view the course wiki even if "
+"they're not enrolled in the course."
+msgstr ""
+"أدخل true أو false. إذا أدخلت true، فسيتمكن الطلاب من عرض wiki المقرر حتى "
+"وإن لم يكونوا مسجلين في المقرر."
 
 #: xmodule/course_block.py:747
 msgid "Whether to restrict enrollment to invitation by the course staff."
@@ -1723,6 +2288,14 @@ msgstr ""
 " الملتحقين) ، \"مخطط_عام\" (السماح بالوصول إلى مخطط المقرر) و \"عام\" "
 "(السماح بالوصول إلى كل من المخطط ومحتوى المقرر)."
 
+#: xmodule/course_block.py:995
+msgid ""
+"Setting this flag will force on the flexible grading option for all peer-"
+"graded ORAs in this course."
+msgstr ""
+"سيؤدي تعيين هذه العلامة إلى فرض خيار الدرجات المرنة لجميع تقييمات الإجابات "
+"المفتوحة التي يقيمها الزملاء في هذا المقرر"
+
 #: xmodule/course_block.py:1034
 msgid ""
 "Enter true or false. If true, any highlights associated with content in the "
@@ -1730,6 +2303,21 @@ msgid ""
 msgstr ""
 "أدخل صواب أو خطأ. إذا كان إدخالك صواب ، سيتم إرسال أي لمحات او نقاط بارزة "
 "مرتبطة بالمحتوى في المقرر إلى المتعلمين في الوقت المحدد."
+
+#: xmodule/course_block.py:1041
+msgid "Course-wide Custom JS"
+msgstr "جافاسكربت مخصص على مستوى المقرر"
+
+#: xmodule/course_block.py:1042
+msgid ""
+"Enter Javascript resource URLs you want to be loaded globally throughout the"
+" course pages."
+msgstr ""
+"أدخل عناوين URL لموارد جافاسكربت التي تريد إضافتها إلى كلّ صفحات المقرر."
+
+#: xmodule/course_block.py:1047
+msgid "Course-wide Custom CSS"
+msgstr "ملف CSS مخصص على مستوى المقرر"
 
 #: xmodule/course_block.py:1053 cms/templates/certificates.html:112
 #: cms/templates/certificates.html:113
@@ -1793,6 +2381,14 @@ msgstr ""
 #: xmodule/library_content_block.py:721
 msgid "Edit the library configuration."
 msgstr "تعديل إعدادات المقرر"
+
+#: xmodule/modulestore/inheritance.py:54 xmodule/seq_block.py:89
+msgid ""
+"Enter the number of weeks the problems are due by relative to the learner's "
+"enrollment date"
+msgstr ""
+"أدخل عدد الأسابيع التي يجب خلالها تسليم إجابات المسائل من تاريخ تسجيل "
+"المتعلّم في المقرر"
 
 #: xmodule/modulestore/inheritance.py:71
 msgid "Enter the URL for the course data GIT repository."
@@ -1973,6 +2569,14 @@ msgstr "فتح محتويات المقرر في نظام إدارة التعلّ
 msgid "Preview the courseware in the LMS"
 msgstr "معاينة محتويات المقرر في نظام إدارة التعلّم LMS"
 
+#: cms/templates/container.html:249
+msgid ""
+"To create a link to this unit from an HTML component in this course, enter "
+"{unit_link} as the URL value."
+msgstr ""
+"لإنشاء رابط لهذه الوحدة من مكون HTML في هذا المقرر، أدخل {unit_link} كقيمة "
+"URL."
+
 #: cms/templates/course-create-rerun.html:10
 msgid "Create a Course Rerun of:"
 msgstr "إنشاء ’تشغيل ثانٍ للمقرر‘ لـ:"
@@ -2103,13 +2707,22 @@ msgstr ""
 #: cms/templates/course_outline.html:15 cms/templates/course_outline.html:201
 #: cms/templates/course_outline.html:283
 msgid "Course Outline"
-msgstr "مخطّط المقرر"
+msgstr "خطّة المقرر"
 
 #: cms/templates/course_outline.html:52
 msgid ""
 "This course was created as a re-run. Some manual configuration is needed."
 msgstr ""
 "أُنشِئ هذا المقرر كتشغيل ثانٍ، ويتطلّب بالتالي ضبط بعض الإعدادات اليدوية."
+
+#: cms/templates/course_outline.html:76
+msgid ""
+"This course run is using an upgraded version of edx discussion forum. In "
+"order to display the discussions sidebar, discussions xBlocks will no longer"
+" be visible to learners."
+msgstr ""
+"تستخدم هذه النسخة من المقرر إصدارًا أحدث من منتدى مناقشة edx. لعرض الشريط "
+"الجانبي للمناقشات ، لن تكون كتل المناقشات مرئية للمتعلمين."
 
 #: cms/templates/course_outline.html:110
 msgid "This course uses features that are no longer supported."
@@ -2182,9 +2795,9 @@ msgid ""
 "(Home, Course, Discussion, Wiki, and Progress) are followed by textbooks and"
 " custom pages that you create."
 msgstr ""
-"ستجد الصفحات مسرودة أفقيًّا في أعلى مقررك، بحيث تُدرَج الصفحات الافتراضية "
-"(الصفحة الرئيسية،  والمقرر، والنقاشات، وموسوعة ويكي، والعلامات) قبل الكتب "
-"والصفحات المخصّصة التي تنشئها."
+"الصفحات مسرودة أفقيًّا في أعلى مقررك، حيث تُدرَج الصفحات الافتراضية (الصفحة "
+"الرئيسية،  والمقرر، والنقاشات، وموسوعة ويكي، والعلامات) قبل الكتب والصفحات "
+"المخصّصة التي تنشئها."
 
 #: cms/templates/edit-tabs.html:178
 msgid ""
@@ -2193,7 +2806,7 @@ msgid ""
 "course slides, and a course calendar. "
 msgstr ""
 "يمكنك أن تنشئ الصفحات المخصّصة وتعدّلها لتزوّد الطلّاب بمحتوى إضافي للمقرر. "
-"ويمكنك مثلًا أن تنشئ صفحات لسياسة التقييم، وشرائح المقرر، ورُزنامة المقرر."
+"ويمكنك مثلًا أن تنشئ صفحات لسياسة التقييم، وشرائح المقرر، وتقويم المقرر."
 
 #: cms/templates/edit-tabs.html:181
 msgid "How do pages look to students in my course?"
@@ -2206,6 +2819,27 @@ msgid ""
 msgstr ""
 "يرى الطلّاب الصفحات الافتراضية والمخصّصة في أعلى مقررك، ويستخدمون هذه "
 "الروابط لتصفّحها."
+
+#: cms/templates/edit-tabs.html:189
+msgid ""
+"You can create and edit custom pages to provide students with additional "
+"course content. For example, you can create pages for the grading policy, "
+"course syllabus, and a course calendar. "
+msgstr ""
+"يمكنك إنشاء وتحرير صفحات مخصصة لتزويد الطلاب بمحتوى إضافي للمقرر. على سبيل "
+"المثال، يمكنك إنشاء صفحات لسياسة التقدير وخطّة المقرر وتقويم المقرر."
+
+#: cms/templates/edit-tabs.html:192
+msgid "How do custom pages look to students in my course?"
+msgstr "كيف تبدو الصفحات المخصصة للطلاب في مقرري؟"
+
+#: cms/templates/edit-tabs.html:193
+msgid ""
+"Custom pages are listed horizontally at the top of your course after default"
+" pages."
+msgstr ""
+"يتم سرد الصفحات المخصصة أفقيًا في الجزء العلوي من مقررك بعد الصفحات "
+"الافتراضية."
 
 #: cms/templates/edit-tabs.html:202
 msgid "Pages in Your Course"
@@ -2545,6 +3179,10 @@ msgstr ""
 "تمرّ عملية الاستيراد بخمس مراحل. وعليك أن تبقى على هذه الصفحة في أوّل "
 "مرحلتين. ثمّ يمكنك مغادرة هذه الصفحة بعد أن تُستكمل مرحلة التفريغ. ولكنّنا "
 "نوصيك بعدم إجراء تغييرات أساسية في مقررك قبل أن تُستكمل عملية الاستيراد."
+
+#: cms/templates/import.html:69
+msgid "Select a .tar.gz or .zip File to Replace Your Course Content"
+msgstr "حدد ملف .tar.gz أو .zip ليستبدل محتوى مقررك"
 
 #: cms/templates/import.html:92
 msgid "Replace my course with the selected file"
@@ -2909,6 +3547,14 @@ msgstr ""
 "المشرفون هم من أعضاء فريق المقرر ويمكنهم إضافة أو إقصاء أعضاء آخرين من "
 "الفريق."
 
+#: cms/templates/manage_users.html:104
+msgid ""
+"All course team members can access content in Studio, the LMS, and Insights,"
+" and they are automatically enrolled in the course."
+msgstr ""
+"يمكن لجميع أعضاء فريق المقرر الوصول إلى المحتوى الموجود في Studio وLMS "
+"وInsights، ويتم تسجيلهم تلقائيًا في المقرر."
+
 #: cms/templates/manage_users.html:111
 msgid ""
 "Every course must have an Admin. If you are the Admin and you want to "
@@ -3059,6 +3705,38 @@ msgstr "اليوم الأخير الذي يكون فيه المقرر مفعّل
 #: cms/templates/settings.html:247
 msgid "Course End Time"
 msgstr "وقت انتهاء المقرر"
+
+#: cms/templates/settings.html:265
+msgid "End date of course"
+msgstr "عند تاريخ انتهاء المقرر"
+
+#: cms/templates/settings.html:266 cms/templates/settings.html:293
+msgid "A date after the course end date"
+msgstr "في تاريخ بعد تاريخ انتهاء المقرر"
+
+#: cms/templates/settings.html:271
+msgid "Certificates are awarded at the end of a course run"
+msgstr "تُمنح الشهادات في نهاية المقرر"
+
+#: cms/templates/settings.html:283
+msgid ""
+"In all configurations of this setting, certificates are generated for "
+"learners as soon as they achieve the passing threshold in the course (which "
+"can occur before a final assignment based on course design)"
+msgstr ""
+"في جميع حالات هذا الإعداد، يتم إنشاء الشهادات الطلاب بمجرد تحقيقهم متطلبات "
+"النجاح في المقرر (والتي يمكن أن تحدث قبل المهمة النهائية وذلك حسب تصميم "
+"المقرر)"
+
+#: cms/templates/settings.html:286
+msgid ""
+"Learners can access their certificate as soon as they achieve a passing "
+"grade above the course grade threshold. Note: learners can achieve a passing"
+" grade before encountering all assignments in some course configurations."
+msgstr ""
+"يمكن للمتعلمين الحصول على شهادتهم بمجرد حصولهم على درجة النجاح في المقرر. "
+"ملاحظة: يمكن للطلاب تحقيق درجة النجاح قبل إتمام جميع المهام في بعض الحالات، "
+"ويعتمد ذلك على إعدادات المقرر."
 
 #: cms/templates/settings.html:379
 msgid "Course Details"
@@ -3312,15 +3990,15 @@ msgstr "تصفّح المقرر"
 
 #: cms/templates/widgets/sock_links.html:24
 msgid "Enroll in edX101: Overview of Creating an edX Course"
-msgstr "سجّل في edX101: نبذة حول إنشاء مقرر edX"
+msgstr "سجّل في edX101: مقدمة في إنشاء مقرر edX"
 
 #: cms/templates/widgets/sock_links.html:25
 msgid "Enroll in edX101"
-msgstr "التسجيل في مقرر edX101"
+msgstr "سجِّل في مقرر edX101"
 
 #: cms/templates/widgets/sock_links.html:29
 msgid "Enroll in StudioX: Creating a Course with edX Studio"
-msgstr "سجّل في StudioX: أنشئ مقرر باستخدام استوديو edX"
+msgstr "سجّل في StudioX: أنشئ مقرراً باستخدام استوديو edX"
 
 #: lms/templates/courses_list.html:22
 msgid "View all Courses"
@@ -3390,6 +4068,18 @@ msgstr "طاقم المقرر"
 #: lms/templates/preview_menu.html:85
 msgid "You are now viewing the course as {i_start}{user_name}{i_end}."
 msgstr "أنت الآن تستعرض المقرر بصفتك {i_start}{user_name}{i_end}."
+
+#: lms/templates/public_video.html:39
+msgid "Learn more about this course"
+msgstr "اعرِف المزيد عن هذا المقرر"
+
+#: lms/templates/public_video.html:43
+msgid "Go to course"
+msgstr "اذهب إلى المقرر"
+
+#: lms/templates/public_video.html:47
+msgid "Enroll in this course"
+msgstr "التسجيل في هذا المقرر"
 
 #: lms/templates/courseware/courseware-chromeless.html:12
 #: lms/templates/courseware/courseware.html:28
@@ -3472,6 +4162,10 @@ msgstr ""
 "ستستمر في تلقي رسائل البريد الإلكتروني الخاصة بالمقررات الأخرى التي قمت "
 "بالتسجيل فيها."
 
+#: lms/templates/ccx/coach_dashboard.html:51
+msgid "Create a new Custom Course for {platform_name}"
+msgstr "أنشئ مقرراًًا مخصصاً جديدًا لـ {platform_name}"
+
 #: lms/templates/ccx/grading_policy.html:12
 msgid ""
 "For advanced users only. Errors in the grading policy can lead to the course"
@@ -3532,6 +4226,71 @@ msgstr ""
 "استمع إلى دروس هذا المقرر مجّانًا واستمتع بإمكانية استخدام كافة مواد المقرر "
 "وأنشطته واختباراته ومنتدياته. {b_start} يُرجى الانتباه، لا يُمنح المتعلّون "
 "الحاصلون على درجة النجاح في هذا المقرر شهادةً موثّقة. {b_end}"
+
+#: lms/templates/course_modes/error.html:29
+msgid "Explore all courses on edX"
+msgstr "استكشف جميع المقررات على edX"
+
+#: lms/templates/course_modes/error.html:30
+msgid "Explore all courses"
+msgstr "استكشف جميع المقررات"
+
+#: lms/templates/course_modes/fbe.html:15
+#: lms/templates/course_modes/unfbe.html:19
+msgid ""
+"Showcase a {link_start}verified certificate{link_end} of completion on your "
+"resumé to advance your career"
+msgstr ""
+"اعرض {link_start} شهادة موثقة {link_end} لإتمام المقرر في سيرتك الذاتية "
+"لتعزيز مسيرتك المهنية"
+
+#: lms/templates/course_modes/fbe.html:20
+msgid ""
+"Get {start_bold}access to all course activities{end_bold}, including both "
+"graded and non-graded assignments, while the course is running"
+msgstr ""
+"تمكن من الوصول إلى {start_bold} إلى جميع أنشطة المقرر {end_bold}، بما في ذلك"
+" المهام ذات التقييم وغير ذات التقييم طوال مدة المقرر"
+
+#: lms/templates/course_modes/fbe.html:26
+msgid ""
+"{start_bold}Full access{end_bold} to course content and materials, even "
+"after the course ends"
+msgstr ""
+"{start_bold}وصول كامل{end_bold} إلى محتوى ومواد المقرر، حتى بعد انتهائه"
+
+#: lms/templates/course_modes/fbe.html:35
+msgid "{link_start}Learn more{link_end} about course access"
+msgstr "{link_start}اعرف المزيد{link_end} عن الوصول إلى المقرر"
+
+#: lms/templates/course_modes/fbe.html:57
+msgid ""
+"Get {start_bold}temporary access{end_bold} to the course material, including"
+" videos and readings"
+msgstr ""
+"احصل على {start_bold} وصول مؤقت {end_bold} إلى مواد المقرر، بما في ذلك "
+"المواد المرئية والمقروءة"
+
+#: lms/templates/course_modes/track_selection.html:92
+msgid "Choose a path for your course in"
+msgstr "اختر مسارًا لمقررك في"
+
+#: lms/templates/course_modes/track_selection.html:142
+msgid ""
+"Studies show that those who choose this option are  {start_bold}more engaged"
+" and motivated{end_bold} to complete their courses"
+msgstr ""
+"تشير الدراسات إلى أن أولئك الذين اختاروا هذا الخيار كانوا {start_bold} أكثر "
+"تفاعلًا ودافعية {end_bold} لإكمال مقرراتهم"
+
+#: lms/templates/course_modes/track_selection.html:151
+msgid "Access this course"
+msgstr "احصل على هذا المقرر"
+
+#: lms/templates/course_modes/unfbe.html:34
+msgid "Get access to the course material, including videos and readings"
+msgstr ""
+"احظَ بوصول إلى المواد الدراسية للمقرر ، بما في ذلك المحتوى المرئي والمقروء"
 
 #: lms/templates/courseware/course_about.html:78
 msgid "You are enrolled in this course"
@@ -3644,7 +4403,7 @@ msgstr "مقررات في {}"
 
 #: lms/templates/courseware/progress.html:67
 msgid "Course Progress for '{username}' ({email})"
-msgstr "({email}) '{username}' مستوى التقدم في المقرر ل"
+msgstr "التقدم في المقرر ل({email}) '{username}'"
 
 #: lms/templates/courseware/progress.html:102
 msgid "Requirements for Course Credit"
@@ -3664,8 +4423,9 @@ msgid ""
 "{providers} for successfully completing your {platform_name} course! "
 "{link_start}Purchase credit now.{link_end}"
 msgstr ""
-"تهانينا! أنت الآن مؤهل لتلقي رصيد المقرر من {providers} لأنك أكملت المقرر "
-"على {platform_name} بنجاح! {link_start} شراء رصيد الآن. {link_end}"
+"تهانينا! أنت الآن مؤهل للحصول على الساعات المعتمدة للمقرر من {providers} "
+"لأنك أكملت المقرر في {platform_name} بنجاح! {link_start} ادفع رسوم الساعات "
+"المعتمدة الآن. {link_end}"
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:52
 msgid ""
@@ -3726,6 +4486,10 @@ msgstr "الدرجة المطلوبة للنجاح في هذا المقرر:"
 msgid "Complete our course feedback survey"
 msgstr "استكمال استبيان مقررنا حول الآراء والملاحظات"
 
+#: lms/templates/dashboard/_dashboard_certificate_information.html:151
+msgid "This link will open the course progress page"
+msgstr "سيفتح هذا الرابط صفحة تقدم المقرر"
+
 #: lms/templates/dashboard/_dashboard_course_listing.html:85
 msgid "Course details"
 msgstr "تفاصيل المقرر"
@@ -3752,6 +4516,26 @@ msgstr ""
 #: lms/templates/dashboard/_dashboard_course_listing.html:313
 msgid "View Archived Course"
 msgstr "استعراض المقرر"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html:386
+msgid ""
+"{start_bold}Get the most out of your course!{end_bold} Upgrade to get full "
+"access to the course material, unlock both graded and non-graded "
+"assignments, and earn a {link_start}verified certificate{link_end} to "
+"showcase on your resumé."
+msgstr ""
+"{start_bold} احصل على أقصى استفادة من المقرر! {end_bold} قم بالترقية للحصول "
+"على حق الوصول الكامل إلى محتوى المقرر، وإتاحة الوصول إلى المهام التي يتم "
+"تقييمها وتلك التي لا تحصل على تقييم، واحصل على {link_start} شهادة موثقة "
+"{link_end} لعرضها في سيرتك الذاتية."
+
+#: lms/templates/dashboard/_dashboard_course_listing.html:396
+msgid ""
+"{start_bold}Get the most out of your course!{end_bold} Upgrade to earn a "
+"{link_start}verified certificate{link_end} to showcase on your resumé."
+msgstr ""
+"{start_bold} حقق أقصى استفادة من المقرر! {end_bold} قم بالترقية للحصول على "
+"{link_start} شهادة موثقة {link_end} لعرضها في سيرتك الذاتية."
 
 #: lms/templates/dashboard/_dashboard_course_resume.html:12
 msgid "Resume Course"
@@ -3837,6 +4621,12 @@ msgstr "مواد المقرر كانت صعبة للغاية"
 #: lms/templates/dashboard/_reason_survey.html:16
 msgid "The course material was too easy"
 msgstr "مواد المقرر كانت سهلة للغاية"
+
+#: lms/templates/discussion/_discussion_inline_studio.html:11
+msgid ""
+"The discussion block is disabled for this course as it is not using a "
+"compatible discussion provider."
+msgstr "كُتلة المناقشة لهذا المقرر معطلة لأنه لا يستخدم مزود مناقشة متوافق."
 
 #: lms/templates/edxnotes/edxnotes.html:28
 msgid "Highlights and notes you've made in course content"
@@ -3993,6 +4783,14 @@ msgstr ""
 "تعليمية مرموقة ورائدة في المجال، بغض النظر عن مقدرتك الماديّة. احصل على "
 "شهادة موثّقة وشارك الآخرين نبأ نجاحِك."
 
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html:25
+msgid ""
+"This course is configured to generate PDF certificates and this certificate "
+"type is no longer supported. Example certificates cannot be generated."
+msgstr ""
+"أُعِدّ هذا المقرر لإنشاء شهادات PDF وهذا النوع من الشهادات لم يعد مدعومًا. "
+"لا يمكن إنشاء شهادات المثال."
+
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:89
 msgid ""
 "Course certificate generation requires an activated web certificate "
@@ -4133,6 +4931,22 @@ msgstr ""
 msgid "View Course in Studio"
 msgstr "استعراض المقرر في استوديو"
 
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:65
+msgid ""
+"To register and enroll a list of users in this course, choose a CSV file "
+"that contains the following columns in this exact order: email, username, "
+"name, and country. Please include one student per row and do not include any"
+" headers, footers, or blank lines. Optionally, extra columns can be "
+"provided: cohort and course mode, in that order. These extra columns may be "
+"blank."
+msgstr ""
+"لتسجيل قائمة من المستخدمين ومن ثمّ تسجيلهم في هذا المقرر، اختر ملف CSV يحوي "
+"على الأعمدة التالية بالترتيب نفسه: البريد الإلكتروني ، واسم المستخدم ، "
+"والاسم ، والبلد. يُرجى إدخال معلومات طالب واحد فقط في كل سطر وعدم تضمين أي "
+"رؤوس أو تذييلات أو سطور فارغة. من الممكن إضافة أعمدة إضافية اختيارية: "
+"الشعبة، وضع المقرر - بهذا الترتيب. يُسمَح بأن تكون هذه الأعمدة الإضافية "
+"فارغة."
+
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:99
 msgid "Batch Beta Tester Addition"
 msgstr "إضافة مختبري النسخة التجريبية للمقرر"
@@ -4165,13 +4979,67 @@ msgid ""
 "Discussion Admin role to add discussion moderators and TAs."
 msgstr ""
 "لا يمكن للطاقم أن يعدّلوا هذه القوائم. لتتمكن من إدارة عضوية فريق المقرر يجب"
-" على مشرف المقرر أن يعطيك دور المشرف كي تتمكن من إضافة أفراد للطاقم أو مختري"
-" برنامج أو أن يعطيك دور مشرف النقاش لتتمكن من إضافة وسطاء للنقاش ومساعدي "
-"أساتذة."
+" على مشرف المقرر أن يعطيك دور المشرف كي تتمكن من إضافة أفراد للطاقم أو "
+"مختبري الإصدار التجريبي أو أن يعطيك دور مشرف النقاش لتتمكن من إضافة وسطاء "
+"للنقاش ومساعدي أساتذة."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:172
+msgid ""
+"Course team members with the Staff role help you manage your course. Staff "
+"can enroll and unenroll learners, as well as modify their grades and access "
+"all course data. Staff also have access to your course in Studio and "
+"Insights. Any users not yet enrolled in the course will be automatically "
+"enrolled when added as Staff."
+msgstr ""
+"يساعدك أعضاء فريق المقرر الذين يقومون بدور الطاقم على إدارة مقررك. يمكن "
+"للطاقم تسجيل المتعلمين وإلغاء تسجيلهم، إضافة إلى تعديل درجاتهم والوصول إلى "
+"جميع بيانات المقرر. يمكن لطاقم المقرر أيضًا الوصول إلى مقررك في Studio "
+"وInsights. أي مستخدمين لم يتم تسجيلهم بعد في المقرر سيتم تسجيلهم تلقائيًا "
+"عند إضافتهم كطاقم."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:179
 msgid "Add Staff"
 msgstr "إضافة أعضاء إلى طاقم المقرر"
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:186
+msgid ""
+"Course team members with the Limited Staff role help you manage your course."
+" Limited Staff can enroll and unenroll learners, as well as modify their "
+"grades and access all course data. Limited Staff don't have access to your "
+"course in Studio. Any users not yet enrolled in the course will be "
+"automatically enrolled when added as Limited Staff."
+msgstr ""
+"يساعدك أعضاء فريق المقرر الذين دورهم \"طاقم محدود\" في إدارة مقررك. يمكن "
+"لللطاقم المحدود تسجيل المتعلمين وإلغاء تسجيلهم، إضافة إلى تعديل درجاتهم "
+"والوصول إلى جميع بيانات المقرر. لا يستطيع الطاقم المحدود الوصول إلى مقررك في"
+" الاستوديو. أي مستخدمين لم يتم تسجيلهم بعد في المقرر سيتم تسجيلهم تلقائيًا "
+"عند إضافتهم كطاقم محدود."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:201
+msgid ""
+"Course team members with the Admin role help you manage your course. They "
+"can do all of the tasks that Staff can do, and can also add and remove the "
+"Staff and Admin roles, discussion moderation roles, and the beta tester role"
+" to manage course team membership. Any users not yet enrolled in the course "
+"will be automatically enrolled when added as Admin."
+msgstr ""
+"يساعدك أعضاء فريق المقرر الذين دورهم \"مشرف\" في إدارة مقررك. يمكنهم القيام "
+"بجميع المهام التي يمكن لطاقم المقرر عملها إضافة إلى ذلك يمكنهم إضافة وإزالة "
+"دور المشرفين والطاقم ودور مراقبي المناقشات، ودور مختبري الإصدار التجريبي، "
+"وذلك من أجل إدارة عضوية فريق المقرر. أي مستخدمين لم يتم تسجيلهم بعد في "
+"المقرر سيتم تسجيلهم تلقائيًا عند إضافتهم كمشرفين."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:216
+msgid ""
+"Beta Testers can see course content before other learners. They can make "
+"sure that the content works, but have no additional privileges. Any users "
+"not yet enrolled in the course will be automatically enrolled when added as "
+"Beta Tester."
+msgstr ""
+"يمكن لمختبري النسخة التجريبية رؤية محتوى المقرر قبل المتعلمين الآخرين. "
+"ويمكنهم التأكد من أن المحتوى يعمل، ولكن ليس لديهم امتيازات إضافية. أي "
+"مستخدمين لم يتم تسجيلهم بعد في المقرر سيتم تسجيلهم تلقائيًا عند إضافتهم "
+"كمختبري إصدار تجريبي."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:229
 msgid ""
@@ -4186,6 +5054,16 @@ msgstr ""
 "المشاركات من جميع المجموعات. ويتم وضع مؤشر \"موظف\" على مشاركاتهم . كما "
 "يمكنهم إضافة أدوار الإشراف على المحادثات وإزالتها لإدارة عضوية فريق المقرر. "
 "يمكن إضافة المستخدمين المسجلين فقط كمسؤولين للمناقشة."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:243
+msgid ""
+"Course Data Researchers can access the data download tab. Any users not yet "
+"enrolled in the course will be automatically enrolled when added as Course "
+"Data Researcher."
+msgstr ""
+"يمكن للباحثين في بيانات المقرر الوصول إلى لسان تنزيل البيانات. أي مستخدمين "
+"لم يتم تسجيلهم بعد في المقرر سيتم تسجيلهم تلقائيًا عند إضافتهم كباحثين في "
+"بيانات المقرر."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:257
 msgid ""
@@ -4438,7 +5316,7 @@ msgstr "ويكي المقرر"
 
 #: openedx/features/course_experience/templates/course_experience/course-dates-fragment.html:18
 msgid "View all course dates"
-msgstr "عرض جميع تواريخ المقرر"
+msgstr "اعرض جميع تواريخ المقرر"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:29
 msgid "Proven motivator to complete the course"
