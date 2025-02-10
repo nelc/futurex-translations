@@ -1,4 +1,36 @@
-#
+# #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
+# edX translation file.
+# Copyright (C) 2024 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2024.
+# 
+# #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
+# edX translation file
+# Copyright (C) 2024 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2024.
+# 
+# #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
+# edX translation file
+# Copyright (C) 2024 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2024.
+# 
+# #-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# 
+# Translators:
+# Eden Huthmacher, 2024
+# Brian Smith, 2024
+# AlQahtani <alq.ahmad@gmail.com>, 2024
+# Omar Al-Ithawi <i@omardo.com>, 2024
+# Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024
+# SeyedMahdi Saeid <saeid@edspirit.com>, 2025
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
@@ -7,12 +39,12 @@ msgstr ""
 "PO-Revision-Date: 2024-05-09 18:48+0000\n"
 "Last-Translator: SeyedMahdi Saeid <saeid@edspirit.com>, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
-"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Generated-By: Babel 2.14.0\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
@@ -4729,8 +4761,8 @@ msgid ""
 "The {report_type} report is being created. To view the status of the report,"
 " see Pending Tasks below."
 msgstr ""
-"يرجى إنتظار عملية إنشاء التقرير {report_type}. لعرض حالة التقرير، انظر "
-"المهام المعلقة أدناه."
+"يرجى إنتظار عملية إنشاء التقرير {report_type}. لعرض حالة التقرير، انظر المهام المعلقة"
+" أدناه."
 
 #: lms/djangoapps/instructor/views/api.py:162
 msgid ""

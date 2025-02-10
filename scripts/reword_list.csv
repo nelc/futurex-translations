@@ -12,6 +12,7 @@ course,بالمساقات,بالمقررات,
 course,للمساق,للمقرر,
 course,للمساقات,للمقررات,
 course,مساقك,مقررك,
+course,مساقين,مقررين,
 course,مساقاتك,مقرراتك,
 course,بمساقك,بمقررك,
 course,بالمساق,بالمقرر,
@@ -26,9 +27,8 @@ course,بمساقات,بمقررات
 course,مساقاتنا,مقرراتنا
 course,أنشئمساق,أنشئ مقرراً
 course,اللمساق,المقرر
-course,أنشئ مساقاً باستخدام,أنشئ مقرراً باستخدام
 course,مساقاً,مقرراً
+course,مساقهم,مقررهم,
 Timed,مؤقّت,موقوت,
 Donate,تبرَّع,المركز,We do not support donations so we repurpose this page
 report_type,يتم الآن إنشاء التقرير,يرجى إنتظار عملية إنشاء التقرير,Add a please wait note
-

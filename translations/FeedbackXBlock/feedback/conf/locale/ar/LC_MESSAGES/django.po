@@ -1,21 +1,29 @@
-#
+# edX translation file.
+# Copyright (C) 2024 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2024.
+# 
+# Translators:
+# Omar Al-Ithawi <i@omardo.com>, 2024
+# Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-06 00:53+0000\n"
-"Last-Translator: Nathan Robertson, 2024\n"
+"PO-Revision-Date: 2024-05-09 18:48+0000\n"
+"Last-Translator: Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
-"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: feedback.py:28
 msgid "What did you learn from this? What was missing?"
-msgstr "ماذا تعلمت من هذا؟ ما كان في عداد المفقودين؟"
+msgstr "ماذا تعلمت؟ أَنَقَصَ شيء؟"
 
 #: feedback.py:29
 msgid "How would you rate this as a learning experience?"
@@ -52,15 +60,15 @@ msgstr "متوسّط"
 
 #: feedback.py:41 feedback.py:166
 msgid "Fair"
-msgstr "عدل"
+msgstr "مقبول"
 
 #: feedback.py:41 feedback.py:167
 msgid "Poor"
-msgstr "فقير"
+msgstr "متدني"
 
 #: feedback.py:76
 msgid "Freeform user prompt"
-msgstr "موجه المستخدم الحر"
+msgstr "إدخال حُرّ"
 
 #: feedback.py:82 feedback.py:98
 msgid "Random number generated for p. -1 if uninitialized"
@@ -84,11 +92,11 @@ msgstr "الآراء والملاحظات"
 
 #: feedback.py:110
 msgid "Display Name"
-msgstr "اسم العرض"
+msgstr "الاسم الظاهر"
 
 #: feedback.py:111
 msgid "Provide Feedback"
-msgstr "تقديم التغذية الراجعة"
+msgstr "قدِّم ملاحظات"
 
 #: feedback.py:116 templates/html/studio_view.html:17
 msgid "Voting message"
@@ -100,7 +108,7 @@ msgstr "شكرا لتصويتك!"
 
 #: feedback.py:122 templates/html/studio_view.html:25
 msgid "Feedback message"
-msgstr "رسالة ردود الفعل"
+msgstr "رسالة الملاحظات"
 
 #: feedback.py:123
 msgid "Thank you for your feedback!"
@@ -134,8 +142,8 @@ msgid "Please vote!"
 msgstr "الرجاء التصويت!"
 
 #: static/html/feedback_instructor.html:10
-msgid "Unit"
-msgstr "الوحدة"
+msgid "Component"
+msgstr "العنصر"
 
 #: static/html/feedback_instructor.html:13
 msgid "Number of ratings"
@@ -148,10 +156,6 @@ msgstr "متوسط تقييم"
 #: static/html/feedback_instructor.html:19
 msgid "Feedback "
 msgstr "تعليق "
-
-#: static/html/feedback_instructor.html:27
-msgid "See Unit"
-msgstr "انظر الوحدة"
 
 #: static/html/feedback_instructor.html:40
 msgid "Comment"
@@ -212,7 +216,7 @@ msgstr "ما إذا كان سيتم عرض التقرير الإجمالي لل�
 
 #: templates/html/studio_view.html:44
 msgid "Freeform prompt"
-msgstr "موجه حر"
+msgstr "إدخال حُرّ"
 
 #: templates/html/studio_view.html:47
 msgid "Example: Please provide us feedback on this section."
@@ -220,15 +224,15 @@ msgstr "مثال: يرجى تزويدنا بتعليقاتك على هذا ال�
 
 #: templates/html/studio_view.html:52
 msgid "Freeform placeholder"
-msgstr "عنصر نائب ذو شكل حر"
+msgstr "تلميح الإدخال الحُرّ"
 
 #: templates/html/studio_view.html:55
 msgid "This is shown as grayed out text before the student has answered."
-msgstr "يظهر هذا كنص باللون الرمادي قبل أن يجيب الطالب."
+msgstr "يظهر هذا النص باللون الرمادي قبل أن يجيب الطالب."
 
 #: templates/html/studio_view.html:60
 msgid "Likert icon set"
-msgstr "مجموعة أيقونات ليكرت"
+msgstr "مجموعة أيقونات Likert"
 
 #: templates/html/studio_view.html:62
 msgid "Faces (happy to sad)"
@@ -253,7 +257,7 @@ msgstr ""
 
 #: templates/html/studio_view.html:73
 msgid "Likert prompt"
-msgstr "موجه ليكرت"
+msgstr "محثّ Likert"
 
 #: templates/html/studio_view.html:76
 msgid "Example: Please rate your overall experience with this section."
@@ -261,7 +265,7 @@ msgstr "مثال: يرجى تقييم تجربتك الشاملة مع هذا ا
 
 #: templates/html/studio_view.html:81
 msgid "Likert option 1"
-msgstr "خيار ليكرت 1"
+msgstr "خيار 1 من Likert"
 
 #: templates/html/studio_view.html:84
 msgid "Example: Excellent!"
@@ -269,7 +273,7 @@ msgstr "مثال: ممتاز!"
 
 #: templates/html/studio_view.html:89
 msgid "Likert option 2"
-msgstr "خيار ليكرت 2"
+msgstr "خيار 2 من Likert"
 
 #: templates/html/studio_view.html:92
 msgid "Example: Good"
@@ -277,7 +281,7 @@ msgstr "مثال: جيد"
 
 #: templates/html/studio_view.html:97
 msgid "Likert option 3"
-msgstr "خيار ليكرت 3"
+msgstr "خيار 3 من Likert"
 
 #: templates/html/studio_view.html:100
 msgid "Example: Average"
@@ -285,7 +289,7 @@ msgstr "مثال: متوسط"
 
 #: templates/html/studio_view.html:105
 msgid "Likert option 4"
-msgstr "خيار ليكرت 4"
+msgstr "خيار 4 من Likert"
 
 #: templates/html/studio_view.html:108
 msgid "Example: Fair"
@@ -293,11 +297,11 @@ msgstr "مثال: عادل"
 
 #: templates/html/studio_view.html:113
 msgid "Likert option 5"
-msgstr "خيار ليكرت 5"
+msgstr "خيار 5 من Likert"
 
 #: templates/html/studio_view.html:116
 msgid "Example: Poor"
-msgstr "مثال: فقير"
+msgstr "مثال: متدني"
 
 #: templates/html/studio_view.html:123
 msgid "Save"
@@ -305,4 +309,4 @@ msgstr "حفظ"
 
 #: templates/html/studio_view.html:126
 msgid "Cancel"
-msgstr "لا"
+msgstr "الغِ"
