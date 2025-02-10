@@ -4,7 +4,6 @@ Reword translations.
 This scripts reads a root directory and presumes the following structure:
 
  - translations-upstream/  # The main unmodified translations structure similar to the `openedx/openedx-translations:translations` directory.
- - translation-overrides/  # The same structure of the above files, but it contains only overridden files.
 """
 
 from typing import List
@@ -13,7 +12,6 @@ import subprocess
 import sys
 from pathlib import Path
 import csv
-import polib
 import re
 from dataclasses import dataclass
 
@@ -32,36 +30,28 @@ class Reword:
     arabic_replacement: str
     note: str
 
-    def is_english_loose_match(self, entry: polib.POEntry) -> bool:
-        """
-        Case-insensitive check for a word without checking for word boundary.
-        """
-        return self.english_word.lower() in entry.msgid.lower()
-
     def replace_words(self, s) -> str:
         """
         Strictly replace words without crossing word boundaries.
         """
         return replace_words(s, self.arabic_word, self.arabic_replacement)
 
-    def is_arabic_strict_match(self, entry: polib.POEntry) -> bool:
+    def is_arabic_strict_match(self, file_path: str) -> bool:
         """
         Strictly match against self.arabic_word without crossing word boundaries.
         """
-        has_match = contains_word(entry.msgstr, self.arabic_word)
+        with open(file_path) as fr:
+            for line in fr:
+                if contains_word(line, self.arabic_word):
+                    return True
 
-        for index in sorted(entry.msgstr_plural.keys()):
-            has_match = has_match or contains_word(entry.msgstr_plural[index], self.arabic_word)
+    def reword_file(self, lines: List[str]) -> List[str]:
+        new_content_lines = [
+            self.replace_words(line)
+            for line in lines
+        ]
 
-        return has_match
-
-    def reword_entry(self, entry: polib.POEntry) -> polib.POEntry:
-        entry.msgstr = self.replace_words(entry.msgstr)
-
-        for index in sorted(entry.msgstr_plural.keys()):
-            entry.msgstr_plural[index] = self.replace_words(entry.msgstr_plural[index])
-
-        return entry
+        return new_content_lines
 
 
 def replace_words(s, word, replacement) -> str:
@@ -98,38 +88,18 @@ def get_reword_list(reword_csv_file: Path):
 
 def create_overrides_po_file(
     source: Path,
-    overrides_dest: Path,
     combined_dest: Path,
     reword_list: List[Reword],
 ):
-    source_po = polib.pofile(str(source))
-    overrides_dest_po = polib.POFile()
-    overrides_dest_po.metadata = source_po.metadata
-    combined_dest_po = polib.POFile()
-    combined_dest_po.metadata = source_po.metadata
-
     print(f'## Rewording: {source}  ##')
 
-    for entry in source_po.translated_entries():
-        has_reword = False
-
+    with source.open() as source_f:
+        lines = source_f.readlines()
         for reword in reword_list:
-            if reword.is_arabic_strict_match(entry):
-                if not reword.is_english_loose_match(entry):
-                    print(
-                        f'    NOTICE: Could not find English word "{reword.english_word}" in "{entry.msgid}" despite '
-                        f'having "{reword.arabic_word}" in translation.'
-                    )
+            lines = reword.reword_file(lines)
 
-                has_reword = True
-                entry = reword.reword_entry(entry)
-
-        combined_dest_po.append(entry)
-        if has_reword:
-            overrides_dest_po.append(entry)
-
-    overrides_dest_po.save(str(overrides_dest))
-    combined_dest_po.save(str(combined_dest))
+        with combined_dest.open('w') as combined_dest_f:
+            combined_dest_f.writelines(lines)
 
 
 def verify_course_translation(path: Path):
@@ -146,22 +116,6 @@ def verify_course_translation(path: Path):
             )
 
 
-def verify_all_translations(path: Path, reword_list: List[Reword]):
-    """
-    Ensure the file don't contain the unneeded words.
-    """
-    po_file = polib.pofile(str(path))
-
-    for entry in po_file.translated_entries():
-        for reword in reword_list:
-            if reword.is_arabic_strict_match(entry):
-                raise ValidationError(
-                    f'Error: The "{path}" file has the following reword entries unprocessed: "{reword.arabic_word}". \n'
-                    f'       msgid: "{entry.msgid}". \n'
-                    f'       msgstr: "{entry.msgstr}". \n'
-                )
-
-
 def main(repo_root, *_argv):
     repo_root = Path(repo_root)
     reword_csv_file = repo_root / 'scripts/reword_list.csv'
@@ -169,27 +123,21 @@ def main(repo_root, *_argv):
     reword_list = get_reword_list(reword_csv_file)
 
     upstream_translations_dir = repo_root / 'translations-upstream'
-    translation_overrides_dir = repo_root / 'translation-overrides'
     updated_translations_dir = repo_root / 'translations'
 
     translation_paths = get_translation_relative_paths(upstream_translations_dir)
 
     for translation_path in translation_paths:
-        overrides_dest = translation_overrides_dir / translation_path
-        mk_parents(overrides_dest)
         combined_dest = updated_translations_dir / translation_path
         mk_parents(combined_dest)
 
         create_overrides_po_file(
             source=upstream_translations_dir / translation_path,
-            overrides_dest=overrides_dest,
             combined_dest=combined_dest,
             reword_list=reword_list,
         )
 
-        verify_course_translation(path=overrides_dest)
         verify_course_translation(path=combined_dest)
-        verify_all_translations(path=overrides_dest, reword_list=reword_list)
 
     print('Finished rewording successfully')
 
