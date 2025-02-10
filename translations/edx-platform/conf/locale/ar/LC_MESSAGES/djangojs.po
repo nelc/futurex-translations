@@ -1,18 +1,35 @@
-#
+# #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
+# edX translation file.
+# Copyright (C) 2024 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2024.
+# 
+# #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# 
+# Translators:
+# Omar Al-Ithawi <i@omardo.com>, 2024
+# Brian Smith, 2024
+# Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-29 00:34+0000\n"
 "PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: Brian Smith, 2024\n"
-"Language-Team: Arabic (https://app.transifex.com/open-edx/teams/147691/ar/)\n"
-"Language: ar\n"
+"Last-Translator: Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024\n"
+"Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Generated-By: Babel 2.14.0\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: cms/static/cms/js/main.js:38
 #: cms/static/js/views/active_video_upload_list.js:36
@@ -454,7 +471,7 @@ msgstr "يُرجى إدخال عدد صحيح غير سالب."
 
 #: cms/static/js/models/settings/course_grader.js:66
 msgid "You must have at least one undroppable <%- types %> assignment."
-msgstr "يجب أن يكون لديك واجب واحد على الأقل غير قابل للإسقاط <%- types %>."
+msgstr "يجب أن يكون لديك واجب <%- types %> واحد على الأقل لا يمكن تجاهله."
 
 #: cms/static/js/models/settings/course_grading_policy.js:79
 msgid "Grace period must be specified in HH:MM format."
@@ -689,7 +706,7 @@ msgstr "نسخ"
 
 #: cms/static/js/views/course_outline.js:328
 msgid "Copy of '{componentDisplayName}'"
-msgstr "نسخة من &#39;{componentDisplayName}&#39;"
+msgstr "نسخة عن '{componentDisplayName}'"
 
 #: cms/static/js/views/course_outline.js:364
 #: cms/static/js/views/pages/container.js:285
@@ -890,12 +907,12 @@ msgstr "نأسف لحدوث خطأ في عملية التصدير التي أج�
 #: cms/static/js/views/group_configuration_details.js:71
 msgid "Contains {count} group"
 msgid_plural "Contains {count} groups"
-msgstr[0] "يحتوي على مجموعات {count}"
-msgstr[1] "يحتوي على مجموعة {count}"
-msgstr[2] "يحتوي على مجموعات {count}"
-msgstr[3] "يحتوي على مجموعات {count}"
-msgstr[4] "يحتوي على مجموعات {count}"
-msgstr[5] "يحتوي على مجموعات {count}"
+msgstr[0] "لا يحوي أيّ مجموعة"
+msgstr[1] "يحوي مجموعة واحدة"
+msgstr[2] "يحوي مجموعتين"
+msgstr[3] "يحوي {count} مجموعات"
+msgstr[4] "يحوي {count} مجموعة"
+msgstr[5] "يحوي {count} مجموعة"
 
 #: cms/static/js/views/group_configuration_details.js:82
 #: cms/static/js/views/partition_group_details.js:66
@@ -910,12 +927,12 @@ msgstr "ليس قيد الاستخدام"
 #: cms/static/js/views/partition_group_details.js:74
 msgid "Used in {count} location"
 msgid_plural "Used in {count} locations"
-msgstr[0] "يستخدم في مواقع {count}"
-msgstr[1] "مستخدم في موقع {count}"
-msgstr[2] "يستخدم في مواقع {count}"
-msgstr[3] "يستخدم في مواقع {count}"
-msgstr[4] "يستخدم في مواقع {count}"
-msgstr[5] "يستخدم في مواقع {count}"
+msgstr[0] "غير مُستخدَم في أيّ موضع"
+msgstr[1] "مُستخدَم في موضع واحد"
+msgstr[2] "مُستخدَم في موضعين"
+msgstr[3] "مُستخدَم في {count} مواضع"
+msgstr[4] "مُستخدَم في {count} موضعاً"
+msgstr[5] "مُستخدَم في {count} موضع"
 
 #. Translators: this refers to a collection of groups.
 #: cms/static/js/views/group_configuration_item.js:26
@@ -1202,7 +1219,7 @@ msgstr "عنصر"
 
 #: cms/static/js/views/modals/edit_xblock.js:180
 msgid "Studio's having trouble parsing the problem component's content"
-msgstr "يواجه الاستوديو مشكلة في تحليل محتوى عنصر المشكلة"
+msgstr "يواجه الاستوديو مشكلة في تحليل محتوى مكون المسألة"
 
 #: cms/static/js/views/modals/move_xblock_modal.js:37
 msgid "Move"
@@ -1515,16 +1532,16 @@ msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%- limit %> characters."
 msgstr ""
-"لا يمكن أن يزيد مجموع الأحرف في حقول المؤسسة ورقم الدورة وفترة طرح الدورة "
-"أكثر من <%- limit %> من الأحرف."
+"لا يمكن أن يزيد مجموع الحروف في حقول المؤسسة ورقم المقرر ومدة المقرر أكثر من"
+" <%- limit %> من الحروف."
 
 #: cms/static/js/views/utils/create_library_utils.js:9
 msgid ""
 "The combined length of the organization and library code fields cannot be "
 "more than <%- limit %> characters."
 msgstr ""
-"لا يمكن أن يزيد مجموع الأحرف في حقلي المؤسسة ورمز المكتبة عن <%- limit %> "
-"حرفًا."
+"لا يمكن أن يزيد مجموع الحروف في حقلي المؤسسة ورمز المكتبة عن <%- limit %> من"
+" الحروف."
 
 #: cms/static/js/views/utils/move_xblock_utils.js:33
 msgid "Success! \"{displayName}\" has been moved."
@@ -1950,22 +1967,22 @@ msgstr "تم حذف الصورة"
 #: common/static/common/js/discussion/views/discussion_content_view.js:285
 msgid "there is currently {numVotes} vote"
 msgid_plural "there are currently {numVotes} votes"
-msgstr[0] "يوجد حاليا {numVotes} الأصوات"
-msgstr[1] "يوجد حاليًا تصويت {numVotes}"
-msgstr[2] "يوجد حاليا {numVotes} الأصوات"
-msgstr[3] "يوجد حاليا {numVotes} الأصوات"
-msgstr[4] "يوجد حاليا {numVotes} الأصوات"
-msgstr[5] "يوجد حاليا {numVotes} الأصوات"
+msgstr[0] "لا توجد أصوات في الوقت الحالي"
+msgstr[1] "يوجد حاليا صوت واحد"
+msgstr[2] "يوجد حاليا صوتان"
+msgstr[3] "يوجد حالياً {numVotes} أصوات"
+msgstr[4] "يوجد حالياً {numVotes} صوتًا"
+msgstr[5] "يوجد حالياً {numVotes} صوت"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:291
 msgid "{numVotes} Vote"
 msgid_plural "{numVotes} Votes"
-msgstr[0] "{numVotes} الأصوات"
-msgstr[1] "{numVotes} التصويت"
-msgstr[2] "{numVotes} الأصوات"
-msgstr[3] "{numVotes} الأصوات"
-msgstr[4] "{numVotes} الأصوات"
-msgstr[5] "{numVotes} الأصوات"
+msgstr[0] "لا أصوات"
+msgstr[1] "صوت واحد"
+msgstr[2] "صوتان"
+msgstr[3] "{numVotes} أصوات"
+msgstr[4] "{numVotes} صوتًا"
+msgstr[5] "{numVotes} صوت"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:359
 msgid ""
@@ -2102,22 +2119,22 @@ msgstr "تعذر تحميل ردود إضافية، يُرجى تحديث الص
 #: common/static/common/js/discussion/views/discussion_thread_view.js:251
 msgid "{numResponses} other response"
 msgid_plural "{numResponses} other responses"
-msgstr[0] "{numResponses} ردود أخرى"
-msgstr[1] "{numResponses} استجابة أخرى"
-msgstr[2] "{numResponses} ردود أخرى"
+msgstr[0] "لا ردود أخرى"
+msgstr[1] "ردّ واحد آخر"
+msgstr[2] "ردّان آخران"
 msgstr[3] "{numResponses} ردود أخرى"
-msgstr[4] "{numResponses} ردود أخرى"
-msgstr[5] "{numResponses} ردود أخرى"
+msgstr[4] "{numResponses} ردًّا آخر"
+msgstr[5] "{numResponses} ردّ آخر"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:258
 msgid "{numResponses} response"
 msgid_plural "{numResponses} responses"
-msgstr[0] "ردود {numResponses}"
-msgstr[1] "استجابة {numResponses}"
-msgstr[2] "ردود {numResponses}"
-msgstr[3] "ردود {numResponses}"
-msgstr[4] "ردود {numResponses}"
-msgstr[5] "ردود {numResponses}"
+msgstr[0] "لا ردود"
+msgstr[1] "ردّ واحد"
+msgstr[2] "ردّان"
+msgstr[3] "{numResponses} ردود"
+msgstr[4] "{numResponses} ردًّا"
+msgstr[5] "{numResponses} ردّ"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:270
 msgid "Showing all responses"
@@ -2126,12 +2143,12 @@ msgstr "إظهار كافة الردود"
 #: common/static/common/js/discussion/views/discussion_thread_view.js:274
 msgid "Showing first response"
 msgid_plural "Showing first {numResponses} responses"
-msgstr[0] "عرض ردود {numResponses} الأولى"
-msgstr[1] "إظهار الرد الأول"
-msgstr[2] "عرض ردود {numResponses} الأولى"
-msgstr[3] "عرض ردود {numResponses} الأولى"
-msgstr[4] "عرض ردود {numResponses} الأولى"
-msgstr[5] "عرض ردود {numResponses} الأولى"
+msgstr[0] "لا تُعرَض أول ردود"
+msgstr[1] "يُعرض أول ردّ"
+msgstr[2] "يُعرض أول ردّان"
+msgstr[3] "تُعرض أول {numResponses} ردود"
+msgstr[4] "يُعرض أول {numResponses} ردًّا"
+msgstr[5] "يُعرض أول {numResponses} ردّ"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:287
 msgid "Load all responses"
@@ -2227,10 +2244,10 @@ msgstr "حوالي دقيقة"
 #, javascript-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d دقيقة"
-msgstr[1] "%d دقيقة"
-msgstr[2] "%d دقيقة"
-msgstr[3] "%d دقيقة"
+msgstr[0] "لا دقايق"
+msgstr[1] "دقيقة واحدة"
+msgstr[2] "دقيقتان"
+msgstr[3] "%d دقائق"
 msgstr[4] "%d دقيقة"
 msgstr[5] "%d دقيقة"
 
@@ -2242,10 +2259,10 @@ msgstr "حوالي ساعة"
 #, javascript-format
 msgid "about %d hour"
 msgid_plural "about %d hours"
-msgstr[0] "حوالي %d ساعة"
-msgstr[1] "حوالي %d ساعة"
-msgstr[2] "حوالي %d ساعة"
-msgstr[3] "حوالي %d ساعة"
+msgstr[0] "حوالي %d ساعات"
+msgstr[1] "حوالي ساعة واحدة"
+msgstr[2] "حوالي ساعتين"
+msgstr[3] "حوالي %d ساعات"
 msgstr[4] "حوالي %d ساعة"
 msgstr[5] "حوالي %d ساعة"
 
@@ -2257,12 +2274,12 @@ msgstr "يوم واحد"
 #, javascript-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "%d أيام"
-msgstr[1] "%d يوم"
-msgstr[2] "%d أيام"
+msgstr[0] "لا أيام"
+msgstr[1] "يوم واحد"
+msgstr[2] "يومين"
 msgstr[3] "%d أيام"
-msgstr[4] "%d أيام"
-msgstr[5] "%d أيام"
+msgstr[4] "%d يوماً"
+msgstr[5] "%d يوم"
 
 #: common/static/js/src/jquery.timeago.locale.js:13
 msgid "about a month"
@@ -2272,12 +2289,12 @@ msgstr "حوالي دقيقة"
 #, javascript-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "%d أشهر"
-msgstr[1] "%d شهر"
-msgstr[2] "%d أشهر"
-msgstr[3] "%d أشهر"
-msgstr[4] "%d أشهر"
-msgstr[5] "%d أشهر"
+msgstr[0] "لا شهور"
+msgstr[1] "شهر واحد"
+msgstr[2] "شهرين"
+msgstr[3] "%d شهور"
+msgstr[4] "%d شهراً"
+msgstr[5] "%d شهر"
 
 #: common/static/js/src/jquery.timeago.locale.js:15
 msgid "about a year"
@@ -2287,10 +2304,10 @@ msgstr "حوالي دقيقة"
 #, javascript-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] "%d سنة"
-msgstr[1] "%d سنة"
-msgstr[2] "%d سنة"
-msgstr[3] "%d سنة"
+msgstr[0] "لا سنوات"
+msgstr[1] "سنة واحدة"
+msgstr[2] "سنتين"
+msgstr[3] "%d سنوات"
 msgstr[4] "%d سنة"
 msgstr[5] "%d سنة"
 
@@ -2733,12 +2750,12 @@ msgstr "لا يمكن الانضمام إلى الفريق تحت إدارة ا�
 #: lms/djangoapps/teams/static/teams/js/views/team_utils.js:35
 msgid " Member"
 msgid_plural " Members"
-msgstr[0] " أعضاء"
-msgstr[1] " عضو"
-msgstr[2] " أعضاء"
+msgstr[0] "لا أعضاء"
+msgstr[1] " عضو واحد"
+msgstr[2] "عضوين"
 msgstr[3] " أعضاء"
-msgstr[4] " أعضاء"
-msgstr[5] " أعضاء"
+msgstr[4] "عضواً"
+msgstr[5] " عضو"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams.js:16
 msgid "All teams"
@@ -2867,12 +2884,12 @@ msgstr "الفريق \"{team}\" غير موجود."
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js:28
 msgid "{team_count} Team"
 msgid_plural "{team_count} Teams"
-msgstr[0] "فرق {team_count}"
-msgstr[1] "فريق {team_count}"
-msgstr[2] "فرق {team_count}"
-msgstr[3] "فرق {team_count}"
-msgstr[4] "فرق {team_count}"
-msgstr[5] "فرق {team_count}"
+msgstr[0] "لا فِرَق"
+msgstr[1] "فريق واحد"
+msgstr[2] "فريقان"
+msgstr[3] "{team_count} فرق"
+msgstr[4] "{team_count} فريقاً"
+msgstr[5] "{team_count} فريق"
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js:50
 msgid "Topic"
@@ -2983,12 +3000,12 @@ msgstr "يُرجى إضافة رابط صحيح."
 #: lms/static/js/Markdown.Editor.js:1062
 msgid "%(errorCount)s error found in form."
 msgid_plural "%(errorCount)s errors found in form."
-msgstr[0] "تم العثور على أخطاء %(errorCount)s في النموذج."
-msgstr[1] "تم العثور على خطأ %(errorCount)s في النموذج."
-msgstr[2] "تم العثور على أخطاء %(errorCount)s في النموذج."
-msgstr[3] "تم العثور على أخطاء %(errorCount)s في النموذج."
-msgstr[4] "تم العثور على أخطاء %(errorCount)s في النموذج."
-msgstr[5] "تم العثور على أخطاء %(errorCount)s في النموذج."
+msgstr[0] "لم يُعثَر على أخطاء في النموذج."
+msgstr[1] "عُثِرَ على خطأ واحد في النموذج."
+msgstr[2] "عُثِرَ على خطأين في النموذج."
+msgstr[3] "عُثِرَ على %(errorCount)s أخطاء في النموذج."
+msgstr[4] "عُثِرَ على %(errorCount)s خطأ في النموذج."
+msgstr[5] "عُثِرَ على %(errorCount)s خطأ في النموذج."
 
 #: lms/static/js/Markdown.Editor.js:1451
 msgid "Bold (Ctrl+B)"
@@ -3409,7 +3426,7 @@ msgid ""
 "your background. You can always edit this information later in Account "
 "Settings."
 msgstr ""
-"مرحبًا بك في إيديكس! قبل البدء، يرجى تخصيص بضع دقائق لملء المعلومات الإضافية"
+"مرحبًا بك في إيديكس! قبل البدء، نرجو تخصيص بضع دقائق لملء المعلومات الإضافية"
 " أدناه لمساعدتنا في فهم المزيد عن خلفيتك. يمكنك دائمًا تعديل هذه المعلومات "
 "لاحقًا في إعدادات الحساب."
 
@@ -3430,12 +3447,12 @@ msgstr "إغلاق الاستبيان"
 #, javascript-format
 msgid "Viewing %s course"
 msgid_plural "Viewing %s courses"
-msgstr[0] "عرض دورات %s"
-msgstr[1] "عرض دورة %s"
-msgstr[2] "عرض دورات %s"
-msgstr[3] "عرض دورات %s"
-msgstr[4] "عرض دورات %s"
-msgstr[5] "عرض دورات %s"
+msgstr[0] "لا يجري عرض أيّ مقرر"
+msgstr[1] "يجري عرض مقرر واحد"
+msgstr[2] "يجري عرض مقررين"
+msgstr[3] "يجري عرض %s مقررات"
+msgstr[4] "يجري عرض %s مقرراً"
+msgstr[5] "يجري عرض %s مقرر"
 
 #: lms/static/js/discovery/views/search_form.js:57
 #, javascript-format
@@ -3622,32 +3639,32 @@ msgstr "يُرجى إدخال اسم مستخدم أو عنوان بريد إل�
 #: lms/static/js/groups/views/cohort_editor.js:175
 msgid "{numUsersAdded} learner has been added to this cohort. "
 msgid_plural "{numUsersAdded} learners have been added to this cohort. "
-msgstr[0] "تمت إضافة متعلمي {numUsersAdded} إلى هذه المجموعة. "
-msgstr[1] "تمت إضافة المتعلم {numUsersAdded} إلى هذه المجموعة. "
-msgstr[2] "تمت إضافة متعلمي {numUsersAdded} إلى هذه المجموعة. "
-msgstr[3] "تمت إضافة متعلمي {numUsersAdded} إلى هذه المجموعة. "
-msgstr[4] "تمت إضافة متعلمي {numUsersAdded} إلى هذه المجموعة. "
-msgstr[5] "تمت إضافة متعلمي {numUsersAdded} إلى هذه المجموعة. "
+msgstr[0] "لم يُضَف أيّ متعلم إلى هذه الشُعبة. "
+msgstr[1] "أُضيفَ متعلم واحد إلى هذه الشُعبة. "
+msgstr[2] "أُضيفَ مُتعلمان اثنان إلى هذه الشُعبة. "
+msgstr[3] "أُضيفَ {numUsersAdded} متعلمين إلى هذه الشُعبة. "
+msgstr[4] "أُضيفَ {numUsersAdded} متعلماً إلى هذه الشُعبة. "
+msgstr[5] "أُضيفَ {numUsersAdded} متعلم إلى هذه الشُعبة. "
 
 #: lms/static/js/groups/views/cohort_editor.js:195
 msgid "{numMoved} learner was moved from {prevCohort}"
 msgid_plural "{numMoved} learners were moved from {prevCohort}"
-msgstr[0] "{numMoved} تم نقل المتعلمين من {prevCohort}"
-msgstr[1] "{numMoved} تم نقل المتعلم من {prevCohort}"
-msgstr[2] "{numMoved} تم نقل المتعلمين من {prevCohort}"
-msgstr[3] "{numMoved} تم نقل المتعلمين من {prevCohort}"
-msgstr[4] "{numMoved} تم نقل المتعلمين من {prevCohort}"
-msgstr[5] "{numMoved} تم نقل المتعلمين من {prevCohort}"
+msgstr[0] "لّم يُنقَل أحد من المتعلمين من {prevCohort}"
+msgstr[1] "نُقِلَ {numMoved} من المتعلمين من {prevCohort}"
+msgstr[2] "نُقِلَ {numMoved} من المتعلمين من {prevCohort}"
+msgstr[3] "نُقِلَ {numMoved} من المتعلمين من {prevCohort}"
+msgstr[4] "نُقِلَ {numMoved} من المتعلمين من {prevCohort}"
+msgstr[5] "نُقِلَ {numMoved} من المتعلمين من {prevCohort}"
 
 #: lms/static/js/groups/views/cohort_editor.js:205
 msgid "{numPresent} learner was already in the cohort"
 msgid_plural "{numPresent} learners were already in the cohort"
-msgstr[0] "كان المتعلمون {numPresent} موجودين بالفعل في المجموعة"
-msgstr[1] "كان المتعلم {numPresent} موجودًا بالفعل في المجموعة"
-msgstr[2] "كان المتعلمون {numPresent} موجودين بالفعل في المجموعة"
-msgstr[3] "كان المتعلمون {numPresent} موجودين بالفعل في المجموعة"
-msgstr[4] "كان المتعلمون {numPresent} موجودين بالفعل في المجموعة"
-msgstr[5] "كان المتعلمون {numPresent} موجودين بالفعل في المجموعة"
+msgstr[0] "لم يكُن أيُّ متعلم موجوداً في الشُعبة من قبل"
+msgstr[1] "كان متعلم واحد موجوداً بالفعل في الشُعبة"
+msgstr[2] "كانمتعلمان موجودَين بالفعل في الشُعبة"
+msgstr[3] "كان {numPresent} متعلمين موجودين بالفعل في الشُعبة"
+msgstr[4] "كان {numPresent} متعلماً موجودين بالفعل في الشُعبة"
+msgstr[5] "كان {numPresent} متعلم موجودين بالفعل في الشُعبة"
 
 #: lms/static/js/groups/views/cohort_editor.js:231
 msgid "{email}"
@@ -3661,23 +3678,23 @@ msgid_plural ""
 "{numPreassigned} learners were pre-assigned for this cohort. These learners "
 "will automatically be added to the cohort when they enroll in the course."
 msgstr[0] ""
-"تم تعيين متعلمي {numPreassigned} مسبقًا لهذه المجموعة. سيتم إضافة هؤلاء "
-"المتعلمين تلقائيًا إلى المجموعة عند تسجيلهم في الدورة التدريبية."
+"لَم يكُن أيّ متعلم مُدرَجاً في هذه الشُعبة من قبل. لن تتم إضافة أحد تلقائيًا"
+" إلى الشُعبة عند تسجيله في المقرر."
 msgstr[1] ""
-"تم تعيين متعلم {numPreassigned} مسبقًا لهذه المجموعة. ستتم إضافة هذا المتعلم"
-" تلقائيًا إلى المجموعة عند تسجيله في الدورة التدريبية."
+"كان متعلمٌ واحدٌ مُدرَجاً في هذه الشُعبة من قبل. ستتم إضافة هؤلاء المتعلمين "
+"تلقائيًا إلى الشُعبة عند تسجيلهم في المقرر."
 msgstr[2] ""
-"تم تعيين متعلمي {numPreassigned} مسبقًا لهذه المجموعة. سيتم إضافة هؤلاء "
-"المتعلمين تلقائيًا إلى المجموعة عند تسجيلهم في الدورة التدريبية."
+"كان متعلمان مُدرَجان في هذه الشُعبة من قبل. ستتم إضافة هؤلاء المتعلمين "
+"تلقائيًا إلى الشُعبة عند تسجيلهم في المقرر."
 msgstr[3] ""
-"تم تعيين متعلمي {numPreassigned} مسبقًا لهذه المجموعة. سيتم إضافة هؤلاء "
-"المتعلمين تلقائيًا إلى المجموعة عند تسجيلهم في الدورة التدريبية."
+"كان {numPreassigned} متعلمين مُدرَجين في هذه الشُعبة من قبل. ستتم إضافة "
+"هؤلاء المتعلمين تلقائيًا إلى الشُعبة عند تسجيلهم في المقرر."
 msgstr[4] ""
-"تم تعيين متعلمي {numPreassigned} مسبقًا لهذه المجموعة. سيتم إضافة هؤلاء "
-"المتعلمين تلقائيًا إلى المجموعة عند تسجيلهم في الدورة التدريبية."
+"كان {numPreassigned} متعلماً مُدرَجاً في هذه الشُعبة من قبل. ستتم إضافة "
+"هؤلاء المتعلمين تلقائيًا إلى الشُعبة عند تسجيلهم في المقرر."
 msgstr[5] ""
-"تم تعيين متعلمي {numPreassigned} مسبقًا لهذه المجموعة. سيتم إضافة هؤلاء "
-"المتعلمين تلقائيًا إلى المجموعة عند تسجيلهم في الدورة التدريبية."
+"كان {numPreassigned} متعلمٍ مُدرَجين في هذه الشُعبة من قبل. ستتم إضافة هؤلاء"
+" المتعلمين تلقائيًا إلى الشُعبة عند تسجيلهم في المقرر."
 
 #: lms/static/js/groups/views/cohort_editor.js:276
 msgid "Unknown username: {user}"
@@ -3689,7 +3706,7 @@ msgstr "عنوان البريد الإلكتروني غير صالح: {email}"
 
 #: lms/static/js/groups/views/cohort_editor.js:284
 msgid "Cohort assignment not allowed: {email_or_username}"
-msgstr "تعيين المجموعة النموذجية غير مسموح به: {email_or_username}"
+msgstr "إدراجه في السُعبة غير مسموح: {email_or_username}"
 
 #: lms/static/js/groups/views/cohort_editor.js:291
 msgid "There was an error when trying to add learners:"
@@ -3989,7 +4006,7 @@ msgstr ""
 #: lms/static/js/instructor_dashboard/membership.js:518
 #: lms/static/js/instructor_dashboard/membership.js:728
 msgid "This field must not be blank"
-msgstr "يجب ألا يكون هذا الحقل فارغا"
+msgstr "يجب ألن لا يكون هذا الحقل خالياً"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:534
@@ -4059,8 +4076,8 @@ msgid ""
 "Email cannot be sent to the following users via batch enrollment. They will "
 "be allowed to enroll once they register:"
 msgstr ""
-"لا يمكن إرسال البريد الإلكتروني إلى المستخدمين التالين عبر التسجيل المجمّع. "
-"سيسمح لهم بالتسجيل بمجرد التسجيل:"
+"لا يمكن إرسال البريد الإلكتروني إلى المستخدمين التالين عبر التسجيل في المقرر"
+" ضمن مجموعة. سيسمح لهم بالتسجيل في المقرر بمجرد تسجيلهم في المنصة:"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:804
@@ -4073,8 +4090,8 @@ msgid ""
 "Email cannot be sent to the following users via batch enrollment. They will "
 "be enrolled once they register:"
 msgstr ""
-"لا يمكن إرسال البريد الإلكتروني إلى المستخدمين التالين عبر التسجيل المجمّع. "
-"سيتم تسجيلهم بمجرد تسجيلهم:"
+"لا يمكن إرسال البريد الإلكتروني إلى المستخدمين التالين عبر التسجيل في المقرر"
+" ضمن مجموعة. سيتم تسجيلهم في المقرر بمجرد تسجيلهم في المنصة:"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:828
@@ -4552,7 +4569,7 @@ msgstr ""
 
 #: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:123
 msgid "You have access to the {enterpriseName} dashboard"
-msgstr "لديك حق الوصول إلى لوحة القيادة {enterpriseName}"
+msgstr "لديك حق الوصول إلى اللوحة الرئيسية لـ {enterpriseName}"
 
 #: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:132
 msgid ""
@@ -4596,7 +4613,7 @@ msgstr "ينتهي بتاريخ {end}"
 
 #: lms/static/js/learner_dashboard/models/program_subscription_model.js:29
 msgid "${price}/month {currency}"
-msgstr "{price} دولار أمريكي / شهر {currency}"
+msgstr "${price} {currency} شهريًّا"
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:220
 msgid "You must select a session to access the course."
@@ -4652,11 +4669,11 @@ msgstr ""
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js:39
 msgid "View program"
-msgstr "مشاهدة البرنامج"
+msgstr "اعرِض البرنامج"
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js:42
 msgid "Enroll in a {programName}'s course"
-msgstr "التسجيل في دورة {programName} ل"
+msgstr "سجِّل في أحد مقررات {programName}"
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js:48
 msgid ""
@@ -4664,8 +4681,8 @@ msgid ""
 "enrolled in any courses. Enroll in a remaining course and enjoy verified "
 "access."
 msgstr ""
-"لديك اشتراك نشط في برنامج {programName} لكنك غير مسجل في أي دورات. قم "
-"بالتسجيل في الدورة التدريبية المتبقية واستمتع بوصول تم التحقق منه."
+"لديك اشتراك نشط في برنامج {programName} لكنك غير مسجل في أي مقرر. سجِّل في "
+"المقررات المتبقية وتمتّع بوصول إلى مقرر موثّق."
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js:53
 msgid ""
@@ -4673,31 +4690,31 @@ msgid ""
 "your {programName} program subscription. Enroll in a course from the "
 "{i_start}Program Details{i_end} page."
 msgstr ""
-"وفقًا لسجلاتنا ، أنت غير مسجل في أي دورات مضمنة في اشتراكك في برنامج "
-"{programName}. سجل في دورة من صفحة {i_start} تفاصيل البرنامج {i_end}."
+"وفقًا لسجلاتنا، أنت غير مسجل في أي مقرر يشمله اشتراكك في برنامج "
+"{programName}. سجل في مقرر من خلال صفحة {i_start} تفاصيل البرنامج {i_end}."
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js:67
 msgid "Subscription trial expires in less than 24 hours"
-msgstr "تنتهي الفترة التجريبية للاشتراك في أقل من 24 ساعة"
+msgstr "ستنتهي الاشتراك التجريبي خلال أقل من 24 ساعة"
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js:69
 msgid "Subscription trial expires in {remainingDays} day"
 msgid_plural "Subscription trial expires in {remainingDays} days"
-msgstr[0] "تنتهي صلاحية النسخة التجريبية للاشتراك خلال {remainingDays} يومًا"
-msgstr[1] "تنتهي صلاحية النسخة التجريبية للاشتراك خلال يوم {remainingDays}"
-msgstr[2] "تنتهي صلاحية النسخة التجريبية للاشتراك خلال {remainingDays} يومًا"
-msgstr[3] "تنتهي صلاحية النسخة التجريبية للاشتراك خلال {remainingDays} يومًا"
-msgstr[4] "تنتهي صلاحية النسخة التجريبية للاشتراك خلال {remainingDays} يومًا"
-msgstr[5] "تنتهي صلاحية النسخة التجريبية للاشتراك خلال {remainingDays} يومًا"
+msgstr[0] "سينتهي الاشتراك التجريبي خلال أقل من يَوم"
+msgstr[1] "سينتهي الاشتراك التجريبي خلال يوم واحد"
+msgstr[2] "سينتهي الاشتراك التجريبي خلال {remainingDays} يومَين"
+msgstr[3] "سينتهي الاشتراك التجريبي خلال {remainingDays} أيام"
+msgstr[4] "سينتهي الاشتراك التجريبي خلال {remainingDays} يوماً"
+msgstr[5] "سينتهي الاشتراك التجريبي خلال {remainingDays} يوم"
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js:75
 msgid ""
 "Your {programName} trial will expire at {trialEndTime} on {trialEndDate} and"
 " the card on file will be charged {subscriptionPrice}."
 msgstr ""
-"ستنتهي صلاحية الإصدار التجريبي لـ {programName} في {trialEndTime} في "
-"{trialEndDate} وسيتم فرض رسوم على البطاقة الموجودة في الملف "
-"{subscriptionPrice}."
+"سينتهي الاشتراك التجريبي في {programName} في الساعة {trialEndTime} في "
+"{trialEndDate} وسيتم فرض رسوم قَدرُها {subscriptionPrice} على البطاقة "
+"الموجودة في الملف."
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js:77
 msgid ""
@@ -4709,29 +4726,29 @@ msgid_plural ""
 "{trialEndTime} on {trialEndDate} and the card on file will be charged "
 "{subscriptionPrice}."
 msgstr[0] ""
-"ستنتهي صلاحية الإصدار التجريبي {programName} الخاص بك خلال {remainingDays} "
-"يومًا على {trialEndTime} على {trialEndDate} وسيتم تحصيل الرسوم من البطاقة "
-"الموجودة في الملف {subscriptionPrice} ."
+"سينتهي اشتراكك التجريبي في {programName} خلال أقل من يوم وذلك في الساعة "
+"{trialEndTime} في {trialEndDate} وسيتم تحصيل رسوم قَدرُها "
+"{subscriptionPrice} من البطاقة الموجودة في الملف."
 msgstr[1] ""
-"ستنتهي صلاحية النسخة التجريبية {programName} خلال يوم {remainingDays} على "
-"{trialEndTime} على {trialEndDate} وسيتم تحصيل الرسوم من البطاقة الموجودة في "
-"الملف {subscriptionPrice} ."
+"سينتهي اشتراكك التجريبي في {programName} خلال يوم واحد وذلك في الساعة "
+"{trialEndTime} في {trialEndDate} وسيتم تحصيل رسوم قَدرُها "
+"{subscriptionPrice} من البطاقة الموجودة في الملف."
 msgstr[2] ""
-"ستنتهي صلاحية الإصدار التجريبي {programName} الخاص بك خلال {remainingDays} "
-"يومًا على {trialEndTime} على {trialEndDate} وسيتم تحصيل الرسوم من البطاقة "
-"الموجودة في الملف {subscriptionPrice} ."
+"سينتهي اشتراكك التجريبي في {programName} خلال يومين وذلك في الساعة "
+"{trialEndTime} في {trialEndDate} وسيتم تحصيل رسوم قَدرُها "
+"{subscriptionPrice} من البطاقة الموجودة في الملف."
 msgstr[3] ""
-"ستنتهي صلاحية الإصدار التجريبي {programName} الخاص بك خلال {remainingDays} "
-"يومًا على {trialEndTime} على {trialEndDate} وسيتم تحصيل الرسوم من البطاقة "
-"الموجودة في الملف {subscriptionPrice} ."
+"سينتهي اشتراكك التجريبي في {programName} خلال {remainingDays} أيام وذلك في "
+"الساعة {trialEndTime} في {trialEndDate} وسيتم تحصيل رسوم قَدرُها "
+"{subscriptionPrice} من البطاقة الموجودة في الملف."
 msgstr[4] ""
-"ستنتهي صلاحية الإصدار التجريبي {programName} الخاص بك خلال {remainingDays} "
-"يومًا على {trialEndTime} على {trialEndDate} وسيتم تحصيل الرسوم من البطاقة "
-"الموجودة في الملف {subscriptionPrice} ."
+"سينتهي اشتراكك التجريبي في {programName} خلال {remainingDays} يوماً وذلك في "
+"الساعة {trialEndTime} في {trialEndDate} وسيتم تحصيل رسوم قَدرُها "
+"{subscriptionPrice} من البطاقة الموجودة في الملف."
 msgstr[5] ""
-"ستنتهي صلاحية الإصدار التجريبي {programName} الخاص بك خلال {remainingDays} "
-"يومًا على {trialEndTime} على {trialEndDate} وسيتم تحصيل الرسوم من البطاقة "
-"الموجودة في الملف {subscriptionPrice} ."
+"سينتهي اشتراكك التجريبي في {programName} خلال {remainingDays} يوم وذلك في "
+"الساعة {trialEndTime} في {trialEndDate} وسيتم تحصيل رسوم قَدرُها "
+"{subscriptionPrice} من البطاقة الموجودة في الملف."
 
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:66
 msgid "{type} Progress"
@@ -4823,8 +4840,8 @@ msgid ""
 "credentials. You can make a copy of these for your records before proceeding"
 " with deletion."
 msgstr ""
-"قد تفقد كذلك إمكانية الوصول إلى الشهادات الموثقة و كذا مؤهلات البرامج "
-"الأخرى. يمكنك الاحتفاظ بنسخة عنها لديك قبل المواصلة إلى الحذف."
+"قد تفقد كذلك إمكانية الوصول إلى الشهادات الموثقة ومزايا البرنامج الأخرى. "
+"يمكنك الاحتفاظ بنسخة عنها عندك قبل الاستمرار إلى الحذف."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:46
 msgid ""
@@ -4836,7 +4853,7 @@ msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:54
 msgid "Before proceeding, please {htmlStart}{emailMsg}{htmlEnd}."
-msgstr "قبل المتابعة ، يرجى {htmlStart} {emailMsg} {htmlEnd}."
+msgstr "قبل الاستمرار ، نرجو منك {htmlStart} {emailMsg} {htmlEnd}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:63
 msgid ""
@@ -5599,12 +5616,12 @@ msgstr "تم التأشير على الصفحة"
 #: openedx/features/course_search/static/course_search/js/views/search_results_view.js:69
 msgid "{total_results} result found for \"{search_term}\""
 msgid_plural "{total_results} results found for \"{search_term}\""
-msgstr[0] "تم العثور على نتائج {total_results} لـ &quot; {search_term} &quot;"
-msgstr[1] "تم العثور على نتيجة {total_results} لـ &quot; {search_term} &quot;"
-msgstr[2] "تم العثور على نتائج {total_results} لـ &quot; {search_term} &quot;"
-msgstr[3] "تم العثور على نتائج {total_results} لـ &quot; {search_term} &quot;"
-msgstr[4] "تم العثور على نتائج {total_results} لـ &quot; {search_term} &quot;"
-msgstr[5] "تم العثور على نتائج {total_results} لـ &quot; {search_term} &quot;"
+msgstr[0] "لم يُعثَر على نتائج لـ &quot; {search_term} &quot;"
+msgstr[1] "عُثِر على نتيجة واحدة لـ &quot; {search_term} &quot;"
+msgstr[2] "عُثِر على نتيجتين لـ &quot; {search_term} &quot;"
+msgstr[3] "عُثِر على {total_results} نتائج لـ &quot; {search_term} &quot;"
+msgstr[4] "عُثِر على {total_results} نتيجة لـ &quot; {search_term} &quot;"
+msgstr[5] "عُثِر على {total_results} نتيجة لـ &quot; {search_term} &quot;"
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:68
 msgid "Profile Visibility:"
@@ -5743,48 +5760,48 @@ msgstr "الرد على الإيضاحات"
 #: xmodule/js/src/capa/display.js:235
 msgid "{num_points} point possible (graded, results hidden)"
 msgid_plural "{num_points} points possible (graded, results hidden)"
-msgstr[0] "{num_points} النقاط المحتملة (متدرجة، النتائج مخفية)"
-msgstr[1] "{num_points} النقطة المحتملة (تم التقدير، النتائج مخفية)"
-msgstr[2] "{num_points} النقاط المحتملة (متدرجة، النتائج مخفية)"
-msgstr[3] "{num_points} النقاط المحتملة (متدرجة، النتائج مخفية)"
-msgstr[4] "{num_points} النقاط المحتملة (متدرجة، النتائج مخفية)"
-msgstr[5] "{num_points} النقاط المحتملة (متدرجة، النتائج مخفية)"
+msgstr[0] "لا درجات ممكنة (مُقيَّم، النتائج مخفية)"
+msgstr[1] "درجة واحدة ممكنة (مُقيَّم، النتائج مخفية)"
+msgstr[2] "درجتان ممكنتان (مُقيَّم، النتائج مخفية)"
+msgstr[3] "{num_points} درجات ممكنة (مُقيَّم، النتائج مخفية)"
+msgstr[4] "{num_points} درجة ممكنة (مُقيَّم، النتائج مخفية)"
+msgstr[5] "{num_points} درجة ممكنة (مُقيَّم، النتائج مخفية)"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
 #: xmodule/js/src/capa/display.js:242
 msgid "{num_points} point possible (ungraded, results hidden)"
 msgid_plural "{num_points} points possible (ungraded, results hidden)"
-msgstr[0] "{num_points} النقاط المحتملة (غير مصنفة، النتائج مخفية)"
-msgstr[1] "{num_points} النقطة المحتملة (غير مصنفة، النتائج مخفية)"
-msgstr[2] "{num_points} النقاط المحتملة (غير مصنفة، النتائج مخفية)"
-msgstr[3] "{num_points} النقاط المحتملة (غير مصنفة، النتائج مخفية)"
-msgstr[4] "{num_points} النقاط المحتملة (غير مصنفة، النتائج مخفية)"
-msgstr[5] "{num_points} النقاط المحتملة (غير مصنفة، النتائج مخفية)"
+msgstr[0] "لا درجات ممكنة (غير مُقيَّم، النتائج مخفية)"
+msgstr[1] "درجة واحدة ممكنة (غير مُقيَّم، النتائج مخفية)"
+msgstr[2] "درجتان ممكنتان (غير مُقيَّم، النتائج مخفية)"
+msgstr[3] "{num_points} درجات ممكنة (غير مُقيَّم، النتائج مخفية)"
+msgstr[4] "{num_points} درجة ممكنة (غير مُقيَّم، النتائج مخفية)"
+msgstr[5] "{num_points} درجة ممكنة (غير مُقيَّم، النتائج مخفية)"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
 #: xmodule/js/src/capa/display.js:253
 msgid "{num_points} point possible (graded)"
 msgid_plural "{num_points} points possible (graded)"
-msgstr[0] "{num_points} النقاط الممكنة (متدرجة)"
-msgstr[1] "{num_points} نقطة ممكنة (متدرجة)"
-msgstr[2] "{num_points} النقاط الممكنة (متدرجة)"
-msgstr[3] "{num_points} النقاط الممكنة (متدرجة)"
-msgstr[4] "{num_points} النقاط الممكنة (متدرجة)"
-msgstr[5] "{num_points} النقاط الممكنة (متدرجة)"
+msgstr[0] "لا درجات ممكنة (مُقيَّم)"
+msgstr[1] "درجة واحدة ممكنة (مُقيَّم)"
+msgstr[2] "درجتان ممكنتان (مُقيَّم)"
+msgstr[3] "{num_points} درجات ممكنة (مُقيَّم)"
+msgstr[4] "{num_points} درجة ممكنة (مُقيَّم)"
+msgstr[5] "{num_points} درجة ممكنة (مُقيَّم)"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
 #: xmodule/js/src/capa/display.js:259
 msgid "{num_points} point possible (ungraded)"
 msgid_plural "{num_points} points possible (ungraded)"
-msgstr[0] "{num_points} النقاط الممكنة (غير مصنفة)"
-msgstr[1] "{num_points} نقطة ممكنة (غير مصنف)"
-msgstr[2] "{num_points} النقاط الممكنة (غير مصنفة)"
-msgstr[3] "{num_points} النقاط الممكنة (غير مصنفة)"
-msgstr[4] "{num_points} النقاط الممكنة (غير مصنفة)"
-msgstr[5] "{num_points} النقاط الممكنة (غير مصنفة)"
+msgstr[0] "لا درجات ممكنة (غير مُقيَّم)"
+msgstr[1] "درجة واحدة ممكنة (غير مُقيَّم)"
+msgstr[2] "درجتان ممكنتات (غير مُقيَّم)"
+msgstr[3] "{num_points} درجات ممكنة (غير مُقيَّم)"
+msgstr[4] "{num_points} درجة ممكنة (غير مُقيَّم)"
+msgstr[5] "{num_points} درجة ممكنة (غير مُقيَّم)"
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -5793,12 +5810,12 @@ msgstr[5] "{num_points} النقاط الممكنة (غير مصنفة)"
 #: xmodule/js/src/capa/display.js:269
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
-msgstr[0] "{earned}\\{possible} نقطة (مع علامة)"
-msgstr[1] "{earned}\\{possible} نقطة (مع علامة)"
-msgstr[2] "{earned}\\{possible} نقطة (مع علامة)"
-msgstr[3] "{earned}\\{possible} نقاط (مع علامة)"
-msgstr[4] "{earned}\\{possible} نقاط (مع علامة)"
-msgstr[5] "{earned}\\{possible} نقطة (مع علامة)"
+msgstr[0] "صفر {earned}\\{possible} (مُقيَّم)"
+msgstr[1] "درجة واحدة {earned}\\{possible} (مُقيَّم)"
+msgstr[2] "درجتان {earned}/{possible} (مُقيَّم)"
+msgstr[3] "{earned}/{possible} درجات (مُقيَّم)"
+msgstr[4] "{earned}/{possible} درجة (مُقيَّم)"
+msgstr[5] "{earned}/{possible} درجة (مُقيَّم)"
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -5807,12 +5824,12 @@ msgstr[5] "{earned}\\{possible} نقطة (مع علامة)"
 #: xmodule/js/src/capa/display.js:276
 msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
-msgstr[0] "{earned}/{possible} نقطة (بدون علامة)"
-msgstr[1] "{earned}/{possible} نقطة (بدون علامة)"
-msgstr[2] "{earned}/{possible} نقطة (بدون علامة)"
-msgstr[3] "{earned}/{possible} نقاط (بدون علامة)"
-msgstr[4] "{earned}/{possible} نقاط (بدون علامة)"
-msgstr[5] "{earned}\\{possible} نقطة (بدون علامة)"
+msgstr[0] "صفر {earned}/{possible} (غير مُقيَّم)"
+msgstr[1] "درجة واحدة {earned}/{possible} (غير مُقيَّم)"
+msgstr[2] "درجتان {earned}/{possible} (غير مُقيَّم)"
+msgstr[3] "{earned}/{possible} درجات (غير مُقيَّم)"
+msgstr[4] "{earned}/{possible} درجة (غير مُقيَّم)"
+msgstr[5] "{earned}/{possible} درجة (غير مُقيَّم)"
 
 #: xmodule/js/src/capa/display.js:349
 msgid "The grading process is still running. Refresh the page to see updates."
@@ -5865,8 +5882,7 @@ msgstr "لم يتم التقديم"
 msgid ""
 "{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;{heading6}=h6"
 msgstr ""
-"{paragraph} = p ؛ {preformatted} = pre ؛ {heading3} = h3 ؛ {heading4} = h4 ؛"
-" {heading5} = h5 ؛ {heading6} = h6"
+"{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;{heading6}=h6"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -7281,30 +7297,30 @@ msgstr "موقع الفيديو"
 #: xmodule/js/src/video/06_video_progress_slider.js:324
 msgid "%(value)s hour"
 msgid_plural "%(value)s hours"
-msgstr[0] "%(value)s ساعة"
-msgstr[1] "%(value)s ساعة"
-msgstr[2] "%(value)s ساعة"
-msgstr[3] "%(value)s ساعة"
+msgstr[0] "لا ساعات"
+msgstr[1] "ساعة واحدة"
+msgstr[2] "ساعتان"
+msgstr[3] "%(value)s ساعات"
 msgstr[4] "%(value)s ساعة"
 msgstr[5] "%(value)s ساعة"
 
 #: xmodule/js/src/video/06_video_progress_slider.js:327
 msgid "%(value)s minute"
 msgid_plural "%(value)s minutes"
-msgstr[0] "%(value)s دقيقة"
-msgstr[1] "%(value)s دقيقة"
-msgstr[2] "%(value)s دقيقة"
-msgstr[3] "%(value)s دقيقة"
+msgstr[0] "لا دقائق"
+msgstr[1] "دقيقة واحدة"
+msgstr[2] "دقيقتان"
+msgstr[3] "%(value)s دقائق"
 msgstr[4] "%(value)s دقيقة"
 msgstr[5] "%(value)s دقيقة"
 
 #: xmodule/js/src/video/06_video_progress_slider.js:330
 msgid "%(value)s second"
 msgid_plural "%(value)s seconds"
-msgstr[0] "%(value)s ثانية"
-msgstr[1] "%(value)s ثانية"
-msgstr[2] "%(value)s ثانية"
-msgstr[3] "%(value)s ثانية"
+msgstr[0] "لا ثوانيَ"
+msgstr[1] "ثانية واحدة"
+msgstr[2] "ثانيتان"
+msgstr[3] "%(value)s ثوانٍ"
 msgstr[4] "%(value)s ثانية"
 msgstr[5] "%(value)s ثانية"
 
@@ -7726,8 +7742,8 @@ msgid ""
 "To hide the subsections and keep them accesible through links, you must "
 "adjust it from the section that contains them."
 msgstr ""
-"لإخفاء الأقسام الفرعية وإبقائها متاحة من خلال الروابط، يجب عليك تعديلها من "
-"القسم الذي يحتوي عليها."
+"لإخفاء الأقسام الفرعية وإبقائها متاحة من خلال الروابط، يجب عليك ضبطها من "
+"القسم الذي يحويها."
 
 #: cms/templates/js/content-visibility-editor.underscore:13
 msgid "Show entire subsection"
@@ -7880,16 +7896,16 @@ msgid ""
 "Hidden in the course outline, but sections are accessible for your learners "
 "through their separate link."
 msgstr ""
-"مخفية في مخطط الدورة التدريبية، ولكن يمكن للمتعلمين الوصول إلى الأقسام من "
-"خلال الرابط المنفصل الخاص بهم."
+"مخفية في خطة المقرر، ولكن يمكن للمتعلمين الوصول إلى الأقسام من خلال الروابط "
+"المنفصلة الخاصة بها."
 
 #: cms/templates/js/course-outline.underscore:63
 msgid ""
 "Subsections are not navigable between each other, they can only be accessed "
 "through their link."
 msgstr ""
-"الأقسام الفرعية غير قابلة للتنقل بين بعضها البعض، ولا يمكن الوصول إليها إلا "
-"من خلال الرابط الخاص بها."
+"لا يُمكن التنقل ما بين الأقسام الفرعية، بل يُمكن الوصول إليها فقط من خلال "
+"روابطها."
 
 #: cms/templates/js/course-outline.underscore:71
 msgid "Unpublished changes to live content"
@@ -7947,7 +7963,7 @@ msgstr "اسم العرض"
 
 #: cms/templates/js/course-outline.underscore:169
 msgid "Discussions enabled"
-msgstr "تم تمكين المناقشات"
+msgstr "المناقشات مُفعّلة"
 
 #: cms/templates/js/course-outline.underscore:176
 #: cms/templates/js/course-outline.underscore:177
@@ -7964,11 +7980,11 @@ msgstr "ضبط الإعدادات"
 #: cms/templates/js/tag-count.underscore:2
 #: cms/templates/js/tag-count.underscore:5
 msgid "Manage Tags"
-msgstr "إدارة العلامات"
+msgstr "أدِر الوسوم"
 
 #: cms/templates/js/course-outline.underscore:220
 msgid "Copy to Clipboard"
-msgstr "نسخ إلى الحافظة"
+msgstr "انسخ إلى الحافظة"
 
 #: cms/templates/js/course-outline.underscore:225
 #: cms/templates/js/course-outline.underscore:248
@@ -8029,7 +8045,7 @@ msgstr "القسم الفرعي مخفي بعد التاريخ المحدد"
 
 #: cms/templates/js/course-outline.underscore:428
 msgid "Share"
-msgstr "يشارك"
+msgstr "شارِك"
 
 #: cms/templates/js/course-outline.underscore:442
 #, python-format
@@ -8037,8 +8053,8 @@ msgid ""
 "This subsection is configured as \\\"%(gradingType)s\\\", which doesn't "
 "exist in the current grading policy."
 msgstr ""
-"تم تكوين هذا القسم الفرعي كـ \\\"%(gradingType)s\\\" ، وهو غير موجود في "
-"سياسة التقدير الحالية."
+"تم إعداد هذا القسم الفرعي كـ \\\"%(gradingType)s\\\" ، وهو خيار غير موجود في"
+" سياسة التقييم الحالية."
 
 #: cms/templates/js/course-outline.underscore:457
 #: cms/templates/js/xblock-outline.underscore:57
@@ -8064,7 +8080,7 @@ msgstr "من:"
 
 #: cms/templates/js/course-outline.underscore:513
 msgid "What's in my clipboard?"
-msgstr "ماذا يوجد في الحافظة الخاصة بي؟"
+msgstr "ماذا في حافظتي؟"
 
 #: cms/templates/js/course-settings-learning-fields.underscore:2
 msgid "Learning Outcome"
@@ -8109,7 +8125,7 @@ msgstr "مشاركة الفيديو"
 
 #: cms/templates/js/course-video-sharing-enable.underscore:13
 msgid "Learn more"
-msgstr "معرفة المزيد"
+msgstr "اعرف المزيد"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:3
 msgid "Transcript Turnaround"
@@ -8215,29 +8231,29 @@ msgstr ""
 
 #: cms/templates/js/course_grade_policy.underscore:37
 msgid "Warning: "
-msgstr "تحذير"
+msgstr "تحذير:"
 
 #: cms/templates/js/course_grade_policy.underscore:40
 msgid ""
 "The number of {type} assignments defined here does not match the current "
 "number of {type} assignments in the course:"
 msgstr ""
-"عدد التعيينات {type} المعرفة هنا لا يتطابق مع العدد الحالي لتعيينات {type} "
-"في الدورة التدريبية:"
+"عدد تعيينات {type} المعرفة هنا لا يتطابق مع العدد الحالي لتعيينات {type} في "
+"المقرر."
 
 #: cms/templates/js/course_grade_policy.underscore:47
 msgid "There are no assignments of this type in the course."
-msgstr "لا توجد مهام من هذا النوع في الدورة."
+msgstr "لا توجد مهام من هذا النوع في المقرر."
 
 #: cms/templates/js/course_grade_policy.underscore:51
 msgid "{assignment_count} {type} assignment(s) found:"
-msgstr "تم العثور على {assignment_count} {type}:"
+msgstr "عُثِرَ على {assignment_count} من {type}:"
 
 #: cms/templates/js/course_grade_policy.underscore:71
 msgid ""
 "The number of {type} assignments in the course matches the number defined "
 "here."
-msgstr "يتطابق عدد مهام {type} في الدورة التدريبية مع الرقم المحدد هنا."
+msgstr "يتوافق عدد مهام {type} في المقرر مع الرقم المحدد هنا."
 
 #: cms/templates/js/course_info_handouts.underscore:3
 msgid "Course Handouts"
@@ -8270,19 +8286,19 @@ msgstr "صفحة المناقشة الرئيسية"
 
 #: cms/templates/js/discussion-editor.underscore:8
 msgid "Enable discussion"
-msgstr "تمكين المناقشة"
+msgstr "فعّل المناقشة"
 
 #: cms/templates/js/discussion-editor.underscore:12
 msgid "Topics for unpublished units would not be created"
-msgstr "لن يتم إنشاء مواضيع للوحدات غير المنشورة"
+msgstr "لن تُنشأ مواضيع للوحدات غير المنشورة"
 
 #: cms/templates/js/discussion-editor.underscore:16
 msgid "Please enable discussions for graded units from the"
-msgstr "الرجاء تمكين المناقشات للوحدات المتدرجة من"
+msgstr "يُرجى تفعيل المناقشات للوحدات المقيّمة من"
 
 #: cms/templates/js/discussion-editor.underscore:24
 msgid "Discussion Configuration"
-msgstr "تكوين المناقشة"
+msgstr "إعدادات المناقشة"
 
 #: cms/templates/js/due-date-editor.underscore:3
 msgid "Due Date:"
@@ -8365,8 +8381,8 @@ msgid ""
 "Embed your subsection content directly on a page using an iframe, and view "
 "it without the LMS header and footer."
 msgstr ""
-"قم بتضمين محتوى القسم الفرعي الخاص بك مباشرةً على الصفحة باستخدام iframe، "
-"واعرضه بدون رأس وتذييل LMS."
+"ضمِن محتوى القسم الفرعي في الصفحة مباشرة باستخدام iframe، واعرضه بدون رأس "
+"وتذييل LMS."
 
 #: cms/templates/js/embed-link-share-link-editor.underscore:11
 #: cms/templates/js/full-page-share-link-editor.underscore:11
@@ -8376,15 +8392,15 @@ msgstr "انقر لنسخ الرابط إلى الحافظة"
 #: cms/templates/js/embed-link-share-link-editor.underscore:15
 #: cms/templates/js/full-page-share-link-editor.underscore:15
 msgid "Copy link"
-msgstr "نسخ الرابط"
+msgstr "انسخ الرابط"
 
 #: cms/templates/js/full-page-share-link-editor.underscore:5
 msgid ""
 "When sharing this link with your learners, they will see the content of the "
 "subsection along with the header and footer of your LMS."
 msgstr ""
-"عند مشاركة هذا الرابط مع المتعلمين، سيرون محتوى القسم الفرعي بالإضافة إلى "
-"رأس وتذييل نظام إدارة التعلم (LMS) الخاص بك."
+"عند مشاركة هذا الرابط مع المتعلمين، سيرون محتوى القسم الفرعي مع رأس وتذييل "
+"نظام إدارة التعلم (LMS)."
 
 #: cms/templates/js/grading-editor.underscore:1
 msgid "Grading"
@@ -8731,7 +8747,7 @@ msgstr "ملاحظة: لا تقم بإخفاء المهام المتدرجة ب�
 
 #: cms/templates/js/publish-xblock.underscore:137
 msgid "Copy Unit"
-msgstr "وحدة النسخ"
+msgstr "نسخ الوحدة"
 
 #: cms/templates/js/release-date-editor.underscore:1
 msgid "Release Date and Time"
@@ -8752,7 +8768,7 @@ msgstr "حذف تاريخ/توقيت الإصدار"
 
 #: cms/templates/js/self-paced-due-date-editor.underscore:5
 msgid "Due in:"
-msgstr "ويرجع ذلك:"
+msgstr "تبقى لموعد التسليم:"
 
 #: cms/templates/js/self-paced-due-date-editor.underscore:8
 msgid "weeks from learner enrollment date"
@@ -8771,7 +8787,7 @@ msgid ""
 "The minimum number of weeks this subsection can be due in is 1 week from the"
 " learner enrollment date."
 msgstr ""
-"الحد الأدنى لعدد الأسابيع التي يمكن أن يستحقها هذا القسم الفرعي هو أسبوع "
+"الحد الأدنى لعدد الأسابيع التي يتوجب فيها إتمام هذا القسم الفرعي هو أسبوع "
 "واحد من تاريخ تسجيل المتعلم."
 
 #: cms/templates/js/show-correctness-editor.underscore:2
@@ -8827,7 +8843,7 @@ msgstr "فصول PDF"
 
 #: cms/templates/js/show-textbook.underscore:37
 msgid "View Live"
-msgstr "عرض مباشر"
+msgstr "اعرض مباشرة"
 
 #: cms/templates/js/signatory-details.underscore:9
 #: cms/templates/js/signatory-editor.underscore:8
@@ -8907,16 +8923,16 @@ msgstr "رؤية القسم"
 
 #: cms/templates/js/staff-lock-editor.underscore:14
 msgid "Visible to learners"
-msgstr "مرئية للمتعلمين"
+msgstr "مرئي للمتعلمين"
 
 #: cms/templates/js/staff-lock-editor.underscore:16
 msgid ""
 "It is visible to learners, ensuring that all learners can view its contents."
-msgstr "وهي مرئية للمتعلمين، مما يضمن أن جميع المتعلمين يمكنهم عرض محتوياتها."
+msgstr "وهو مرئي للمتعلمين، مما يضمن أن جميع المتعلمين يمكنهم عرض محتواه."
 
 #: cms/templates/js/staff-lock-editor.underscore:22
 msgid "Hide in Course Outline, accessible via Link"
-msgstr "إخفاء في مخطط الدورة التدريبية، يمكن الوصول إليه عبر الرابط"
+msgstr "اخفِ في خطة المقرر، يمكن الوصول إليه عبر الرابط"
 
 #: cms/templates/js/staff-lock-editor.underscore:24
 msgid ""
@@ -8938,7 +8954,7 @@ msgid ""
 "It is intentionally hidden from learners, ensuring that only the course "
 "staff can view its contents."
 msgstr ""
-"وقد تم إخفاؤه عمدًا عن المتعلمين، مما يضمن أن موظفي الدورة هم فقط من يمكنهم "
+"وقد تم إخفاؤه عمدًا عن المتعلمين، مما يضمن أن طاقم المقرر هم فقط من يمكنهم "
 "عرض محتوياته."
 
 #: cms/templates/js/staff-lock-editor.underscore:45
@@ -8967,11 +8983,11 @@ msgstr "ملخصات وحدة Xpert"
 
 #: cms/templates/js/summary-configuration-editor.underscore:8
 msgid "Enable summaries"
-msgstr "تمكين الملخصات"
+msgstr "فعِّل الملخصات"
 
 #: cms/templates/js/tag-list.underscore:28
 msgid "Manage tags"
-msgstr "إدارة العلامات"
+msgstr "أدِر الوسوم"
 
 #: cms/templates/js/team-member.underscore:4
 msgid "Current Role:"
@@ -9016,8 +9032,8 @@ msgid ""
 "proctored exam now. Contact edX Support for assistance."
 msgstr ""
 "تم إصدار هذا القسم الفرعي للمتعلمين كاختبار مراقب ، ولكن تم إرجاعه مرة أخرى "
-"إلى الاختبار الأساسي أو المحدد بوقت. لا يمكنك تكوينه كاختبار مراقب الآن. "
-"اتصل بدعم edX للحصول على المساعدة."
+"إلى الاختبار البسيط أو المحدد بوقت. لا يمكنك إعداده كاختبار مراقب الآن. "
+"تواصل مع دعم edX للحصول على المساعدة."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:17
 msgid ""
@@ -9027,9 +9043,9 @@ msgid ""
 "to configure it as a proctored exam in the future."
 msgstr ""
 "تم إصدار هذا الاختبار المراقب للمتعلمين. لا يجوز لك تحويله إلى نوع آخر من "
-"الاختبارات الخاصة. يمكنك إعادة هذا القسم الفرعي إلى كونه اختبارًا أساسيًا عن"
-" طريق تحديد &quot;لا شيء&quot; ، أو اختبار محدد بوقت ، ولكن لن تتمكن من "
-"تهيئته كاختبار مراقب في المستقبل."
+"الاختبارات الخاصة. يمكنك إعادة هذا القسم الفرعي إلى كونه اختبارًا بسيطًا عن "
+"طريق تحديد &quot;لا شيء&quot; ، أو \"اختبار محدد بوقت\"، ولكن لن تتمكن من "
+"إعداده كاختبار مراقب في المستقبل."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:29
 msgid "Timed"
@@ -9058,10 +9074,10 @@ msgid ""
 "examination rules. Please note that setting this exam as proctored will "
 "change the visibility settings to \"Hide content after due date.\""
 msgstr ""
-"Proctored exams are timed and they record video of each learner taking the "
-"exam. The videos are then reviewed to ensure that learners follow all "
-"examination rules. Please note that setting this exam as proctored will "
-"change the visibility settings to \"Hide content after due date.\""
+"الاختبارات المراقبة هي امتحانات محددة بوقت، وهي تسجل فيديو لكل متعلم يُجري "
+"الاختبار. تجري لاحقاً مراجعة الفيديو للتأكد من أن المتعلم يلتزم بقواعد "
+"الامتحان. يُرجى الانتباه إلى أنّ تعيين هذا الاختبار لاختبار مراقب سيغير "
+"إعدادات إظهاره إلى \"إخفاء المحتوى بعد التاريخ المحدد\"."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:49
 msgid "Onboarding"
@@ -9143,7 +9159,7 @@ msgstr "حساب"
 #: cms/templates/js/transcript-organization-credentials.underscore:5
 msgid ""
 "This action updates the {provider} information for your entire organization."
-msgstr "يقوم هذا الإجراء بتحديث معلومات {provider} مؤسستك بأكملها."
+msgstr "هذا الإجراء سيُحدِّث معلومات {provider} لمؤسستك بأكملها."
 
 #: cms/templates/js/transcript-organization-credentials.underscore:7
 msgid "Enter the account information for your organization."
@@ -9566,7 +9582,7 @@ msgstr[1] "إظهار التعليق ( %(num_comments)s )"
 msgstr[2] "عرض التعليقات ( %(num_comments)s )"
 msgstr[3] "عرض التعليقات ( %(num_comments)s )"
 msgstr[4] "عرض التعليقات ( %(num_comments)s )"
-msgstr[5] "عرض التعليقات ( %(num_comments)s )"
+msgstr[5] "اعرض التعليقات ( %(num_comments)s )"
 
 #: common/static/common/templates/discussion/templates.underscore:164
 #: common/static/common/templates/discussion/templates.underscore:166
@@ -10331,8 +10347,8 @@ msgid ""
 "The following information is already a part of your {platform} profile and "
 "is required for your application. To edit this information go to "
 msgstr ""
-"المعلومات التالية هي بالفعل جزء من ملفك الشخصي {platform} وهي مطلوبة تطبيق ."
-" لتعديل هذه المعلومات اذهب إلى"
+"المعلومات التالية هي بالفعل جزء من ملف {platform} وهي مطلوبة لتطبيقك. لتعديل"
+" هذه المعلومات اذهب إلى "
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:24
 msgid "Email address"
@@ -10348,7 +10364,7 @@ msgstr "بلد الإقامة"
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:36
 msgid "Application Details"
-msgstr "تفاصيل تطبيق"
+msgstr "تفاصيل التطبيق"
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:42
 msgid "Submit Application"
@@ -10612,12 +10628,12 @@ msgstr "إنشاء مجموعة محتوى"
 #, python-format
 msgid "(contains %(student_count)s student)"
 msgid_plural "(contains %(student_count)s students)"
-msgstr[0] "(يحتوي على طلاب %(student_count)s )"
-msgstr[1] "(يحتوي على %(student_count)s طالب)"
-msgstr[2] "(يحتوي على طلاب %(student_count)s )"
-msgstr[3] "(يحتوي على طلاب %(student_count)s )"
-msgstr[4] "(يحتوي على طلاب %(student_count)s )"
-msgstr[5] "(يحتوي على طلاب %(student_count)s )"
+msgstr[0] "(لا يحوي أيّ طالب)"
+msgstr[1] "(يحوي طالبًا واحدًا)"
+msgstr[2] "(يحوي طالبين %(student_count)s)"
+msgstr[3] "(يحوي %(student_count)s طلاب)"
+msgstr[4] "(يحوي %(student_count)s طالبًا)"
+msgstr[5] "(يحوي %(student_count)s طالب)"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:14
 msgid ""
@@ -10814,7 +10830,7 @@ msgstr "تصفح الفصول حديثة الإنشاء وشاهد الجديد 
 
 #: lms/templates/learner_dashboard/explore_new_programs.underscore:6
 msgid "Explore new programs"
-msgstr "اكتشف البرامج الجديدة"
+msgstr "استكشف البرامج الجديدة"
 
 #: lms/templates/learner_dashboard/program_card.underscore:16
 #: lms/templates/learner_dashboard/program_card.underscore:24
@@ -10827,7 +10843,7 @@ msgstr[1] "دورة"
 msgstr[2] "الدورات"
 msgstr[3] "الدورات"
 msgstr[4] "الدورات"
-msgstr[5] "الدورات"
+msgstr[5] "المقررات"
 
 #: lms/templates/learner_dashboard/program_card.underscore:18
 msgid "Completed"
@@ -10873,15 +10889,15 @@ msgid ""
 "View your receipts or modify your subscription on the {a_start}Orders and "
 "subscriptions{a_end} page"
 msgstr ""
-"عرض إيصالاتك أو تعديل اشتراكك في صفحة {a_start} الطلبات والاشتراكات {a_end}"
+"اعرض إيصالاتك أو عدِّل اشتراكك في صفحة {a_start} الطلبات والاشتراكات {a_end}"
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:29
 msgid ""
 "Restart your subscription for {subscriptionPrice}. Your payment history is "
 "still available on the {a_start}Orders and subscriptions{a_end} page"
 msgstr ""
-"أعد تشغيل اشتراكك في {subscriptionPrice}. سجل الدفع الخاص بك لا يزال متاحًا "
-"في صفحة {a_start} الطلبات والاشتراكات {a_end}"
+"أعد بدء اشتراكك بـ {subscriptionPrice}. سجل الدفع الخاص بك لا يزال متاحًا في"
+" صفحة {a_start} الطلبات والاشتراكات {a_end}"
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:30
 msgid ""
@@ -10898,7 +10914,7 @@ msgid ""
 "support"
 msgstr ""
 "تحتاج مساعدة؟ راجع {a_start} مركز مساعدة المتعلم {span_start} {icon} "
-"{span_end} {a_end} لتحري الخلل وإصلاحه أو الاتصال بالدعم"
+"{span_end} {a_end} لتحري الخلل وإصلاحه أو تواصل مع الدعم"
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:56
 msgid "Program Record"
@@ -10961,8 +10977,8 @@ msgid ""
 "program. To complete the program, you must earn a verified certificate for "
 "each course."
 msgstr ""
-"تتبع وخطط تقدمك من خلال دورة (دورات) %(count)s في هذا البرنامج. لإكمال "
-"البرنامج ، يجب أن تحصل على شهادة تم التحقق منها لكل دورة."
+"تتبع وخطط تقدمك من خلال المقررات الـ %(count)s في هذا البرنامج. لإكمال "
+"البرنامج ، يجب أن تحصل على شهادة موثّقة لكل مقرر."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:65
 #: lms/templates/learner_dashboard/program_details_view.underscore:40
@@ -10972,34 +10988,35 @@ msgstr "إدارة اشتراكي"
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:77
 #: lms/templates/learner_dashboard/program_details_view.underscore:52
 msgid "Restart my subscription"
-msgstr "أعد تشغيل اشتراكي"
+msgstr "إعادة بدء اشتراكي"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:81
 #: lms/templates/learner_dashboard/program_details_view.underscore:56
 msgid "Start {trialLength}-day free trial"
-msgstr "ابدأ نسخة تجريبية مجانية من {trialLength} يوم"
+msgstr "ابدأ اشتراكًا تجريبيًا مجانيًا لمدة {trialLength} يومًا"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:90
 #: lms/templates/learner_dashboard/program_details_view.underscore:65
 msgid "Trial ends {trialEndDate} at {trialEndTime}"
-msgstr "تنتهي الفترة التجريبية {trialEndDate} في {trialEndTime}"
+msgstr ""
+"تنتهي مدة الاشتراك التجريبي في {trialEndDate} في الساعة {trialEndTime}"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:92
 #: lms/templates/learner_dashboard/program_details_view.underscore:67
 msgid "Your next billing date is {currentPeriodEnd}"
-msgstr "تاريخ الفاتورة التالية هو {currentPeriodEnd}"
+msgstr "تاريخ فاتورتك التالية هو {currentPeriodEnd}"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:94
 #: lms/templates/learner_dashboard/program_details_view.underscore:69
 msgid "{subscriptionPrice} subscription. Cancel anytime."
-msgstr "اشتراك {subscriptionPrice}. يمكنك الإلغاء في أي وقت."
+msgstr "اشتراك بقيمة {subscriptionPrice}. يمكنك إلغاؤه في أي وقت."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:95
 #: lms/templates/learner_dashboard/program_details_view.underscore:70
 msgid "{subscriptionPrice} subscription after trial ends. Cancel anytime."
 msgstr ""
-"اشتراك {subscriptionPrice} بعد انتهاء الفترة التجريبية. يمكنك الإلغاء في أي "
-"وقت."
+"اشتراك بقيمة {subscriptionPrice} بعد انتهاء الاشتراك التجريبي. يمكنك إلغاؤه "
+"في أي وقت."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:112
 #: lms/templates/learner_dashboard/program_details_view.underscore:87
@@ -11045,7 +11062,7 @@ msgstr "أكمل المقررات في الجدول الزمني المحدد ل
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:182
 #, python-format
 msgid "Transform your %(org)s %(type)s into a full master’s degree"
-msgstr "حول %(org)s %(type)s إلى درجة ماجستير كاملة"
+msgstr "حول مقررات %(org)s %(type)s إلى درجة ماجستير كاملة"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:185
 #, python-format
@@ -11054,8 +11071,8 @@ msgid ""
 "towards flexible, rigorous, and affordable masters degrees from the world’s "
 "leading universities."
 msgstr ""
-"يمكن تطبيق شهادة اعتماد %(org)s %(program)s بنجاح للحصول على درجات ماجستير "
-"مرنة وصارمة وبأسعار معقولة من الجامعات الرائدة في العالم."
+"يمكن الاستفادة من اجتيازك %(org)s %(program)s بنجاح للحصول على درجات ماجستير"
+" مرنة وقوية وبأسعار معقولة من الجامعات الرائدة في العالم."
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:19
 #, python-format
@@ -11064,8 +11081,8 @@ msgid ""
 "To complete the program, you must earn a verified certificate for each "
 "course."
 msgstr ""
-"تتبع وخطط تقدمك من خلال دورات %(count)s في هذا البرنامج. لإكمال البرنامج ، "
-"يجب أن تحصل على شهادة تم التحقق منها لكل دورة."
+"تتبع وخطط تقدمك من خلال المقررات الـ %(count)s في هذا البرنامج. لإتمام "
+"البرنامج، يجب أن تحصل على شهادة موثّقة لكل مقرر فيه."
 
 #: lms/templates/learner_dashboard/program_header_view.underscore:20
 msgid "{organization}\\'s logo"
@@ -11090,10 +11107,10 @@ msgid ""
 "start at {minSubscriptionPrice}/month USD per program, after a 7-day full "
 "access free trial. Cancel at any time."
 msgstr ""
-"متوفر الآن للعديد من البرامج الشهيرة ، يمكن أن يساعدك تسعير الاشتراك الشهري "
+"متوفر الآن للعديد من البرامج الشهيرة، يمكن أن يساعدك تسعير الاشتراك الشهري "
 "الميسور التكلفة في إدارة ميزانيتك بشكل أكثر فعالية. تبدأ الاشتراكات من "
-"{minSubscriptionPrice} / شهرًا بالدولار الأمريكي لكل برنامج ، بعد وصول نسخة "
-"تجريبية مجانية مدتها 7 أيام. إلغاء في أي وقت."
+"{minSubscriptionPrice} شهريًّا بالدولار الأمريكي لكل برنامج، وذلك بعد اشتراك"
+" تجريبيّ مجانيّ مدته 7 أيام. يمكنك إلغاء الاشتراك في أيّ وقت."
 
 #: lms/templates/learner_dashboard/subscription_upsell_view.underscore:19
 msgid "Explore subscription options"
@@ -11114,11 +11131,11 @@ msgstr "قم بالترقية باشتراك"
 
 #: lms/templates/learner_dashboard/upgrade_message_subscription.underscore:14
 msgid "Pay {subscriptionPrice} for all courses in this program"
-msgstr "ادفع {subscriptionPrice} لجميع الدورات في هذا البرنامج"
+msgstr "ادفع {subscriptionPrice} لجميع المقررات في هذا البرنامج"
 
 #: lms/templates/learner_dashboard/upgrade_message_subscription.underscore:15
 msgid "Pay {subscriptionPrice} after {trialLength}-day free trial"
-msgstr "ادفع {subscriptionPrice} بعد فترة تجريبية مجانية لمدة {trialLength}"
+msgstr "ادفع {subscriptionPrice} بعد اشتراك تجريبي مدته {trialLength}"
 
 #: lms/templates/student_account/account.underscore:2
 msgid "New Address"
@@ -11956,7 +11973,7 @@ msgstr[1] "قم بتحميل نتيجة {num_items} التالية"
 msgstr[2] "قم بتحميل نتائج {num_items} التالية"
 msgstr[3] "قم بتحميل نتائج {num_items} التالية"
 msgstr[4] "قم بتحميل نتائج {num_items} التالية"
-msgstr[5] "قم بتحميل نتائج {num_items} التالية"
+msgstr[5] "حمِّل النتائج الـ {num_items} التالية"
 
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:25
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26

@@ -1,16 +1,24 @@
-#
+# edX translation file.
+# Copyright (C) 2024 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2024.
+# 
+# Translators:
+# Omar Al-Ithawi <i@omardo.com>, 2024
+# Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-05-19 00:50+0000\n"
-"Last-Translator: Nathan Robertson, 2024\n"
+"PO-Revision-Date: 2024-05-09 18:48+0000\n"
+"Last-Translator: Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
-"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: models.py:39
@@ -172,12 +180,12 @@ msgstr "لا توجد إجابات لعرضها الآن"
 #, python-brace-format
 msgid "{weight} point possible"
 msgid_plural "{weight} points possible"
-msgstr[0] "{weight} نقطة ممكنة"
-msgstr[1] "{weight} نقطة ممكنة"
-msgstr[2] "{weight} نقطة ممكنة"
-msgstr[3] "{weight} نقطة ممكنة"
-msgstr[4] "{weight} نقطة ممكنة"
-msgstr[5] "{weight} نقطة ممكنة"
+msgstr[0] "لا درجات ممكنة"
+msgstr[1] "درجة واحدة ممكنة"
+msgstr[2] "درجتان {weight} ممكنتان"
+msgstr[3] "{weight} درجات ممكنة"
+msgstr[4] "{weight} درجة ممكنة"
+msgstr[5] "{weight} درجة ممكنة"
 
 #: views.py:134
 #, python-brace-format
@@ -188,18 +196,18 @@ msgstr[1] "نقطة {score_string} / {weight}"
 msgstr[2] "{score_string} / {weight} نقطة"
 msgstr[3] "{score_string} / {weight} نقطة"
 msgstr[4] "{score_string} / {weight} نقطة"
-msgstr[5] "{score_string} / {weight} نقطة"
+msgstr[5] "الدرجات {score_string}/{weight}"
 
 #: views.py:147
 #, python-brace-format
 msgid "You have used {count_attempts} of {max_attempts} submission"
 msgid_plural "You have used {count_attempts} of {max_attempts} submissions"
-msgstr[0] "لقد استخدمت {count_attempts} من عمليات الإرسال {max_attempts}"
-msgstr[1] "لقد استخدمت {count_attempts} للإرسال {max_attempts}"
-msgstr[2] "لقد استخدمت {count_attempts} من عمليات الإرسال {max_attempts}"
-msgstr[3] "لقد استخدمت {count_attempts} من عمليات الإرسال {max_attempts}"
-msgstr[4] "لقد استخدمت {count_attempts} من عمليات الإرسال {max_attempts}"
-msgstr[5] "لقد استخدمت {count_attempts} من عمليات الإرسال {max_attempts}"
+msgstr[0] "You have used {count_attempts} of {max_attempts} submissions"
+msgstr[1] "لقد استخدمت {count_attempts} من أصل محاولة واحدة {max_attempts}"
+msgstr[2] "لقد استخدمت {count_attempts} من أصل محاولتين {max_attempts}"
+msgstr[3] "لقد استخدمت {count_attempts} من أصل {max_attempts} محاولات"
+msgstr[4] "لقد استخدمت {count_attempts} من أصل {max_attempts} محاولة"
+msgstr[5] "لقد استخدمت {count_attempts} من أصل {max_attempts} محاولة"
 
 #: views.py:171
 #, python-brace-format

@@ -1,0 +1,199 @@
+en:
+  '% Correct': '٪ صحيح'
+  '% Incorrect': '٪ غير صحيح'
+  Action: الإجراء
+  Action Count: عدد الإجراءات
+  Action Date: تاريخ الإجراء
+  Active: نشط
+  Active Courses: المقررات الفعّالة
+  Active Learners: المتعلمون النشطون
+  Active Users Per Organization: المستخدمون النشطون لكل مؤسسة
+  Actor ID: معرف العامل
+  Actor Id: معرف العامل
+  All Pages Viewed: كل الصفحات التي شوهدت
+  All Videos Viewed: كل الفيديوهات التي شوهدت
+  At Leat One Page Viewed: شوهدت صفحة واحدة أو أكثر
+  At Leat One Viewed: شوهد واحد أو أكثر
+  At-Risk Learners: المتعلمون المتعثرون
+  At-risk Enrollees per Enrollment Track: المسجلون المتعثرون في كل مسار تسجيل
+  At-risk Enrollment Dates: مواعيد التسجيل المعرضة للخطر
+  At-risk learners: المتعلمون المتعثرون
+  Attempted All Problems: جميع المسائل التي حاول المتعلمون حلها
+  Attempted at Least One Problem: حاوَلَ حل مسألة واحدة أو أكثر
+  Attempts: المحاولات
+  Avg Attempts: متوسط المحاولات
+  Avg Course Grade: متوسط درجات المقرر
+  Block ID: معرف الكتلة
+  Block Id: معرف الكتلة
+  COUNT(*): COUNT(*)
+  Changed By Fk: تم التغيير بواسطة Fk
+  Changed On: عُدِّلَت في
+  Chart showing the number of Superset actions taken on each chart in the selected time period.: رسم بياني يوضح عدد إجراءات Superset المتخذة على كل رسم بياني خلال الفترة الزمنية المحددة.
+  Chart showing the number of Superset actions taken on each dashboard in the selected time period.: رسم بياني يوضح عدد إجراءات Superset المتخذة على كل لوحة خلال الفترة الزمنية المحددة.
+  Chart showing the number of registered users over the selected time period.: رسم بياني يوضح عدد المستخدمين المسجلين خلال الفترة الزمنية المحددة.
+  ClickHouse: ClickHouse
+  ClickHouse metrics: مقاييس ClickHouse
+  Content Level: مستوى المحتوى
+  Correct Attempts: المحاولات الصحيحة
+  Count: العدد
+  Count of unique users who performed an action in Superset over the selected time period.: عدد المستخدمين الفريدين الذين نفذوا إجراءً ما في Superset خلال الفترة الزمنية المحددة.
+  Count over time of unique users who performed an action in Superset over the selected time period.: الإحصاء بمرور الوقت للمستخدمين الفريدين الذين نفذوا إجراءً في Superset خلال الفترة الزمنية المحددة.
+  Course Dashboard: لوحة المقرر
+  Course Data JSON: بيانات المقرر بصيغة JSON
+  Course End: تاريخ انتهاء المقرر
+  Course Enrollments Over Time: التسجيل في المقرر مع مرور الوقت
+  Course Grade: درجة المقرر
+  Course ID: 'معرف المقرر '
+  Course Information: معلومات المقرر
+  Course Key: مفتاح المقرر
+  Course Key Short: المفتاح القصير للمقرر
+  Course Name: اسم المقرر
+  Course Run: تشغيل المقرر
+  Course Start: بدء المقرر
+  Course grade: درجة المقرر
+  Course key: مفتاح الدورة
+  Course name: اسم المقرر
+  Course run: المتعثرون
+  Courses: المقررات
+  Courses Per Organization: المقررات لكل مؤسسة
+  Created: أُنشئ
+  Created By Fk: تم إنشاؤها بواسطة Fk
+  Created On: أُنشئ في
+  Cumulative Enrollments by Track: التسجيلات التراكمية حسب المسار
+  Cumulative Interactions: التفاعلات التراكمية
+  Cumulative Interactions (at-risk): التفاعلات التراكمية (للمتعثرين)
+  Current Active Enrollments By Mode: المسجلون النشطين الحاليين مفروزين حسب الوضع
+  Current Enrollees: المسجلين الحاليين
+  Dashboard ID: معرف اللوحة
+  Dashboard Status: حالة اللوحة
+  Dashboard Title: عنوان اللوحة
+  Datasource ID: معرف مصدر البيانات
+  Datasource Name: اسم مصدر البيانات
+  Datasource Type: نوع مصدر البيانات
+  Date: 'التاريخ '
+  Description: الوصف
+  Display Name: الاسم الظاهر
+  Distribution of Course Grades: التوزيع الإحصائي لدرجات المقرر
+  Distribution of Current Course Grade: التوزيع الإحصائي لدرجة المقرر الحالي
+  Dump ID: معرف التفريغ
+  Duration (Seconds): المدة (ثواني)
+  Email: البريد الإلكتروني
+  Emission Time: وقت الانبعاث
+  Engagement: التفاعُل
+  Enrolled At: سجّل في
+  Enrollees per Enrollment Track: المسجلون لكل مسار تسجيل
+  Enrollment: 'التسجيل '
+  Enrollment End: نهاية التسجيل
+  Enrollment Mode: وضع التسجيل
+  Enrollment Start: بدء التسجيل
+  Enrollment Status: حالة التسجيل
+  Enrollment status: حالة التسجيل
+  Enrollment track: مسار التسجيل
+  Enrollments: 'عمليات التسجيل '
+  Event Activity: نشاط الحدث
+  Event ID: معرف الحدث
+  Event String: سلسلة الحدث
+  Event Time: وقت الحدث
+  Evolution of Engagement (at-risk): تطور المشاركة (المتعثرين)
+  Evolution of engagement: تغير التفاعل مع الوقت
+  External User ID: معرف المستخدم الخارجي
+  Fail Login Count: تعداد محاولات تسجيل الدخول الفاشلة
+  First Name: الاسم الشخصي
+  Full Views: عروض كاملة
+  Grade Bucket: أقسام الدرجات
+  Grade range: نطاق الدرجات
+  Graded: مُقيَّم
+  Graded Learners: المتعلمون ذوو الدرجات
+  Help: المساعدة
+  Id: المُعرِّف
+  Incorrect Attempts: محاولات غير صحيحة
+  Individual Learner Dashboard: لوحة المتعلم المنفرد
+  Individual Learner Reports: تقارير المتعلم المنفرد
+  Instance Health: صحة الوحدة
+  Interaction Type: نوع التفاعل
+  Last Login: أحدث تسجيل دخول
+  Last Name: اسم العائلة/القبيلة
+  Last Received Event: أحدثُ الأحداث
+  Last Visited: أحدث زيارة
+  Last course syncronized: أحدث مقرر تمّت مزامنته
+  Last visit date: تاريخ أحدث زيارة
+  Learners with Passing Grade: المتعلمون الحاصلون على درجات النجاح
+  Login Count: تِعداد مرّات الدخول
+  Memory Usage (KB): استخدام الذاكرة (كيلو بايت)
+  Modified: عُدِّل
+  Most-used Charts: الرسوم البيانية الأكثر استخداماً
+  Most-used Dashboards: اللوحات الأكثر استخداماً
+  Name: الاسم
+  Number of Learners: عدد المتعلمين
+  Number of Learners who attemped the problem: عدد المتعلمين الذين حاولوا حل المسألة
+  Object ID: معرف الكائن
+  Object Type: نوع الكائن
+  Operator Dashboard: لوحة المُشَغِّل
+  Org: المؤسسة
+  Organization: المؤسسة
+  Organizations: المؤسسات
+  Overview: الخُلاصة
+  Page Count: عدد الصفحات
+  Page views per section/subsection: مشاهدات الصفحات لكل قسم/قسم فرعي
+  Pages: الصفحات
+  Password: كلمة المرور
+  Performance: الأداء
+  Problem Id: معرف المسألة
+  Problem Link: رابط المسألة
+  Problem Name: 'اسم المسألة '
+  Problem Results: نتائج المشكلة
+  Problem interactions: التفاعل مع المسألة
+  Problem name with location: اسم المسألة مع موقعها
+  Problems: المسائل
+  Problems attempted per section/subsection: المسائل التي حاول الطلاب حلها لكل قسم أو قسم فرعي
+  Query: استعلام
+  Responses: الإجابات
+  Result: النتيجة
+  Section Name: اسم القسم
+  Section Summary: ملخص القسم
+  Section/Subsection Name: اسم القسم/القسم الفرعي
+  Section/Subsection Page Engagement: التفاعل مع صفحات القسم/القسم الفرعي
+  Section/Subsection Problem Engagement: التفاعل مع مسائل القسم/القسم الفرعي
+  Segment Range: نطاق المقطع
+  Segment Start: بداية المقطع
+  Self Paced: تعلّم ذاتيّ
+  Slice ID: معرف الشريحة
+  Slice Name: اسم الشريحة
+  Slowest ClickHouse Queries: أبطأ استعلامات ClickHouse
+  Start Position: نقطة البداية
+  Started At: بدأ في
+  Subsection Name: اسم القسم الفرعي
+  Subsection Summary: ملخص القسم الفرعي
+  Superset: Superset
+  Superset Active Users: مستخدمو Superset النشطون
+  Time Range: النطاق الزمني
+  Total Organizations: العدد الكليّ للمؤسسات
+  Total Users: العدد الكليّ للمستخدمين
+  Total Views: العدد الكليّ للمشاهدات
+  Unique Viewers: المشاهدون الفريدون
+  Unique Watchers: المراقبون فريدون
+  User ID: معرف المستخدم
+  User Info: معلومات المستخدم
+  User Name: اسم المستخدم
+  User Registration Date: تاريخ تسجيل المستخدم
+  Username: اسم المستخدم
+  Value: القيمة
+  Video Duration: مدة الفيديو
+  Video Event: الحدث المتعلق بالفيديو
+  Video ID: معرف الفيديو
+  Video Link: رابط الفيديو
+  Video Name: اسم الفيديو
+  Video Name With Location: اسم الفيديو مع موقعه
+  Video Position: موضع الفيديو
+  Video name: اسم الفيديو
+  Video views by section/subsection: مشاهدات الفيديو حسب القسم/القسم الفرعي
+  Video views per section/subsection: مشاهدات الفيديو لكل قسم/قسم فرعي
+  Videos: الفيديوهات
+  Views: المشاهدات
+  Watched Entire Video: شاهد الفيديو كُلَّه
+  Watched Video Segments: مقاطع الفيديو التي شوهدت
+  honor: شرف
+  registered: مسجل
+  unregistered: غير مسجل
+  verified: موثق
+  '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}': '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}'
