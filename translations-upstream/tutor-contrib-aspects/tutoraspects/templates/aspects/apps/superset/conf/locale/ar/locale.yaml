@@ -119,6 +119,8 @@ en:
   Last visit date: تاريخ أحدث زيارة
   Learners with Passing Grade: المتعلمون الحاصلون على درجات النجاح
   Login Count: تِعداد مرّات الدخول
+  Median Course Grade: 'الدرجة المتوسطة للدورة التدريبية '
+  Median of Attempts: 'القيمة المتوسطة لعدد المحاولات '
   Memory Usage (KB): استخدام الذاكرة (كيلو بايت)
   Modified: عُدِّل
   Most-used Charts: الرسوم البيانية الأكثر استخداماً
@@ -135,22 +137,37 @@ en:
   Overview: الخُلاصة
   Page Count: عدد الصفحات
   Page views per section/subsection: مشاهدات الصفحات لكل قسم/قسم فرعي
+  Page views per section/subsection (at-risk): مشاهدات الصفحة لكل قسم/فرع  ( عرضة للخطر )
   Pages: الصفحات
+  Partial Views: 'عروض جزئية '
+  Partial and Full Views Per Video (at-risk): المشاهدات الكاملة والجزئية لكل فيديو (عرضة للخطر)
+  Partial and full views per video: 'عدد المشاهدات الكاملة والجزئية لكل فيديو '
+  Passed/Failed: 'اجتاز / لم يجتاز '
   Password: كلمة المرور
   Performance: الأداء
   Problem Id: معرف المسألة
+  Problem Interactions (at-risk): تفاعلات المشكلة ( المعرضة للخطر )
   Problem Link: رابط المسألة
   Problem Name: 'اسم المسألة '
   Problem Results: نتائج المشكلة
+  Problem Results (at-risk): آثار المشكلة (المعرضة للخطر)
   Problem interactions: التفاعل مع المسألة
   Problem name with location: اسم المسألة مع موقعها
   Problems: المسائل
   Problems attempted per section/subsection: المسائل التي حاول الطلاب حلها لكل قسم أو قسم فرعي
+  Problems attempted per section/subsection (at-risk): المسائل التي تمت محاولة حلها لكل قسم/فرع (عرضة للخطر)
   Query: استعلام
+  Query performance: 'مُحسّن الاستعلام '
+  Read Rows: قراءة الأسطر
+  Repeat Views: 'المشاهدات المتكررة '
   Responses: الإجابات
   Result: النتيجة
   Section Name: اسم القسم
   Section Summary: ملخص القسم
+  Section Summary (at-risk): ملخص القسم (المعرض للخطر)
+  Section With Name: 'قسم بعنوان '
+  Section with Name: 'قسم بعنوان '
+  Section with name: قسم بعنوان
   Section/Subsection Name: اسم القسم/القسم الفرعي
   Section/Subsection Page Engagement: التفاعل مع صفحات القسم/القسم الفرعي
   Section/Subsection Problem Engagement: التفاعل مع مسائل القسم/القسم الفرعي
@@ -164,12 +181,22 @@ en:
   Started At: بدأ في
   Subsection Name: اسم القسم الفرعي
   Subsection Summary: ملخص القسم الفرعي
+  Subsection Summary (at-risk): ملخص القسم الفرعي (المعرض للخطر)
+  Subsection With Name: 'عنوان فرعي باسم '
+  Subsection with Name: عنوان فرعي باسم
+  Subsection with name: عنوان فرعي باسم
+  Success: 'تم بنجاح '
   Superset: Superset
   Superset Active Users: مستخدمو Superset النشطون
+  Superset Active Users Over Time: مستخدمو Superset النشطون على مدى فترة زمنية معينة
+  Superset Registered Users Over Time: مستخدمو Superset المسجلون على مدى فترة زمنية معينة
+  Time Grain: 'وحدة تقسيم الزمن '
+  Time Last Dumped: تاريخ آخر إفراغ
   Time Range: النطاق الزمني
   Total Organizations: العدد الكليّ للمؤسسات
   Total Users: العدد الكليّ للمستخدمين
   Total Views: العدد الكليّ للمشاهدات
+  Total plays: 'العدد الكلي للتشغيلات '
   Unique Viewers: المشاهدون الفريدون
   Unique Watchers: المراقبون فريدون
   User ID: معرف المستخدم
@@ -178,6 +205,8 @@ en:
   User Registration Date: تاريخ تسجيل المستخدم
   Username: اسم المستخدم
   Value: القيمة
+  Verb: 'الإجراء '
+  Verb ID: 'معرّف الإجراء '
   Video Duration: مدة الفيديو
   Video Event: الحدث المتعلق بالفيديو
   Video ID: معرف الفيديو
@@ -185,15 +214,23 @@ en:
   Video Name: اسم الفيديو
   Video Name With Location: اسم الفيديو مع موقعه
   Video Position: موضع الفيديو
+  Video Views by Section/Subsection (at-risk): مشاهدات الفيديو حسب القسم/الجزء (المعرضة للخطر)
+  Video Views per Section/Subsection (at-risk): مشاهدات الفيديو لكل قسم/جزء (المعرضة للخطر)
   Video name: اسم الفيديو
   Video views by section/subsection: مشاهدات الفيديو حسب القسم/القسم الفرعي
   Video views per section/subsection: مشاهدات الفيديو لكل قسم/قسم فرعي
   Videos: الفيديوهات
   Views: المشاهدات
+  Visited On: 'تاريخ الدخول  '
+  Visualization Bucket: 'حقيبة التمثيل المرئي '
   Watched Entire Video: شاهد الفيديو كُلَّه
+  Watched Segment Count: 'عدد الشرائح المٌشاهَدة '
   Watched Video Segments: مقاطع الفيديو التي شوهدت
+  Watched Video Segments (at-risk): 'شرائح مقاطع الفيديو المٌشاهَدة ( عرضة للخطر ) '
+  audit: 'تدقيق '
   honor: شرف
   registered: مسجل
   unregistered: غير مسجل
   verified: موثق
   '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}': '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}'
+  ⏲️ Use the ‘Time Grain’ filter to update the time frame intervals shown in the following graph(s): '⏲️ استخدم وحدة تقسيم الزمن لتحديث الفترات الزمنية المعروضة في الرسم / الرسوم البيانية التالية '
