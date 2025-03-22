@@ -11,7 +11,7 @@ Open `scripts/reword_list.csv` and edit the entries as provided by NELC:
  - arabic_replacement: The new Arabic translation.
  - note: Optional field if notes are needed.
 
-## Refresh translations overrides
+## Refresh Translations
 
 To get a fresh copy of the translation files (currently Redwood) and replace them please do the following:
 
@@ -19,11 +19,19 @@ To get a fresh copy of the translation files (currently Redwood) and replace the
 make pull_and_replace
 ```
 
+## Adding Custom Translations
+- Add the translation file manually into this repository e.g.  `translations-custom/frontend-essentials/src/i18n/messages/ar.json`.
+- Run `make pull_and_replace` to add the custom translations into the `translations/` directory.
+- Create a pull request and merge in the release branch e.g. `open-release/redwood.master`
+- Update the `pull_translations` program in the `Makefile` of the repository e.g. Frontend Learning MFE.
+- Re-deploy the Micro-frontend or the Microservice to fetch the latest translations.
+
+
 ## Directory Structure
 
 - `translations-upstream`: The upstream unmodified copy will be placed e.g. `translations-upstream/edx-platform/conf/locale`.
-- `translations`: This contains a combined version of both upstream with overridden entries replaced. This file is going to be used by Tutor as described in the section below.
-
+- `translations-custom`: FutureX-specific translatiosn goes here e.g. `translations-custom/frontend-essentials/src/i18n/messages/ar.json`.
+- `translations`: This contains a final version of both upstream with overridden entries replaced. This directory is going to be used by Tutor as described in the section below.
 
 ## Using in Tutor
 As of Redwood, this repository is ready to be used in Tutor directly without additional plugins by setting the following configuration in Tutor:
