@@ -12177,7 +12177,7 @@ msgstr "المؤسسة العامة للري"
 msgid "ministry_of_environment_water_and_agriculture"
 msgstr "وزارة البيئة والمياه والزراعة"
 
-msgid "general_presidency_of_the_affairs_of_al_masjid_al_haram_and_the_prophet_s_mosque"
+msgid "general_presidency_of_the_affairs_of_al_masjid_al_haram_and_the_prophets_mosque"
 msgstr "الرئاسة العامة لشؤون المسجد الحرام والمسجد النبوي"
 
 msgid "general_presidency_of_islamic_research_and_ifta"
@@ -12345,13 +12345,13 @@ msgstr "مجلس التجارة الإلكترونية"
 msgid "tourism_development_council"
 msgstr "مجلس التنمية السياحي"
 
-msgid "health_insurance_council"
+msgid "council_of_health_insurance"
 msgstr "مجلس الضمان الصحي"
 
 msgid "digital_content_council"
 msgstr "مجلس المحتوى الرقمي"
 
-msgid "royal_reserves_council"
+msgid "council_of_royal_reserves"
 msgstr "مجلس المحميات الملكية"
 
 msgid "national_risks_council"
@@ -12363,7 +12363,7 @@ msgstr "المجلس الوطني للسلامة والصحة المهنية"
 msgid "family_affairs_council"
 msgstr "مجلس شؤون الأسرة"
 
-msgid "universities_affairs_council"
+msgid "council_of_universities_affairs"
 msgstr "مجلس شؤون الجامعات"
 
 msgid "national_development_fund"
@@ -12675,7 +12675,7 @@ msgstr "مركز الملك عبدالله بن عبدالعزيز للتخطي�
 msgid "king_abdullah_petroleum_studies_and_research_center"
 msgstr "مركز الملك عبدالله للدراسات والبحوث البترولية"
 
-msgid "national_debt_management_center"
+msgid "the_national_debt_management_center"
 msgstr "المركز الوطني لإدارة الدين"
 
 msgid "national_center_for_waste_management"
@@ -12744,7 +12744,7 @@ msgstr "المركز الوطني لنظم إدارة الموارد"
 msgid "national_transformation_program_center"
 msgstr "مركز برنامج التحول الوطني"
 
-msgid "center_for_quality_of_life_program"
+msgid "the_center_for_quality_of_life_program"
 msgstr "مركز برنامج جودة الحياة"
 
 msgid "heavy_equipment_regulatory_center"

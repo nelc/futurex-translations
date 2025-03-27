@@ -12079,7 +12079,7 @@ msgstr "Saudi Irrigation Organization"
 msgid "ministry_of_environment_water_and_agriculture"
 msgstr "Ministry of Environment, Water, and Agriculture"
 
-msgid "general_presidency_of_the_affairs_of_al_masjid_al_haram_and_the_prophet_s_mosque"
+msgid "general_presidency_of_the_affairs_of_al_masjid_al_haram_and_the_prophets_mosque"
 msgstr "General Presidency of the Affairs of Al-Masjid al-Haram and the Prophet's Mosque"
 
 msgid "general_presidency_of_islamic_research_and_ifta"
@@ -12247,13 +12247,13 @@ msgstr "E-Commerce Council"
 msgid "tourism_development_council"
 msgstr "Tourism Development Council"
 
-msgid "health_insurance_council"
+msgid "council_of_health_insurance"
 msgstr "Council of Health Insurance"
 
 msgid "digital_content_council"
 msgstr "Digital Content Council"
 
-msgid "royal_reserves_council"
+msgid "council_of_royal_reserves"
 msgstr "Council of Royal Reserves"
 
 msgid "national_risks_council"
@@ -12265,7 +12265,7 @@ msgstr "National Occupational Health and Safety Council"
 msgid "family_affairs_council"
 msgstr "Family Affairs Council"
 
-msgid "universities_affairs_council"
+msgid "council_of_universities_affairs"
 msgstr "Council of Universities Affairs"
 
 msgid "national_development_fund"
@@ -12577,7 +12577,7 @@ msgstr "King Abdullah bin Abdulaziz Center for Language Planning and Policies"
 msgid "king_abdullah_petroleum_studies_and_research_center"
 msgstr "King Abdullah Petroleum Studies and Research Center"
 
-msgid "national_debt_management_center"
+msgid "the_national_debt_management_center"
 msgstr "The National Debt Management Center"
 
 msgid "national_center_for_waste_management"
@@ -12646,7 +12646,7 @@ msgstr "National Center for Government Resources"
 msgid "national_transformation_program_center"
 msgstr "National Transformation Program Center"
 
-msgid "center_for_quality_of_life_program"
+msgid "the_center_for_quality_of_life_program"
 msgstr "The Center for Quality of Life Program"
 
 msgid "heavy_equipment_regulatory_center"
