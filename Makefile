@@ -1,7 +1,9 @@
 
-
 RELEASE_BRANCH := "open-release/redwood.master"
 LANGUAGES := "ar,fr_CA"
+
+.PHONY: pull_and_replace
+pull_and_replace: pull replace custom_translations
 
 .PHONY: recreate_venv
 recreate_venv:
@@ -17,9 +19,13 @@ venv:
 
 .PHONY: replace
 replace: venv
-	rm -rf translation-overrides translations
+	rm -rf translations
 	. .venv/bin/activate && python scripts/reword_translations.py .
 
+.PHONY: custom_translations
+custom_translations:
+	cp -r custom-translations/* translations/
+	 
 
 .PHONY: pull
 pull: venv
@@ -29,6 +35,3 @@ pull: venv
 		  atlas pull --branch=$(RELEASE_BRANCH) --filter=$(LANGUAGES) \
 		  		     translations:translations-upstream
 
-
-.PHONY: pull_and_replace
-pull_and_replace: pull replace

@@ -7,6 +7,7 @@
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
 # Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024
+# Dana Kwaik, 2025
 # 
 msgid ""
 msgstr ""
@@ -14,13 +15,17 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-09 00:31+0000\n"
 "PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024\n"
+"Last-Translator: Dana Kwaik, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: static/proctoring/js/exam_action_handler.js:44
+msgid "OK"
+msgstr "موافق"
 
 #: static/proctoring/js/exam_action_handler.js:130
 #: static/proctoring/js/exam_action_handler.js:195
@@ -76,6 +81,10 @@ msgstr "أضف وقتاً (بالدقائق)"
 msgid "Add Multiplier as a Number Greater Than 1"
 msgstr "أضف المضاعف كرقم أكبر من 1"
 
+#: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:228
+msgid "Add Policy Exception"
+msgstr "أضف استثناء للسياسة"
+
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:268
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:276
 #: static/proctoring/js/views/proctored_exam_edit_allowance_view.js:118
@@ -91,6 +100,10 @@ msgstr "الوقت الإضافي (بالدقائق)"
 #: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:83
 msgid "Time Multiplier"
 msgstr "مضاعف الوقت"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:10
+msgid "Eligible"
+msgstr "مؤهل "
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:11
 msgid "Created"
@@ -189,20 +202,89 @@ msgstr "هل أنت متأكد من رغبتك في استئناف محاولة 
 #: static/proctoring/js/views/proctored_exam_info.js:13
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:29
 msgid "Not Started"
-msgstr "لمّا يبدأ بعد"
+msgstr "لم يبدأ بعد"
+
+#: static/proctoring/js/views/proctored_exam_info.js:14
+msgid "You have not started your onboarding exam."
+msgstr "لم تُقدِم امتحانك التأهيلي بعد."
+
+#: static/proctoring/js/views/proctored_exam_info.js:18
+msgid "You have started your onboarding exam."
+msgstr "لقد بدأت امتحانك التأهيلي."
+
+#: static/proctoring/js/views/proctored_exam_info.js:22
+msgid "You have submitted your onboarding exam."
+msgstr "لقد قدمتَ امتحانك التأهيلي."
+
+#: static/proctoring/js/views/proctored_exam_info.js:35
+msgid "Your onboarding exam has been approved in this course."
+msgstr "لقد قٌبلت في الامتحان التأهيلي لهذه الدورة."
+
+#: static/proctoring/js/views/proctored_exam_info.js:39
+msgid "Your onboarding exam has been rejected. Please retry onboarding."
+msgstr "لقد رُفضت في الامتحان التأهيلي. رجاءً أعِد المحاولة."
+
+#: static/proctoring/js/views/proctored_exam_info.js:43
+msgid ""
+"An error has occurred during your onboarding exam. Please retry onboarding."
+msgstr "حدث خطأ أثناء تقديمك الامتحان التأهيلي. رجاءً أعِد المحاولة."
 
 #: static/proctoring/js/views/proctored_exam_info.js:46
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:32
 msgid "Approved in Another Course"
 msgstr "موافَق عليه في مقرر آخَر"
 
+#: static/proctoring/js/views/proctored_exam_info.js:47
+msgid "Your onboarding exam has been approved in another course."
+msgstr "اعتمُد امتحانك التأهيلي من مقرر آخر."
+
+#: static/proctoring/js/views/proctored_exam_info.js:49
+msgid ""
+"If your device has changed, we recommend that you complete this course's "
+"onboarding exam in order to ensure that your setup still meets the "
+"requirements for proctoring."
+msgstr ""
+"إن تغير جهازك، فإننا نصحك بإكمال الامتحان التحضيري لهذا المقرر، و ذلك للتأكد"
+" من أن إعداداتك لا تزال تستوفي متطلبات المراقبة."
+
 #: static/proctoring/js/views/proctored_exam_info.js:55
 msgid "Expiring Soon"
 msgstr "تنتهي صلاحيته قريباً"
 
+#: static/proctoring/js/views/proctored_exam_info.js:57
+msgid ""
+"Your onboarding profile has been approved. However, your onboarding status "
+"is expiring soon. Please complete onboarding again to ensure that you will "
+"be able to continue taking proctored exams."
+msgstr ""
+"تمت الموافقة على ملفك التأهيلي، ولكن صلاحية وضع التأهيل على وشك الانتهاء "
+"قريباً. لذا يرجى إستكمال التأهيل مرة أخرى حتى تتمكن من أداء الاختبارات "
+"الخاضعة للمراقبة. "
+
+#: static/proctoring/js/views/proctored_exam_info.js:64
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:38
+msgid "Expired"
+msgstr "منتهي الصلاحية "
+
+#: static/proctoring/js/views/proctored_exam_info.js:66
+msgid ""
+"Your onboarding status has expired. Please complete onboarding again to "
+"continue taking proctored exams."
+msgstr ""
+"انتهت صلاحية ملفك التأهيلي. يرجى إستكمال التأهيل مرة أخرى لأداء الاختبارات "
+"الخاضعة للمراقبة."
+
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:30
 msgid "Setup Started"
 msgstr "بدأ الإعداد"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:31
+msgid "Onboarding Started"
+msgstr "بدأ الإعداد"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:40
+msgid "Onboarding Reset Failed Due to Past Due Exam"
+msgstr "فشلت إعادة تعيين الإعداد بسبب تأخر موعد الامتحان"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:42
 msgid "Audit"
