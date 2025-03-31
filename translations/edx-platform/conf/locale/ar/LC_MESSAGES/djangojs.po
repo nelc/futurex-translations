@@ -12764,3 +12764,12 @@ msgstr "مركز الإسناد والتصفية"
 
 msgid "other"
 msgstr "اخرى"
+
+msgid "public"
+msgstr "عام"
+
+msgid "private"
+msgstr "خاص"
+
+msgid "non_profit"
+msgstr "غير ربحي"

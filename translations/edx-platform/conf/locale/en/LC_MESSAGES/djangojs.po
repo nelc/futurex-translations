@@ -12666,3 +12666,12 @@ msgstr "Entrustment and Liquidation Center"
 
 msgid "other"
 msgstr "Other"
+
+msgid "public"
+msgstr "Public"
+
+msgid "private"
+msgstr "Private"
+
+msgid "non_profit"
+msgstr "Non-Profi"
