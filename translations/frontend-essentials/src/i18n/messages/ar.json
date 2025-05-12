@@ -19,7 +19,7 @@
   "essentials.feedbackModal.errorMessage": "حدث خطأ أثناء حفظ ملاحظاتك للدورة. نعتذر عن الإزعاج. يرجى المحاولة مرة أخرى لاحقًا وإذا استمرت المشكلة ، يمكنك الاتصال بفريق الدعم للحصول على مزيد من المساعدة.شكرا لك على تفهمك.",
   "essentials.ReportButton.reportButton": "إبلاغ",
   "essentials.ReportButton.formTitle": "سبب التبليغ؟",
-  "essentials.ReportButton.sexualContent": "محتوى جنسي",
+  "essentials.ReportButton.InnapropiateContent": "محتوى غير مناسب",
   "essentials.ReportButton.graphicViolence": "عنف بصري",
   "essentials.ReportButton.hatefulOrAbusiveContent": "محتوى كراهية أو إساءة",
   "essentials.ReportButton.copycatOrImpersonation": "التقليد أو التنكر",
