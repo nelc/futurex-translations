@@ -11889,6 +11889,7 @@ msgstr "You are currently sharing a limited profile."
 #: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:7
 msgid "This learner is currently sharing a limited profile."
 msgstr "This learner is currently sharing a limited profile."
+# Dynamic translations that are required by conditional fields feature
 
 msgid "saudi_post"
 msgstr "Saudi Post"
