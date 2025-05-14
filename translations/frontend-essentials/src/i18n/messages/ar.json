@@ -329,5 +329,6 @@
   "essentials.ProfileDataModal.realEstateDevelopersServiceCenter": "مركز خدمات المطورين العقاريين",
   "essentials.ProfileDataModal.decisionSupportCenter": "مركز دعم اتخاذ القرار",
   "essentials.ProfileDataModal.entrustmentAndLiquidationCenter": "مركز الإسناد والتصفية",
-  "essentials.ProfileDataModal.other": "اخرى"
+  "essentials.ProfileDataModal.other": "اخرى",
+  "essentials.ProfileDataModal.invalidFormFields": "يبدو أن لديك بعض الحقول غير الصالحة في النموذج."
 }

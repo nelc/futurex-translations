@@ -257,5 +257,6 @@
   "essentials.ProfileDataModal.realEstateDevelopersServiceCenter": "Real Estate Developers Service Center",
   "essentials.ProfileDataModal.decisionSupportCenter": "Decision Support Center",
   "essentials.ProfileDataModal.entrustmentAndLiquidationCenter": "Entrustment and Liquidation Center",
-  "essentials.ProfileDataModal.other": "Other"
+  "essentials.ProfileDataModal.other": "Other",
+  "essentials.ProfileDataModal.invalidFormFields": "Seems like you have some invalid fields in the form."
 }
