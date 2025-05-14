@@ -1,6 +1,7 @@
 
 RELEASE_BRANCH := "open-release/redwood.master"
 LANGUAGES := "ar,fr_CA"
+EDX_PLATFORM_LANGUAGES := "ar,fr_CA,en"
 
 .PHONY: pull_and_replace
 pull_and_replace: pull replace custom_translations
@@ -24,8 +25,19 @@ replace: venv
 
 .PHONY: custom_translations
 custom_translations:
-	cp -r custom-translations/* translations/
-	 
+	@find custom-translations -type f | while read file; do \
+		relative_path=$${file#custom-translations/}; \
+		dest="translations/$$relative_path"; \
+		mkdir -p "$$(dirname $$dest)"; \
+		if [ -f "$$dest" ]; then \
+			echo "Merging $$file into $$dest"; \
+			cat "$$file" >> "$$dest"; \
+		else \
+			echo "Copying $$file to $$dest"; \
+			cp "$$file" "$$dest"; \
+		fi; \
+	done
+
 
 .PHONY: pull
 pull: venv
@@ -35,3 +47,7 @@ pull: venv
 		  atlas pull --branch=$(RELEASE_BRANCH) --filter=$(LANGUAGES) \
 		  		     translations:translations-upstream
 
+
+	. .venv/bin/activate && \
+		  atlas pull --branch=$(RELEASE_BRANCH) --filter=$(EDX_PLATFORM_LANGUAGES) \
+		  		     translations/edx-platform:translations-upstream/edx-platform
