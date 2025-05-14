@@ -1,0 +1,787 @@
+# Dynamic translations that are required by conditional fields feature
+
+msgid "saudi_post"
+msgstr "Saudi Post"
+
+msgid "communications_and_information_technology_commission"
+msgstr "Communications and Information Technology Commission"
+
+msgid "ministry_of_communications_and_information_technology"
+msgstr "Ministry of Communications and Information Technology"
+
+msgid "real_estate_development_fund"
+msgstr "Real Estate Development Fund"
+
+msgid "general_authority_for_statistics"
+msgstr "General Authority for Statistics"
+
+msgid "ministry_of_municipal_and_rural_affairs_and_housing"
+msgstr "Ministry of Municipal and Rural Affairs and Housing"
+
+msgid "ministry_of_economy_and_planning"
+msgstr "Ministry of Economy and Planning"
+
+msgid "national_center_for_meteorology"
+msgstr "National Center for Meteorology"
+
+msgid "heritage_commission"
+msgstr "Heritage Commission"
+
+msgid "royal_commission_for_jubail_and_yanbu"
+msgstr "Royal Commission for Jubail and Yanbu"
+
+msgid "national_center_for_wildlife"
+msgstr "National Center for Wildlife"
+
+msgid "saudi_geological_survey"
+msgstr "Saudi Geological Survey"
+
+msgid "ministry_of_industry_and_mineral_resources"
+msgstr "Ministry of Industry and Mineral Resources"
+
+msgid "ministry_of_energy"
+msgstr "Ministry of Energy"
+
+msgid "federation_of_saudi_chambers"
+msgstr "Federation of Saudi Chambers"
+
+msgid "saudi_authority_for_industrial_cities_and_technology_zones"
+msgstr "Saudi Authority for Industrial Cities and Technology Zones"
+
+msgid "saudi_standards_metrology_and_quality_organization"
+msgstr "Saudi Standards, Metrology and Quality Organization"
+
+msgid "saudi_food_and_drug_authority"
+msgstr "Saudi Food and Drug Authority"
+
+msgid "ministry_of_investment"
+msgstr "Ministry of Investment"
+
+msgid "ministry_of_commerce"
+msgstr "Ministry of Commerce"
+
+msgid "islamic_university"
+msgstr "Islamic University"
+
+msgid "national_center_for_assessment"
+msgstr "National Center for Assessment"
+
+msgid "umm_al_qura_university"
+msgstr "Umm Al-Qura University"
+
+msgid "imam_muhammad_ibn_saud_islamic_university"
+msgstr "Imam Muhammad ibn Saud Islamic University"
+
+msgid "princess_nora_bint_abdurrahman_university"
+msgstr "Princess Nora bint Abdurrahman University"
+
+msgid "baha_university"
+msgstr "Baha University"
+
+msgid "jouf_university"
+msgstr "Jouf University"
+
+msgid "northern_border_university"
+msgstr "Northern Border University"
+
+msgid "taif_university"
+msgstr "Taif University"
+
+msgid "qassim_university"
+msgstr "Qassim University"
+
+msgid "majmaah_university"
+msgstr "Majmaah University"
+
+msgid "king_khalid_university"
+msgstr "King Khalid University"
+
+msgid "king_saud_university"
+msgstr "King Saud University"
+
+msgid "king_abdulaziz_university"
+msgstr "King Abdulaziz University"
+
+msgid "king_abdullah_university_of_science_and_technology"
+msgstr "King Abdullah University of Science and Technology"
+
+msgid "king_fahd_university_of_petroleum_and_minerals"
+msgstr "King Fahd University of Petroleum and Minerals"
+
+msgid "king_faisal_university"
+msgstr "King Faisal University"
+
+msgid "university_of_tabuk"
+msgstr "University of Tabuk"
+
+msgid "jazan_university"
+msgstr "Jazan University"
+
+msgid "hail_university"
+msgstr "Hail University"
+
+msgid "shaqra_university"
+msgstr "Shaqra University"
+
+msgid "taiba_university"
+msgstr "Taiba University"
+
+msgid "najran_university"
+msgstr "Najran University"
+
+msgid "ministry_of_education"
+msgstr "Ministry of Education"
+
+msgid "national_center_for_archives_and_records"
+msgstr "National Center for Archives and Records"
+
+msgid "king_abdulaziz_foundation_for_research_and_archives"
+msgstr "King Abdulaziz Foundation for Research and Archives"
+
+msgid "king_fahd_national_library"
+msgstr "King Fahd National Library"
+
+msgid "ministry_of_culture"
+msgstr "Ministry of Culture"
+
+msgid "institute_of_public_administration"
+msgstr "Institute of Public Administration"
+
+msgid "ministry_of_human_resources_and_social_development"
+msgstr "Ministry of Human Resources and Social Development"
+
+msgid "general_secretariat_of_the_council_of_ministers"
+msgstr "General Secretariat of the Council of Ministers"
+
+msgid "royal_court"
+msgstr "Royal Court"
+
+msgid "private_affairs_of_the_custodian_of_the_two_holy_mosques"
+msgstr "Private Affairs of the Custodian of the Two Holy Mosques"
+
+msgid "private_affairs_of_the_crown_prince"
+msgstr "Private Affairs of the Crown Prince"
+
+msgid "royal_protocol"
+msgstr "Royal Protocol"
+
+msgid "shura_council"
+msgstr "Shura Council"
+
+msgid "council_of_ministers"
+msgstr "Council of Ministers"
+
+msgid "succession_commission"
+msgstr "Succession Commission"
+
+msgid "bureau_of_experts_at_the_council_of_ministers"
+msgstr "Bureau of Experts at the Council of Ministers"
+
+msgid "saudi_grains_organization"
+msgstr "Saudi Grains Organization"
+
+msgid "agricultural_development_fund"
+msgstr "Agricultural Development Fund"
+
+msgid "saudi_irrigation_organization"
+msgstr "Saudi Irrigation Organization"
+
+msgid "ministry_of_environment_water_and_agriculture"
+msgstr "Ministry of Environment, Water, and Agriculture"
+
+msgid "general_presidency_of_the_affairs_of_al_masjid_al_haram_and_the_prophets_mosque"
+msgstr "General Presidency of the Affairs of Al-Masjid al-Haram and the Prophet's Mosque"
+
+msgid "general_presidency_of_islamic_research_and_ifta"
+msgstr "General Presidency of Islamic Research and Ifta"
+
+msgid "general_presidency_of_the_commission_for_promotion_of_virtue_and_prevention_of_vice"
+msgstr "General Presidency of the Commission for Promotion of Virtue and Prevention of Vice"
+
+msgid "council_of_senior_scholars"
+msgstr "Council of Senior Scholars"
+
+msgid "ministry_of_hajj_and_umrah"
+msgstr "Ministry of Hajj and Umrah"
+
+msgid "ministry_of_islamic_affairs_dawah_and_guidance"
+msgstr "Ministry of Islamic Affairs, Dawah, and Guidance"
+
+msgid "ministry_of_sport"
+msgstr "Ministry of Sport"
+
+msgid "prince_saud_al_faisal_institute_for_diplomatic_studies"
+msgstr "Prince Saud Al Faisal Institute for Diplomatic Studies"
+
+msgid "ministry_of_foreign_affairs"
+msgstr "Ministry of Foreign Affairs"
+
+msgid "saudi_arabian_airlines_corporation"
+msgstr "Saudi Arabian Airlines Corporation"
+
+msgid "general_authority_of_civil_aviation"
+msgstr "General Authority of Civil Aviation"
+
+msgid "general_intelligence_presidency"
+msgstr "General Intelligence Presidency"
+
+msgid "ministry_of_national_guard"
+msgstr "Ministry of National Guard"
+
+msgid "presidency_of_the_royal_guard"
+msgstr "Presidency of the Royal Guard"
+
+msgid "public_prosecution"
+msgstr "Public Prosecution"
+
+msgid "ministry_of_interior"
+msgstr "Ministry of Interior"
+
+msgid "ministry_of_defense"
+msgstr "Ministry of Defense"
+
+msgid "saudi_commission_for_health_specialties"
+msgstr "Saudi Commission for Health Specialties"
+
+msgid "saudi_health_council"
+msgstr "Saudi Health Council"
+
+msgid "saudi_red_crescent_authority"
+msgstr "Saudi Red Crescent Authority"
+
+msgid "ministry_of_health"
+msgstr "Ministry of Health"
+
+msgid "supreme_judicial_council"
+msgstr "Supreme Judicial Council"
+
+msgid "general_court_of_audit"
+msgstr "General Court of Audit"
+
+msgid "board_of_grievances"
+msgstr "Board of Grievances"
+
+msgid "oversight_and_anti_corruption_authority"
+msgstr "Oversight and Anti-Corruption Authority"
+
+msgid "human_rights_commission"
+msgstr "Human Rights Commission"
+
+msgid "ministry_of_justice"
+msgstr "Ministry of Justice"
+
+msgid "general_organization_for_social_insurance"
+msgstr "General Organization for Social Insurance"
+
+msgid "technical_and_vocational_training_corporation"
+msgstr "Technical and Vocational Training Corporation"
+
+msgid "human_resources_development_fund"
+msgstr "Human Resources Development Fund"
+
+msgid "social_development_bank"
+msgstr "Social Development Bank"
+
+msgid "saudi_fund_for_development"
+msgstr "Saudi Fund for Development"
+
+msgid "public_investment_fund"
+msgstr "Public Investment Fund"
+
+msgid "saudi_industrial_development_fund"
+msgstr "Saudi Industrial Development Fund"
+
+msgid "zakat_tax_and_customs_authority"
+msgstr "Zakat, Tax, and Customs Authority"
+
+msgid "capital_market_authority"
+msgstr "Capital Market Authority"
+
+msgid "ministry_of_finance"
+msgstr "Ministry of Finance"
+
+msgid "saline_water_conversion_corporation"
+msgstr "Saline Water Conversion Corporation"
+
+msgid "water_and_electricity_regulatory_authority"
+msgstr "Water and Electricity Regulatory Authority"
+
+msgid "saudi_ports_authority"
+msgstr "Saudi Ports Authority"
+
+msgid "ministry_of_transport_and_logistic_services"
+msgstr "Ministry of Transport and Logistic Services"
+
+msgid "ministry_of_media"
+msgstr "Ministry of Media"
+
+msgid "sports_boulevard_foundation"
+msgstr "Sports Boulevard Foundation"
+
+msgid "king_salman_park_foundation"
+msgstr "King Salman Park Foundation"
+
+msgid "imam_abdulrahman_bin_faisal_university"
+msgstr "Imam Abdulrahman Bin Faisal University"
+
+msgid "prince_sattam_bin_abdulaziz_university"
+msgstr "Prince Sattam Bin Abdulaziz University"
+
+msgid "saudi_electronic_university"
+msgstr "Saudi Electronic University"
+
+msgid "king_saud_bin_abdulaziz_university_for_health_sciences"
+msgstr "King Saud bin Abdulaziz University for Health Sciences"
+
+msgid "university_of_bisha"
+msgstr "University of Bisha"
+
+msgid "university_of_jeddah"
+msgstr "University of Jeddah"
+
+msgid "university_of_hafr_al_batin"
+msgstr "University of Hafr Al Batin"
+
+msgid "council_of_political_and_security_affairs"
+msgstr "Council of Political and Security Affairs"
+
+msgid "council_of_economic_and_development_affairs"
+msgstr "Council of Economic and Development Affairs"
+
+msgid "military_service_council"
+msgstr "Military Service Council"
+
+msgid "e_commerce_council"
+msgstr "E-Commerce Council"
+
+msgid "tourism_development_council"
+msgstr "Tourism Development Council"
+
+msgid "council_of_health_insurance"
+msgstr "Council of Health Insurance"
+
+msgid "digital_content_council"
+msgstr "Digital Content Council"
+
+msgid "council_of_royal_reserves"
+msgstr "Council of Royal Reserves"
+
+msgid "national_risks_council"
+msgstr "National Risks Council"
+
+msgid "national_occupational_health_and_safety_council"
+msgstr "National Occupational Health and Safety Council"
+
+msgid "family_affairs_council"
+msgstr "Family Affairs Council"
+
+msgid "council_of_universities_affairs"
+msgstr "Council of Universities Affairs"
+
+msgid "national_development_fund"
+msgstr "National Development Fund"
+
+msgid "higher_education_fund"
+msgstr "Higher Education Fund"
+
+msgid "cultural_development_fund"
+msgstr "Cultural Development Fund"
+
+msgid "tourism_development_fund"
+msgstr "Tourism Development Fund"
+
+msgid "environmental_fund"
+msgstr "Environmental Fund"
+
+msgid "social_charity_fund"
+msgstr "Social Charity Fund"
+
+msgid "fund_for_martyrs_wounded_pows_and_missing_in_action"
+msgstr "Fund for Martyrs, Wounded, POWs, and Missing in Action"
+
+msgid "alimony_fund"
+msgstr "Alimony Fund"
+
+msgid "king_fahad_medical_city_fund"
+msgstr "King Fahad Medical City Fund"
+
+msgid "presidency_of_state_security"
+msgstr "Presidency of State Security"
+
+msgid "ministry_of_tourism"
+msgstr "Ministry of Tourism"
+
+msgid "mahd_sports_academy"
+msgstr "Mahd Sports Academy"
+
+msgid "saudi_export_import_bank"
+msgstr "Saudi Export-Import Bank"
+
+msgid "saudi_central_bank"
+msgstr "Saudi Central Bank"
+
+msgid "small_and_medium_enterprise_bank"
+msgstr "Small and Medium Enterprise Bank"
+
+msgid "king_salman_bin_abdulaziz_al_saud_complex_for_hadith"
+msgstr "King Salman bin Abdulaziz Al Saud Complex for Hadith"
+
+msgid "king_salman_global_academy_for_arabic_language"
+msgstr "King Salman Global Academy for Arabic Language"
+
+msgid "king_abdulaziz_complex_for_endowment_libraries"
+msgstr "King Abdulaziz Complex for Endowment Libraries"
+
+msgid "king_fahd_complex_for_printing_the_holy_quran"
+msgstr "King Fahd Complex for Printing the Holy Quran"
+
+msgid "king_abdulaziz_city_for_science_and_technology"
+msgstr "King Abdulaziz City for Science and Technology"
+
+msgid "king_abdullah_city_for_atomic_and_renewable_energy"
+msgstr "King Abdullah City for Atomic and Renewable Energy"
+
+msgid "national_center_for_educational_professional_development"
+msgstr "National Center for Educational Professional Development"
+
+msgid "king_abdulaziz_public_library"
+msgstr "King Abdulaziz Public Library"
+
+msgid "camel_club"
+msgstr "Camel Club"
+
+msgid "saudi_falcons_club"
+msgstr "Saudi Falcons Club"
+
+msgid "jockey_club"
+msgstr "Jockey Club"
+
+msgid "saudi_press_agency"
+msgstr "Saudi Press Agency"
+
+msgid "royal_commission_for_alula"
+msgstr "Royal Commission for AlUla"
+
+msgid "royal_commission_for_riyadh_city"
+msgstr "Royal Commission for Riyadh City"
+
+msgid "royal_commission_for_makkah_city_and_holy_sites"
+msgstr "Royal Commission for Makkah City and Holy Sites"
+
+msgid "literature_publishing_and_translation_commission"
+msgstr "Literature, Publishing, and Translation Commission"
+
+msgid "saudi_broadcasting_authority"
+msgstr "Saudi Broadcasting Authority"
+
+msgid "fashion_commission"
+msgstr "Fashion Commission"
+
+msgid "film_commission"
+msgstr "Film Commission"
+
+msgid "digital_government_authority"
+msgstr "Digital Government Authority"
+
+msgid "nuclear_and_radiological_regulatory_commission"
+msgstr "Nuclear and Radiological Regulatory Commission"
+
+msgid "saudi_data_and_ai_authority"
+msgstr "Saudi Data and AI Authority"
+
+msgid "saudi_tourism_authority"
+msgstr "Saudi Tourism Authority"
+
+msgid "saudi_space_commission"
+msgstr "Saudi Space Commission"
+
+msgid "saudi_bar_association"
+msgstr "Saudi Bar Association"
+
+msgid "saudi_organization_for_chartered_and_professional_accountants"
+msgstr "Saudi Organization for Chartered and Professional Accountants"
+
+msgid "saudi_contractors_authority"
+msgstr "Saudi Contractors Authority"
+
+msgid "saudi_authority_for_accredited_valuers"
+msgstr "Saudi Authority for Accredited Valuers"
+
+msgid "saudi_authority_for_intellectual_property"
+msgstr "Saudi Authority for Intellectual Property"
+
+msgid "saudi_council_of_engineers"
+msgstr "Saudi Council of Engineers"
+
+msgid "red_sea_tourism_authority"
+msgstr "Red Sea Tourism Authority"
+
+msgid "public_health_authority"
+msgstr "Public Health Authority"
+
+msgid "state_properties_general_authority"
+msgstr "State Properties General Authority"
+
+msgid "general_commission_for_audiovisual_media"
+msgstr "General Commission for Audiovisual Media"
+
+msgid "general_authority_for_awqaf"
+msgstr "General Authority for Awqaf"
+
+msgid "saudi_general_authority_of_foreign_trade"
+msgstr "Saudi General Authority of Foreign Trade"
+
+msgid "general_entertainment_authority"
+msgstr "General Entertainment Authority"
+
+msgid "general_authority_for_military_industries"
+msgstr "General Authority for Military Industries"
+
+msgid "real_estate_general_authority"
+msgstr "Real Estate General Authority"
+
+msgid "general_authority_for_survey_and_geospatial_information"
+msgstr "General Authority for Survey and Geospatial Information"
+
+msgid "saudi_conventions_and_exhibitions_general_authority"
+msgstr "Saudi Conventions and Exhibitions General Authority"
+
+msgid "general_authority_for_competition"
+msgstr "General Authority for Competition"
+
+msgid "small_and_medium_enterprises_general_authority"
+msgstr "Small and Medium Enterprises General Authority"
+
+msgid "transport_general_authority"
+msgstr "Transport General Authority"
+
+msgid "general_commission_for_the_guardianship_of_trust_funds_for_minors_and_their_counterparts"
+msgstr "General Commission for the Guardianship of Trust Funds for Minors and their Counterparts"
+
+msgid "equestrian_authority"
+msgstr "Equestrian Authority"
+
+msgid "visual_arts_commission"
+msgstr "Visual Arts Commission"
+
+msgid "museums_commission"
+msgstr "Museums Commission"
+
+msgid "local_content_and_government_procurement_authority"
+msgstr "Local Content and Government Procurement Authority"
+
+msgid "economic_cities_and_special_zones_authority"
+msgstr "Economic Cities and Special Zones Authority"
+
+msgid "theater_and_performing_arts_commission"
+msgstr "Theater and Performing Arts Commission"
+
+msgid "libraries_commission"
+msgstr "Libraries Commission"
+
+msgid "music_commission"
+msgstr "Music Commission"
+
+msgid "national_cybersecurity_authority"
+msgstr "National Cybersecurity Authority"
+
+msgid "shargia_development_authority"
+msgstr "Shargia Development Authority"
+
+msgid "diriyah_gate_development_authority"
+msgstr "Diriyah Gate Development Authority"
+
+msgid "al_madinah_region_development_authority"
+msgstr "Al Madinah Region Development Authority"
+
+msgid "high_commission_for_the_development_of_hail_region"
+msgstr "High Commission for the Development of Hail Region"
+
+msgid "aseer_development_authority"
+msgstr "Aseer Development Authority"
+
+msgid "makkah_region_development_authority"
+msgstr "Makkah Region Development Authority"
+
+msgid "yanbu_umluj_al_wajh_and_duba_development_authority"
+msgstr "Yanbu, Umluj, Al Wajh, and Duba Development Authority"
+
+msgid "education_and_training_evaluation_commission"
+msgstr "Education and Training Evaluation Commission"
+
+msgid "research_development_and_innovation_authority"
+msgstr "Research Development and Innovation Authority"
+
+msgid "saudi_exports_development_authority"
+msgstr "Saudi Exports Development Authority"
+
+msgid "authority_for_persons_with_disabilities"
+msgstr "Authority for Persons with Disabilities"
+
+msgid "culinary_arts_commission"
+msgstr "Culinary Arts Commission"
+
+msgid "architecture_and_design_commission"
+msgstr "Architecture and Design Commission"
+
+msgid "expenditure_and_projects_efficiency_authority"
+msgstr "Expenditure and Projects Efficiency Authority"
+
+msgid "premium_residency_center"
+msgstr "Premium Residency Center"
+
+msgid "national_security_center"
+msgstr "National Security Center"
+
+msgid "prince_sultan_defense_studies_and_research_center"
+msgstr "Prince Sultan Defense Studies and Research Center"
+
+msgid "center_for_communication_and_knowledge_prospection"
+msgstr "Center for Communication and Knowledge Prospection"
+
+msgid "center_of_legal_studies_and_research"
+msgstr "Center of Legal Studies and Research"
+
+msgid "saudi_central_board_for_accreditation_of_healthcare_institutions"
+msgstr "Saudi Central Board for Accreditation of Healthcare Institutions"
+
+msgid "saudi_center_for_organ_transplantation"
+msgstr "Saudi Center for Organ Transplantation"
+
+msgid "saudi_patient_safety_center"
+msgstr "Saudi Patient Safety Center"
+
+msgid "saudi_energy_efficiency_center"
+msgstr "Saudi Energy Efficiency Center"
+
+msgid "saudi_accreditation_center"
+msgstr "Saudi Accreditation Center"
+
+msgid "saudi_business_center"
+msgstr "Saudi Business Center"
+
+msgid "saudi_center_for_commercial_arbitration"
+msgstr "Saudi Center for Commercial Arbitration"
+
+msgid "saudi_center_for_international_strategic_partnerships"
+msgstr "Saudi Center for International Strategic Partnerships"
+
+msgid "conciliation_center"
+msgstr "Conciliation Center"
+
+msgid "national_information_center"
+msgstr "National Information Center"
+
+msgid "king_salman_humanitarian_aid_and_relief_center"
+msgstr "King Salman Humanitarian Aid and Relief Center"
+
+msgid "king_abdulaziz_center_for_national_dialogue"
+msgstr "King Abdulaziz Center for National Dialogue"
+
+msgid "king_abdulaziz_arabian_horses_center"
+msgstr "King Abdulaziz Arabian Horses Center"
+
+msgid "king_abdullah_bin_abdulaziz_center_for_language_planning_and_policies"
+msgstr "King Abdullah bin Abdulaziz Center for Language Planning and Policies"
+
+msgid "king_abdullah_petroleum_studies_and_research_center"
+msgstr "King Abdullah Petroleum Studies and Research Center"
+
+msgid "the_national_debt_management_center"
+msgstr "The National Debt Management Center"
+
+msgid "national_center_for_waste_management"
+msgstr "National Center for Waste Management"
+
+msgid "national_center_for_travelers_security"
+msgstr "National Center for Travelers Security"
+
+msgid "national_center_for_mental_health"
+msgstr "National Center for Mental Health"
+
+msgid "national_center_for_vegetation_cover_development_and_combating_desertification"
+msgstr "National Center for Vegetation Cover Development and Combating Desertification"
+
+msgid "national_center_for_non_profit_sector"
+msgstr "National Center for Non-Profit Sector"
+
+msgid "national_center_for_performance_measurement"
+msgstr "National Center for Performance Measurement"
+
+msgid "national_water_efficiency_and_conservation_center"
+msgstr "National Water Efficiency and Conservation Center"
+
+msgid "national_research_and_development_center_for_sustainable_agriculture"
+msgstr "National Research and Development Center for Sustainable Agriculture"
+
+msgid "national_center_for_privatization"
+msgstr "National Center for Privatization"
+
+msgid "national_center_for_educational_and_professional_development"
+msgstr "National Center for Educational and Professional Development"
+
+msgid "national_e_learning_center"
+msgstr "National E-Learning Center"
+
+msgid "national_competitiveness_center"
+msgstr "National Competitiveness Center"
+
+msgid "national_industrial_development_center"
+msgstr "National Industrial Development Center"
+
+msgid "national_center_for_social_studies"
+msgstr "National Center for Social Studies"
+
+msgid "national_center_for_artificial_intelligence"
+msgstr "National Center for Artificial Intelligence"
+
+msgid "national_center_for_environmental_compliance"
+msgstr "National Center for Environmental Compliance"
+
+msgid "national_center_for_complementary_and_alternative_medicine"
+msgstr "National Center for Complementary and Alternative Medicine"
+
+msgid "national_events_center"
+msgstr "National Events Center"
+
+msgid "national_health_information_center"
+msgstr "National Health Information Center"
+
+msgid "national_center_for_the_prevention_and_control_of_plants_pests_and_animal_diseases"
+msgstr "National Center for the Prevention and Control of Plants Pests and Animal Diseases"
+
+msgid "national_center_for_government_resources"
+msgstr "National Center for Government Resources"
+
+msgid "national_transformation_program_center"
+msgstr "National Transformation Program Center"
+
+msgid "the_center_for_quality_of_life_program"
+msgstr "The Center for Quality of Life Program"
+
+msgid "heavy_equipment_regulatory_center"
+msgstr "Heavy Equipment Regulatory Center"
+
+msgid "non_oil_revenues_development_center"
+msgstr "Non-Oil Revenues Development Center"
+
+msgid "real_estate_developers_service_center"
+msgstr "Real Estate Developers Service Center"
+
+msgid "decision_support_center"
+msgstr "Decision Support Center"
+
+msgid "entrustment_and_liquidation_center"
+msgstr "Entrustment and Liquidation Center"
+
+msgid "other"
+msgstr "Other"
+
+msgid "public"
+msgstr "Public"
+
+msgid "private"
+msgstr "Private"
+
+msgid "non_profit"
+msgstr "Non-Profit"
