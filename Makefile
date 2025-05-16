@@ -30,8 +30,7 @@ custom_translations:
 		dest="translations/$$relative_path"; \
 		mkdir -p "$$(dirname $$dest)"; \
 		if [ -f "$$dest" ]; then \
-			echo "Merging $$file into $$dest"; \
-			cat "$$file" >> "$$dest"; \
+			python scripts/merge_custom_translations.py "$$file" "$$dest"; \
 		else \
 			echo "Copying $$file to $$dest"; \
 			cp "$$file" "$$dest"; \

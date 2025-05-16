@@ -3,18 +3,18 @@
 # Copyright (C) 2024 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
+#
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
 # Brian Smith, 2024
 # Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -24,12 +24,12 @@ msgstr ""
 "PO-Revision-Date: 2024-05-09 18:48+0000\n"
 "Last-Translator: Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
-"Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Generated-By: Babel 2.14.0\n"
 
 #: cms/static/cms/js/main.js:38
 #: cms/static/js/views/active_video_upload_list.js:36
@@ -11987,7 +11987,6 @@ msgstr "إنّك حاليًّا تشارك ملفًّا شخصيًّا محدو�
 #: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:7
 msgid "This learner is currently sharing a limited profile."
 msgstr "هذا المتعلم يشارك ملفاً شخصياً محدوداً."
-# Dynamic translations that are required by conditional fields feature
 
 msgid "saudi_post"
 msgstr "مؤسسة البريد السعودي"
@@ -12178,13 +12177,15 @@ msgstr "المؤسسة العامة للري"
 msgid "ministry_of_environment_water_and_agriculture"
 msgstr "وزارة البيئة والمياه والزراعة"
 
-msgid "general_presidency_of_the_affairs_of_al_masjid_al_haram_and_the_prophets_mosque"
+msgid ""
+"general_presidency_of_the_affairs_of_al_masjid_al_haram_and_the_prophets_mosque"
 msgstr "الرئاسة العامة لشؤون المسجد الحرام والمسجد النبوي"
 
 msgid "general_presidency_of_islamic_research_and_ifta"
 msgstr "الرئاسة العامة للبحوث العلمية والإفتاء"
 
-msgid "general_presidency_of_the_commission_for_promotion_of_virtue_and_prevention_of_vice"
+msgid ""
+"general_presidency_of_the_commission_for_promotion_of_virtue_and_prevention_of_vice"
 msgstr "الرئاسة العامة لهيئة الأمر بالمعروف والنهي عن المنكر"
 
 msgid "council_of_senior_scholars"
@@ -12413,7 +12414,9 @@ msgid "small_and_medium_enterprise_bank"
 msgstr "بنك المنشآت الصغيرة والمتوسطة"
 
 msgid "king_salman_bin_abdulaziz_al_saud_complex_for_hadith"
-msgstr "مجمع خادم الحرمين الشريفين الملك سلمان بن عبدالعزيز ال سعود للحديث النبوي الشريف"
+msgstr ""
+"مجمع خادم الحرمين الشريفين الملك سلمان بن عبدالعزيز ال سعود للحديث النبوي "
+"الشريف"
 
 msgid "king_salman_global_academy_for_arabic_language"
 msgstr "مجمع الملك سلمان العالمي للغة العربية"
@@ -12544,7 +12547,8 @@ msgstr "الهيئة العامة للمنشآت الصغيرة والمتوسط
 msgid "transport_general_authority"
 msgstr "الهيئة العامة للنقل"
 
-msgid "general_commission_for_the_guardianship_of_trust_funds_for_minors_and_their_counterparts"
+msgid ""
+"general_commission_for_the_guardianship_of_trust_funds_for_minors_and_their_counterparts"
 msgstr "الهيئة العامة للولاية على أموال القاصرين ومن في حكمهم"
 
 msgid "equestrian_authority"
@@ -12688,7 +12692,8 @@ msgstr "المركز الوطني لأمن المسافرين"
 msgid "national_center_for_mental_health"
 msgstr "المركز الوطني لتعزيز الصحة النفسية"
 
-msgid "national_center_for_vegetation_cover_development_and_combating_desertification"
+msgid ""
+"national_center_for_vegetation_cover_development_and_combating_desertification"
 msgstr "المركز الوطني لتنمية الغطاء النباتي ومكافحة التصحر"
 
 msgid "national_center_for_non_profit_sector"
@@ -12736,7 +12741,8 @@ msgstr "المركز الوطني للفعاليات"
 msgid "national_health_information_center"
 msgstr "المركز الوطني للمعلومات الصحية"
 
-msgid "national_center_for_the_prevention_and_control_of_plants_pests_and_animal_diseases"
+msgid ""
+"national_center_for_the_prevention_and_control_of_plants_pests_and_animal_diseases"
 msgstr "المركز الوطني للوقاية من الآفات النباتية والأمراض الحيوانية ومكافحتها"
 
 msgid "national_center_for_government_resources"
