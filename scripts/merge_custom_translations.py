@@ -26,9 +26,9 @@ Exceptions:
     - ValueError: Raised if the source file format is unsupported.
     - FileNotFoundError: Raised if the source or destination file does not exist for JSON files.
 """
+import argparse
 import json
 import logging
-import sys
 
 import polib
 
@@ -95,8 +95,23 @@ def main() -> None:
     Raises:
         ValueError: If the source file format is not supported.
     """
-    source_file = sys.argv[1]
-    dest_file = sys.argv[2]
+    parser = argparse.ArgumentParser(
+        description="Merge translation files (.po or .json) from source into destination."
+    )
+    parser.add_argument(
+        "--source",
+        required=True,
+        help="Path to the source file (.po or .json) to merge from."
+    )
+    parser.add_argument(
+        "--destination",
+        required=True,
+        help="Path to the destination file where the source will be merged."
+    )
+
+    args = parser.parse_args()
+    source_file = args.source
+    dest_file = args.destination
 
     if source_file.endswith('.po'):
         logger.info(f"Merging {source_file} into {dest_file}")

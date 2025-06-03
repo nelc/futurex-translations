@@ -30,7 +30,7 @@ custom_translations:
 		dest="translations/$$relative_path"; \
 		mkdir -p "$$(dirname $$dest)"; \
 		if [ -f "$$dest" ]; then \
-			. .venv/bin/activate && python scripts/merge_custom_translations.py "$$file" "$$dest"; \
+			. .venv/bin/activate && python scripts/merge_custom_translations.py --source "$$file" --destination "$$dest"; \
 		else \
 			echo "Copying $$file to $$dest"; \
 			cp "$$file" "$$dest"; \
