@@ -27,7 +27,6 @@ Exceptions:
 """
 import json
 import sys
-from typing import Union
 
 import polib
 
@@ -49,9 +48,7 @@ def merge_po_file(source: str, dest: str) -> None:
     source_po = polib.pofile(source)
 
     for entry in source_po:
-        existing_entry = dest_po.find(entry.msgid)
-
-        if existing_entry:
+        if entry in dest_po:
             raise Exception(f"Invalid entry {entry.msgid}: the id already exists")
 
         dest_po.append(entry)
@@ -74,12 +71,12 @@ def merge_json_file(source: str, dest: str) -> None:
     with open(source, 'r', encoding='utf-8') as src_file:
         source_data = json.load(src_file)
 
-    with open(dest, 'r+', encoding='utf-8') as dst_file:
-        dest_data = json.load(dst_file)
+    with open(dest, 'r', encoding='utf-8') as dst_file_r:
+        dest_data = json.load(dst_file_r)
+
+    with open(dest, 'w', encoding='utf-8') as dst_file_w:
         dest_data.update(source_data)
-        dst_file.seek(0)
-        json.dump(dest_data, dst_file, ensure_ascii=False, indent=2)
-        dst_file.truncate()
+        json.dump(dest_data, dst_file_w, ensure_ascii=False, indent=2)
 
 
 def main() -> None:
