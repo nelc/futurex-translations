@@ -26,9 +26,13 @@ Exceptions:
     - FileNotFoundError: Raised if the source or destination file does not exist for JSON files.
 """
 import json
+import logging
 import sys
 
 import polib
+
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 
 def merge_po_file(source: str, dest: str) -> None:
@@ -94,10 +98,10 @@ def main() -> None:
     dest_file = sys.argv[2]
 
     if source_file.endswith('.po'):
-        print(f"Merging {source_file} into {dest_file}")
+        logger.info(f"Merging {source_file} into {dest_file}")
         merge_po_file(source_file, dest_file)
     elif source_file.endswith('.json'):
-        print(f"Merging {source_file} into {dest_file}")
+        logger.info(f"Merging {source_file} into {dest_file}")
         merge_json_file(source_file, dest_file)
     else:
         raise ValueError(f"Unsupported file format for {source_file}")
