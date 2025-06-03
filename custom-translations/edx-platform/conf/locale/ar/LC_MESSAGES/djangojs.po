@@ -1,0 +1,787 @@
+# Dynamic translations that are required by conditional fields feature
+
+msgid "saudi_post"
+msgstr "مؤسسة البريد السعودي"
+
+msgid "communications_and_information_technology_commission"
+msgstr "هيئة الاتصالات وتقنية المعلومات"
+
+msgid "ministry_of_communications_and_information_technology"
+msgstr "وزارة الاتصالات وتقنية المعلومات"
+
+msgid "real_estate_development_fund"
+msgstr "صندوق التنمية العقارية"
+
+msgid "general_authority_for_statistics"
+msgstr "الهيئة العامة للإحصاء"
+
+msgid "ministry_of_municipal_and_rural_affairs_and_housing"
+msgstr "وزارة الشؤون البلدية والقروية والإسكان"
+
+msgid "ministry_of_economy_and_planning"
+msgstr "وزارة الاقتصاد والتخطيط"
+
+msgid "national_center_for_meteorology"
+msgstr "المركز الوطني للأرصاد"
+
+msgid "heritage_commission"
+msgstr "هيئة التراث"
+
+msgid "royal_commission_for_jubail_and_yanbu"
+msgstr "الهيئة الملكية للجبيل وينبع"
+
+msgid "national_center_for_wildlife"
+msgstr "المركز الوطني لتنمية الحياة الفطرية"
+
+msgid "saudi_geological_survey"
+msgstr "هيئة المساحة الجيولوجية السعودية"
+
+msgid "ministry_of_industry_and_mineral_resources"
+msgstr "وزارة الصناعة والثروة المعدنية"
+
+msgid "ministry_of_energy"
+msgstr "وزارة الطاقة"
+
+msgid "federation_of_saudi_chambers"
+msgstr "اتحاد الغرف التجارية السعودية"
+
+msgid "saudi_authority_for_industrial_cities_and_technology_zones"
+msgstr "الهيئة السعودية للمدن الصناعية ومناطق التقنية"
+
+msgid "saudi_standards_metrology_and_quality_organization"
+msgstr "الهيئة السعودية للمواصفات والمقاييس والجودة"
+
+msgid "saudi_food_and_drug_authority"
+msgstr "الهيئة العامة للغذاء والدواء"
+
+msgid "ministry_of_investment"
+msgstr "وزارة الاستثمار"
+
+msgid "ministry_of_commerce"
+msgstr "وزارة التجارة"
+
+msgid "islamic_university"
+msgstr "الجامعة الإسلامية"
+
+msgid "national_center_for_assessment"
+msgstr "المركز الوطني للقياس"
+
+msgid "umm_al_qura_university"
+msgstr "جامعة أم القرى"
+
+msgid "imam_muhammad_ibn_saud_islamic_university"
+msgstr "جامعة الإمام محمد بن سعود الإسلامية"
+
+msgid "princess_nora_bint_abdurrahman_university"
+msgstr "جامعة الأميرة نوره بنت عبدالرحمن"
+
+msgid "baha_university"
+msgstr "جامعة الباحة"
+
+msgid "jouf_university"
+msgstr "جامعة الجوف"
+
+msgid "northern_border_university"
+msgstr "جامعة الحدود الشمالية"
+
+msgid "taif_university"
+msgstr "جامعة الطائف"
+
+msgid "qassim_university"
+msgstr "جامعة القصيم"
+
+msgid "majmaah_university"
+msgstr "جامعة المجمعة"
+
+msgid "king_khalid_university"
+msgstr "جامعة الملك خالد"
+
+msgid "king_saud_university"
+msgstr "جامعة الملك سعود"
+
+msgid "king_abdulaziz_university"
+msgstr "جامعة الملك عبدالعزيز"
+
+msgid "king_abdullah_university_of_science_and_technology"
+msgstr "جامعة الملك عبدالله للعلوم والتقنية"
+
+msgid "king_fahd_university_of_petroleum_and_minerals"
+msgstr "جامعة الملك فهد للبترول والمعادن"
+
+msgid "king_faisal_university"
+msgstr "جامعة الملك فيصل"
+
+msgid "university_of_tabuk"
+msgstr "جامعة تبوك"
+
+msgid "jazan_university"
+msgstr "جامعة جازان"
+
+msgid "hail_university"
+msgstr "جامعة حائل"
+
+msgid "shaqra_university"
+msgstr "جامعة شقراء"
+
+msgid "taiba_university"
+msgstr "جامعة طيبة"
+
+msgid "najran_university"
+msgstr "جامعة نجران"
+
+msgid "ministry_of_education"
+msgstr "وزارة التعليم"
+
+msgid "national_center_for_archives_and_records"
+msgstr "المركز الوطني للوثائق والمحفوظات"
+
+msgid "king_abdulaziz_foundation_for_research_and_archives"
+msgstr "دارة الملك عبدالعزيز"
+
+msgid "king_fahd_national_library"
+msgstr "مكتبة الملك فهد الوطنية"
+
+msgid "ministry_of_culture"
+msgstr "وزارة الثقافة"
+
+msgid "institute_of_public_administration"
+msgstr "معهد الإدارة العامة"
+
+msgid "ministry_of_human_resources_and_social_development"
+msgstr "وزارة الموارد البشرية والتنمية الاجتماعية"
+
+msgid "general_secretariat_of_the_council_of_ministers"
+msgstr "الأمانة العامة لمجلس الوزراء"
+
+msgid "royal_court"
+msgstr "الديوان الملكي"
+
+msgid "private_affairs_of_the_custodian_of_the_two_holy_mosques"
+msgstr "الشؤون الخاصة لخادم الحرمين الشريفين"
+
+msgid "private_affairs_of_the_crown_prince"
+msgstr "الشؤون الخاصة لسمو ولي العهد"
+
+msgid "royal_protocol"
+msgstr "المراسم الملكية"
+
+msgid "shura_council"
+msgstr "مجلس الشورى"
+
+msgid "council_of_ministers"
+msgstr "مجلس الوزراء"
+
+msgid "succession_commission"
+msgstr "هيئة البيعة"
+
+msgid "bureau_of_experts_at_the_council_of_ministers"
+msgstr "هيئة الخبراء بمجلس الوزراء"
+
+msgid "saudi_grains_organization"
+msgstr "المؤسسة العامة للحبوب"
+
+msgid "agricultural_development_fund"
+msgstr "صندوق التنمية الزراعية"
+
+msgid "saudi_irrigation_organization"
+msgstr "المؤسسة العامة للري"
+
+msgid "ministry_of_environment_water_and_agriculture"
+msgstr "وزارة البيئة والمياه والزراعة"
+
+msgid "general_presidency_of_the_affairs_of_al_masjid_al_haram_and_the_prophets_mosque"
+msgstr "الرئاسة العامة لشؤون المسجد الحرام والمسجد النبوي"
+
+msgid "general_presidency_of_islamic_research_and_ifta"
+msgstr "الرئاسة العامة للبحوث العلمية والإفتاء"
+
+msgid "general_presidency_of_the_commission_for_promotion_of_virtue_and_prevention_of_vice"
+msgstr "الرئاسة العامة لهيئة الأمر بالمعروف والنهي عن المنكر"
+
+msgid "council_of_senior_scholars"
+msgstr "هيئة كبار العلماء"
+
+msgid "ministry_of_hajj_and_umrah"
+msgstr "وزارة الحج والعمرة"
+
+msgid "ministry_of_islamic_affairs_dawah_and_guidance"
+msgstr "وزارة الشؤون الإسلامية والدعوة والإرشاد"
+
+msgid "ministry_of_sport"
+msgstr "وزارة الرياضة"
+
+msgid "prince_saud_al_faisal_institute_for_diplomatic_studies"
+msgstr "معهد الأمير سعود الفيصل للدراسات الدبلوماسية"
+
+msgid "ministry_of_foreign_affairs"
+msgstr "وزارة الخارجية"
+
+msgid "saudi_arabian_airlines_corporation"
+msgstr "المؤسسة العامة للخطوط الجوية العربية السعودية"
+
+msgid "general_authority_of_civil_aviation"
+msgstr "الهيئة العامة للطيران المدني"
+
+msgid "general_intelligence_presidency"
+msgstr "رئاسة الاستخبارات العامة"
+
+msgid "ministry_of_national_guard"
+msgstr "وزارة الحرس الوطني"
+
+msgid "presidency_of_the_royal_guard"
+msgstr "رئاسة الحرس الملكي"
+
+msgid "public_prosecution"
+msgstr "النيابة العامة"
+
+msgid "ministry_of_interior"
+msgstr "وزارة الداخلية"
+
+msgid "ministry_of_defense"
+msgstr "وزارة الدفاع"
+
+msgid "saudi_commission_for_health_specialties"
+msgstr "الهيئة السعودية للتخصصات الصحية"
+
+msgid "saudi_health_council"
+msgstr "المجلس الصحي السعودي"
+
+msgid "saudi_red_crescent_authority"
+msgstr "هيئة الهلال الأحمر السعودي"
+
+msgid "ministry_of_health"
+msgstr "وزارة الصحة"
+
+msgid "supreme_judicial_council"
+msgstr "المجلس الأعلى للقضاء"
+
+msgid "general_court_of_audit"
+msgstr "الديوان العام للمحاسبة"
+
+msgid "board_of_grievances"
+msgstr "ديوان المظالم"
+
+msgid "oversight_and_anti_corruption_authority"
+msgstr "هيئة الرقابة ومكافحة الفساد"
+
+msgid "human_rights_commission"
+msgstr "هيئة حقوق الإنسان"
+
+msgid "ministry_of_justice"
+msgstr "وزارة العدل"
+
+msgid "general_organization_for_social_insurance"
+msgstr "المؤسسة العامة للتأمينات الاجتماعية"
+
+msgid "technical_and_vocational_training_corporation"
+msgstr "المؤسسة العامة للتدريب التقني والمهني"
+
+msgid "human_resources_development_fund"
+msgstr "صندوق تنمية الموارد البشرية"
+
+msgid "social_development_bank"
+msgstr "بنك التنمية الاجتماعية"
+
+msgid "saudi_fund_for_development"
+msgstr "الصندوق السعودي للتنمية"
+
+msgid "public_investment_fund"
+msgstr "صندوق الاستثمارات العامة"
+
+msgid "saudi_industrial_development_fund"
+msgstr "صندوق التنمية الصناعية السعودي"
+
+msgid "zakat_tax_and_customs_authority"
+msgstr "هيئة الزكاة والضريبة والجمارك"
+
+msgid "capital_market_authority"
+msgstr "هيئة السوق المالية"
+
+msgid "ministry_of_finance"
+msgstr "وزارة المالية"
+
+msgid "saline_water_conversion_corporation"
+msgstr "المؤسسة العامة لتحلية المياه المالحة"
+
+msgid "water_and_electricity_regulatory_authority"
+msgstr "هيئة تنظيم المياه والكهرباء"
+
+msgid "saudi_ports_authority"
+msgstr "الهيئة العامة للموانئ"
+
+msgid "ministry_of_transport_and_logistic_services"
+msgstr "وزارة النقل والخدمات اللوجستية"
+
+msgid "ministry_of_media"
+msgstr "وزارة الإعلام"
+
+msgid "sports_boulevard_foundation"
+msgstr "مؤسسة المسار الرياضي"
+
+msgid "king_salman_park_foundation"
+msgstr "مؤسسة حديقة الملك سلمان"
+
+msgid "imam_abdulrahman_bin_faisal_university"
+msgstr "جامعة الإمام عبدالرحمن بن فيصل"
+
+msgid "prince_sattam_bin_abdulaziz_university"
+msgstr "جامعة الأمير سطام بن عبدالعزيز"
+
+msgid "saudi_electronic_university"
+msgstr "الجامعة السعودية الإلكترونية"
+
+msgid "king_saud_bin_abdulaziz_university_for_health_sciences"
+msgstr "جامعة الملك سعود بن عبدالعزيز للعلوم الصحية"
+
+msgid "university_of_bisha"
+msgstr "جامعة بيشة"
+
+msgid "university_of_jeddah"
+msgstr "جامعة جدة"
+
+msgid "university_of_hafr_al_batin"
+msgstr "جامعة حفر الباطن"
+
+msgid "council_of_political_and_security_affairs"
+msgstr "مجلس الشؤون السياسية والأمنية"
+
+msgid "council_of_economic_and_development_affairs"
+msgstr "مجلس الشؤون الاقتصادية والتنمية"
+
+msgid "military_service_council"
+msgstr "مجلس الخدمة العسكرية"
+
+msgid "e_commerce_council"
+msgstr "مجلس التجارة الإلكترونية"
+
+msgid "tourism_development_council"
+msgstr "مجلس التنمية السياحي"
+
+msgid "council_of_health_insurance"
+msgstr "مجلس الضمان الصحي"
+
+msgid "digital_content_council"
+msgstr "مجلس المحتوى الرقمي"
+
+msgid "council_of_royal_reserves"
+msgstr "مجلس المحميات الملكية"
+
+msgid "national_risks_council"
+msgstr "مجلس المخاطر الوطنية"
+
+msgid "national_occupational_health_and_safety_council"
+msgstr "المجلس الوطني للسلامة والصحة المهنية"
+
+msgid "family_affairs_council"
+msgstr "مجلس شؤون الأسرة"
+
+msgid "council_of_universities_affairs"
+msgstr "مجلس شؤون الجامعات"
+
+msgid "national_development_fund"
+msgstr "صندوق التنمية الوطني"
+
+msgid "higher_education_fund"
+msgstr "صندوق التعليم العالي الجامعي"
+
+msgid "cultural_development_fund"
+msgstr "صندوق التنمية الثقافي"
+
+msgid "tourism_development_fund"
+msgstr "صندوق التنمية السياحي"
+
+msgid "environmental_fund"
+msgstr "صندوق البيئة"
+
+msgid "social_charity_fund"
+msgstr "الصندوق الخيري الاجتماعي"
+
+msgid "fund_for_martyrs_wounded_pows_and_missing_in_action"
+msgstr "صندوق الشهداء والمصابين والأسرى والمفقودين"
+
+msgid "alimony_fund"
+msgstr "صندوق النفقة"
+
+msgid "king_fahad_medical_city_fund"
+msgstr "صندوق مدينة الملك فهد الطبية"
+
+msgid "presidency_of_state_security"
+msgstr "رئاسة أمن الدولة"
+
+msgid "ministry_of_tourism"
+msgstr "وزارة السياحة"
+
+msgid "mahd_sports_academy"
+msgstr "أكاديمية مهد الرياضية"
+
+msgid "saudi_export_import_bank"
+msgstr "بنك التصدير والاستيراد السعودي"
+
+msgid "saudi_central_bank"
+msgstr "البنك المركزي السعودي"
+
+msgid "small_and_medium_enterprise_bank"
+msgstr "بنك المنشآت الصغيرة والمتوسطة"
+
+msgid "king_salman_bin_abdulaziz_al_saud_complex_for_hadith"
+msgstr "مجمع خادم الحرمين الشريفين الملك سلمان بن عبدالعزيز ال سعود للحديث النبوي الشريف"
+
+msgid "king_salman_global_academy_for_arabic_language"
+msgstr "مجمع الملك سلمان العالمي للغة العربية"
+
+msgid "king_abdulaziz_complex_for_endowment_libraries"
+msgstr "مجمع الملك عبدالعزيز للمكتبات الوقفية"
+
+msgid "king_fahd_complex_for_printing_the_holy_quran"
+msgstr "مجمع الملك فهد لطباعة المصحف الشريف"
+
+msgid "king_abdulaziz_city_for_science_and_technology"
+msgstr "مدينة الملك عبدالعزيز للعلوم والتقنية"
+
+msgid "king_abdullah_city_for_atomic_and_renewable_energy"
+msgstr "مدينة الملك عبدالله للطاقة الذرية والمتجددة"
+
+msgid "national_center_for_educational_professional_development"
+msgstr "المعهد الوطني للتطوير المهني التعليمي"
+
+msgid "king_abdulaziz_public_library"
+msgstr "مكتبة الملك عبدالعزيز العامة"
+
+msgid "camel_club"
+msgstr "نادي الإبل"
+
+msgid "saudi_falcons_club"
+msgstr "نادي الصقور"
+
+msgid "jockey_club"
+msgstr "نادي سباقات الخيل"
+
+msgid "saudi_press_agency"
+msgstr "وكالة الأنباء السعودية"
+
+msgid "royal_commission_for_alula"
+msgstr "الهيئة الملكية لمحافظة العلا"
+
+msgid "royal_commission_for_riyadh_city"
+msgstr "الهيئة الملكية لمدينة الرياض"
+
+msgid "royal_commission_for_makkah_city_and_holy_sites"
+msgstr "الهيئة الملكية لمدينة مكة المكرمة والمشاعر المقدسة"
+
+msgid "literature_publishing_and_translation_commission"
+msgstr "هيئة الأدب والنشر والترجمة"
+
+msgid "saudi_broadcasting_authority"
+msgstr "هيئة الإذاعة والتلفزيون"
+
+msgid "fashion_commission"
+msgstr "هيئة الأزياء"
+
+msgid "film_commission"
+msgstr "هيئة الأفلام"
+
+msgid "digital_government_authority"
+msgstr "هيئة الحكومة الرقمية"
+
+msgid "nuclear_and_radiological_regulatory_commission"
+msgstr "هيئة الرقابة النووية والإشعاعية"
+
+msgid "saudi_data_and_ai_authority"
+msgstr "الهيئة السعودية للبيانات والذكاء الاصطناعي"
+
+msgid "saudi_tourism_authority"
+msgstr "الهيئة السعودية للسياحة"
+
+msgid "saudi_space_commission"
+msgstr "الهيئة السعودية للفضاء"
+
+msgid "saudi_bar_association"
+msgstr "الهيئة السعودية للمحامين"
+
+msgid "saudi_organization_for_chartered_and_professional_accountants"
+msgstr "الهيئة السعودية للمراجعين والمحاسبين"
+
+msgid "saudi_contractors_authority"
+msgstr "الهيئة السعودية للمقاولين"
+
+msgid "saudi_authority_for_accredited_valuers"
+msgstr "الهيئة السعودية للمقيمين المعتمدين"
+
+msgid "saudi_authority_for_intellectual_property"
+msgstr "الهيئة السعودية للملكية الفكرية"
+
+msgid "saudi_council_of_engineers"
+msgstr "الهيئة السعودية للمهندسين"
+
+msgid "red_sea_tourism_authority"
+msgstr "هيئة السياحة في البحر الأحمر"
+
+msgid "public_health_authority"
+msgstr "هيئة الصحة العامة"
+
+msgid "state_properties_general_authority"
+msgstr "الهيئة العامة لعقارات الدولة"
+
+msgid "general_commission_for_audiovisual_media"
+msgstr "الهيئة العامة للإعلام المرئي والمسموع"
+
+msgid "general_authority_for_awqaf"
+msgstr "الهيئة العامة للأوقاف"
+
+msgid "saudi_general_authority_of_foreign_trade"
+msgstr "الهيئة العامة للتجارة الخارجية"
+
+msgid "general_entertainment_authority"
+msgstr "الهيئة العامة للترفيه"
+
+msgid "general_authority_for_military_industries"
+msgstr "الهيئة العامة للصناعات العسكرية"
+
+msgid "real_estate_general_authority"
+msgstr "الهيئة العامة للعقار"
+
+msgid "general_authority_for_survey_and_geospatial_information"
+msgstr "الهيئة العامة للمساحة والمعلومات الجيومكانية"
+
+msgid "saudi_conventions_and_exhibitions_general_authority"
+msgstr "الهيئة العامة للمعارض والمؤتمرات"
+
+msgid "general_authority_for_competition"
+msgstr "الهيئة العامة للمنافسة"
+
+msgid "small_and_medium_enterprises_general_authority"
+msgstr "الهيئة العامة للمنشآت الصغيرة والمتوسطة"
+
+msgid "transport_general_authority"
+msgstr "الهيئة العامة للنقل"
+
+msgid "general_commission_for_the_guardianship_of_trust_funds_for_minors_and_their_counterparts"
+msgstr "الهيئة العامة للولاية على أموال القاصرين ومن في حكمهم"
+
+msgid "equestrian_authority"
+msgstr "هيئة الفروسية"
+
+msgid "visual_arts_commission"
+msgstr "هيئة الفنون البصرية"
+
+msgid "museums_commission"
+msgstr "هيئة المتاحف"
+
+msgid "local_content_and_government_procurement_authority"
+msgstr "هيئة المحتوى المحلي والمشتريات الحكومية"
+
+msgid "economic_cities_and_special_zones_authority"
+msgstr "هيئة المدن والمناطق الاقتصادية الخاصة"
+
+msgid "theater_and_performing_arts_commission"
+msgstr "هيئة المسرح والفنون الأدائية"
+
+msgid "libraries_commission"
+msgstr "هيئة المكتبات"
+
+msgid "music_commission"
+msgstr "هيئة الموسيقى"
+
+msgid "national_cybersecurity_authority"
+msgstr "الهيئة الوطنية للأمن السيبراني"
+
+msgid "shargia_development_authority"
+msgstr "هيئة تطوير المنطقة الشرقية"
+
+msgid "diriyah_gate_development_authority"
+msgstr "هيئة تطوير بوابة الدرعية"
+
+msgid "al_madinah_region_development_authority"
+msgstr "هيئة تطوير منطقة المدينة المنورة"
+
+msgid "high_commission_for_the_development_of_hail_region"
+msgstr "هيئة تطوير منطقة حائل"
+
+msgid "aseer_development_authority"
+msgstr "هيئة تطوير منطقة عسير"
+
+msgid "makkah_region_development_authority"
+msgstr "هيئة تطوير منطقة مكة المكرمة"
+
+msgid "yanbu_umluj_al_wajh_and_duba_development_authority"
+msgstr "هيئة تطوير ينبع وأملج والوجه وضباء"
+
+msgid "education_and_training_evaluation_commission"
+msgstr "هيئة تقويم التعليم والتدريب"
+
+msgid "research_development_and_innovation_authority"
+msgstr "هيئة تنمية البحث والتطوير والابتكار"
+
+msgid "saudi_exports_development_authority"
+msgstr "هيئة تنمية الصادرات السعودية"
+
+msgid "authority_for_persons_with_disabilities"
+msgstr "هيئة رعاية الأشخاص ذوي الإعاقة"
+
+msgid "culinary_arts_commission"
+msgstr "هيئة فنون الطهي"
+
+msgid "architecture_and_design_commission"
+msgstr "هيئة فنون العمارة والتصميم"
+
+msgid "expenditure_and_projects_efficiency_authority"
+msgstr "هيئة كفاءة الإنفاق والمشروعات الحكومية"
+
+msgid "premium_residency_center"
+msgstr "مركز الإقامة المميزة"
+
+msgid "national_security_center"
+msgstr "مركز الامن الوطني"
+
+msgid "prince_sultan_defense_studies_and_research_center"
+msgstr "مركز الأمير سلطان للدراسات والبحوث الدفاعية"
+
+msgid "center_for_communication_and_knowledge_prospection"
+msgstr "مركز التواصل والاستشراف المعرفي"
+
+msgid "center_of_legal_studies_and_research"
+msgstr "مركز الدراسات والبحوث القانونية"
+
+msgid "saudi_central_board_for_accreditation_of_healthcare_institutions"
+msgstr "المركز السعودي لاعتماد المنشآت الصحية"
+
+msgid "saudi_center_for_organ_transplantation"
+msgstr "المركز السعودي لزراعة الأعضاء"
+
+msgid "saudi_patient_safety_center"
+msgstr "المركز السعودي لسلامة المرضى"
+
+msgid "saudi_energy_efficiency_center"
+msgstr "المركز السعودي لكفاءة الطاقة"
+
+msgid "saudi_accreditation_center"
+msgstr "المركز السعودي للاعتماد"
+
+msgid "saudi_business_center"
+msgstr "المركز السعودي للأعمال الاقتصادية"
+
+msgid "saudi_center_for_commercial_arbitration"
+msgstr "المركز السعودي للتحكيم التجاري"
+
+msgid "saudi_center_for_international_strategic_partnerships"
+msgstr "المركز السعودي للشراكات الاستراتيجية الدولية"
+
+msgid "conciliation_center"
+msgstr "مركز المصالحة"
+
+msgid "national_information_center"
+msgstr "مركز المعلومات الوطني"
+
+msgid "king_salman_humanitarian_aid_and_relief_center"
+msgstr "مركز الملك سلمان للإغاثة والأعمال الإنسانية"
+
+msgid "king_abdulaziz_center_for_national_dialogue"
+msgstr "مركز الملك عبدالعزيز للحوار الوطني"
+
+msgid "king_abdulaziz_arabian_horses_center"
+msgstr "مركز الملك عبدالعزيز للخيل العربية الأصيلة"
+
+msgid "king_abdullah_bin_abdulaziz_center_for_language_planning_and_policies"
+msgstr "مركز الملك عبدالله بن عبدالعزيز للتخطيط والسياسات اللغوية"
+
+msgid "king_abdullah_petroleum_studies_and_research_center"
+msgstr "مركز الملك عبدالله للدراسات والبحوث البترولية"
+
+msgid "the_national_debt_management_center"
+msgstr "المركز الوطني لإدارة الدين"
+
+msgid "national_center_for_waste_management"
+msgstr "المركز الوطني لإدارة النفايات"
+
+msgid "national_center_for_travelers_security"
+msgstr "المركز الوطني لأمن المسافرين"
+
+msgid "national_center_for_mental_health"
+msgstr "المركز الوطني لتعزيز الصحة النفسية"
+
+msgid "national_center_for_vegetation_cover_development_and_combating_desertification"
+msgstr "المركز الوطني لتنمية الغطاء النباتي ومكافحة التصحر"
+
+msgid "national_center_for_non_profit_sector"
+msgstr "المركز الوطني لتنمية القطاع غير الربحي"
+
+msgid "national_center_for_performance_measurement"
+msgstr "المركز الوطني لقياس أداء الأجهزة العامة"
+
+msgid "national_water_efficiency_and_conservation_center"
+msgstr "المركز الوطني لكفاءة وترشيد المياه"
+
+msgid "national_research_and_development_center_for_sustainable_agriculture"
+msgstr "المركز الوطني للأبحاث وتطوير الزراعة المستدامة"
+
+msgid "national_center_for_privatization"
+msgstr "المركز الوطني للتخصيص"
+
+msgid "national_center_for_educational_and_professional_development"
+msgstr "المركز الوطني للتطوير المهني التعليمي"
+
+msgid "national_e_learning_center"
+msgstr "المركز الوطني للتعليم الإلكتروني"
+
+msgid "national_competitiveness_center"
+msgstr "المركز الوطني للتنافسية"
+
+msgid "national_industrial_development_center"
+msgstr "المركز الوطني للتنمية الصناعية"
+
+msgid "national_center_for_social_studies"
+msgstr "المركز الوطني للدراسات والبحوث الاجتماعية"
+
+msgid "national_center_for_artificial_intelligence"
+msgstr "المركز الوطني للذكاء الاصطناعي"
+
+msgid "national_center_for_environmental_compliance"
+msgstr "المركز الوطني للرقابة على الالتزام البيئي"
+
+msgid "national_center_for_complementary_and_alternative_medicine"
+msgstr "المركز الوطني للطب البديل والتكميلي"
+
+msgid "national_events_center"
+msgstr "المركز الوطني للفعاليات"
+
+msgid "national_health_information_center"
+msgstr "المركز الوطني للمعلومات الصحية"
+
+msgid "national_center_for_the_prevention_and_control_of_plants_pests_and_animal_diseases"
+msgstr "المركز الوطني للوقاية من الآفات النباتية والأمراض الحيوانية ومكافحتها"
+
+msgid "national_center_for_government_resources"
+msgstr "المركز الوطني لنظم إدارة الموارد"
+
+msgid "national_transformation_program_center"
+msgstr "مركز برنامج التحول الوطني"
+
+msgid "the_center_for_quality_of_life_program"
+msgstr "مركز برنامج جودة الحياة"
+
+msgid "heavy_equipment_regulatory_center"
+msgstr "مركز تنظيم المعدات الثقيلة"
+
+msgid "non_oil_revenues_development_center"
+msgstr "مركز تنمية الإيرادات غير النفطية"
+
+msgid "real_estate_developers_service_center"
+msgstr "مركز خدمات المطورين العقاريين"
+
+msgid "decision_support_center"
+msgstr "مركز دعم اتخاذ القرار"
+
+msgid "entrustment_and_liquidation_center"
+msgstr "مركز الإسناد والتصفية"
+
+msgid "other"
+msgstr "اخرى"
+
+msgid "public"
+msgstr "عام"
+
+msgid "private"
+msgstr "خاص"
+
+msgid "non_profit"
+msgstr "غير ربحي"
