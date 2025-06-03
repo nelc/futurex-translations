@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 This script provides functionality to merge translation files in both .po and .json formats.
 It checks for existing files and merges new entries into them, preserving the original content.
