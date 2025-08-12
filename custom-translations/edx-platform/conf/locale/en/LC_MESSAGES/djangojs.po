@@ -774,6 +774,9 @@ msgstr "Decision Support Center"
 msgid "entrustment_and_liquidation_center"
 msgstr "Entrustment and Liquidation Center"
 
+msgid "holy_makkah_municipality"
+msgstr "Holy Makkah Municipality"
+
 msgid "other"
 msgstr "Other"
 
