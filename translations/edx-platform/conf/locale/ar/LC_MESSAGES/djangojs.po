@@ -12769,6 +12769,9 @@ msgstr "مركز دعم اتخاذ القرار"
 msgid "entrustment_and_liquidation_center"
 msgstr "مركز الإسناد والتصفية"
 
+msgid "holy_makkah_municipality"
+msgstr "بلدية مكة المكرمة"
+
 msgid "other"
 msgstr "اخرى"
 
