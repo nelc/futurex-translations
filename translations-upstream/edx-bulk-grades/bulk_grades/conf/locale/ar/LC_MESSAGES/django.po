@@ -40,7 +40,7 @@ msgstr "يجب أن تتجاوز النقاط 0"
 
 #: api.py:347
 msgid "Wrong course id {} != {}"
-msgstr "معرّف الدورة غير صالح {} != {}"
+msgstr "معرّف الدورة غير صحيح {} != {}"
 
 #: api.py:366 api.py:368
 msgid "Repeated user_id: "
@@ -52,7 +52,7 @@ msgstr "يجب أن يكون التقييم رقمًا. "
 
 #: api.py:388
 msgid "Grade must not be negative"
-msgstr "يجب ألا يكون التقييم سلبي. "
+msgstr "يجب ألا يكون التقييم سلبياً. "
 
 #: api.py:642
 msgid "score must be positive"
