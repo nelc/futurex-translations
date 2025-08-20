@@ -1,7 +1,7 @@
 
 RELEASE_BRANCH := "open-release/redwood.master"
-LANGUAGES := "ar,fr_CA"
-EDX_PLATFORM_LANGUAGES := "ar,fr_CA,en"
+LANGUAGES := "ar,id,fr_CA"
+EDX_PLATFORM_LANGUAGES := "$(LANGUAGES),en"
 
 .PHONY: pull_and_replace
 pull_and_replace: pull replace custom_translations
