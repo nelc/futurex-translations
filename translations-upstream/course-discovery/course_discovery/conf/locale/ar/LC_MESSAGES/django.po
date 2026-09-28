@@ -143,7 +143,7 @@ msgstr "نوع الكورس [{course_type}] غير موجود"
 #: apps/api/v1/views/courses.py:217
 #, python-brace-format
 msgid "A course with key [{key}] already exists."
-msgstr "يوجد كورس يحمل نفس المفتاح [{key}] مسبقًا"
+msgstr "يوجد برنامج يحمل نفس المفتاح [{key}] مسبقًا"
 
 #: apps/api/v1/views/courses.py:225
 #, python-brace-format
@@ -205,7 +205,7 @@ msgstr "تواريخ مهمّة"
 
 #: apps/core/admin.py:45
 msgid "API Configuration"
-msgstr "تكوين واجهة برمجة التطبيقات API"
+msgstr "تهيئة واجهة برمجة التطبيقات API"
 
 #: apps/core/admin.py:46
 msgid "Configure the APIs that will be used to retrieve data."
@@ -242,7 +242,7 @@ msgstr "الفترة يجب أن تكون واحدة من {period_choices}. "
 
 #: apps/core/forms.py:26
 msgid "'rate' must be in the format defined by DRF, such as '100/hour'."
-msgstr "’المعدل‘ يجب أن يكون بالتنسيق المحدد بواسطة DRF مثل \"100/الساعة\". "
+msgstr "يجب أن تكون قيمة 'rate' بالتنسيق المحدد بواسطة DRF، مثل '100/hour'."
 
 #: apps/core/models.py:17
 msgid "Full Name"
@@ -1085,9 +1085,7 @@ msgstr "يشير إلى إذا تم تجاوز ارتباط الدورة يدو�
 msgid ""
 "'What You Will Learn' description for this particular course run. Leave this"
 " value blank to default to the parent course's Outcome attribute."
-msgstr ""
-"وصف \"ما الذي ستتعلمه\" لهذا المساق المعين. اترك هذه القيمة فارغة كتعيين "
-"افتراضي للحصول على مرئيات الوالدين حول مخرجات المساق. "
+msgstr "وصف \"ما الذي ستتعلمه\" لهذا البرنامج المعين. اترك هذه القيمة فارغة بحالتها الافتراضية للحصول على وصف البرنامج الاساسي حول مخرجات البرنامج."
 
 #: apps/course_metadata/models.py:2184 apps/course_metadata/models.py:3320
 msgid "Add OFAC restriction text to the FAQ section of the Marketing site"
@@ -1119,11 +1117,11 @@ msgstr "عنوان العرض المواجه للمستخدم لهذا البر�
 
 #: apps/course_metadata/models.py:3143
 msgid "A brief, descriptive subtitle for the Program."
-msgstr "عنوان فرعي وصفي مختصر للبرنامج."
+msgstr "عنوان فرعي وصفي موجز للبرنامج."
 
 #: apps/course_metadata/models.py:3145
 msgid "A brief hook for the marketing website"
-msgstr "أداة ربط مختصرة لموقع التسويق."
+msgstr "عبارة جذابة ومختصرة لموقع التسويق."
 
 #: apps/course_metadata/models.py:3148
 msgid "The lifecycle status of this Program."
@@ -1374,14 +1372,11 @@ msgid ""
 "A high-level overview of the degree's courseware. The \"brief\"\n"
 "            text is the first 750 characters of \"marketing_text\" and must be\n"
 "            valid HTML."
-msgstr ""
-"نظرة عامة متفحصة لمواد المساقات للدرجة. The \"موجزة\"\n"
-"النص هو أول 750 حرفًا من \"marketing_text\" ويجب أن يكون \n"
-"HTML صالح."
+msgstr "نظرة عامة متفحصة لمقررات البرنامج. \"الموجز\"\nالنص هو أول 750 حرفًا من \"marketing_text\" ويجب أن يكون \nHTML صالح."
 
 #: apps/course_metadata/models.py:4091
 msgid "A high-level overview of the degree's courseware."
-msgstr "معاينة متفحصة لأدوات مساق الدرجة."
+msgstr "نظرة عامة متفحصة على المقررات الدراسية للبرنامج."
 
 #: apps/course_metadata/models.py:4167
 msgid "Organization name"
@@ -1483,9 +1478,7 @@ msgstr "حفظ تشغيل الدورة"
 msgid ""
 "%(user_name)s made the following comment on %(course_name)s on %(date)s at "
 "%(time)s"
-msgstr ""
-"قام %(user_name)s بالتعليق على %(course_name)s يوم %(date)s على الساعة "
-"%(time)s"
+msgstr "قام %(user_name)s بكتابة التعليق التالي على %(course_name)s في  %(date)s في %(time)s"
 
 #: apps/course_metadata/templates/course_metadata/email/comment.html:19
 #: apps/course_metadata/templates/course_metadata/email/comment.txt:9
@@ -1502,9 +1495,7 @@ msgstr "فريق edX"
 msgid ""
 "%(user_name)s made the following comment on %(course_name)s %(date)s at "
 "%(time)s"
-msgstr ""
-"قام %(user_name)sبكتابة التعليق التالي على %(course_name)s%(date)sفي "
-"%(time)s"
+msgstr "قام %(user_name)s بكتابة التعليق التالي على %(course_name)s%(date)s في %(time)s"
 
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:9
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:3
@@ -1561,7 +1552,7 @@ msgstr ""
 #: apps/course_metadata/templates/course_metadata/email/internal_review.txt:6
 #, python-format
 msgid "%(org_name)s has submitted %(course_key)s for review."
-msgstr "قام %(org_name)sبإرسال %(course_key)sللمراجعة."
+msgstr "قامت  %(org_name)s بتقديم %(course_key)s للمراجعة."
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.txt:10
 #, python-format
@@ -1592,7 +1583,7 @@ msgstr ""
 #: apps/course_metadata/templates/course_metadata/email/legal_review.txt:6
 #, python-format
 msgid "%(org_name)s has submitted %(course_name)s for review."
-msgstr "قامت %(org_name)sبإرسال %(course_name)sلغرض المراجعة."
+msgstr "قامت %(org_name)s بتقديم %(course_name)s للمراجعة."
 
 #: apps/course_metadata/templates/course_metadata/email/legal_review.txt:11
 msgid "View this course run in Publisher above to determine OFAC status."

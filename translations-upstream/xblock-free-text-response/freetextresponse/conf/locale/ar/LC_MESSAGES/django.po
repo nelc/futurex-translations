@@ -29,23 +29,21 @@ msgstr "عرض التصحيح؟"
 msgid ""
 "This is a flag that indicates if the indicator icon should be displayed "
 "after a student enters their response"
-msgstr ""
-"هذه علامة تشير إلى ما إذا كان يجب عرض رمز المؤشر بعد أن يقوم الطالب بإدخال "
-"إجابته"
+msgstr "هذه علامة تشير إلى ما إذا كان يجب عرض رمز المؤشر بعد أن يقوم المتدرب بإدخال إجابته"
 
 #: models.py:49
 msgid "Display Other Student Responses"
-msgstr "عرض إجابات الطلاب الأخرى"
+msgstr "عرض إجابات المتدربين الأخرى"
 
 #: models.py:51
 msgid ""
 "This will display other student responses to the student after they submit "
 "their response."
-msgstr "هذا سيعرض إجابات الطلاب للطالب بعد تسليم إجابته"
+msgstr "سيؤدي هذا إلى عرض إجابات الطلاب الآخرين للطالب بعد تسليم إجابته."
 
 #: models.py:60
 msgid "System selected answers to give to students"
-msgstr "إجابات يختارها النظام للطلاب"
+msgstr "إجابات يختارها النظام لتقديمها للمتدربين"
 
 #: models.py:63
 msgid "Display Name"
@@ -63,9 +61,7 @@ msgstr "عبارات رئيسية للحصول على الدرجة الكامل�
 msgid ""
 "This is a list of words or phrases, one of which must be present in order "
 "for the student's answer to receive full credit"
-msgstr ""
-"يتطلب توفر واحدة من هذه الكلمات أو العبارات في إجابة الطالب ليحصل على الدرجة"
-" الكاملة"
+msgstr "يتطلب توفر واحدة من هذه الكلمات أو العبارات في إجابة المتدرب ليحصل على الدرجة الكاملة"
 
 #: models.py:81
 msgid "Half-Credit Key Phrases"
@@ -75,9 +71,7 @@ msgstr "عبارات رئيسية للحصول على نصف الدرجة"
 msgid ""
 "This is a list of words or phrases, one of which must be present in order "
 "for the student's answer to receive half credit"
-msgstr ""
-"يتطلب توفر واحدة من هذه الكلمات أو العبارات في إجابة الطالب ليحصل على نصف "
-"الدرجة"
+msgstr "يتطلب توفر واحدة من هذه الكلمات أو العبارات في إجابة المتدرب ليحصل على نصف الدرجة"
 
 #: models.py:91
 msgid "Maximum Number of Attempts"
@@ -87,7 +81,7 @@ msgstr "العدد الأقصى للمحاولات"
 msgid ""
 "This is the maximum number of times a student is allowed to attempt the "
 "problem"
-msgstr "هذا العدد الأقصى المسموح للطالب لحل هذه المسألة"
+msgstr "يحدد الحد الأقصى لعدد المحاولات المسموح بها للمتدرب للإجابة عن هذا التقييم"
 
 #: models.py:101
 msgid "Maximum Word Count"
@@ -95,7 +89,7 @@ msgstr "أقصى عدد للكلمات"
 
 #: models.py:103
 msgid "This is the maximum number of words allowed for this question"
-msgstr "هذا العدد الأقصى من الكلمات المسموحة لهذا السؤال"
+msgstr "هذا هو العدد الأقصى من الكلمات المسموحة لهذا السؤال"
 
 #: models.py:111
 msgid "Minimum Word Count"
@@ -107,42 +101,42 @@ msgstr "هذا العدد الأدنى من الكلمات المطلوبة له
 
 #: models.py:121
 msgid "Prompt"
-msgstr "علامة الاستعداد"
+msgstr "مُوجِّه"
 
 #: models.py:123
 msgid ""
 "This is the prompt students will see when asked to enter their response"
-msgstr "هذه هي المطالبة التي سيشاهدها الطلاب عندما يُطلب منهم إدخال استجابتهم"
+msgstr "هذا هو السؤال التي سيشاهدها المتدربين عندما يُطلب منهم إدخال استجابتهم"
 
 #: models.py:131
 msgid "Submission Received Message"
-msgstr "إخطار باستلام عملك"
+msgstr "رسالة باستلام عملك"
 
 #: models.py:133
 msgid "This is the message students will see upon submitting their response"
-msgstr "هذه الرسالة التي سيراها الطالب قبل تسليم إجابته"
+msgstr "هذه هي الرسالة التي سيراها المتدربين عند تسليم إجابتهم"
 
 #: models.py:140
 msgid "Weight"
-msgstr "القيمة"
+msgstr "وزن الدرجة"
 
 #: models.py:142
 msgid "This assigns an integer value representing the weight of this problem"
-msgstr "هذا يعين قيمة عددية تمثل وزن هذه المشكلة"
+msgstr "يحدد قيمة عددية تمثل درجة هذا التقييم"
 
 #: models.py:150
 msgid "Draft Received Message"
-msgstr "إخطار باستلام المسودة"
+msgstr "رسالة استلام المسودة"
 
 #: models.py:152
 msgid "This is the message students will see upon submitting a draft response"
-msgstr "هذه الرسالة التي سيراها الطالب قبل تسليم المسودة"
+msgstr "هذه الرسالة التي سيراها المتدرب قبل تسليم المسودة"
 
 #: templates/view.html:15
 msgid ""
 "Allow my response to possibly be visible by other learners after submitting "
 "their response"
-msgstr "اسمح بعرض إجابتي للطلاب الآخرين بعد أن يقدموا إجاباتهم"
+msgstr "اسمح بأن تكون إجابتي مرئية للمتدربين الآخرين بعد تقديم إجاباتهم"
 
 #: templates/view.html:21 templates/view.html:24
 msgid "Checking..."
@@ -166,7 +160,7 @@ msgstr "إظهار"
 
 #: templates/view.html:36
 msgid "peer responses"
-msgstr "إجابات زملائك الطلاب"
+msgstr "إجابات الزملاء الآخرين"
 
 #: templates/view.html:38
 msgid "Submissions by others"
@@ -180,7 +174,7 @@ msgstr "لا توجد إجابات لعرضها الآن"
 #, python-brace-format
 msgid "{weight} point possible"
 msgid_plural "{weight} points possible"
-msgstr[0] "لا درجات ممكنة"
+msgstr[0] "{weight} نقطة ممكنة"
 msgstr[1] "درجة واحدة ممكنة"
 msgstr[2] "درجتان {weight} ممكنتان"
 msgstr[3] "{weight} درجات ممكنة"
@@ -191,7 +185,7 @@ msgstr[5] "{weight} درجة ممكنة"
 #, python-brace-format
 msgid "{score_string}/{weight} point"
 msgid_plural "{score_string}/{weight} points"
-msgstr[0] "{score_string} / {weight} نقطة"
+msgstr[0] "{score_string}/{weight} نقطة"
 msgstr[1] "نقطة {score_string} / {weight}"
 msgstr[2] "{score_string} / {weight} نقطة"
 msgstr[3] "{score_string} / {weight} نقطة"
@@ -202,7 +196,7 @@ msgstr[5] "الدرجات {score_string}/{weight}"
 #, python-brace-format
 msgid "You have used {count_attempts} of {max_attempts} submission"
 msgid_plural "You have used {count_attempts} of {max_attempts} submissions"
-msgstr[0] "You have used {count_attempts} of {max_attempts} submissions"
+msgstr[0] "لقد استخدمت {count_attempts} من {max_attempts} محاولة تقديم"
 msgstr[1] "لقد استخدمت {count_attempts} من أصل محاولة واحدة {max_attempts}"
 msgstr[2] "لقد استخدمت {count_attempts} من أصل محاولتين {max_attempts}"
 msgstr[3] "لقد استخدمت {count_attempts} من أصل {max_attempts} محاولات"
@@ -213,7 +207,7 @@ msgstr[5] "لقد استخدمت {count_attempts} من أصل {max_attempts} م�
 #, python-brace-format
 msgid "Your response must be between {min} and {max} word."
 msgid_plural "Your response must be between {min} and {max} words."
-msgstr[0] "يجب أن يكون جوابك بين {min} و{max} حرفا."
+msgstr[0] "يجب أن تتراوح إجابتك بين {min} و{max} كلمة."
 msgstr[1] "يجب أن يكون جوابك بين {min} و{max} حرفا."
 msgstr[2] "يجب أن يكون جوابك بين {min} و{max} حرفا."
 msgstr[3] "يجب أن يكون جوابك بين {min} و{max} حروف."

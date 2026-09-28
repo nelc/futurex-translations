@@ -17,15 +17,15 @@
   },
   "dropzone.Dropzone.unexpectedValidationError": {
     "developer_comment": "A message shown in case file validation in Dropzone component for unknown reason.",
-    "string": "حدثت مشكلة غير متوقعة أثناء التحقق من صحة الملف. رجاءً حاول مرة اخرى."
+    "string": "حدثت مشكلة غير متوقعة أثناء التحقق من صحة الملف، يرجى المحاولة مرة أخرى."
   },
   "dropzone.Dropzone.uploadError": {
     "developer_comment": "A message shown in case file upload in Dropzone component results in an error.",
-    "string": "حدثت مشكلة أثناء رفع ملفك. رجاءً حاول مجددًا."
+    "string": "حدثت مشكلة أثناء رفع ملفك، يرجى المحاولة مرة أخرى."
   },
   "pgn.Alert.closeLabel": {
     "developer_comment": "Label of a close button on Alert component",
-    "string": "تجاهل"
+    "string": "رفض"
   },
   "pgn.CardCarousel.scrollToNext": {
     "developer_comment": "Accessibility text describing the action for navigating a scrollable carousel to the next element",
@@ -45,7 +45,7 @@
   },
   "pgn.DataTable.BaseSelectionStatus.allSelectedText": {
     "developer_comment": "Text for all selected label",
-    "string": "تم تحديد الـ {numSelectedRows} كلها"
+    "string": "تم تحديد الـكل {numSelectedRows}"
   },
   "pgn.DataTable.BaseSelectionStatus.clearSelectionText": {
     "developer_comment": "A label of clear all selection button.",
@@ -53,7 +53,7 @@
   },
   "pgn.DataTable.BaseSelectionStatus.selectAllText": {
     "developer_comment": "A label for select all button.",
-    "string": "تحديد الـ {itemCount} كلها"
+    "string": "تحديد الـكل {itemCount}"
   },
   "pgn.DataTable.BaseSelectionStatus.selectedText": {
     "developer_comment": "Text for selected label",
@@ -101,7 +101,7 @@
   },
   "pgn.Dropzone.DefaultContent.label": {
     "developer_comment": "A text that appears as a label for input of Dropzone component.",
-    "string": "اسحب و ألق ملفك هنا أو انقر للرفع."
+    "string": "اسحب ملفك وأفلته هنا أو انقر للتحميل."
   },
   "pgn.Dropzone.UploadProgress.cancelLabel": {
     "developer_comment": "Label of a cancel button that is shown during file upload in Dropzone component.",

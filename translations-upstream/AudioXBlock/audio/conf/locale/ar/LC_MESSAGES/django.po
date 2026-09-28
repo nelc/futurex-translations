@@ -27,12 +27,12 @@ msgstr "عنوان URL لملف MP3 المرد تشغيله"
 
 #: templates/html/audio_edit.html:7
 msgid "Audio Source Location"
-msgstr "مكان مصدر الصوت"
+msgstr "مصدر الملف الصوتي"
 
 #: templates/html/audio_edit.html:13
 msgid "Save"
-msgstr "احفظ"
+msgstr "حفظ"
 
 #: templates/html/audio_edit.html:14
 msgid "Cancel"
-msgstr "الغِ"
+msgstr "إلغاء"
