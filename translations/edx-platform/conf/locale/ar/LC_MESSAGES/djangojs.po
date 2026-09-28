@@ -4801,7 +4801,7 @@ msgstr "تم تجاوز نتيجة المسألة بنجاح {user}"
 
 #: lms/static/js/staff_debug_actions.js:138
 msgid "Could not override problem score for {user}."
-msgstr "تعذر تجاوز نتيجة المسألة {user}."
+msgstr "تعذر تجاوز نتيجة التقييم {user}."
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:93
 msgid "Enter and confirm your new password."
@@ -7221,7 +7221,7 @@ msgstr "تقدم تلقائي"
 #: xmodule/js/src/video/00_i18n.js:23
 #: xmodule/js/src/video/07_video_volume_control.js:72
 msgid "Volume"
-msgstr "الصوت "
+msgstr "مستوى الصوت"
 
 #. Translators: Volume level equals 0%.
 #: xmodule/js/src/video/00_i18n.js:25

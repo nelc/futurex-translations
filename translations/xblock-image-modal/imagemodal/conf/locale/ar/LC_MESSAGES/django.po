@@ -35,7 +35,7 @@ msgstr "رابط الصورة"
 
 #: models.py:41
 msgid "This is the location of the full-screen image to be displayed."
-msgstr "هذا موقع الصورة التي ستُعرَض ملء الشاشة."
+msgstr "هذا موقع الصورة التي ستُعرَض بوضع ملء الشاشة."
 
 #: models.py:46
 msgid "Thumbnail URL"
@@ -69,7 +69,7 @@ msgstr "يتيح لك هذا الحقل إضافة نص بديل أو وصفي �
 
 #: templates/view.html:15
 msgid "Fullscreen"
-msgstr "ملء الشاشة"
+msgstr "وضع ملء الشاشة"
 
 #: templates/view.html:25
 msgid "Zoom In"
