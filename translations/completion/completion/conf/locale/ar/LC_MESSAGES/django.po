@@ -37,7 +37,7 @@ msgstr "لم يُعثَر على المفتاح '{key}'."
 
 #: api/v1/views.py:97
 msgid "User is not enrolled in course."
-msgstr "المستخدم غير مسجل في الدورة."
+msgstr "المستخدم غير مسجل في البرنامج."
 
 #: api/v1/views.py:115
 msgid "Invalid learning context key: {}"

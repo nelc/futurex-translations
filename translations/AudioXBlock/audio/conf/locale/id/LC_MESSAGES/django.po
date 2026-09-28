@@ -30,8 +30,8 @@ msgstr "Audio Source Location"
 
 #: templates/html/audio_edit.html:13
 msgid "Save"
-msgstr "Save"
+msgstr "حفظ"
 
 #: templates/html/audio_edit.html:14
 msgid "Cancel"
-msgstr "Cancel"
+msgstr "إلغاء"

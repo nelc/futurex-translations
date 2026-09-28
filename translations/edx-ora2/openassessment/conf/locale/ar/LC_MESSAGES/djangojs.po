@@ -76,7 +76,7 @@ msgstr "فشلت عملية إعادة جدولة واحدة أو أكثر."
 #: xblock/static/dist/openassessment-studio.d576fb212cefa2e4b720.js:1
 #: xblock/static/js/src/oa_server.js:484
 msgid "This problem could not be saved."
-msgstr "تعذّر حفظ هذه المسألة."
+msgstr "تعذّر حفظ التقييم"
 
 #: xblock/static/dist/openassessment-lms.dc8bb1e464bcaaab4668.js:8
 #: xblock/static/dist/openassessment-studio.d576fb212cefa2e4b720.js:1
