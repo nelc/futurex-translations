@@ -2,7 +2,7 @@
   "adminPortal.assignmentModal.altText": "معلومات اكثر",
   "adminPortal.assignmentModal.tooltipText": "سوف يقوم edX بتذكير المتعلمين باسترداد الكود الخاص بهم بعد 3 و10 و19 يومًا من تعيينه.",
   "adminPortal.assignmentModal.modalFieldLabel": "تذكيرات تلقائية",
-  "adminPortal.csv.download": "تنزيل التقرير الكامل (CSV)",
+  "adminPortal.csv.download": "تنزيل التقرير الكامل بصيغة (CSV)",
   "adminPortal.emailTemplateForm.formName": "قالب البريد الإلكتروني",
   "adminPortal.emailTemplateForm.customizeSubject": "تخصيص موضوع البريد الإلكتروني",
   "adminPortal.emailTemplateForm.customizeGreeting": "تخصيص التحية",

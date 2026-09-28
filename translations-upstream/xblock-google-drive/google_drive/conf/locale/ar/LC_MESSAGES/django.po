@@ -66,10 +66,7 @@ msgid ""
 "Google provides an embed code for Drive documents. In the Google Drive "
 "document, from the File menu, select Publish to the Web. Modify settings as "
 "needed, click Publish, and copy the embed code into this field."
-msgstr ""
-"توفر Google تعليمات برمجية لتضمين مستندات Drive. في مستند Google Drive، من "
-"قائمة &quot;ملف&quot;، اختر &quot;نشر على الويب&quot;. عدِّل الإعدادات حسب "
-"الحاجة، وانقر فوق مشاركة، وانسخ رمز التضمين في هذا الحقل."
+msgstr "توفر Google تعليمات برمجية لتضمين مستندات Drive. في مستند Google Drive، من قائمة &quot;ملف&quot;، اختر &quot;نشر على الويب&quot;. عدِّل الإعدادات حسب الحاجة، وانقر فوق مشاركة، وانسخ رمز التضمين في هذا الحقل."
 
 #: google_docs.py:75
 msgid "Alternative Text"
@@ -78,7 +75,7 @@ msgstr "نص بديل"
 #: google_docs.py:76 templates/html/google_docs_edit.html:38
 msgid ""
 "Alternative text describes an image and appears if the image is unavailable."
-msgstr "يصف النص البديل صورة ويظهر إذا كانت الصورة غير متاحة."
+msgstr "يصف النص البديل كصورة ويظهر إذا كانت الصورة غير متاحة."
 
 #: templates/html/google_calendar_edit.html:9
 msgid "Invalid Google Calendar"
@@ -112,7 +109,7 @@ msgstr "حفظ"
 #: templates/html/google_calendar_edit.html:64
 #: templates/html/google_docs_edit.html:51
 msgid "Cancel"
-msgstr "الغِ"
+msgstr "إلغاء"
 
 #: templates/html/google_docs_edit.html:9
 msgid "Invalid Google Document"
