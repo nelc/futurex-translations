@@ -28,11 +28,11 @@ msgstr "التقارير"
 
 #: settings/common.py:31
 msgid "Course Dashboard"
-msgstr "لوحة تحكم الدورة"
+msgstr "لوحة تحكم المقرر"
 
 #: settings/common.py:37
 msgid "Individual Learner Dashboard"
-msgstr "لوحة تحكم المتعلم الفردية"
+msgstr "لوحة تحكم المتعلم الفردي"
 
 #: settings/common.py:43
 msgid "At-Risk Learners Dashboard"
@@ -42,31 +42,26 @@ msgstr "لوحة تحكم المتعلمين المعرضين للخطر"
 msgid ""
 "Superset is not configured properly. Please contact your system "
 "administrator."
-msgstr "لم يتم تكوين Superset بشكل صحيح. من فضلك تواصل مع مسؤول نظامك."
+msgstr "لم يتم تكوين Superset بشكل صحيح. من فضلك تواصل مع مسؤول النظام."
 
 #: static/html/superset_student.html:4
 msgid ""
 "Superset is only visible to course staff and instructors. Please contact "
 "your system administrator."
-msgstr ""
-"تكون المجموعة الشاملة مرئية فقط لطاقم الدورة التدريبية والمدرسين. من فضلك "
-"تواصل مع مسؤول نظامك."
+msgstr "تكون المجموعة الشاملة مرئية فقط لطاقم الدورة التدريبية والمدرسين. من فضلك تواصل مع مسؤول النظام."
 
 #: utils.py:162
 #, python-brace-format
 msgid ""
 "Unable to fetch Superset guest token, Superset server error "
 "{server_response}"
-msgstr ""
-"غير قادر على جلب رمز ضيف Superset، خطأ خادم Superset {server_response}"
+msgstr "غير قادر على استرداد رمز ضيف Superset، خطأ في خادم Superset {server_response}"
 
 #: utils.py:171
 msgid ""
 "Unable to fetch Superset guest token, mostly likely due to invalid "
 "settings.SUPERSET_CONFIG"
-msgstr ""
-"غير قادر على جلب رمز ضيف Superset، على الأرجح بسبب إعدادات غير "
-"صالحة.SUPERSET_CONFIG"
+msgstr "غير قادر على استرداد رمز ضيف Superset، ربما بسبب إعدادات غير صالحة SUPERSET_CONFIG"
 
 #: views.py:83
 #, python-brace-format
@@ -76,27 +71,25 @@ msgstr "معرف الدورة التدريبية غير صالح: &#39;{course_i
 #: views.py:95
 #, python-brace-format
 msgid "Course not found: '{course_id}'"
-msgstr "لم يتم العثور على الدورة التدريبية: &#39;{course_id}&#39;"
+msgstr "لم يتم العثور على المقرر: {course_id}"
 
 #: xblock.py:47 xblock.py:48
 msgid "Display name"
-msgstr "عرض الاسم"
+msgstr "اسم العرض"
 
 #: xblock.py:49
 msgid "Superset Dashboard"
-msgstr "لوحة القيادة سوبرسيت"
+msgstr "لوحة التحكم Superset"
 
 #: xblock.py:54
 msgid "Dashboard UUID"
-msgstr "UUID للوحة المعلومات"
+msgstr "معرّف لوحة التحكم الفريد (UUID)"
 
 #: xblock.py:56
 msgid ""
 "The ID of the dashboard to embed. Available in the Superset embed dashboard "
 "UI."
-msgstr ""
-"معرف لوحة المعلومات المراد تضمينها. متوفر في واجهة مستخدم لوحة معلومات تضمين"
-" Superset."
+msgstr "معرف لوحة المعلومات المراد دمجها. متوفر في واجهة مستخدم لوحة معلومات المدمجة في Superset."
 
 #: xblock.py:63
 msgid "Filters"

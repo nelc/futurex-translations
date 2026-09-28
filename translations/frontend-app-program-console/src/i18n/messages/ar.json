@@ -1,6 +1,6 @@
 {
   "siteheader.links.courses": "المقررات",
-  "siteheader.links.programs": "البرامج و الشهادات",
+  "siteheader.links.programs": "البرامج و الدرجات العلمية",
   "siteheader.links.schools": "المدارس و الشركاء",
   "siteheader.user.menu.dashboard": "لوحة المعلومات",
   "siteheader.user.menu.profile": "الملف الشخصي",
@@ -8,5 +8,5 @@
   "siteheader.user.menu.logout": "تسجيل الخروج",
   "siteheader.user.menu.login": "تسجيل الدخول",
   "siteheader.user.menu.register": "تسجيل ",
-  "app.loading.message": "التحميل جارٍ"
+  "app.loading.message": "تحميل"
 }
