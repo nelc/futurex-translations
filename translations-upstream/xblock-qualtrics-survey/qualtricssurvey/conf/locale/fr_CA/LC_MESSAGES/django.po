@@ -22,7 +22,7 @@ msgstr ""
 
 #: models.py:24
 msgid "Display Name:"
-msgstr "Afficher un nom :"
+msgstr "Nom d'affichage :"
 
 #: models.py:28
 msgid "This name appears in the horizontal navigation at the top of the page."

@@ -23,7 +23,7 @@ msgstr ""
 
 #: feedback.py:28
 msgid "What did you learn from this? What was missing?"
-msgstr "ماذا تعلمت؟ أَنَقَصَ شيء؟"
+msgstr "ماذا تعلمت من هذا؟ ما الذي كان ينقصك؟"
 
 #: feedback.py:29
 msgid "How would you rate this as a learning experience?"
@@ -33,18 +33,14 @@ msgstr "كيف تقيم هذا كتجربة تعليمية؟"
 msgid ""
 "Think about the material, and try to synthesize key lessons learned, as well"
 " as key gaps in our presentation."
-msgstr ""
-"فكر في المادة، وحاول تجميع الدروس الأساسية المستفادة، بالإضافة إلى الثغرات "
-"الرئيسية في عرضنا التقديمي."
+msgstr "فكر في المادة، وحاول تلخيص الدروس الرئيسية المستفادة، بالإضافة إلى تحديد الثغرات الرئيسية في عرضنا التقديمي."
 
 #: feedback.py:35
 msgid ""
 "Take a little bit of time to reflect here. Research shows that a meaningful "
 "synthesis will help you better understand and remember material from this "
 "course."
-msgstr ""
-"خذ القليل من الوقت للتفكير هنا. تظهر الأبحاث أن التوليف المفيد سيساعدك على "
-"فهم وتذكر المواد من هذه الدورة بشكل أفضل."
+msgstr "خذ القليل من الوقت للتأمل هنا. تظهر الأبحاث أن التلخيص المفيد سيساعدك على فهم وتذكر المواد من هذا البرنامج بشكل أفضل."
 
 #: feedback.py:41 feedback.py:163
 msgid "Excellent"
@@ -84,7 +80,7 @@ msgstr "ما هي النسبة المئوية من الوقت التي يجب أ
 
 #: feedback.py:103
 msgid "A list of user votes"
-msgstr "قائمة أصوات المستخدمين"
+msgstr "قائمة تصويت المستخدمين"
 
 #: feedback.py:107
 msgid "Feedback"
@@ -116,18 +112,17 @@ msgstr "شكرا لك على ملاحظاتك!"
 
 #: feedback.py:128
 msgid "Show aggregate to students"
-msgstr "عرض المجموع للطلاب"
+msgstr "عرض المجموع للمتدربين"
 
 #: feedback.py:158
 msgid "Please reflect on this course material"
-msgstr "يرجى التفكير في هذه المادة الدراسية"
+msgstr "يرجى التأمل في محتوى هذا البرنامج."
 
 #: feedback.py:159
 msgid ""
 "Please take time to meaningfully reflect on your experience with this course"
 " material."
-msgstr ""
-"يرجى تخصيص بعض الوقت للتفكير بشكل هادف في تجربتك مع هذه المادة الدراسية."
+msgstr "يرجى تخصيص بعض الوقت للتأمل بشكل هادف في تجربتك مع مواد هذا البرنامج."
 
 #: feedback.py:162
 msgid "Please rate your overall experience"
@@ -135,7 +130,7 @@ msgstr "يرجى تقييم تجربتك الشاملة"
 
 #: feedback.py:169
 msgid "Please take a moment to thoughtfully reflect."
-msgstr "من فضلك خذ لحظة للتفكير بعناية."
+msgstr "من فضلك خذ لحظة للتأمل بتمعن."
 
 #: feedback.py:388
 msgid "Please vote!"
@@ -178,9 +173,7 @@ msgid ""
 "This XBlock allows you to collect student feedback on pieces of the course. "
 "This may be helpful either for course improvement, or to give students a "
 "chance to reflect on what they have done."
-msgstr ""
-"يتيح لك XBlock جمع تعليقات الطلاب على أجزاء من الدورة التدريبية. قد يكون هذا"
-" مفيدًا لتحسين المقرر الدراسي، أو لمنح الطلاب فرصة للتفكير في ما قاموا به."
+msgstr "يتيح لك XBlock جمع تعليقات المتدربين على أجزاء من البرنامج. قد يكون هذا مفيدًا لتحسين البرنامج، أو لمنح المتدربين فرصة للتأمل في ما قاموا به."
 
 #: templates/html/studio_view.html:9
 msgid "Display name"
@@ -200,7 +193,7 @@ msgstr "الرسالة التي ستظهر بعد تعليقات المستخد�
 
 #: templates/html/studio_view.html:33
 msgid "Show aggregate report to students"
-msgstr "عرض التقرير الإجمالي للطلاب"
+msgstr "عرض التقرير الإجمالي للمتدربين"
 
 #: templates/html/studio_view.html:35
 msgid "False"
@@ -212,7 +205,7 @@ msgstr "صح"
 
 #: templates/html/studio_view.html:39
 msgid "Wheter to show the aggregate report to students."
-msgstr "ما إذا كان سيتم عرض التقرير الإجمالي للطلاب."
+msgstr "ما إذا كان سيتم عرض التقرير الإجمالي للمتدربين."
 
 #: templates/html/studio_view.html:44
 msgid "Freeform prompt"
@@ -228,7 +221,7 @@ msgstr "تلميح الإدخال الحُرّ"
 
 #: templates/html/studio_view.html:55
 msgid "This is shown as grayed out text before the student has answered."
-msgstr "يظهر هذا النص باللون الرمادي قبل أن يجيب الطالب."
+msgstr "يظهر هذا كنص باللون الرمادي قبل أن يجيب المتدرب."
 
 #: templates/html/studio_view.html:60
 msgid "Likert icon set"
@@ -257,7 +250,7 @@ msgstr ""
 
 #: templates/html/studio_view.html:73
 msgid "Likert prompt"
-msgstr "محثّ Likert"
+msgstr "مقياس Likert"
 
 #: templates/html/studio_view.html:76
 msgid "Example: Please rate your overall experience with this section."
@@ -309,4 +302,4 @@ msgstr "حفظ"
 
 #: templates/html/studio_view.html:126
 msgid "Cancel"
-msgstr "الغِ"
+msgstr "إلغاء"
