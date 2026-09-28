@@ -27,13 +27,13 @@ msgstr "تم تقديم عنوان URL غير صالح"
 
 #: recommender.py:325
 msgid "The resource you are attempting to provide already exists"
-msgstr "المورد الذي تحاول تقديمه موجود بالفعل"
+msgstr "المورد الذي تحاول توفيره موجود بالفعل"
 
 #: recommender.py:338
 msgid ""
 "The resource you are attempting to provide has been disallowed by the staff."
 " Reason: "
-msgstr "المورد الذي تحاول تقديمه قد منعه الطاقم. السبب: "
+msgstr "تم رفض المورد الذي تحاول تقديمه من قبل الطاقم. السبب:"
 
 #: recommender.py:355
 msgid "The selected resource does not exist"
@@ -83,10 +83,7 @@ msgid ""
 "This will be a list of resources your fellow students thought might be "
 "helpful, but it is empty currently. If you find useful resources, either on "
 "edx.org or elsewhere, please add it."
-msgstr ""
-"ستكون هذه قائمة بالموارد التي يعتقد زملائك الطلاب أنها قد تكون مفيدة، ولكنها"
-" فارغة حاليًا. إذا وجدت موارد مفيدة، سواء على edx.org أو في أي مكان آخر، "
-"فيرجى إضافتها."
+msgstr "ستكون هذه قائمة بالموارد التي يعتقد زملائك المتدربين أنها قد تكون مفيدة، ولكنها فارغة حاليًا. إذا وجدت موارد مفيدة، سواء على edx.org أو في أي مكان آخر، فيرجى إضافتها."
 
 #: templates/recommender.html:118
 msgid "Add new resource &gt;&gt;"
@@ -112,13 +109,7 @@ msgid ""
 "do so as well. If you find a resource helpful, upvote it. If it&rsquo;s not "
 "so helpful, downvote it. If it has issues (illegal material, incorrect, "
 "etc.), please flag it and let us know the reason."
-msgstr ""
-"هذه قائمة بالموارد التي يعتقد زملاؤك الطلاب أنها قد تكون مفيدة. إذا وجدت "
-"مصدرًا مفيدًا آخر، سواء على edx.org أو في أي مكان آخر، فتُرجى إضافته. إذا "
-"كان بإمكانك تحسين الوصف أو المعاينة لأحد الموارد، فيرجى القيام بذلك أيضًا. "
-"إذا وجدت موردًا مفيدًا، فصوت لصالحه. أما إذا لم يكن مفيدًا، فصوت ضده. إذا "
-"كانت هناك مشكلات (مادة غير قانونية، أو غير صحيحة، وما إلى ذلك)، فيرجى "
-"الإبلاغ عنها وإعلامنا بالسبب."
+msgstr "هذه قائمة بالموارد التي يعتقد زملاؤك المتدربين أنها قد تكون مفيدة. إذا وجدت مصدرًا مفيدًا آخر، سواء على edx.org أو في أي مكان آخر، فتُرجى إضافته. إذا كان بإمكانك تحسين الوصف أو المعاينة لأحد الموارد، فيرجى القيام بذلك أيضًا. إذا وجدت موردًا مفيدًا، فصوت لصالحه. أما إذا لم يكن مفيدًا، فصوت ضده. إذا كانت هناك مشكلات (مادة غير قانونية، أو غير صحيحة، وما إلى ذلك)، فيرجى الإبلاغ عنها وإعلامنا بالسبب."
 
 #: templates/recommender.html:139
 msgid "cancel and go back to resource list"
@@ -134,7 +125,7 @@ msgstr "الموارد (بنسق JSON):"
 
 #: templates/recommender.html:145
 msgid "Provide a file of resource list in JSON format"
-msgstr "قدّم ملف قائمة الموارد بنسق JSON"
+msgstr "قدّم ملف قائمة الموارد بتنسيق JSON"
 
 #: templates/recommender.html:151 templates/recommender.html:161
 #: templates/recommender.html:171
@@ -165,7 +156,7 @@ msgstr "قدّم عنوان المورد، مطلوب"
 msgid ""
 "Provide a meaningful title so other students know whether this is useful to "
 "them"
-msgstr "قم بتوفير عنوان ذي معنى حتى يعرف الطلاب الآخرون ما إذا كان مفيدًا لهم"
+msgstr "قدم عنواًن واضحًا حتى يعرف المتدربون الآخرون ما إذا كان مفيدًا لهم"
 
 #: templates/recommender.html:187
 msgid "Location"
@@ -183,7 +174,7 @@ msgstr "الوصف"
 msgid ""
 "Provide a meaningful description so other students know whether this is "
 "useful to them"
-msgstr "قدم وصفًا ذا معنى حتى يعرف الطلاب الآخرون ما إذا كان مفيدًا لهم"
+msgstr "قدم وصفًا واضحًا حتى يعرف الطلاب الآخرون ما إذا كان مفيدًا لهم"
 
 #: templates/recommender.html:200
 msgid "Preview screenshot:"
@@ -195,7 +186,7 @@ msgstr "قدِّم لقطة شاشة للمورد"
 
 #: templates/recommender.html:201
 msgid "Save change"
-msgstr "احفظ التعديل"
+msgstr "حفظ التعديل"
 
 #: templates/recommender.html:220
 msgid "Provide a resource description"
@@ -207,7 +198,7 @@ msgstr "قدّم ملف لقطة شاشة الموارد"
 
 #: templates/recommender.html:226
 msgid "Add resource"
-msgstr "أضف المورد"
+msgstr "أضف مورد"
 
 #: templates/recommenderstudio.html:6
 msgid "Configuration setting"
@@ -216,7 +207,7 @@ msgstr "إعداد التكوين"
 #: templates/recommenderstudio.html:9
 msgid ""
 "Set the student-view, client side configurations for RecommenderXblock."
-msgstr "قم بتعيين إعدادات جانب العميل لعرض الطالب لـ RecommenderXblock."
+msgstr "قم بتعيين إعدادات جانب العميل لعرض المتدرب لـ RecommenderXblock."
 
 #: templates/recommenderstudio.html:12 templates/recommenderstudio.html:18
 msgid "Yes"
@@ -236,7 +227,7 @@ msgstr ""
 
 #: templates/recommenderstudio.html:21
 msgid "Do you want to disable the UX functions which are under development?"
-msgstr "هل تريد تعطيل وظائف UX قيد التطوير؟"
+msgstr "هل تريد تعطيل وظائف تجربة المستخدم التي لا تزال قيد التطوير؟"
 
 #: templates/recommenderstudio.html:36
 msgid "How many resources you want to show in each page of the resource list?"
@@ -256,7 +247,7 @@ msgstr ""
 msgid ""
 "Recommend a new resource which may be helpful to other students solving this"
 " problem"
-msgstr "أوصِ بمصدر جديد قد يكون مفيدًا للطلاب الآخرين في حل هذه المسألة"
+msgstr "اقترح محتوى مساعدًا جديدًا قد يفيد المتدربين الآخرين في فهم هذا التقييم وحلّه"
 
 #: static/js/src/cats.js:66
 msgid "Edit this resource"
@@ -272,7 +263,7 @@ msgstr "صوِّت ضدّ المورد إذا كان غير مفيد"
 
 #: static/js/src/cats.js:69
 msgid "Votes"
-msgstr "الأصوات"
+msgstr "التصويت"
 
 #: static/js/src/cats.js:70
 msgid "Resource title"
@@ -311,9 +302,7 @@ msgstr ""
 msgid ""
 "Upload a preview screenshot (in GIF/PNG/JPG) of the resource; ideally, this "
 "should let students know whether this resources is useful to them"
-msgstr ""
-"ارفَع لقطة شاشة للمعاينة (بصيغة GIF/PNG/JPG) للمورد؛ يُفترض أن يكون مّما "
-"قلَّ ودَلَّ، ليعرف الطلاب إذا كانت هذه الموارد مفيدة لهم."
+msgstr "ارفَع لقطة شاشة للمعاينة (بصيغة GIF/PNG/JPG) للمورد؛ يُفترض أن يكون مّما قلَّ ودَلَّ، ليعرف المتدربين إذا كانت هذه الموارد مفيدة لهم."
 
 #: static/js/src/cats.js:81
 msgid "Go back to the main list"
@@ -321,11 +310,11 @@ msgstr "عُد إلى القائمة الرئيسية"
 
 #: static/js/src/cats.js:82
 msgid "Give a meaningful reason for why this resource should be removed"
-msgstr "أعط سببًا ذا معنى لضرورة إزالة هذا المورد"
+msgstr "أعط سببًا وجيهًا لضرورة إزالة هذا المورد"
 
 #: static/js/src/cats.js:83
 msgid "Flag this resource as problematic and give your reason"
-msgstr "ضع علامة على هذا المورد تدلّ على أنه يسبب مشكلة واذكر السبب"
+msgstr "ضع علامة على هذا المورد تدلّ على أنه يمثل مشكلة واذكر السبب"
 
 #: static/js/src/cats.js:84
 msgid "Delete this resource"
@@ -333,7 +322,7 @@ msgstr "احذف هذا المورد"
 
 #: static/js/src/cats.js:85
 msgid "Show a list of student-recommented related resources"
-msgstr "اعرض قائمة بالموارد ذات الصلة التي أوصى بها الطلاب"
+msgstr "اعرض قائمة بالموارد ذات الصلة التي أوصى بها المتدربين"
 
 #: static/js/src/cats.js:86
 msgid "Hide the recommendations list"
@@ -341,7 +330,7 @@ msgstr "اخفِ قائمة التوصيات"
 
 #: static/js/src/cats.js:87
 msgid "Check the icon to endorse this resource"
-msgstr "اختر الرمز لتوصي بهذا المورد"
+msgstr "اضغط على الأيقونة للتوصية بهذا المورد."
 
 #: static/js/src/cats.js:88
 msgid "This resource is endorsed by staff"
@@ -367,16 +356,16 @@ msgstr "السبب في التوصية هو:"
 
 #: static/js/src/cats.js:95
 msgid "Resource: "
-msgstr "الموارد: "
+msgstr "المورد: "
 
 #: static/js/src/cats.js:96
 msgid "votes"
-msgstr "الأصوات"
+msgstr "التصويت"
 
 #: static/js/src/cats.js:104
 msgid ""
 "The content you typed has not been submitted yet. Are you sure to go back?"
-msgstr "المحتوى الذي كتبته لم يتم إرساله بعد. هل أنت متأكد من العودة؟"
+msgstr "المحتوى الذي كتبته لم يتم إرساله بعد. هل أنت متأكد من رغبتك بالعودة؟"
 
 #: static/js/src/cats.js:107 static/js/src/cats.js:199
 msgid "Import resources"
@@ -410,27 +399,20 @@ msgstr "ارفع الموارد بنسق JSON إلى قاعدة البيانات
 msgid ""
 "Suggest a resource which can help other students with this problem. Please "
 "do not give the answer directly."
-msgstr ""
-"اقترح مصدراً يمكنه مساعدة الطلاب الآخرين في حل هذه المسألة. من فضلك لا تعطِ "
-"الجواب مباشرة."
+msgstr "اقترح محتوى مساعدًا يمكن أن يساعد المتدربين الآخرين في فهم هذا التقييم وحلّه، دون تقديم الإجابة بشكل مباشر."
 
 #: static/js/src/cats.js:118
 msgid ""
 "Edit the resource and make it more helpful for other students with this "
 "problem. Please do not give the answer directly."
-msgstr ""
-"عدِّل المورد واجعله أكثر فائدة للطلاب الآخرين الذين الذين لديهم هذه المسألة."
-" من فضلك لا تعطي الجواب مباشرة."
+msgstr "عدّل المحتوى المساعد ليكون أكثر فائدة للمتدربين الآخرين في فهم هذا التقييم وحلّه، دون تقديم الإجابة لهم بشكل مباشر."
 
 #: static/js/src/cats.js:119
 msgid ""
 "Why would you like to flag this resource? The staff will review all flagged "
 "resources, and remove inappropriate ones (spam, incorrect, abusive, etc.). "
 "Giving a clear reason will help us do this efficiently."
-msgstr ""
-"لماذا تريد الإبلاغ عن هذا المورد؟ سيقوم فريق العمل بمراجعة جميع الموارد التي"
-" أُبلِغَ عنها، وإزالة الموارد غير المناسبة (البريد العشوائي، أو غير الصحيح، "
-"أو المسيئة، وما إلى ذلك). إن تقديم سبب واضح سيساعدنا على القيام بذلك بكفاءة."
+msgstr "لماذا تريد الإبلاغ عن هذا المورد؟ سيقوم الطاقم بمراجعة جميع الموارد التي أُبلِغَ عنها، وإزالة الموارد غير المناسبة (البريد العشوائي، أو غير الصحيح، أو المسيئة، وما إلى ذلك). إن تقديم سبب واضح سيساعدنا على القيام بذلك بكفاءة."
 
 #: static/js/src/cats.js:120
 msgid "Endorse this resource and give the reason why you do that."
@@ -458,7 +440,7 @@ msgstr "ادخل وضع استيراد الموارد"
 
 #: static/js/src/cats.js:202
 msgid "Entering add resource mode"
-msgstr "ادخل وضع إضافة الموارد"
+msgstr "الدخول إلى وضع إضافة الموارد"
 
 #: static/js/src/cats.js:203
 msgid "Add new resource"
@@ -466,7 +448,7 @@ msgstr "أضِف مورداً جديداً"
 
 #: static/js/src/cats.js:206
 msgid "Entering edit resource mode"
-msgstr "ادخل وضع تعديل الموارد"
+msgstr "الدخول إلى وضع تعديل الموارد"
 
 #: static/js/src/cats.js:210
 msgid "Entering flag resource mode"
@@ -478,7 +460,7 @@ msgstr "أبلِغ عن مورد"
 
 #: static/js/src/cats.js:212
 msgid "Unflag resource"
-msgstr "ألغِ الإبلاغ عن مورد"
+msgstr "إلغاء الإبلاغ عن المورد"
 
 #: static/js/src/cats.js:215
 msgid "Endorse resource"
@@ -486,7 +468,7 @@ msgstr "أوصِ بالمورد"
 
 #: static/js/src/cats.js:216
 msgid "Unendorse resource"
-msgstr "ِألغِ توصيتك للمورد"
+msgstr "إلغاء توصية المورد"
 
 #: static/js/src/cats.js:218
 msgid "Remove resource"
@@ -494,7 +476,7 @@ msgstr "أزِل المورد"
 
 #: static/js/src/cats.js:219
 msgid "Hovering resource"
-msgstr "الفأرة فوق مورد"
+msgstr "تمرير المؤشر فوق المورد"
 
 #: static/js/src/cats.js:220
 msgid "A resource was clicked"

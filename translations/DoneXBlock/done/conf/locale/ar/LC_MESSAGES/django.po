@@ -23,7 +23,7 @@ msgstr ""
 
 #: done.py:41
 msgid "Is the student done?"
-msgstr "هل انتهى الطالب؟"
+msgstr "هل انتهى المتدرب؟"
 
 #: done.py:47
 msgid "Align left/right/center"
@@ -47,15 +47,13 @@ msgstr "نصّ بنسَق ISO-8601 يدلّ على موعد تسليم هذه ا
 
 #: done.py:148
 msgid "Problem Weight"
-msgstr "وزن المسألة"
+msgstr "درجة التقييم"
 
 #: done.py:150
 msgid ""
 "Defines the number of points each problem is worth. If the value is not set,"
 " the problem is worth the sum of the option point values."
-msgstr ""
-"يحدد عدد النقاط المستحقة لكل مسألة. إذا لم يتم تحديد القيمة سيتم اعتماد "
-"مجموع قيم النقاط الفرعية في هذا الخيار."
+msgstr "يحدد عدد النقاط المخصصة لكل تقييم. وإذا لم يتم تحديد قيمة، فسيتم احتساب مجموع نقاط الخيارات الموجودة في التقييم."
 
 #: templates/done.html:8
 msgid "X"
@@ -67,7 +65,7 @@ msgstr "أكملت هذا"
 
 #: templates/done.html:11
 msgid "Unmark"
-msgstr "الغِ الوسم"
+msgstr "إلغاء الوسم"
 
 #: templates/done.html:12
 msgid "Mark as complete"
@@ -80,19 +78,13 @@ msgid ""
 "completed. For example, you might place this underneath each text and video "
 "component, and students can see in their progress page which portions are "
 "completed and  which still need to be watched or read."
-msgstr ""
-"هذا مكون بسيط جدًا ولا يحوي خيارات إعداد. يُستخدَم لمساعدة الطالب على تتبع "
-"ما أتمّه من الدورة التدريبية. يمكنك مثلاً وضع هذا تحت كل مكوّن نصيّ أو "
-"مرئيّ، ويمكن للطلاب أن يروا في صفحة التقدم الخاصة بهم الأجزاء التي أكملوها "
-"وتلك التي هم بحاجة لإتمام مشاهدتها أوقراءتها."
+msgstr "هذا مكون بسيط جدًا ولا يحوي خيارات إعداد. يُستخدَم لمساعدة المتدرب على تتبع ما أتمّه من البرنامج. يمكنك مثلاً وضع هذا تحت كل مكوّن نصيّ أو مرئيّ، ويمكن للمتدربين أن يروا في صفحة التقدم الخاصة بهم الأجزاء التي أكملوها وتلك التي هم بحاجة لإتمام مشاهدتها أوقراءتها."
 
 #: templates/studioview.html:6
 msgid ""
 "It is also helpful to give students a way to sign off on having completed "
 "something. They are less likely to skip material that way."
-msgstr ""
-"من المفيد أيضًا منح الطلاب طريقة للتوقيع على إكمال شيء ما. هذا يقلل احتامل "
-"تخطيهم لمادة ما."
+msgstr "من المفيد أيضًا منح المتدربين طريقة للتوقيع على إكمال شيء ما. هذا يقلل احتامل تخطيهم لمادة ما."
 
 #: templates/studioview.html:8
 msgid ""

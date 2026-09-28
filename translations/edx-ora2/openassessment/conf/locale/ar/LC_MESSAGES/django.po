@@ -208,7 +208,7 @@ msgstr "إجابة نصية"
 msgid ""
 "Specify whether learners must include a text based response to this "
 "problem's prompt."
-msgstr "حدد ما إذا كان يجب على المتعلمين إدراج إجابة نصية لهذه المسألة."
+msgstr "حدد ما إذا كان يجب على المتدربين إدراج إجابة نصية لهذا التقييم."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:25
 msgid "Response Editor"
@@ -218,8 +218,7 @@ msgstr "محرر الإجابة"
 msgid ""
 "Select which editor learners will use to include a text based response to "
 "this problem's prompt."
-msgstr ""
-"حدد المحرر الذي سيستخدمه المتعلمون لإرسال إجابتهم النصيّة لهذه المسألة."
+msgstr "حدد المحرر الذي سيستخدمه المتدربون لكتابة إجابة نصية على هذا التقييم"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:38
 msgid "File Uploads Response"
@@ -995,7 +994,7 @@ msgstr "غير مكتمِلة"
 
 #: templates/legacy/grade/oa_grade_incomplete.html:33
 msgid "You have not completed all the steps of this problem."
-msgstr "لم تَستكمِل جميع خطوات هذه المسألة."
+msgstr "لم تَستكمِل جميع خطوات التقييم."
 
 #: templates/legacy/grade/oa_grade_not_started.html:16
 msgid "Not Started"
@@ -1003,7 +1002,7 @@ msgstr "لم تبدأ بعد"
 
 #: templates/legacy/grade/oa_grade_not_started.html:27
 msgid "You have not started this problem yet."
-msgstr "لم تبدأ العمل على هذه المسألة بعد."
+msgstr "لم تبدأ حل التقييم بعد"
 
 #: templates/legacy/grade/oa_grade_waiting.html:16
 msgid "Waiting for Assessments"
@@ -1467,10 +1466,7 @@ msgid ""
 "more learners have submitted responses. You will receive your grade after "
 "you've completed all the steps for this problem and your peers have assessed"
 " your response."
-msgstr ""
-"تم تقييم جميع ردود الزملاء المتاحة. عُد لاحقًا لترى إذا قد المزيد من الزملاء"
-" إجابات. ستحصل على درجتك بعد إتمامك جميع خطوات هذه المسألة وبعد تقييم زملاءك"
-" لإجابتك. "
+msgstr "تم تقييم جميع ردود الزملاء المتاحة. عُد لاحقًا لترى إذا قدّم المزيد من الزملاء إجابات. ستحصل على درجتك بعد إتمامك جميع خطوات هذه المسألة وبعد تقييم زملائك لإجابتك. "
 
 #: templates/legacy/response/oa_response.html:27
 msgid "Your Team's Response"
@@ -1601,12 +1597,7 @@ msgid ""
 "                                              have/has already submitted a response to this assignment with another team,\n"
 "                                              and will not be a part of your team's submission or assignment grade.\n"
 "                                          "
-msgstr ""
-"\n"
-"                                              لقد أرسل %(team_members_with_external_submissions)s\n"
-"                                              إجابة على هذه المسألة مع فريق آخَر\n"
-"                                              ولن يُعتمد كمشارك في ما سيسلمه فريقك أو العلامة التي سيحصل عليها فريقك لهذه المسألة.\n"
-"                                          "
+msgstr "\n                                              لقد أرسل %(team_members_with_external_submissions)s\n                                              إجابة على هذه المسألة مع فريق آخَر\n                                              ولن يُعتمد كمشارك في ما سيسلمه فريقك أو العلامة التي سيحصل عليها فريقك لهذا التقييم.\n                                          "
 
 #: templates/legacy/response/oa_response.html:171
 msgid "Team Response "
@@ -2028,11 +2019,11 @@ msgstr "تقييم طاقم المقرر"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:14
 msgid "Give this team a grade using the problem's rubric."
-msgstr "امنح الفريق درجة باستخدام معايير تقييم المسألة"
+msgstr "قيّم أداء الفريق باستخدام معايير التقييم المحددة لهذا التقييم."
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:16
 msgid "Give this learner a grade using the problem's rubric."
-msgstr "امنح المتعلّم درجة باستخدام معايير تقييم المسألة"
+msgstr "امنح المتدرب درجة باستخدام معايير تقييم المسألة"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:26
 #, python-format
@@ -2094,11 +2085,11 @@ msgstr ""
 
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:7
 msgid "Override this learner's current grade using the problem's rubric."
-msgstr "استبدل علامة المتعلّم الحالية باستخدام معيار تقييم المسألة."
+msgstr "استبدل الدرجة الحالية للمتدرب بدرجة جديدة وفقًا لمعايير التقييم المحددة لهذا التقييم."
 
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:9
 msgid "Override this team's current grade using the problem's rubric."
-msgstr "استبدل علامة الفريق الحالية باستخدام معيار تقييم المسألة."
+msgstr "استبدل الدرجة الحالية للفريق بدرجة جديدة وفقًا لمعايير التقييم المحددة لهذا التقييم."
 
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:27
 msgid "Team Response"
@@ -2273,17 +2264,15 @@ msgid ""
 "The team’s submission has been removed from grading. The team receives a "
 "grade of zero unless you delete the a team member’s state for the problem to"
 " allow the team to resubmit a response."
-msgstr ""
-"أُزيلت إجابة الفريق من التقييم. يحصل الفريق على صفر ما لم تحذف حالة عضو "
-"الفريق من المسألة للسماح للفريق بإعادة إرسال إجابة."
+msgstr "تم إلغاء تقييم إجابة الفريق، وستُحتسب درجة صفر للفريق. وللسماح لهم بإعادة الإجابة، احذف حالة المسألة لأحد أعضاء الفريق"
 
 #: templates/legacy/staff_area/oa_student_info.html:177
 msgid "The problem has not been started."
-msgstr "لمّا ثُبدأ هذه المسألة بعد."
+msgstr "لم يبدأ التقييم بعد"
 
 #: templates/legacy/staff_area/oa_student_info.html:181
 msgid "The problem has not been completed."
-msgstr "لمّا تتم هذه المسألة بعد."
+msgstr "لم يكتمل التقييم بعد"
 
 #: templates/legacy/staff_area/oa_student_info.html:193
 msgid "Submit Assessment Grade Override"
@@ -2310,9 +2299,7 @@ msgid ""
 "This submission has been cancelled and cannot recieve a grade. Refer to "
 "documentation for how to delete the learner’s state for this problem to "
 "allow them to resubmit."
-msgstr ""
-"حُذف هذا التقديم ولا يمكنه الحصول على الدرجة، راجع التوثيق لمعرفة طريقة حذف "
-"حالة المتعلم لهذه المسألة وذلك ليسمح له بإعادة إرسال الإجابة."
+msgstr "تم إلغاء هذا الإرسال، ولن يتم احتساب درجة له. راجع الإرشادات لمعرفة كيفية حذف حالة المتدرب في هذا التقييم، للسماح له بإعادة إرسال الإجابة"
 
 #: templates/legacy/staff_area/oa_student_info.html:230
 msgid "Remove Submission From Peer Grading"
@@ -2573,8 +2560,7 @@ msgstr "الدرجة المستحقة لهذه المسألة يُحدّدها �
 msgid ""
 "You have successfully completed this problem and received a "
 "{earned_points}/{total_points}."
-msgstr ""
-"لقد أتممت حل هذه المسألة بنجاح وحصلت على {earned_points}/{total_points}."
+msgstr "لقد أتممت حل هذا التقييم بنجاح وحصلت على {earned_points}/{total_points}."
 
 #: xblock/grade_mixin.py:674
 msgid ""
@@ -2707,9 +2693,7 @@ msgid ""
 "The team’s submission has been removed from grading. The team receives a "
 "grade of zero unless you delete a team member’s state for the problem to "
 "allow the team to resubmit a response."
-msgstr ""
-"تمت إزالة إجابة الفريق من التقييم. يحصل الفريق على درجة الصفر ما لم تحذف "
-"حالة عضو الفريق من المسألة للسماح للفريق بإعادة إرسال إجابة."
+msgstr "تم استبعاد إجابة الفريق من التقييم. سيحصل الفريق على درجة صفر ما لم تحذف حالة أحد أعضاء الفريق في المسألة، للسماح للفريق بإعادة إرسال الإجابة"
 
 #: xblock/studio_mixin.py:243 xblock/studio_mixin.py:255
 msgid "Error updating XBlock configuration"
@@ -2789,7 +2773,7 @@ msgstr "لا يمكن لتاريخ البدء '{start}' أن يأتي بعد ت�
 
 #: xblock/utils/validation.py:118
 msgid "This problem must include at least one assessment."
-msgstr "يجب أن يكون لهذه المسألة تقييم واحد على الأقلّ."
+msgstr "يجب أن يتضمن التقييم سؤالًا واحدًا على الأقل"
 
 #: xblock/utils/validation.py:122
 msgid "The assessment order you selected is invalid."
@@ -2855,7 +2839,7 @@ msgstr "يجب على المقاييس التي ليس لها خيارات أن 
 
 #: xblock/utils/validation.py:216
 msgid "Prompts cannot be created or deleted after a problem is released."
-msgstr "لا يمكن إنشاء أسئلة أو حذفها بعد نشر المسألة."
+msgstr "لا يمكن إنشاء أسئلة أو حذفها بعد نشر التقييم."
 
 #: xblock/utils/validation.py:220
 msgid "The number of criteria cannot be changed after a problem is released."
@@ -2863,7 +2847,7 @@ msgstr "لا يمكن تغيير عدد المقاييس بعد أن تكون ا
 
 #: xblock/utils/validation.py:233
 msgid "Criteria names cannot be changed after a problem is released"
-msgstr "لا يمكن تغيير أسماء المقاييس بعد أن تكون المسألة قد أُصدرت."
+msgstr "لا يمكن تغيير أسماء معايير التصحيح بعد نشر التقييم"
 
 #: xblock/utils/validation.py:238
 msgid "The number of options cannot be changed after a problem is released."

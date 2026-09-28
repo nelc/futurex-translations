@@ -26,9 +26,10 @@ course_metadata,تعريف_المساق,course_metadata,
 course,بمساقات,بمقررات
 course,مساقاتنا,مقرراتنا
 course,أنشئمساق,أنشئ مقرراً
+course,أنشئ مساق,أنشئ برنامج
 course,اللمساق,المقرر
 course,مساقاً,مقرراً
-course,مساقهم,مقررهم,
-Timed,مؤقّت,موقوت,
+course,مساقهم,برنامج,
+Timed,مؤقّت,مؤقّت,
 Donate,تبرَّع,المركز,We do not support donations so we repurpose this page
 report_type,يتم الآن إنشاء التقرير,يرجى إنتظار عملية إنشاء التقرير,Add a please wait note

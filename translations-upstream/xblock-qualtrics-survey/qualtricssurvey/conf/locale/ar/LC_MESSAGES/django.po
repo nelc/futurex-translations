@@ -47,15 +47,13 @@ msgstr "هذا هو النص الذي سيتم عرضه أعلى رابط الا
 
 #: models.py:48
 msgid "Param Name:"
-msgstr "اسم المعلمة:"
+msgstr "اسم المعامل:"
 
 #: models.py:52
 msgid ""
 "This is the name for the User ID parameter in the url. If blank, User ID is "
 "ommitted from the url."
-msgstr ""
-"هذا هو اسم معلمة معرف المستخدم في عنوان url. إذا كان فارغًا، فسيتم حذف معرف "
-"المستخدم من عنوان url."
+msgstr "هذا هو اسم معرف المستخدم في عنوان url. إذا كان فارغًا، فسيتم حذف معرف المستخدم من عنوان url."
 
 #: models.py:57
 msgid "Survey ID:"
@@ -72,8 +70,8 @@ msgstr ""
 
 #: models.py:67
 msgid "Your University:"
-msgstr "جامعتك:"
+msgstr "جهتك:"
 
 #: models.py:70
 msgid "This is the name of your university."
-msgstr "هذا هو اسم جامعتك."
+msgstr "هذا هو اسم جهتك."
