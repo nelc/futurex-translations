@@ -1,0 +1,4 @@
+# Course intro video validation (openedx/core/djangoapps/models/course_details.py).
+# Terms match the authoring MFE intro-video strings (يوتيوب / رابط / معرّف).
+msgid "Enter a YouTube video ID or a link to a YouTube video, for example https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+msgstr "أدخل معرّف فيديو يوتيوب أو رابط فيديو يوتيوب، مثل https://www.youtube.com/watch?v=dQw4w9WgXcQ"
