@@ -1477,8 +1477,8 @@
   "course-authoring.schedule-section.introducing.description.aria-label": "Afficher la description du cours",
   "course-authoring.schedule-section.introducing.introduction-video.label": "Vidéo de présentation du cours",
   "course-authoring.schedule-section.introducing.introduction-video.delete": "Supprimer la vidéo actuelle",
-  "course-authoring.schedule-section.introducing.introduction-video.help-text": "Entrer l'ID de votre vidéo Youtube (avec les paramètres de restriction)",
-  "course-authoring.schedule-section.introducing.introduction-video.placeholder": "Identifiant de la vidéo YouTube",
+  "course-authoring.schedule-section.introducing.introduction-video.help-text": "Collez un lien YouTube ou l'identifiant de la vidéo. L'heure de début éventuelle du lien est ignorée.",
+  "course-authoring.schedule-section.introducing.introduction-video.placeholder": "Collez un lien YouTube ou l'identifiant de la vidéo",
   "course-authoring.schedule-section.license.creative-commons.options.label": "Options pour creative commons",
   "course-authoring.schedule-section.license.creative-commons.options.help-text": "Les options suivantes sont disponibles pour la licence creative commons.",
   "course-authoring.schedule-section.license.creative-commons.option.BY.label": "Attribution",
@@ -1574,5 +1574,6 @@
   "course-authoring.studio-home.courses.tab.order-filter-menu.oldest-courses": "Le plus ancien",
   "course-authoring.studio-home.courses.tab.types-filter-menu.all-courses": "Tous les cours",
   "course-authoring.studio-home.courses.tab.types-filter-menu.active-courses": "Actif",
-  "course-authoring.studio-home.courses.tab.types-filter-menu.archived-courses": "Archivé"
+  "course-authoring.studio-home.courses.tab.types-filter-menu.archived-courses": "Archivé",
+  "course-authoring.schedule.schedule-section.error-message-9": "Saisissez l'identifiant d'une vidéo YouTube ou un lien vers une vidéo YouTube, par exemple https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 }

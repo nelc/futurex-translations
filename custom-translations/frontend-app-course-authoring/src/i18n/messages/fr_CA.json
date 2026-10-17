@@ -1,0 +1,5 @@
+{
+  "course-authoring.schedule-section.introducing.introduction-video.help-text": "Collez un lien YouTube ou l'identifiant de la vidéo. L'heure de début éventuelle du lien est ignorée.",
+  "course-authoring.schedule-section.introducing.introduction-video.placeholder": "Collez un lien YouTube ou l'identifiant de la vidéo",
+  "course-authoring.schedule.schedule-section.error-message-9": "Saisissez l'identifiant d'une vidéo YouTube ou un lien vers une vidéo YouTube, par exemple https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+}
