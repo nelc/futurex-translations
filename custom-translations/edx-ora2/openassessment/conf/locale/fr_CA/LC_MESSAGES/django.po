@@ -1,0 +1,23 @@
+# DRAFT 2026-10-17: needs approval by a French speaker before release
+msgid "We could not reset your response"
+msgstr "Votre réponse n'a pas pu être réinitialisée."
+
+# DRAFT 2026-10-17: needs approval by a French speaker before release
+msgid "Reset response and submit again"
+msgstr "Réinitialiser la réponse et soumettre à nouveau"
+
+# DRAFT 2026-10-17: needs approval by a French speaker before release
+msgid "You can't reset your submission."
+msgstr "Vous ne pouvez pas réinitialiser votre réponse."
+
+# DRAFT 2026-10-17: needs approval by a French speaker before release
+msgid "The user does not exist."
+msgstr "L'utilisateur n'existe pas."
+
+# DRAFT 2026-10-17: needs approval by a French speaker before release
+msgid "There is no submission to reset."
+msgstr "Il n'y a aucune réponse soumise à réinitialiser."
+
+# DRAFT 2026-10-17: needs approval by a French speaker before release
+msgid "Submission reset successfully."
+msgstr "La réponse a été réinitialisée avec succès."
