@@ -27,6 +27,18 @@ make pull_and_replace
 - Re-deploy the Micro-frontend or the Microservice to fetch the latest translations.
 
 
+## French (`fr_CA` aliased to `fr`)
+
+Upstream only ships French as `fr_CA`, but the platform and the micro-frontends look a language up by the
+code the learner picked (`fr`), so a `fr_CA`-only repo falls back to English. `make pull_and_replace` ends
+with `make alias_languages` (`scripts/alias_language.py`), which copies every `fr_CA` catalogue to `fr`
+inside `translations/` (Django `locale/fr_CA/` becomes `locale/fr/`, `fr_CA.json` also becomes `fr.json`).
+Never edit the generated `fr` files; edit `fr_CA` (in `custom-translations/` for our own strings) and re-run.
+Both codes stay: a `fr-CA` browser still matches `fr_CA`, `fr` and `fr-FR` match the alias.
+
+**DRAFT, not yet approved by a French speaker:** `custom-translations/frontend-essentials/src/i18n/messages/fr_CA.json`
+(the 16 `essentials.feedbackModal.*` strings of the "Congratulations" pop-up). Remove this note once approved.
+
 ## Directory Structure
 
 - `translations-upstream`: The upstream unmodified copy will be placed e.g. `translations-upstream/edx-platform/conf/locale`.
