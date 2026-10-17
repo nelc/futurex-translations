@@ -259,5 +259,6 @@
   "essentials.ProfileDataModal.entrustmentAndLiquidationCenter": "Entrustment and Liquidation Center",
   "essentials.ProfileDataModal.holyMakkahMunicipality": "Holy Makkah Municipality",
   "essentials.ProfileDataModal.other": "Other",
-  "essentials.ProfileDataModal.invalidFormFields": "Seems like you have some invalid fields in the form."
+  "essentials.ProfileDataModal.invalidFormFields": "Seems like you have some invalid fields in the form.",
+  "essentials.feedbackModal.publicMessage": "Allow your name, rating and comment to be shown publicly on the platform?"
 }
