@@ -1477,8 +1477,8 @@
   "course-authoring.schedule-section.introducing.description.aria-label": "عرض وصف الدورة",
   "course-authoring.schedule-section.introducing.introduction-video.label": "فيديو تعريفي عن الدورة",
   "course-authoring.schedule-section.introducing.introduction-video.delete": "حذف الفيديو الحالي",
-  "course-authoring.schedule-section.introducing.introduction-video.help-text": "أدخل رقم تعريف فيديو YouTube (إلى جانب أي معطيات محددة)",
-  "course-authoring.schedule-section.introducing.introduction-video.placeholder": "معرف فيديو يوتيوب",
+  "course-authoring.schedule-section.introducing.introduction-video.help-text": "الصق رابط يوتيوب أو معرّف الفيديو. يتم تجاهل وقت البدء الموجود في الرابط.",
+  "course-authoring.schedule-section.introducing.introduction-video.placeholder": "الصق رابط يوتيوب أو معرّف الفيديو",
   "course-authoring.schedule-section.license.creative-commons.options.label": "خيارات رخصة المشاركة",
   "course-authoring.schedule-section.license.creative-commons.options.help-text": "تحدد الخيارات التالية آلية استخدام محتوى البرنامج المقدم من الجهة وفق رخصة المشاركة.",
   "course-authoring.schedule-section.license.creative-commons.option.BY.label": "الإسناد ",
@@ -1574,5 +1574,6 @@
   "course-authoring.studio-home.courses.tab.order-filter-menu.oldest-courses": "الأقدم",
   "course-authoring.studio-home.courses.tab.types-filter-menu.all-courses": "جميع الدورات",
   "course-authoring.studio-home.courses.tab.types-filter-menu.active-courses": "نشط",
-  "course-authoring.studio-home.courses.tab.types-filter-menu.archived-courses": "مؤرشف"
+  "course-authoring.studio-home.courses.tab.types-filter-menu.archived-courses": "مؤرشف",
+  "course-authoring.schedule.schedule-section.error-message-9": "أدخل معرّف فيديو يوتيوب أو رابطاً لفيديو على يوتيوب، مثل https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 }
