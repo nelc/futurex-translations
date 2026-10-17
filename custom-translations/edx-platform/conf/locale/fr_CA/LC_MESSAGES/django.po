@@ -1,0 +1,4 @@
+# Course intro video validation (openedx/core/djangoapps/models/course_details.py).
+# DRAFT 2026-10-17: needs approval by a French speaker before release
+msgid "Enter a YouTube video ID or a link to a YouTube video, for example https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+msgstr "Saisissez l'identifiant d'une vidéo YouTube ou un lien vers une vidéo YouTube, par exemple https://www.youtube.com/watch?v=dQw4w9WgXcQ"

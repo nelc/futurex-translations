@@ -26398,3 +26398,6 @@ msgstr "ضع نصّ حقوق النشر والطبع الخاصة بك هنا!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "محرر الرمز"
+
+msgid "Enter a YouTube video ID or a link to a YouTube video, for example https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+msgstr "أدخل معرّف فيديو يوتيوب أو رابط فيديو يوتيوب، مثل https://www.youtube.com/watch?v=dQw4w9WgXcQ"
