@@ -1,0 +1,21 @@
+msgid "The submission could not be reset."
+msgstr "تعذّرت إعادة تعيين الإجابة المُرسَلة."
+
+msgid ""
+"You're about to submit your response for this assignment. After you submit "
+"this response, you may have a limited time to resubmit before your "
+"submission is graded."
+msgstr ""
+"أنت على وشك إرسال إجابتك لهذا الواجب. بعد إرسالها، قد تتاح لك مدة محدودة "
+"لإعادة إرسالها قبل أن يتم تقييمها."
+
+msgid "Confirm Reset"
+msgstr "تأكيد إعادة التعيين"
+
+msgid ""
+"You're about to reset your response for this assignment. You will need to "
+"submit a new response in order to complete this step. Are you sure you want "
+"to continue?"
+msgstr ""
+"أنت على وشك إعادة تعيين إجابتك لهذا الواجب. ستحتاج إلى إرسال إجابة جديدة "
+"لإكمال هذه الخطوة. هل أنت متأكد من رغبتك في المتابعة؟"

@@ -2868,3 +2868,21 @@ msgstr "عدد المتصدّرين غير صالح."
 #: xblock/utils/validation.py:382
 msgid "The submission format is invalid."
 msgstr "صيغة التقديم غير صالحة."
+
+msgid "We could not reset your response"
+msgstr "تعذّرت إعادة تعيين إجابتك."
+
+msgid "Reset response and submit again"
+msgstr "إعادة تعيين الإجابة وإرسالها من جديد"
+
+msgid "You can't reset your submission."
+msgstr "لا يمكنك إعادة تعيين إجابتك المُرسَلة."
+
+msgid "The user does not exist."
+msgstr "المستخدم غير موجود."
+
+msgid "There is no submission to reset."
+msgstr "لا توجد إجابة مُرسَلة لإعادة تعيينها."
+
+msgid "Submission reset successfully."
+msgstr "تمت إعادة تعيين الإجابة بنجاح."
