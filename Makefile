@@ -2,9 +2,11 @@
 RELEASE_BRANCH := "open-release/redwood.master"
 LANGUAGES := "ar,id,fr_CA"
 EDX_PLATFORM_LANGUAGES := "$(LANGUAGES),en"
+# <upstream code>:<code the platform asks for>. Upstream only ships French as fr_CA; see scripts/alias_language.py.
+LANGUAGE_ALIASES := fr_CA:fr
 
 .PHONY: pull_and_replace
-pull_and_replace: pull replace custom_translations
+pull_and_replace: pull replace custom_translations alias_languages
 
 .PHONY: recreate_venv
 recreate_venv:
@@ -36,6 +38,11 @@ custom_translations:
 			cp "$$file" "$$dest"; \
 		fi; \
 	done
+
+
+.PHONY: alias_languages
+alias_languages: venv
+	. .venv/bin/activate && python scripts/alias_language.py . $(LANGUAGE_ALIASES)
 
 
 .PHONY: pull

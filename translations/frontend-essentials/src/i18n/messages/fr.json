@@ -1,0 +1,18 @@
+{
+  "essentials.feedbackModal.congratulationsTitle": "Félicitations",
+  "essentials.feedbackModal.bodyIntroduction": "Félicitations pour avoir terminé le cours ! Nous apprécions votre travail et votre engagement. Nous vous invitons maintenant à nous faire part de vos commentaires afin de nous aider à nous améliorer. Votre avis est précieux pour enrichir l'expérience d'apprentissage des futurs apprenants.",
+  "essentials.feedbackModal.bodyThanks": "Merci d'avoir pris le temps de partager votre avis et félicitations encore une fois pour votre réussite !",
+  "essentials.feedbackModal.rateTitle": "Évaluez ce cours",
+  "essentials.feedbackModal.content": "Contenu",
+  "essentials.feedbackModal.instructors": "Formateurs",
+  "essentials.feedbackModal.recommendMessage": "Recommanderiez-vous ce cours ?",
+  "essentials.feedbackModal.publicMessage": "Acceptez-vous que votre nom, votre note et votre commentaire soient affichés publiquement sur la plateforme ?",
+  "essentials.feedbackModal.floatingLabel": "Laissez-nous vos commentaires",
+  "essentials.feedbackModal.yes": "Oui",
+  "essentials.feedbackModal.no": "Non",
+  "essentials.feedbackModal.cancel": "Annuler",
+  "essentials.feedbackModal.submit": "Envoyer",
+  "essentials.feedbackModal.errorTitle": "Une erreur s'est produite",
+  "essentials.feedbackModal.successMessage": "Votre avis sur le cours a bien été enregistré ! Merci d'avoir partagé vos réflexions et contribué à notre amélioration continue. Nous apprécions votre participation et nous nous réjouissons de continuer à vous offrir une expérience d'apprentissage exceptionnelle dans nos cours !",
+  "essentials.feedbackModal.errorMessage": "Une erreur s'est produite lors de l'enregistrement de votre avis sur le cours. Nous nous excusons pour ce désagrément. Veuillez réessayer plus tard et, si le problème persiste, contacter notre équipe de soutien pour obtenir de l'aide. Merci de votre patience."
+}
