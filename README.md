@@ -36,9 +36,6 @@ inside `translations/` (Django `locale/fr_CA/` becomes `locale/fr/`, `fr_CA.json
 Never edit the generated `fr` files; edit `fr_CA` (in `custom-translations/` for our own strings) and re-run.
 Both codes stay: a `fr-CA` browser still matches `fr_CA`, `fr` and `fr-FR` match the alias.
 
-**DRAFT, not yet approved by a French speaker:** `custom-translations/frontend-essentials/src/i18n/messages/fr_CA.json`
-(the 16 `essentials.feedbackModal.*` strings of the "Congratulations" pop-up). Remove this note once approved.
-
 ## Directory Structure
 
 - `translations-upstream`: The upstream unmodified copy will be placed e.g. `translations-upstream/edx-platform/conf/locale`.
