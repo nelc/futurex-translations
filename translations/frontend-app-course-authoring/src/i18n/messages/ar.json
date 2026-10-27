@@ -802,7 +802,7 @@
   "course-authoring.course-outline.configure-modal.advanced-tab.set-special-exam": "عيّن امتحانًا مخصّصًا",
   "course-authoring.course-outline.configure-modal.advanced-tab.none": "لا شيء",
   "course-authoring.course-outline.configure-modal.advanced-tab.timed": "موقوت",
-  "course-authoring.course-outline.configure-modal.advanced-tab.timed-description": "استخدم امتحاناً مراقَباً تدريبيًّا لتعريف المتعلّمين بإجراءات وأدوات المراقبة. لن تؤثر نتائج الامتحان التدريبي على الدرجة النهائية الممنوحة للمتعلّم.",
+  "course-authoring.course-outline.configure-modal.advanced-tab.timed-description": "استخدم امتحانًا موقوتًا للحدّ من الوقت الذي يمكن للمتعلّمين قضاؤه في حل مسائل هذا القسم الفرعي. يجب أن يقدّم المتعلّمون الإجابات قبل انتهاء الوقت المحدّد. كما ويمكنك السماح لأحد المتعلّمين بوقت إضافي باستخدام لوحة معلومات الأستاذ.",
   "course-authoring.course-outline.configure-modal.advanced-tab.proctoredExam": "مُراقَب",
   "course-authoring.course-outline.configure-modal.advanced-tab.onboardingExam": "تهيئة",
   "course-authoring.course-outline.configure-modal.advanced-tab.practiceExam": "التدرُّب على الاختبار المُراقَب",
