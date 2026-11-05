@@ -3,12 +3,12 @@
 # Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2018.
-# 
+#
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
 # Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024
 # Sulaiman Muthanna, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-proctoring\n"
@@ -17,10 +17,10 @@ msgstr ""
 "PO-Revision-Date: 2024-05-09 18:48+0000\n"
 "Last-Translator: Sulaiman Muthanna, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: admin.py:112
@@ -518,3 +518,31 @@ msgstr "يجب أن تكون عضو طاقم من أجل القيام بهذا �
 #: views.py:1282
 msgid "you have less than a minute remaining"
 msgstr "بقي لديك أقل من دقيقة"
+
+msgid ""
+"\n"
+"                The time allotted for this exam has expired. Your exam has been submitted and any work you completed\n"
+"                will be graded.\n"
+"            "
+msgstr ""
+"\n"
+"انتهى الوقت المخصص لهذا الاختبار. تم تقديم اختبارك، وسيتم تقييم جميع الإجابات التي أكملتها."
+
+msgid ""
+"\n"
+"                You have submitted your timed exam.\n"
+"            "
+msgstr ""
+"\n"
+"لقد قمت بتقديم اختبارك المحدد بوقت."
+
+msgid ""
+"\n"
+"                After the due date has passed, you can review the exam, but you cannot change your answers.\n"
+"            "
+msgstr ""
+"\n"
+"بعد مرور الموعد المحدد، يمكنك مراجعة الاختبار، لكن لا يمكنك تغيير إجاباتك."
+
+msgid "a timed exam"
+msgstr "اختبار محدد بوقت"

@@ -1,0 +1,33 @@
+#
+msgid ""
+msgstr ""
+"Language: ar\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid ""
+"\n"
+"                The time allotted for this exam has expired. Your exam has been submitted and any work you completed\n"
+"                will be graded.\n"
+"            "
+msgstr ""
+"\n"
+"انتهى الوقت المخصص لهذا الاختبار. تم تقديم اختبارك، وسيتم تقييم جميع الإجابات التي أكملتها."
+
+msgid ""
+"\n"
+"                You have submitted your timed exam.\n"
+"            "
+msgstr ""
+"\n"
+"لقد قمت بتقديم اختبارك المحدد بوقت."
+
+msgid ""
+"\n"
+"                After the due date has passed, you can review the exam, but you cannot change your answers.\n"
+"            "
+msgstr ""
+"\n"
+"بعد مرور الموعد المحدد، يمكنك مراجعة الاختبار، لكن لا يمكنك تغيير إجاباتك."
+
+msgid "a timed exam"
+msgstr "اختبار محدد بوقت"
