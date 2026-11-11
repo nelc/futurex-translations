@@ -777,6 +777,9 @@ msgstr "مركز الإسناد والتصفية"
 msgid "holy_makkah_municipality"
 msgstr "أمانة العاصمة المقدسة"
 
+msgid "qassim_region_municipality"
+msgstr "أمانة منطقة القصيم"
+
 msgid "other"
 msgstr "اخرى"
 
