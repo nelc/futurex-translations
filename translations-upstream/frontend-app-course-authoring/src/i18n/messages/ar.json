@@ -1099,7 +1099,7 @@
   "course-authoring.schedule.pacing.radio.self-paced.description": "تقدّم المساقات التعليمية الذاتية تواريخ مقترحة للواجبات أو الاختبارات وفق تاريخ التسجيل والمدة المتوقعة للدورة. تتيح هذه الدورات للمتعلمين مرونة في تحديد تواريخ التسليم حسب الحاجة.",
   "course-authoring.schedule-section.requirements.title": "المتطلّبات",
   "course-authoring.schedule-section.requirements.description": "ما يُتوقع من الطلبة الملتحقين في هذه الدورة ",
-  "course-authoring.schedule-section.requirements.timepicker.label": "عدد الساعات المبذولة أسبوعياً",
+  "course-authoring.schedule-section.requirements.timepicker.label": "عدد الساعات",
   "course-authoring.schedule-section.requirements.timepicker.help-text": "الوقت المبذول في العمل على كافة مهام الدورة",
   "course-authoring.schedule-section.requirements.dropdown.label": "المتطلب المسبق",
   "course-authoring.schedule-section.requirements.dropdown.help-text": "المساق الذي يجب أن يكمله الطلّاب قبل البدء بهذه الدورة",
