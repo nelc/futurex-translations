@@ -12682,6 +12682,9 @@ msgstr "Entrustment and Liquidation Center"
 msgid "holy_makkah_municipality"
 msgstr "Holy Makkah Municipality"
 
+msgid "qassim_region_municipality"
+msgstr "Qassim Region Municipality"
+
 msgid "other"
 msgstr "Other"
 
